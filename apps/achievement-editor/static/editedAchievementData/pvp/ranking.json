@@ -1,0 +1,256 @@
+{
+	"title": "ranking",
+	"categorized": [
+		{
+			"title": "ザ・フィースト シーズンランク ソロ",
+			"data": [
+				{
+					"title": "饗宴の王者",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d5/d5a21a704848247322f27db4d8cd90cb6a902801.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/ranking/d5a21a704848247322f27db4d8cd90cb6a902801.png",
+					"description": "ザ・フィーストのいずれかのシーズンで、ランキングで1位になる",
+					"point": 10,
+					"isCreated": true,
+					"isEdited": true,
+					"isLatestPatch": false,
+					"sourceIndex": -1,
+					"tagIds": [
+						155
+					],
+					"titleAward": "the Feast Champion"
+				},
+				{
+					"title": "饗宴の殺戮者",
+					"description": "ザ・フィーストのいずれかのシーズンで、ランキングで2～10位になる",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d5/d5a21a704848247322f27db4d8cd90cb6a902801.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/ranking/d5a21a704848247322f27db4d8cd90cb6a902801.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						155
+					],
+					"titleAward": "the Feast Slayer"
+				},
+				{
+					"title": "饗宴の入賞者",
+					"description": "ザ・フィーストのいずれかのシーズンで、ランキングで11～100位になる",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d5/d5a21a704848247322f27db4d8cd90cb6a902801.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/ranking/d5a21a704848247322f27db4d8cd90cb6a902801.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						155
+					],
+					"titleAward": "the Feast Ranker"
+				},
+				{
+					"title": "饗宴の一匹狼：ブロンズ",
+					"description": "ザ・フィーストのいずれかのシーズンで、ランクをブロンズ階級で終えた",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/66/66324fa2074f22e34ba8504952bec4f5cc652c3f.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/ranking/66324fa2074f22e34ba8504952bec4f5cc652c3f.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						155
+					],
+					"titleAward": "Bronze Wolf"
+				},
+				{
+					"title": "饗宴の一匹狼：シルバー",
+					"description": "ザ・フィーストのいずれかのシーズンで、ランクをシルバー階級で終えた",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/66/66324fa2074f22e34ba8504952bec4f5cc652c3f.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/ranking/66324fa2074f22e34ba8504952bec4f5cc652c3f.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						155
+					],
+					"titleAward": "Silver Wolf"
+				},
+				{
+					"title": "饗宴の一匹狼：ゴールド",
+					"description": "ザ・フィーストのいずれかのシーズンで、ランクをゴールド階級で終えた",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/66/66324fa2074f22e34ba8504952bec4f5cc652c3f.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/ranking/66324fa2074f22e34ba8504952bec4f5cc652c3f.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						155
+					],
+					"titleAward": "Gold Wolf"
+				},
+				{
+					"title": "饗宴の一匹狼：プラチナ",
+					"description": "ザ・フィーストのいずれかのシーズンで、ランクをプラチナ階級で終えた",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/66/66324fa2074f22e34ba8504952bec4f5cc652c3f.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/ranking/66324fa2074f22e34ba8504952bec4f5cc652c3f.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						155
+					],
+					"titleAward": "Platinum Wolf"
+				},
+				{
+					"title": "饗宴の一匹狼：ダイヤモンド",
+					"description": "ザ・フィーストのいずれかのシーズンで、ランクをダイヤモンド階級で終えた",
+					"point": 20,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/66/66324fa2074f22e34ba8504952bec4f5cc652c3f.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/ranking/66324fa2074f22e34ba8504952bec4f5cc652c3f.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						155
+					],
+					"titleAward": "Diamond Wolf"
+				}
+			]
+		},
+		{
+			"title": "ザ・フィースト シーズンランク パーティー",
+			"data": [
+				{
+					"title": "饗宴の王者たち",
+					"description": "ザ・フィーストのいずれかのシーズンで、パーティランキングで1位になる",
+					"point": 20,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d5/d5a21a704848247322f27db4d8cd90cb6a902801.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/ranking/d5a21a704848247322f27db4d8cd90cb6a902801.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						164
+					],
+					"titleAward": "of the Feast Champion"
+				},
+				{
+					"title": "饗宴の殺戮者たち",
+					"description": "ザ・フィーストのいずれかのシーズンで、パーティランキングで2～10位になる",
+					"point": 20,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d5/d5a21a704848247322f27db4d8cd90cb6a902801.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/ranking/d5a21a704848247322f27db4d8cd90cb6a902801.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						164
+					],
+					"titleAward": "of the Feast Slayer"
+				},
+				{
+					"title": "饗宴の入賞者たち",
+					"description": "ザ・フィーストのいずれかのシーズンで、パーティランキングで11～30位になる",
+					"point": 20,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d5/d5a21a704848247322f27db4d8cd90cb6a902801.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/ranking/d5a21a704848247322f27db4d8cd90cb6a902801.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						164
+					],
+					"titleAward": "of the Feast Ranker"
+				},
+				{
+					"title": "饗宴の群狼：ブロンズ",
+					"description": "ザ・フィーストのいずれかのシーズンで、パーティランクをブロンズ階級で終えた",
+					"point": 20,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/66/66324fa2074f22e34ba8504952bec4f5cc652c3f.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/ranking/66324fa2074f22e34ba8504952bec4f5cc652c3f.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						164
+					],
+					"titleAward": "of the Bronze Wolf"
+				},
+				{
+					"title": "饗宴の群狼：シルバー",
+					"description": "ザ・フィーストのいずれかのシーズンで、パーティランクをシルバー階級で終えた",
+					"point": 20,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/66/66324fa2074f22e34ba8504952bec4f5cc652c3f.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/ranking/66324fa2074f22e34ba8504952bec4f5cc652c3f.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						164
+					],
+					"titleAward": "of the Silver Wolf"
+				},
+				{
+					"title": "饗宴の群狼：ゴールド",
+					"description": "ザ・フィーストのいずれかのシーズンで、パーティランクをゴールド階級で終えた",
+					"point": 20,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/66/66324fa2074f22e34ba8504952bec4f5cc652c3f.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/ranking/66324fa2074f22e34ba8504952bec4f5cc652c3f.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						164
+					],
+					"titleAward": "of the Gold Wolf"
+				},
+				{
+					"title": "饗宴の群狼：プラチナ",
+					"description": "ザ・フィーストのいずれかのシーズンで、パーティランクをプラチナ階級で終えた",
+					"point": 20,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/66/66324fa2074f22e34ba8504952bec4f5cc652c3f.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/ranking/66324fa2074f22e34ba8504952bec4f5cc652c3f.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						164
+					],
+					"titleAward": "of the Platinum Wolf"
+				},
+				{
+					"title": "饗宴の群狼：ダイヤモンド",
+					"description": "ザ・フィーストのいずれかのシーズンで、パーティランクをダイヤモンド階級で終えた",
+					"point": 20,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/66/66324fa2074f22e34ba8504952bec4f5cc652c3f.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/ranking/66324fa2074f22e34ba8504952bec4f5cc652c3f.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						164
+					],
+					"titleAward": "of the Diamond Wolf"
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

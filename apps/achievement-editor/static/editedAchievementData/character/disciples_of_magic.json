@@ -1,0 +1,835 @@
+{
+	"title": "disciples_of_magic",
+	"categorized": [
+		{
+			"title": "幻術士 (白魔道士)",
+			"data": [
+				{
+					"title": "幻術士：レベル10",
+					"description": "幻術士のレベルが10に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0a/0aeca35ea6c41acf87a33d1ae394e722544353e8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/0aeca35ea6c41acf87a33d1ae394e722544353e8.png",
+					"url": "/lodestone/playguide/db/achievement/bface80c0b4/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						35
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "幻術士：レベル20",
+					"description": "幻術士のレベルが20に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0a/0aeca35ea6c41acf87a33d1ae394e722544353e8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/0aeca35ea6c41acf87a33d1ae394e722544353e8.png",
+					"url": "/lodestone/playguide/db/achievement/5b3a51425a2/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						35
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "幻術士：レベル30",
+					"description": "幻術士のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0a/0aeca35ea6c41acf87a33d1ae394e722544353e8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/0aeca35ea6c41acf87a33d1ae394e722544353e8.png",
+					"url": "/lodestone/playguide/db/achievement/32274e121de/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						35
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "幻術士：レベル40",
+					"description": "幻術士のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0a/0aeca35ea6c41acf87a33d1ae394e722544353e8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/0aeca35ea6c41acf87a33d1ae394e722544353e8.png",
+					"url": "/lodestone/playguide/db/achievement/209d45fdcfd/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						35
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "幻術士：レベル50",
+					"description": "幻術士のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0a/0aeca35ea6c41acf87a33d1ae394e722544353e8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/0aeca35ea6c41acf87a33d1ae394e722544353e8.png",
+					"url": "/lodestone/playguide/db/achievement/678783949b6/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						35
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "幻術士：レベル60",
+					"description": "幻術士のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0a/0aeca35ea6c41acf87a33d1ae394e722544353e8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/0aeca35ea6c41acf87a33d1ae394e722544353e8.png",
+					"url": "/lodestone/playguide/db/achievement/b1689dc8df2/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						35
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "幻術士：レベル70",
+					"description": "幻術士のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0a/0aeca35ea6c41acf87a33d1ae394e722544353e8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/0aeca35ea6c41acf87a33d1ae394e722544353e8.png",
+					"url": "/lodestone/playguide/db/achievement/564a972c143/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						35
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "幻術士：レベル80",
+					"description": "幻術士のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0a/0aeca35ea6c41acf87a33d1ae394e722544353e8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/0aeca35ea6c41acf87a33d1ae394e722544353e8.png",
+					"url": "/lodestone/playguide/db/achievement/f5f596d5d01/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						35
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "呪術師 (黒魔道士)",
+			"data": [
+				{
+					"title": "呪術士：レベル10",
+					"description": "呪術士のレベルが10に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3c/3c623c96c5f52dacc6d1b940bf1225a6c4608aa7.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/3c623c96c5f52dacc6d1b940bf1225a6c4608aa7.png",
+					"url": "/lodestone/playguide/db/achievement/3fa745cf446/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						31
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "呪術士：レベル20",
+					"description": "呪術士のレベルが20に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3c/3c623c96c5f52dacc6d1b940bf1225a6c4608aa7.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/3c623c96c5f52dacc6d1b940bf1225a6c4608aa7.png",
+					"url": "/lodestone/playguide/db/achievement/22e1607df68/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						31
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "呪術士：レベル30",
+					"description": "呪術士のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3c/3c623c96c5f52dacc6d1b940bf1225a6c4608aa7.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/3c623c96c5f52dacc6d1b940bf1225a6c4608aa7.png",
+					"url": "/lodestone/playguide/db/achievement/49137031a1d/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						31
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "呪術士：レベル40",
+					"description": "呪術士のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3c/3c623c96c5f52dacc6d1b940bf1225a6c4608aa7.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/3c623c96c5f52dacc6d1b940bf1225a6c4608aa7.png",
+					"url": "/lodestone/playguide/db/achievement/052d6dd0b7c/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						31
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "呪術士：レベル50",
+					"description": "呪術士のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3c/3c623c96c5f52dacc6d1b940bf1225a6c4608aa7.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/3c623c96c5f52dacc6d1b940bf1225a6c4608aa7.png",
+					"url": "/lodestone/playguide/db/achievement/35706bc3392/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						31
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "呪術士：レベル60",
+					"description": "呪術士のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3c/3c623c96c5f52dacc6d1b940bf1225a6c4608aa7.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/3c623c96c5f52dacc6d1b940bf1225a6c4608aa7.png",
+					"url": "/lodestone/playguide/db/achievement/38867356faa/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						31
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "呪術士：レベル70",
+					"description": "呪術士のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3c/3c623c96c5f52dacc6d1b940bf1225a6c4608aa7.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/3c623c96c5f52dacc6d1b940bf1225a6c4608aa7.png",
+					"url": "/lodestone/playguide/db/achievement/8eeb8cb9529/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						31
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "呪術士：レベル80",
+					"description": "呪術士のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3c/3c623c96c5f52dacc6d1b940bf1225a6c4608aa7.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/3c623c96c5f52dacc6d1b940bf1225a6c4608aa7.png",
+					"url": "/lodestone/playguide/db/achievement/f146caf889f/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						31
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "巴術士 (召喚士/学者)",
+			"data": [
+				{
+					"title": "巴術士：レベル10",
+					"description": "巴術士のレベルが10に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c3/c34d195303c3b6c53258ea737ed4e7317a56df55.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/c34d195303c3b6c53258ea737ed4e7317a56df55.png",
+					"url": "/lodestone/playguide/db/achievement/890da3c9ff4/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						32,
+						36
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "巴術士：レベル20",
+					"description": "巴術士のレベルが20に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c3/c34d195303c3b6c53258ea737ed4e7317a56df55.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/c34d195303c3b6c53258ea737ed4e7317a56df55.png",
+					"url": "/lodestone/playguide/db/achievement/10700161d33/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						32,
+						36
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "巴術士：レベル30",
+					"description": "巴術士のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c3/c34d195303c3b6c53258ea737ed4e7317a56df55.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/c34d195303c3b6c53258ea737ed4e7317a56df55.png",
+					"url": "/lodestone/playguide/db/achievement/c29fbd8617c/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						32,
+						36
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "巴術士：レベル40",
+					"description": "巴術士のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c3/c34d195303c3b6c53258ea737ed4e7317a56df55.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/c34d195303c3b6c53258ea737ed4e7317a56df55.png",
+					"url": "/lodestone/playguide/db/achievement/7094cb0a13e/",
+					"isLatestPatch": false,
+					"sourceIndex": 19,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						32,
+						36
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "巴術士：レベル50",
+					"description": "巴術士のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c3/c34d195303c3b6c53258ea737ed4e7317a56df55.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/c34d195303c3b6c53258ea737ed4e7317a56df55.png",
+					"url": "/lodestone/playguide/db/achievement/afe2bdd99a0/",
+					"isLatestPatch": false,
+					"sourceIndex": 20,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						32,
+						36
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "巴術士：レベル60",
+					"description": "巴術士のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c3/c34d195303c3b6c53258ea737ed4e7317a56df55.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/c34d195303c3b6c53258ea737ed4e7317a56df55.png",
+					"url": "/lodestone/playguide/db/achievement/a6a64e32dd6/",
+					"isLatestPatch": false,
+					"sourceIndex": 21,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						32,
+						36
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "巴術士：レベル70",
+					"description": "巴術士のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c3/c34d195303c3b6c53258ea737ed4e7317a56df55.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/c34d195303c3b6c53258ea737ed4e7317a56df55.png",
+					"url": "/lodestone/playguide/db/achievement/6e06c081de4/",
+					"isLatestPatch": false,
+					"sourceIndex": 22,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						32,
+						36
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "巴術士：レベル80",
+					"description": "巴術士のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c3/c34d195303c3b6c53258ea737ed4e7317a56df55.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/c34d195303c3b6c53258ea737ed4e7317a56df55.png",
+					"url": "/lodestone/playguide/db/achievement/8c41436ec58/",
+					"isLatestPatch": false,
+					"sourceIndex": 23,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						32,
+						36
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "占星術師",
+			"data": [
+				{
+					"title": "占星術師：レベル30",
+					"description": "占星術師のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bb/bb1db28926b6915c22aeee17285134f9532f7348.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/bb1db28926b6915c22aeee17285134f9532f7348.png",
+					"url": "/lodestone/playguide/db/achievement/cbbb2fe9f5c/",
+					"isLatestPatch": false,
+					"sourceIndex": 24,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						37
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "占星術師：レベル40",
+					"description": "占星術師のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bb/bb1db28926b6915c22aeee17285134f9532f7348.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/bb1db28926b6915c22aeee17285134f9532f7348.png",
+					"url": "/lodestone/playguide/db/achievement/168c65ed351/",
+					"isLatestPatch": false,
+					"sourceIndex": 25,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						37
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "占星術師：レベル50",
+					"description": "占星術師のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bb/bb1db28926b6915c22aeee17285134f9532f7348.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/bb1db28926b6915c22aeee17285134f9532f7348.png",
+					"url": "/lodestone/playguide/db/achievement/61be7c93d55/",
+					"isLatestPatch": false,
+					"sourceIndex": 26,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						37
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "占星術師：レベル60",
+					"description": "占星術師のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bb/bb1db28926b6915c22aeee17285134f9532f7348.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/bb1db28926b6915c22aeee17285134f9532f7348.png",
+					"url": "/lodestone/playguide/db/achievement/bb296a4e00b/",
+					"isLatestPatch": false,
+					"sourceIndex": 27,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						37
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "占星術師：レベル70",
+					"description": "占星術師のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bb/bb1db28926b6915c22aeee17285134f9532f7348.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/bb1db28926b6915c22aeee17285134f9532f7348.png",
+					"url": "/lodestone/playguide/db/achievement/a26ec84045c/",
+					"isLatestPatch": false,
+					"sourceIndex": 28,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						37
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "占星術師：レベル80",
+					"description": "占星術師のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bb/bb1db28926b6915c22aeee17285134f9532f7348.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/bb1db28926b6915c22aeee17285134f9532f7348.png",
+					"url": "/lodestone/playguide/db/achievement/3c78771b5e9/",
+					"isLatestPatch": false,
+					"sourceIndex": 29,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						37
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "赤魔道士",
+			"data": [
+				{
+					"title": "赤魔道士：レベル50",
+					"description": "赤魔道士のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2f/2fe323d530788a3db5b76a4b2f13f74d4b31c189.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/2fe323d530788a3db5b76a4b2f13f74d4b31c189.png",
+					"url": "/lodestone/playguide/db/achievement/31fec9ac5a3/",
+					"isLatestPatch": false,
+					"sourceIndex": 30,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						33
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "赤魔道士：レベル60",
+					"description": "赤魔道士のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2f/2fe323d530788a3db5b76a4b2f13f74d4b31c189.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/2fe323d530788a3db5b76a4b2f13f74d4b31c189.png",
+					"url": "/lodestone/playguide/db/achievement/46dc8223f81/",
+					"isLatestPatch": false,
+					"sourceIndex": 31,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						33
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "赤魔道士：レベル70",
+					"description": "赤魔道士のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2f/2fe323d530788a3db5b76a4b2f13f74d4b31c189.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/2fe323d530788a3db5b76a4b2f13f74d4b31c189.png",
+					"url": "/lodestone/playguide/db/achievement/d981135e7cf/",
+					"isLatestPatch": false,
+					"sourceIndex": 32,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						33
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "赤魔道士：レベル80",
+					"description": "赤魔道士のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2f/2fe323d530788a3db5b76a4b2f13f74d4b31c189.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/2fe323d530788a3db5b76a4b2f13f74d4b31c189.png",
+					"url": "/lodestone/playguide/db/achievement/7fc38d031fc/",
+					"isLatestPatch": false,
+					"sourceIndex": 33,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						33
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "青魔道士",
+			"data": [
+				{
+					"title": "青魔道士：レベル10",
+					"description": "青魔道士のレベルが10に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/84/84bdbe15d7186cbc27c8e83ad55f7fa2670df15d.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/84bdbe15d7186cbc27c8e83ad55f7fa2670df15d.png",
+					"url": "/lodestone/playguide/db/achievement/a4b64f1ea13/",
+					"isLatestPatch": false,
+					"sourceIndex": 34,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "青魔道士：レベル20",
+					"description": "青魔道士のレベルが20に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/84/84bdbe15d7186cbc27c8e83ad55f7fa2670df15d.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/84bdbe15d7186cbc27c8e83ad55f7fa2670df15d.png",
+					"url": "/lodestone/playguide/db/achievement/949ec7bc19a/",
+					"isLatestPatch": false,
+					"sourceIndex": 35,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "青魔道士：レベル30",
+					"description": "青魔道士のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/84/84bdbe15d7186cbc27c8e83ad55f7fa2670df15d.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/84bdbe15d7186cbc27c8e83ad55f7fa2670df15d.png",
+					"url": "/lodestone/playguide/db/achievement/bbd17a8de91/",
+					"isLatestPatch": false,
+					"sourceIndex": 36,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "青魔道士：レベル40",
+					"description": "青魔道士のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/84/84bdbe15d7186cbc27c8e83ad55f7fa2670df15d.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/84bdbe15d7186cbc27c8e83ad55f7fa2670df15d.png",
+					"url": "/lodestone/playguide/db/achievement/5808c3d24f5/",
+					"isLatestPatch": false,
+					"sourceIndex": 37,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "青魔道士：レベル50",
+					"description": "青魔道士のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/84/84bdbe15d7186cbc27c8e83ad55f7fa2670df15d.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/84bdbe15d7186cbc27c8e83ad55f7fa2670df15d.png",
+					"url": "/lodestone/playguide/db/achievement/6528d02480c/",
+					"isLatestPatch": false,
+					"sourceIndex": 38,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 74
+				},
+				{
+					"title": "青魔道士：レベル60",
+					"description": "青魔道士のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/84/84bdbe15d7186cbc27c8e83ad55f7fa2670df15d.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/84bdbe15d7186cbc27c8e83ad55f7fa2670df15d.png",
+					"url": "/lodestone/playguide/db/achievement/5392072b3e4/",
+					"isLatestPatch": false,
+					"sourceIndex": 39,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 84
+				},
+				{
+					"title": "青魔道士：レベル70",
+					"description": "青魔道士のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/84/84bdbe15d7186cbc27c8e83ad55f7fa2670df15d.png?n5.45",
+					"point": 5,
+					"isLatestPatch": true,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/84bdbe15d7186cbc27c8e83ad55f7fa2670df15d.png",
+					"url": "/lodestone/playguide/db/achievement/a5ad8ffa7f6/",
+					"sourceIndex": 40,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "青魔道士 ラーニング",
+			"data": [
+				{
+					"title": "ラーニングマニア：ランク1",
+					"description": "青魔法を5種類ラーニングする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7b/7b56d525b6bf937085384a7d2e4dac90b9aa75de.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/7b56d525b6bf937085384a7d2e4dac90b9aa75de.png",
+					"url": "/lodestone/playguide/db/achievement/837940100fe/",
+					"isLatestPatch": false,
+					"sourceIndex": 41,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ラーニングマニア：ランク2",
+					"description": "青魔法を10種類ラーニングする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7b/7b56d525b6bf937085384a7d2e4dac90b9aa75de.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/7b56d525b6bf937085384a7d2e4dac90b9aa75de.png",
+					"url": "/lodestone/playguide/db/achievement/35d99cd01d8/",
+					"isLatestPatch": false,
+					"sourceIndex": 42,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ラーニングマニア：ランク3",
+					"description": "青魔法を20種類ラーニングする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7b/7b56d525b6bf937085384a7d2e4dac90b9aa75de.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/7b56d525b6bf937085384a7d2e4dac90b9aa75de.png",
+					"url": "/lodestone/playguide/db/achievement/754a242bba8/",
+					"isLatestPatch": false,
+					"sourceIndex": 43,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ラーニングマニア：ランク4",
+					"description": "青魔法を30種類ラーニングする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7b/7b56d525b6bf937085384a7d2e4dac90b9aa75de.png?n5.45",
+					"point": 5,
+					"titleAward": "Blue Blood",
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/7b56d525b6bf937085384a7d2e4dac90b9aa75de.png",
+					"url": "/lodestone/playguide/db/achievement/4e43bc6a993/",
+					"isLatestPatch": false,
+					"sourceIndex": 44,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ラーニングマニア：ランク5",
+					"description": "青魔法を40種類ラーニングする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7b/7b56d525b6bf937085384a7d2e4dac90b9aa75de.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/7b56d525b6bf937085384a7d2e4dac90b9aa75de.png",
+					"url": "/lodestone/playguide/db/achievement/ac0fb1ab0b7/",
+					"isLatestPatch": false,
+					"sourceIndex": 45,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 74
+				},
+				{
+					"title": "ラーニングマニア：ランク6",
+					"description": "青魔法を50種類ラーニングする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7b/7b56d525b6bf937085384a7d2e4dac90b9aa75de.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/7b56d525b6bf937085384a7d2e4dac90b9aa75de.png",
+					"url": "/lodestone/playguide/db/achievement/8e0cbd7ff36/",
+					"isLatestPatch": false,
+					"sourceIndex": 46,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ラーニングマニア：ランク7",
+					"description": "青魔法を80種類ラーニングする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7b/7b56d525b6bf937085384a7d2e4dac90b9aa75de.png?n5.45",
+					"point": 5,
+					"titleAward": "Blue to the Bone",
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/7b56d525b6bf937085384a7d2e4dac90b9aa75de.png",
+					"url": "/lodestone/playguide/db/achievement/695de6c4ec1/",
+					"isLatestPatch": false,
+					"sourceIndex": 47,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 84
+				},
+				{
+					"title": "ラーニングマニア：ランク8",
+					"description": "青魔法を100種類ラーニングする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7b/7b56d525b6bf937085384a7d2e4dac90b9aa75de.png?n5.45",
+					"point": 5,
+					"isLatestPatch": true,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_magic/7b56d525b6bf937085384a7d2e4dac90b9aa75de.png",
+					"url": "/lodestone/playguide/db/achievement/99f3018ddc8/",
+					"sourceIndex": 48,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

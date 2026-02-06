@@ -1,0 +1,504 @@
+{
+	"title": "carpenter",
+	"categorized": [
+		{
+			"title": "木工師 レベル別 製作回数",
+			"data": [
+				{
+					"title": "木工職人：素人",
+					"description": "木工スキルのレベル1-10のレシピを50回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/48/485e81f009337aad790edf50aa5c84e6a37a2921.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/485e81f009337aad790edf50aa5c84e6a37a2921.png",
+					"url": "/lodestone/playguide/db/achievement/4c4e0bc237b/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "木工職人：見習",
+					"description": "木工スキルのレベル11-20のレシピを300回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/48/485e81f009337aad790edf50aa5c84e6a37a2921.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/485e81f009337aad790edf50aa5c84e6a37a2921.png",
+					"url": "/lodestone/playguide/db/achievement/b6be42c86c6/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "木工職人：徒弟",
+					"description": "木工スキルのレベル21-30のレシピを750回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/48/485e81f009337aad790edf50aa5c84e6a37a2921.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/485e81f009337aad790edf50aa5c84e6a37a2921.png",
+					"url": "/lodestone/playguide/db/achievement/430abfa5794/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "木工職人：下級",
+					"description": "木工スキルのレベル31-40のレシピを1,500回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/48/485e81f009337aad790edf50aa5c84e6a37a2921.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/485e81f009337aad790edf50aa5c84e6a37a2921.png",
+					"url": "/lodestone/playguide/db/achievement/c574670a18f/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "木工職人：上級",
+					"description": "木工スキルのレベル41-50のレシピを3,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/48/485e81f009337aad790edf50aa5c84e6a37a2921.png?n5.45",
+					"point": 10,
+					"titleAward": "of the Golden Saw",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/485e81f009337aad790edf50aa5c84e6a37a2921.png",
+					"url": "/lodestone/playguide/db/achievement/de887cf928b/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "木工の匠",
+					"description": "アチーブメント「木工職人：素人」「木工職人：見習」「木工職人：徒弟」「木工職人：下級」「木工職人：上級」をすべて達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c4/c44bfbfd76313c5f50d80c59a777c3dc3b7d9634.png?n5.45",
+					"point": 30,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/7ff79237ce8/",
+					"itemAward": "ルミナリーソー",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c4/c44bfbfd76313c5f50d80c59a777c3dc3b7d9634.png?n5.45",
+					"awardCondition": [
+						"木工職人：素人",
+						"木工職人：見習",
+						"木工職人：徒弟",
+						"木工職人：下級",
+						"木工職人：上級"
+					],
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/c44bfbfd76313c5f50d80c59a777c3dc3b7d9634.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/carpenter/c44bfbfd76313c5f50d80c59a777c3dc3b7d9634.png",
+					"url": "/lodestone/playguide/db/achievement/de4c17a051e/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "木工職人：名取",
+					"description": "木工スキルのレベル51-60のレシピを1,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/48/485e81f009337aad790edf50aa5c84e6a37a2921.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/485e81f009337aad790edf50aa5c84e6a37a2921.png",
+					"url": "/lodestone/playguide/db/achievement/6ac0c6bf62f/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "木工職人：目録",
+					"description": "木工スキルのレベル61-70のレシピを1,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/48/485e81f009337aad790edf50aa5c84e6a37a2921.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/485e81f009337aad790edf50aa5c84e6a37a2921.png",
+					"url": "/lodestone/playguide/db/achievement/df1b1d73bd3/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "木工職人：印可",
+					"description": "木工スキルのレベル71-80のレシピを1,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/48/485e81f009337aad790edf50aa5c84e6a37a2921.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/485e81f009337aad790edf50aa5c84e6a37a2921.png",
+					"url": "/lodestone/playguide/db/achievement/97afa62ad4e/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "木工師 製作手帳 種類数",
+			"data": [
+				{
+					"title": "手帳好きの木工師：ランク1",
+					"description": "木工師のレシピのうち、30種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2e/2e36a8da933e5e8cdca2d4bc31ee0f071bbdfb19.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/2e36a8da933e5e8cdca2d4bc31ee0f071bbdfb19.png",
+					"url": "/lodestone/playguide/db/achievement/e1655dd9d72/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの木工師：ランク2",
+					"description": "木工師のレシピのうち、50種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2e/2e36a8da933e5e8cdca2d4bc31ee0f071bbdfb19.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/2e36a8da933e5e8cdca2d4bc31ee0f071bbdfb19.png",
+					"url": "/lodestone/playguide/db/achievement/36d0da05f1d/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの木工師：ランク3",
+					"description": "木工師のレシピのうち、100種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2e/2e36a8da933e5e8cdca2d4bc31ee0f071bbdfb19.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/745c0e5d839/",
+					"itemAward": "マスターカーペンターリング",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/be/be8e4089497a3a620ed57175f465b7f986f6995b.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/2e36a8da933e5e8cdca2d4bc31ee0f071bbdfb19.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/carpenter/be8e4089497a3a620ed57175f465b7f986f6995b.png",
+					"url": "/lodestone/playguide/db/achievement/ce42bd0c547/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの木工師：ランク4",
+					"description": "木工師のレシピのうち、200種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2e/2e36a8da933e5e8cdca2d4bc31ee0f071bbdfb19.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/2e36a8da933e5e8cdca2d4bc31ee0f071bbdfb19.png",
+					"url": "/lodestone/playguide/db/achievement/7709d967a11/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "手帳好きの木工師：ランク5",
+					"description": "木工師のレシピのうち、320種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2e/2e36a8da933e5e8cdca2d4bc31ee0f071bbdfb19.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/69b13d2f3aa/",
+					"itemAward": "ブレスド・ミルキープソー",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5c/5c1a820f9842b5c721b0f4722a61a7e0548084fe.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/2e36a8da933e5e8cdca2d4bc31ee0f071bbdfb19.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/carpenter/5c1a820f9842b5c721b0f4722a61a7e0548084fe.png",
+					"url": "/lodestone/playguide/db/achievement/6ce291219ee/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "手帳好きの木工師：ランク6",
+					"description": "木工師のレシピのうち、410種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2e/2e36a8da933e5e8cdca2d4bc31ee0f071bbdfb19.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/053d78884bd/",
+					"itemAward": "ブレスド・ミルキングソー",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/11/11b5d89132a61d29ba5d76a0fb7223eedb29421c.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/2e36a8da933e5e8cdca2d4bc31ee0f071bbdfb19.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/carpenter/11b5d89132a61d29ba5d76a0fb7223eedb29421c.png",
+					"url": "/lodestone/playguide/db/achievement/b964f1e2bc0/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 68
+				}
+			]
+		},
+		{
+			"title": "木工師 HQ 製作回数",
+			"data": [
+				{
+					"title": "腕利きの木工師：ランク1",
+					"description": "木工師でHQアイテムを計100回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/70/70b7085c19bddf8dcbc1696247bfc65f4ac6aa61.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/70b7085c19bddf8dcbc1696247bfc65f4ac6aa61.png",
+					"url": "/lodestone/playguide/db/achievement/67e65d8103c/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの木工師：ランク2",
+					"description": "木工師でHQアイテムを計500回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/70/70b7085c19bddf8dcbc1696247bfc65f4ac6aa61.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/70b7085c19bddf8dcbc1696247bfc65f4ac6aa61.png",
+					"url": "/lodestone/playguide/db/achievement/038171bc9fc/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの木工師：ランク3",
+					"description": "木工師でHQアイテムを計3,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/70/70b7085c19bddf8dcbc1696247bfc65f4ac6aa61.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/70b7085c19bddf8dcbc1696247bfc65f4ac6aa61.png",
+					"url": "/lodestone/playguide/db/achievement/fa9cf5e8747/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの木工師：ランク4",
+					"description": "木工師でHQアイテムを計5,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/70/70b7085c19bddf8dcbc1696247bfc65f4ac6aa61.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/70b7085c19bddf8dcbc1696247bfc65f4ac6aa61.png",
+					"url": "/lodestone/playguide/db/achievement/c6fb3295c76/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの木工師：ランク5",
+					"description": "木工師でHQアイテムを計10,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/70/70b7085c19bddf8dcbc1696247bfc65f4ac6aa61.png?n5.45",
+					"point": 10,
+					"titleAward": "Master Woodworker",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/70b7085c19bddf8dcbc1696247bfc65f4ac6aa61.png",
+					"url": "/lodestone/playguide/db/achievement/3e9a9922891/",
+					"isLatestPatch": false,
+					"sourceIndex": 19,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "木工師 イシュガルド復興 技巧点",
+			"data": [
+				{
+					"title": "蒼天街の木工師：ランク1",
+					"description": "イシュガルド復興において、木工師で技巧点を50,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/95/9540019a954308d945162ca836daeb54b6e4ce32.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/9540019a954308d945162ca836daeb54b6e4ce32.png",
+					"url": "/lodestone/playguide/db/achievement/82e5ba1999a/",
+					"isLatestPatch": false,
+					"sourceIndex": 20,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天街の木工師：ランク2",
+					"description": "イシュガルド復興において、木工師で技巧点を150,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/95/9540019a954308d945162ca836daeb54b6e4ce32.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/9540019a954308d945162ca836daeb54b6e4ce32.png",
+					"url": "/lodestone/playguide/db/achievement/e04d135b0d0/",
+					"isLatestPatch": false,
+					"sourceIndex": 21,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天街の木工マスター",
+					"description": "イシュガルド復興において、木工師で技巧点を500,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/95/9540019a954308d945162ca836daeb54b6e4ce32.png?n5.45",
+					"point": 10,
+					"titleAward": "Frame of the Firmament",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/9540019a954308d945162ca836daeb54b6e4ce32.png",
+					"url": "/lodestone/playguide/db/achievement/de415cdbec9/",
+					"isLatestPatch": false,
+					"sourceIndex": 22,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38,
+						78
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "木工師 イシュガルド復興 高難易度レシピ 製作数",
+			"data": [
+				{
+					"title": "ニューネスト居住区の木工師",
+					"description": "第二次復興事業計画向け納品において、木工師の高難易度レシピのアイテムを100個納品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/87/87e85edf9b2645d61c749cf7e7b45cfbd73f0f4c.png?n5.45",
+					"point": 10,
+					"titleAward": "the Nest's Own Carpenter",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/87e85edf9b2645d61c749cf7e7b45cfbd73f0f4c.png",
+					"url": "/lodestone/playguide/db/achievement/3be66e3c809/",
+					"isLatestPatch": false,
+					"sourceIndex": 23,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38,
+						78
+					],
+					"adjustmentPatchId": 80
+				},
+				{
+					"title": "フェザーフォール商業区の木工師",
+					"description": "第三次復興事業計画向け納品において、木工師の高難易度レシピのアイテムを100個納品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ca/ca4610a94e4d2654b4cb52443937bde4eb76757c.png?n5.45",
+					"point": 10,
+					"titleAward": "Featherfall's Finest Carpenter",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/ca4610a94e4d2654b4cb52443937bde4eb76757c.png",
+					"url": "/lodestone/playguide/db/achievement/bed4b0ab791/",
+					"isLatestPatch": false,
+					"sourceIndex": 24,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38,
+						78
+					],
+					"adjustmentPatchId": 80
+				},
+				{
+					"title": "リズンソング文化区の木工師",
+					"description": "第四次復興事業計画向け納品において、木工師の高難易度レシピのアイテムを100個納品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ca/ca2ff2279b5fbf7e17c4b19cca03cf5ac7fa50c1.png?n5.45",
+					"point": 10,
+					"isLatestPatch": true,
+					"titleAward": "the Risensung Carpenter",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/ca2ff2279b5fbf7e17c4b19cca03cf5ac7fa50c1.png",
+					"url": "/lodestone/playguide/db/achievement/b89e29ee424/",
+					"sourceIndex": 25,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38,
+						78
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "リスプレンデントツール",
+			"data": [
+				{
+					"title": "リスプレンデントツール：リスプレンデント・ミルフィーンドソー",
+					"description": "リスプレンデント・ミルフィーンドソーを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/6e/6efd52bad556d8e0670b888c63a4445bfa051386.png?n5.5",
+					"point": 10,
+					"isLatestPatch": true,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/carpenter/6efd52bad556d8e0670b888c63a4445bfa051386.png",
+					"url": "/lodestone/playguide/db/achievement/7fb72dbf4ed/",
+					"sourceIndex": 26,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						195
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

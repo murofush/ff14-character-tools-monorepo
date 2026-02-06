@@ -1,0 +1,336 @@
+{
+	"title": "materia",
+	"categorized": [
+		{
+			"title": "マテリア装着 成功数",
+			"data": [
+				{
+					"title": "ミュタミクスの弟子：ランク1",
+					"description": "マテリア装着を計10回成功させる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/cd/cd09084b74a94d488a5667df60b2be91d63e3c14.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/items/materia/cd09084b74a94d488a5667df60b2be91d63e3c14.png",
+					"url": "/lodestone/playguide/db/achievement/76349875027/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						183
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ミュタミクスの弟子：ランク2",
+					"description": "マテリア装着を計50回成功させる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1e/1edc5d750526f1e15b3f84d3097931adbc3a0b41.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/items/materia/1edc5d750526f1e15b3f84d3097931adbc3a0b41.png",
+					"url": "/lodestone/playguide/db/achievement/fb337a54b8b/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						183
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ミュタミクスの弟子：ランク3",
+					"description": "マテリア装着を計100回成功させる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5f/5f101938d04c85215bdf1498673841c79a4f59ae.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/items/materia/5f101938d04c85215bdf1498673841c79a4f59ae.png",
+					"url": "/lodestone/playguide/db/achievement/b5085a8c71c/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						183
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ミュタミクスの弟子：ランク4",
+					"description": "マテリア装着を計500回成功させる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/db/dbdfccf07fabcc6220a8b0cb3f839ec877699b3c.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/items/materia/dbdfccf07fabcc6220a8b0cb3f839ec877699b3c.png",
+					"url": "/lodestone/playguide/db/achievement/fd9f1a95d04/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						183
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ミュタミクスの高弟",
+					"description": "マテリア装着を計1,000回成功させる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d6/d67a485fd0008241b0864221f801f40757ac104f.png?n5.45",
+					"point": 10,
+					"titleAward": "Carrier of the Cauldron",
+					"iconPath": "~/static/achievementData/img/items/materia/d67a485fd0008241b0864221f801f40757ac104f.png",
+					"url": "/lodestone/playguide/db/achievement/f5f9a224521/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						183
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ミュタミクスの弟子：ランク5",
+					"description": "マテリア装着を計2,500回成功させる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d6/d67a485fd0008241b0864221f801f40757ac104f.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/materia/d67a485fd0008241b0864221f801f40757ac104f.png",
+					"url": "/lodestone/playguide/db/achievement/99671330b67/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						183
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ミュタミクスの弟子：ランク6",
+					"description": "マテリア装着を計5,000回成功させる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d6/d67a485fd0008241b0864221f801f40757ac104f.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/materia/d67a485fd0008241b0864221f801f40757ac104f.png",
+					"url": "/lodestone/playguide/db/achievement/8d0a9c5940d/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						183
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ミュタミクスの弟子：ランク7",
+					"description": "マテリア装着を計10,000回成功させる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d6/d67a485fd0008241b0864221f801f40757ac104f.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/materia/d67a485fd0008241b0864221f801f40757ac104f.png",
+					"url": "/lodestone/playguide/db/achievement/8d8036d51ae/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						183
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "マテリア装着 装備品 装着数",
+			"data": [
+				{
+					"title": "勇気の持ち主",
+					"description": "1つの装備品に対して、マテリアを2個装着する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fc/fc54d5e7e0e9e56d140fa7376330dd5c7cb824fe.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/materia/fc54d5e7e0e9e56d140fa7376330dd5c7cb824fe.png",
+					"url": "/lodestone/playguide/db/achievement/c47eb37635a/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						183
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "幸運の持ち主",
+					"description": "1つの装備品に対して、マテリアを3個装着する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/33/3317030cbcb55e06d3450438ef148bb0b7d6c8fd.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/materia/3317030cbcb55e06d3450438ef148bb0b7d6c8fd.png",
+					"url": "/lodestone/playguide/db/achievement/051b80535ce/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						183
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "強運の持ち主",
+					"description": "1つの装備品に対して、マテリアを4個装着する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b3/b32be317d51d452ea31c23c3f9096eed11c6fef9.png?n5.45",
+					"point": 30,
+					"iconPath": "~/static/achievementData/img/items/materia/b32be317d51d452ea31c23c3f9096eed11c6fef9.png",
+					"url": "/lodestone/playguide/db/achievement/1451908576b/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						183
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "星神ニメーヤに愛されし者",
+					"description": "1つの装備品に対して、マテリアを5個装着する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/18/18e6074b1dc0a7145d33429dbc2d6161b238b608.png?n5.45",
+					"point": 40,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/f507cf3a868/",
+					"itemAward": "ギャンブラークラウン",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a4/a450d6bbcbf34896fb95ef79e106957716173ea7.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/materia/18e6074b1dc0a7145d33429dbc2d6161b238b608.png",
+					"itemAwardImagePath": "~/static/achievementData/img/items/materia/item/a450d6bbcbf34896fb95ef79e106957716173ea7.png",
+					"url": "/lodestone/playguide/db/achievement/64c7eb9980b/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						183
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "マテリア精製 実行数",
+			"data": [
+				{
+					"title": "思念の結晶：ランク1",
+					"description": "装備品のマテリア精製を計10回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/04/04ac2a28493343cbe0b4fc7efb6c1317e70283fe.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/items/materia/04ac2a28493343cbe0b4fc7efb6c1317e70283fe.png",
+					"url": "/lodestone/playguide/db/achievement/e0c62c88685/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						183
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "思念の結晶：ランク2",
+					"description": "装備品のマテリア精製を計50回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a9/a9d4849cf1f35f3e81dde6b516dd63b66633398c.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/items/materia/a9d4849cf1f35f3e81dde6b516dd63b66633398c.png",
+					"url": "/lodestone/playguide/db/achievement/44922ef26bc/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						183
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "思念の結晶：ランク3",
+					"description": "装備品のマテリア精製を計100回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/03/035920e4fe159233043c20c3b238b5113579008e.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/items/materia/035920e4fe159233043c20c3b238b5113579008e.png",
+					"url": "/lodestone/playguide/db/achievement/973c8b7fb11/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						183
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "思念の結晶：ランク4",
+					"description": "装備品のマテリア精製を計500回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/63/633fd862144850ca113c67712245acdc6cd80454.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/items/materia/633fd862144850ca113c67712245acdc6cd80454.png",
+					"url": "/lodestone/playguide/db/achievement/8a714958004/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						183
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "練達せしマテリア師",
+					"description": "装備品のマテリア精製を計1,000回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/dd/dd42f6e3f27f6ffb17a379f3860ed51ac6633e38.png?n5.45",
+					"point": 10,
+					"titleAward": "the Materia Master",
+					"iconPath": "~/static/achievementData/img/items/materia/dd42f6e3f27f6ffb17a379f3860ed51ac6633e38.png",
+					"url": "/lodestone/playguide/db/achievement/fa69fb9ba9a/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						183
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "思念の結晶：ランク5",
+					"description": "装備品のマテリア精製を計5,000回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/dd/dd42f6e3f27f6ffb17a379f3860ed51ac6633e38.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/materia/dd42f6e3f27f6ffb17a379f3860ed51ac6633e38.png",
+					"url": "/lodestone/playguide/db/achievement/3b9884ca473/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						183
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "マテリア合成 大当たり",
+			"data": [
+				{
+					"title": "天恵のマテリア",
+					"description": "マテリア合成で大当たりを出す",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1b/1bd177655d343cad40e3858e48b1710be6610f3a.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/materia/1bd177655d343cad40e3858e48b1710be6610f3a.png",
+					"url": "/lodestone/playguide/db/achievement/f235a742f5e/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						183
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

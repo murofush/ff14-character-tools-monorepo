@@ -1,0 +1,678 @@
+{
+	"title": "items",
+	"categorized": [
+		{
+			"title": "蛮神マウント 全取得",
+			"data": [
+				{
+					"title": "麒麟児",
+					"description": "麒麟の魔笛を入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d3/d36597ea1c4fa075299be3ebc297ce99fdc624c0.png?n5.45",
+					"point": 20,
+					"titleAward": "Kirin Tamer",
+					"iconPath": "~/static/achievementData/img/items/items/d36597ea1c4fa075299be3ebc297ce99fdc624c0.png",
+					"url": "/lodestone/playguide/db/achievement/4347850428a/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						59,
+						70,
+						180
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "鸞翔鳳集",
+					"description": "鳳凰の魔笛を入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d3/d36597ea1c4fa075299be3ebc297ce99fdc624c0.png?n5.45",
+					"point": 20,
+					"titleAward": "Phoenix Tamer",
+					"iconPath": "~/static/achievementData/img/items/items/d36597ea1c4fa075299be3ebc297ce99fdc624c0.png",
+					"url": "/lodestone/playguide/db/achievement/07be18e0b93/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						60,
+						70,
+						180
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "九尾狐狸",
+					"description": "カムイの魔笛【九尾】を入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d3/d36597ea1c4fa075299be3ebc297ce99fdc624c0.png?n5.45",
+					"point": 20,
+					"titleAward": "Kyubi Tamer",
+					"iconPath": "~/static/achievementData/img/items/items/d36597ea1c4fa075299be3ebc297ce99fdc624c0.png",
+					"url": "/lodestone/playguide/db/achievement/a276c20f7e1/",
+					"isLatestPatch": false,
+					"sourceIndex": 31,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						61,
+						70,
+						180
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "ずっと速い",
+					"description": "機竜の魔笛を入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a5/a5c99f48fb1668853fc98f3ecc4914c4a1c90e9f.png?n5.5",
+					"point": 20,
+					"isLatestPatch": true,
+					"titleAward": "Speed Demon",
+					"iconPath": "~/static/achievementData/img/items/items/a5c99f48fb1668853fc98f3ecc4914c4a1c90e9f.png",
+					"url": "/lodestone/playguide/db/achievement/04ba89da339/",
+					"sourceIndex": 32,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						62,
+						70,
+						180
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "ID装備一式 入手",
+			"data": [
+				{
+					"title": "高潔なるテンプラー",
+					"description": "テンプラーチェーンコイフ、テンプラーホーバージョン、テンプラーソルレット、テンプラータセットをすべて入手する※入手した装備品をすべて着用した状態で、グリダニア旧市街にいる「ジョナサス」に話しかけてください",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/08/08357c7e3919b5af11b18a2a9197c24d73d640dd.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/items/items/08357c7e3919b5af11b18a2a9197c24d73d640dd.png",
+					"url": "/lodestone/playguide/db/achievement/7e84a755105/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						194
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勇猛なるバッカニア",
+					"description": "バッカニアトライコーン、バッカニアシャツ、バッカニアブーツ、バッカニアサッシュをすべて入手する※入手した装備品をすべて着用した状態で、グリダニア旧市街にいる「ジョナサス」に話しかけてください",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/9c/9c41a5cbb76fe78b53514fefab2aa21537e49f10.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/items/items/9c41a5cbb76fe78b53514fefab2aa21537e49f10.png",
+					"url": "/lodestone/playguide/db/achievement/cf45b1b6a6a/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						194
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "軽妙なるハーレクイン",
+					"description": "ハーレクインキャップ、ハーレクインアクトン、ハーレクインタイツ、ハーレクインベルトをすべて入手する※入手した装備品をすべて着用した状態で、グリダニア旧市街にいる「ジョナサス」に話しかけてください",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/9c/9c4e30b9a2ba4bc3256f0e6e182d4c5ba1531c45.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/items/items/9c4e30b9a2ba4bc3256f0e6e182d4c5ba1531c45.png",
+					"url": "/lodestone/playguide/db/achievement/4b12554b420/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						194
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "ギャザクラ 手道具 入手",
+			"data": [
+				{
+					"title": "コダワリのクラフター",
+					"description": "クラフター主道具・ルキスのいずれかを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/70/70b7085c19bddf8dcbc1696247bfc65f4ac6aa61.png?n5.45",
+					"point": 10,
+					"titleAward": "the Light in Hand",
+					"iconPath": "~/static/achievementData/img/items/items/70b7085c19bddf8dcbc1696247bfc65f4ac6aa61.png",
+					"url": "/lodestone/playguide/db/achievement/ffba1bed636/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						195
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "コダワリのギャザラー",
+					"description": "ギャザラー主道具・ルキスのいずれかを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/aefff7e5e3f74a8bab492a7c67affb015236af14.png?n5.45",
+					"point": 10,
+					"titleAward": "the Light of the Land",
+					"iconPath": "~/static/achievementData/img/items/items/aefff7e5e3f74a8bab492a7c67affb015236af14.png",
+					"url": "/lodestone/playguide/db/achievement/e735bfe0ba5/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						19,
+						195
+					],
+					"adjustmentPatchId": 20
+				}
+			]
+		},
+		{
+			"title": "ミニオン 取得数",
+			"data": [
+				{
+					"title": "ミニオンコレクター：ランク1",
+					"description": "ミニオンを50種類集める",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/28/286e36dab3961f5a83d4145f333d942b16fd4859.png?n5.45",
+					"point": 5,
+					"titleAward": "Minion Collector",
+					"iconPath": "~/static/achievementData/img/items/items/286e36dab3961f5a83d4145f333d942b16fd4859.png",
+					"url": "/lodestone/playguide/db/achievement/f1450965612/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						178
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ミニオンコレクター：ランク2",
+					"description": "ミニオンを100種類集める",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/28/286e36dab3961f5a83d4145f333d942b16fd4859.png?n5.45",
+					"point": 10,
+					"titleAward": "Minion Master",
+					"iconPath": "~/static/achievementData/img/items/items/286e36dab3961f5a83d4145f333d942b16fd4859.png",
+					"url": "/lodestone/playguide/db/achievement/6ad83664905/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						178
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "我に続け！：ランク1",
+					"description": "追従型ミニオンを30種類集める",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ca/cac551b095de7778ea1d291c39a1f3a716083c25.png?n5.45",
+					"point": 10,
+					"titleAward": "Mammeteer",
+					"iconPath": "~/static/achievementData/img/items/items/cac551b095de7778ea1d291c39a1f3a716083c25.png",
+					"url": "/lodestone/playguide/db/achievement/01a24c54c8d/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						178
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "オーケストリオン 登録数",
+			"data": [
+				{
+					"title": "旋律に魅せられし者：ランク1",
+					"description": "オーケストリオン譜面帳に、10種類の楽曲を登録する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7e/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png?n5.45",
+					"point": 5,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/b718b1a98ea/",
+					"itemAward": "オーケストリオン譜:プレリュード",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7e/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/items/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png",
+					"itemAwardImagePath": "~/static/achievementData/img/items/items/item/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png",
+					"url": "/lodestone/playguide/db/achievement/deb0e67e542/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						179
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "旋律に魅せられし者：ランク2",
+					"description": "オーケストリオン譜面帳に、30種類の楽曲を登録する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7e/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png?n5.45",
+					"point": 5,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/abe4ebee009/",
+					"itemAward": "オーケストリオン譜:究極幻想",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7e/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/items/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png",
+					"itemAwardImagePath": "~/static/achievementData/img/items/items/item/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png",
+					"url": "/lodestone/playguide/db/achievement/a72b03b8555/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						179
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "旋律に魅せられし者：ランク3",
+					"description": "オーケストリオン譜面帳に、50種類の楽曲を登録する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7e/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/2286d38a1f4/",
+					"itemAward": "オーケストリオン譜:エオルゼアの守護者",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7e/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/items/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png",
+					"itemAwardImagePath": "~/static/achievementData/img/items/items/item/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png",
+					"url": "/lodestone/playguide/db/achievement/4f42bdf6ed7/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						179
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "旋律に魅せられし者：ランク4",
+					"description": "オーケストリオン譜面帳に、70種類の楽曲を登録する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7e/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/items/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png",
+					"url": "/lodestone/playguide/db/achievement/69e127c3eb1/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						179
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "旋律に魅せられし者：ランク5",
+					"description": "オーケストリオン譜面帳に、100種類の楽曲を登録する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7e/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/f43a289bfc6/",
+					"itemAward": "オーケストリオン譜:第七星暦",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7e/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/items/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png",
+					"itemAwardImagePath": "~/static/achievementData/img/items/items/item/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png",
+					"url": "/lodestone/playguide/db/achievement/6ebf1291522/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						179
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "旋律に魅せられし者：ランク6",
+					"description": "オーケストリオン譜面帳に、200種類の楽曲を登録する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7e/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/7b349e9e146/",
+					"itemAward": "オーケストリオン譜:紅蓮のプレリュード",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7e/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/items/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png",
+					"itemAwardImagePath": "~/static/achievementData/img/items/items/item/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png",
+					"url": "/lodestone/playguide/db/achievement/625ea90d3e5/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						179
+					],
+					"adjustmentPatchId": 68
+				}
+			]
+		},
+		{
+			"title": "アメノミハシラ アクセサリー一式 入手",
+			"data": [
+				{
+					"title": "真なる英雄の証",
+					"description": "「天之耳飾」「天之首飾」「天之腕輪」「天之指輪」を所持または装備した状態で、年老いた海賊と話す",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7d/7d0dbd26f4f7a48edb2f5908dfb6105af7b7f5fe.png?n5.45",
+					"point": 10,
+					"titleAward": "True Hero",
+					"iconPath": "~/static/achievementData/img/items/items/7d0dbd26f4f7a48edb2f5908dfb6105af7b7f5fe.png",
+					"url": "/lodestone/playguide/db/achievement/6d89887a026/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						82,
+						194
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "牙狼コラボ 装備一式 入手",
+			"data": [
+				{
+					"title": "守りし者",
+					"description": "黒装束の法師から全ての称号を授かる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/10/103f294aaba95fbfcec688d60e41b455d5d966e5.png?n5.45",
+					"point": 20,
+					"titleAward": "Master of GARO",
+					"iconPath": "~/static/achievementData/img/items/items/103f294aaba95fbfcec688d60e41b455d5d966e5.png",
+					"url": "/lodestone/playguide/db/achievement/deb045b9c85/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						20,
+						21,
+						22,
+						24,
+						25,
+						26,
+						28,
+						29,
+						31,
+						32,
+						35,
+						36,
+						37,
+						152,
+						193,
+						194
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "金狼",
+					"description": "金狼装束の頭・胴・手・脚・足の5部位と牙狼剣を黒装束の法師から入手し、それらを装備した姿を見せる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/36/36826c274a7e98670ae12845f106bfd901f6e26b.png?n5.45",
+					"point": 10,
+					"titleAward": "GARO",
+					"iconPath": "~/static/achievementData/img/items/items/36826c274a7e98670ae12845f106bfd901f6e26b.png",
+					"url": "/lodestone/playguide/db/achievement/05782de6cc5/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						20,
+						152,
+						193,
+						194
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "魔戒闘師・拳",
+					"description": "魔戒闘師装束の頭・胴・手・脚・足の5部位と魔戒拳を黒装束の法師から入手し、それらを装備した姿を見せる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f8/f8ee8945b023fdc2c05e963d5f2f7b582470e962.png?n5.45",
+					"point": 10,
+					"titleAward": "Makai Monk",
+					"iconPath": "~/static/achievementData/img/items/items/f8ee8945b023fdc2c05e963d5f2f7b582470e962.png",
+					"url": "/lodestone/playguide/db/achievement/7f0d1f488fd/",
+					"isLatestPatch": false,
+					"sourceIndex": 19,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						24,
+						152,
+						193,
+						194
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "漆黒",
+					"description": "漆黒装束の頭・胴・手・脚・足の5部位と暗黒斬を黒装束の法師から入手し、それらを装備した姿を見せる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0d/0da9318dff1648cfdcbd52798986811ad20f6b11.png?n5.45",
+					"point": 10,
+					"titleAward": "BARAGO",
+					"iconPath": "~/static/achievementData/img/items/items/0da9318dff1648cfdcbd52798986811ad20f6b11.png",
+					"url": "/lodestone/playguide/db/achievement/7c4fb2313df/",
+					"isLatestPatch": false,
+					"sourceIndex": 20,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						21,
+						152,
+						193,
+						194
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "白夜",
+					"description": "白夜装束の頭・胴・手・脚・足の5部位と白夜槍を黒装束の法師から入手し、それらを装備した姿を見せる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/22/2266f683852673dd6da543d55bdec63e3e9a9044.png?n5.45",
+					"point": 10,
+					"titleAward": "DAN",
+					"iconPath": "~/static/achievementData/img/items/items/2266f683852673dd6da543d55bdec63e3e9a9044.png",
+					"url": "/lodestone/playguide/db/achievement/6151e79be5a/",
+					"isLatestPatch": false,
+					"sourceIndex": 21,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						25,
+						152,
+						193,
+						194
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "魔戒弓師・射",
+					"description": "魔戒弓師装束の頭・胴・手・脚・足の5部位と魔戒弓を黒装束の法師から入手し、それらを装備した姿を見せる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/01/016bb0301ea990d35c5fe773efdd40541e2eb136.png?n5.45",
+					"point": 10,
+					"titleAward": "Makai Bard",
+					"iconPath": "~/static/achievementData/img/items/items/016bb0301ea990d35c5fe773efdd40541e2eb136.png",
+					"url": "/lodestone/playguide/db/achievement/cfc671e6cd5/",
+					"isLatestPatch": false,
+					"sourceIndex": 22,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						28,
+						152,
+						193,
+						194
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "銀狼",
+					"description": "銀狼装束の頭・胴・手・脚・足の5部位と銀狼剣を黒装束の法師から入手し、それらを装備した姿を見せる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/51/51fcbd99523144412874aebea23b2f7df28c20bc.png?n5.45",
+					"point": 10,
+					"titleAward": "ZERO",
+					"iconPath": "~/static/achievementData/img/items/items/51fcbd99523144412874aebea23b2f7df28c20bc.png",
+					"url": "/lodestone/playguide/db/achievement/a265910ea99/",
+					"isLatestPatch": false,
+					"sourceIndex": 23,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						26,
+						152,
+						193,
+						194
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "魔戒導師・光",
+					"description": "魔戒導師装束の頭・胴・手・脚・足の5部位と魔導杖を黒装束の法師から入手し、それらを装備した姿を見せる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8d/8dcbeb20a1e1e2634bfdfbc4fcc8ac2cd465a661.png?n5.45",
+					"point": 10,
+					"titleAward": "Makai White Mage",
+					"iconPath": "~/static/achievementData/img/items/items/8dcbeb20a1e1e2634bfdfbc4fcc8ac2cd465a661.png",
+					"url": "/lodestone/playguide/db/achievement/62cdc73279e/",
+					"isLatestPatch": false,
+					"sourceIndex": 24,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						35,
+						152,
+						193,
+						194
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "魔戒法師・闇",
+					"description": "魔戒法師装束の頭・胴・手・脚・足の5部位と魔導筆を黒装束の法師から入手し、それらを装備した姿を見せる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/72/725540415b0486bcfe4d63f9f71609e16080efc9.png?n5.45",
+					"point": 10,
+					"titleAward": "Makai Black Mage",
+					"iconPath": "~/static/achievementData/img/items/items/725540415b0486bcfe4d63f9f71609e16080efc9.png",
+					"url": "/lodestone/playguide/db/achievement/1dd37017bbb/",
+					"isLatestPatch": false,
+					"sourceIndex": 25,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						31,
+						152,
+						193,
+						194
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "魔戒法師・号",
+					"description": "魔戒法師装束の頭・胴・手・脚・足の5部位と魔導書を黒装束の法師から入手し、それらを装備した姿を見せる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3a/3a0c1d9d4b775ac7e5f418798b44321e920d3ea0.png?n5.45",
+					"point": 10,
+					"titleAward": "Makai Summoner",
+					"iconPath": "~/static/achievementData/img/items/items/3a0c1d9d4b775ac7e5f418798b44321e920d3ea0.png",
+					"url": "/lodestone/playguide/db/achievement/e60f76b66cb/",
+					"isLatestPatch": false,
+					"sourceIndex": 26,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						32,
+						152,
+						193,
+						194
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "魔戒導師・術",
+					"description": "魔戒導師装束の頭・胴・手・脚・足の5部位と魔戒書を黒装束の法師から入手し、それらを装備した姿を見せる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3b/3b1a481df75ec8d1a4e1e4bdd0b52e0d9a010ac3.png?n5.45",
+					"point": 10,
+					"titleAward": "Makai Scholar",
+					"iconPath": "~/static/achievementData/img/items/items/3b1a481df75ec8d1a4e1e4bdd0b52e0d9a010ac3.png",
+					"url": "/lodestone/playguide/db/achievement/103ead8aced/",
+					"isLatestPatch": false,
+					"sourceIndex": 27,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						36,
+						152,
+						193,
+						194
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "暗黒",
+					"description": "暗黒装束の頭・胴・手・脚・足の5部位と閻魔斬光剣を黒装束の法師から入手し、それらを装備した姿を見せる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/04/045b9a5f5ce0480d0a0c6b247268e719bbebc0ae.png?n5.45",
+					"point": 10,
+					"titleAward": "KIBA",
+					"iconPath": "~/static/achievementData/img/items/items/045b9a5f5ce0480d0a0c6b247268e719bbebc0ae.png",
+					"url": "/lodestone/playguide/db/achievement/64da13d0000/",
+					"isLatestPatch": false,
+					"sourceIndex": 28,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						22,
+						152,
+						193,
+						194
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "魔戒弓師・撃",
+					"description": "魔戒弓師装束の頭・胴・手・脚・足の5部位と魔戒銃を黒装束の法師から入手し、それらを装備した姿を見せる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b4/b4e35fdcf63af582d9af905cc6f22be1666588e3.png?n5.45",
+					"point": 10,
+					"titleAward": "Makai Machinist",
+					"iconPath": "~/static/achievementData/img/items/items/b4e35fdcf63af582d9af905cc6f22be1666588e3.png",
+					"url": "/lodestone/playguide/db/achievement/60d64f362a9/",
+					"isLatestPatch": false,
+					"sourceIndex": 29,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						29,
+						152,
+						193,
+						194
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "魔戒導師・星",
+					"description": "魔戒導師装束の頭・胴・手・脚・足の5部位と魔導球を黒装束の法師から入手し、それらを装備した姿を見せる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c9/c94b51ac5e59a0159d2c779b180cb881ec950b98.png?n5.45",
+					"point": 10,
+					"titleAward": "Makai Astrologian",
+					"iconPath": "~/static/achievementData/img/items/items/c94b51ac5e59a0159d2c779b180cb881ec950b98.png",
+					"url": "/lodestone/playguide/db/achievement/d26ebbb7355/",
+					"isLatestPatch": false,
+					"sourceIndex": 30,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						37,
+						152,
+						193,
+						194
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

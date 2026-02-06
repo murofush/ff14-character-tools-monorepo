@@ -1,0 +1,405 @@
+{
+	"title": "disciples_of_the_land",
+	"categorized": [
+		{
+			"title": "採掘師",
+			"data": [
+				{
+					"title": "採掘師：レベル10",
+					"description": "採掘師のレベルが10に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e0/e01f87a100e95d127de007e5b56d17878afb3ef4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/e01f87a100e95d127de007e5b56d17878afb3ef4.png",
+					"url": "/lodestone/playguide/db/achievement/88339051cbb/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "採掘師：レベル20",
+					"description": "採掘師のレベルが20に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e0/e01f87a100e95d127de007e5b56d17878afb3ef4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/e01f87a100e95d127de007e5b56d17878afb3ef4.png",
+					"url": "/lodestone/playguide/db/achievement/c5c578a1350/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "採掘師：レベル30",
+					"description": "採掘師のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e0/e01f87a100e95d127de007e5b56d17878afb3ef4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/e01f87a100e95d127de007e5b56d17878afb3ef4.png",
+					"url": "/lodestone/playguide/db/achievement/f55413376bf/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "採掘師：レベル40",
+					"description": "採掘師のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e0/e01f87a100e95d127de007e5b56d17878afb3ef4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/e01f87a100e95d127de007e5b56d17878afb3ef4.png",
+					"url": "/lodestone/playguide/db/achievement/603cbb9a986/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "採掘師：レベル50",
+					"description": "採掘師のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e0/e01f87a100e95d127de007e5b56d17878afb3ef4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/e01f87a100e95d127de007e5b56d17878afb3ef4.png",
+					"url": "/lodestone/playguide/db/achievement/a4fada82bb2/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "採掘師：レベル60",
+					"description": "採掘師のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e0/e01f87a100e95d127de007e5b56d17878afb3ef4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/e01f87a100e95d127de007e5b56d17878afb3ef4.png",
+					"url": "/lodestone/playguide/db/achievement/b2e8136f63b/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "採掘師：レベル70",
+					"description": "採掘師のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e0/e01f87a100e95d127de007e5b56d17878afb3ef4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/e01f87a100e95d127de007e5b56d17878afb3ef4.png",
+					"url": "/lodestone/playguide/db/achievement/6dfaf245df6/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "採掘師：レベル80",
+					"description": "採掘師のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e0/e01f87a100e95d127de007e5b56d17878afb3ef4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/e01f87a100e95d127de007e5b56d17878afb3ef4.png",
+					"url": "/lodestone/playguide/db/achievement/f41f4df614c/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "園芸師",
+			"data": [
+				{
+					"title": "園芸師：レベル10",
+					"description": "園芸師のレベルが10に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/db/db96b6d6e1ca33b4faa69c745a1a47784c5e71b2.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/db96b6d6e1ca33b4faa69c745a1a47784c5e71b2.png",
+					"url": "/lodestone/playguide/db/achievement/7fbdf6dadeb/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "園芸師：レベル20",
+					"description": "園芸師のレベルが20に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/db/db96b6d6e1ca33b4faa69c745a1a47784c5e71b2.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/db96b6d6e1ca33b4faa69c745a1a47784c5e71b2.png",
+					"url": "/lodestone/playguide/db/achievement/92ff0cff975/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "園芸師：レベル30",
+					"description": "園芸師のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/db/db96b6d6e1ca33b4faa69c745a1a47784c5e71b2.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/db96b6d6e1ca33b4faa69c745a1a47784c5e71b2.png",
+					"url": "/lodestone/playguide/db/achievement/0895aeb7dbb/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "園芸師：レベル40",
+					"description": "園芸師のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/db/db96b6d6e1ca33b4faa69c745a1a47784c5e71b2.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/db96b6d6e1ca33b4faa69c745a1a47784c5e71b2.png",
+					"url": "/lodestone/playguide/db/achievement/b5a1917315f/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "園芸師：レベル50",
+					"description": "園芸師のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/db/db96b6d6e1ca33b4faa69c745a1a47784c5e71b2.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/db96b6d6e1ca33b4faa69c745a1a47784c5e71b2.png",
+					"url": "/lodestone/playguide/db/achievement/3b85d814800/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "園芸師：レベル60",
+					"description": "園芸師のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/db/db96b6d6e1ca33b4faa69c745a1a47784c5e71b2.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/db96b6d6e1ca33b4faa69c745a1a47784c5e71b2.png",
+					"url": "/lodestone/playguide/db/achievement/2a3b5abf16f/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "園芸師：レベル70",
+					"description": "園芸師のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/db/db96b6d6e1ca33b4faa69c745a1a47784c5e71b2.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/db96b6d6e1ca33b4faa69c745a1a47784c5e71b2.png",
+					"url": "/lodestone/playguide/db/achievement/b1d84122b1d/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "園芸師：レベル80",
+					"description": "園芸師のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/db/db96b6d6e1ca33b4faa69c745a1a47784c5e71b2.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/db96b6d6e1ca33b4faa69c745a1a47784c5e71b2.png",
+					"url": "/lodestone/playguide/db/achievement/b63356f5934/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "漁師",
+			"data": [
+				{
+					"title": "漁師：レベル10",
+					"description": "漁師のレベルが10に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d4/d45c0d65efa217dda4a6274fe9c6ed4fa06f99d0.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/d45c0d65efa217dda4a6274fe9c6ed4fa06f99d0.png",
+					"url": "/lodestone/playguide/db/achievement/f34ed0042a6/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						49
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "漁師：レベル20",
+					"description": "漁師のレベルが20に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d4/d45c0d65efa217dda4a6274fe9c6ed4fa06f99d0.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/d45c0d65efa217dda4a6274fe9c6ed4fa06f99d0.png",
+					"url": "/lodestone/playguide/db/achievement/b016d2d0ab0/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						49
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "漁師：レベル30",
+					"description": "漁師のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d4/d45c0d65efa217dda4a6274fe9c6ed4fa06f99d0.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/d45c0d65efa217dda4a6274fe9c6ed4fa06f99d0.png",
+					"url": "/lodestone/playguide/db/achievement/064e84f1376/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						49
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "漁師：レベル40",
+					"description": "漁師のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d4/d45c0d65efa217dda4a6274fe9c6ed4fa06f99d0.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/d45c0d65efa217dda4a6274fe9c6ed4fa06f99d0.png",
+					"url": "/lodestone/playguide/db/achievement/b951268d06b/",
+					"isLatestPatch": false,
+					"sourceIndex": 19,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						49
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "漁師：レベル50",
+					"description": "漁師のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d4/d45c0d65efa217dda4a6274fe9c6ed4fa06f99d0.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/d45c0d65efa217dda4a6274fe9c6ed4fa06f99d0.png",
+					"url": "/lodestone/playguide/db/achievement/d80ef8db16e/",
+					"isLatestPatch": false,
+					"sourceIndex": 20,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						49
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "漁師：レベル60",
+					"description": "漁師のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d4/d45c0d65efa217dda4a6274fe9c6ed4fa06f99d0.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/d45c0d65efa217dda4a6274fe9c6ed4fa06f99d0.png",
+					"url": "/lodestone/playguide/db/achievement/8c713e1b36d/",
+					"isLatestPatch": false,
+					"sourceIndex": 21,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						49
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "漁師：レベル70",
+					"description": "漁師のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d4/d45c0d65efa217dda4a6274fe9c6ed4fa06f99d0.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/d45c0d65efa217dda4a6274fe9c6ed4fa06f99d0.png",
+					"url": "/lodestone/playguide/db/achievement/5248472119c/",
+					"isLatestPatch": false,
+					"sourceIndex": 22,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						49
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "漁師：レベル80",
+					"description": "漁師のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d4/d45c0d65efa217dda4a6274fe9c6ed4fa06f99d0.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_land/d45c0d65efa217dda4a6274fe9c6ed4fa06f99d0.png",
+					"url": "/lodestone/playguide/db/achievement/1e7d9cace86/",
+					"isLatestPatch": false,
+					"sourceIndex": 23,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						49
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

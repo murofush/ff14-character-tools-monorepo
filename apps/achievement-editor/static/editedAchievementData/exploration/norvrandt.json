@@ -1,0 +1,107 @@
+{
+	"title": "norvrandt",
+	"categorized": [
+		{
+			"title": "ノルヴラント マップ開示",
+			"data": [
+				{
+					"title": "レイクランドを踏破せし者",
+					"description": "レイクランドを踏破し、マップをすべて開示する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/exploration/norvrandt/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png",
+					"url": "/lodestone/playguide/db/achievement/dca434fe3d6/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						146
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "コルシア島を踏破せし者",
+					"description": "コルシア島を踏破し、マップをすべて開示する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/exploration/norvrandt/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png",
+					"url": "/lodestone/playguide/db/achievement/84114f6f591/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						147
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "アム・アレーンを踏破せし者",
+					"description": "アム・アレーンを踏破し、マップをすべて開示する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/exploration/norvrandt/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png",
+					"url": "/lodestone/playguide/db/achievement/564c97608f6/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						148
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "イル・メグを踏破せし者",
+					"description": "イル・メグを踏破し、マップをすべて開示する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/exploration/norvrandt/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png",
+					"url": "/lodestone/playguide/db/achievement/88e0c4b0bbb/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						149
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ラケティカ大森林を踏破せし者",
+					"description": "ラケティカ大森林を踏破し、マップをすべて開示する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/exploration/norvrandt/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png",
+					"url": "/lodestone/playguide/db/achievement/096781c3d10/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						150
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "テンペストを踏破せし者",
+					"description": "テンペストを踏破し、マップをすべて開示する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/exploration/norvrandt/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png",
+					"url": "/lodestone/playguide/db/achievement/a1fdcc0b7ca/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						151
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

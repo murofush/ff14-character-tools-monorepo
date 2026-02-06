@@ -1,0 +1,907 @@
+{
+	"title": "resistance_weapons",
+	"categorized": [
+		{
+			"title": "レジスタンス・ウェポン ナイト",
+			"data": [
+				{
+					"title": "レジスタンス・ウェポン：オナーバウンド＆テナシティ",
+					"description": "オナーバウンドとテナシティを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/49/4987317952ae5947ea1bdab1742d0f3cc02fcef0.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/4987317952ae5947ea1bdab1742d0f3cc02fcef0.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						20,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：オナーバウンド・リコレクション＆テナシティ・リコレクション",
+					"description": "オナーバウンド・リコレクションとテナシティ・リコレクションを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/49/4987317952ae5947ea1bdab1742d0f3cc02fcef0.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/4987317952ae5947ea1bdab1742d0f3cc02fcef0.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						20,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：ジャッジオーダー・バスタードソードRE＆ジャッジオーダー・カイトシールドRE",
+					"description": "ジャッジオーダー・バスタードソードREとジャッジオーダー・カイトシールドREを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5b/5b75d84e7b4d25410acf316cd860b715d7ef5aa4.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/5b75d84e7b4d25410acf316cd860b715d7ef5aa4.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						20,
+						62,
+						193
+					]
+				}
+			]
+		},
+		{
+			"title": "レジスタンス・ウェポン モンク",
+			"data": [
+				{
+					"title": "レジスタンス・ウェポン：サンサーラ",
+					"description": "サンサーラを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1e/1eb48a00ae1e5e659b9369b0e1bbcea1c1819382.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/1eb48a00ae1e5e659b9369b0e1bbcea1c1819382.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						24,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：サンサーラ・リコレクション",
+					"description": "サンサーラ・リコレクションを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1e/1eb48a00ae1e5e659b9369b0e1bbcea1c1819382.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/1eb48a00ae1e5e659b9369b0e1bbcea1c1819382.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						24,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：ジャッジオーダー・ナックルRE",
+					"description": "ジャッジオーダー・ナックルREを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/92/929f504dd7e5241165b629198a0fbefd839b39ce.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/929f504dd7e5241165b629198a0fbefd839b39ce.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						24,
+						62,
+						193
+					]
+				}
+			]
+		},
+		{
+			"title": "レジスタンス・ウェポン 戦士",
+			"data": [
+				{
+					"title": "レジスタンス・ウェポン：スカルレンダー",
+					"description": "スカルレンダーを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ea/ea858310bdb998ac92e0bdd25b1ecb0eeae17e77.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/ea858310bdb998ac92e0bdd25b1ecb0eeae17e77.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						21,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：スカルレンダー・リコレクション",
+					"description": "スカルレンダー・リコレクションを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ea/ea858310bdb998ac92e0bdd25b1ecb0eeae17e77.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/ea858310bdb998ac92e0bdd25b1ecb0eeae17e77.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						21,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：ジャッジオーダー・ラブリュスRE",
+					"description": "ジャッジオーダー・ラブリュスREを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/dd/dd5221e24e2e1db7e0e9114ddddb6f09a7885f21.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/dd5221e24e2e1db7e0e9114ddddb6f09a7885f21.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						21,
+						62,
+						193
+					]
+				}
+			]
+		},
+		{
+			"title": "レジスタンス・ウェポン 竜騎士",
+			"data": [
+				{
+					"title": "レジスタンス・ウェポン：ドライツァック",
+					"description": "ドライツァックを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4d/4dd8b9f36c9f07e0043c4feec14eed22c63d85c0.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/4dd8b9f36c9f07e0043c4feec14eed22c63d85c0.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						25,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：ドライツァック・リコレクション",
+					"description": "ドライツァック・リコレクションを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4d/4dd8b9f36c9f07e0043c4feec14eed22c63d85c0.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/4dd8b9f36c9f07e0043c4feec14eed22c63d85c0.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						25,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：ジャッジオーダー・スピアRE",
+					"description": "ジャッジオーダー・スピアREを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/11/1183a1bc4b1b9ecc09c0e878015fab408b13286c.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/1183a1bc4b1b9ecc09c0e878015fab408b13286c.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						25,
+						62,
+						193
+					]
+				}
+			]
+		},
+		{
+			"title": "レジスタンス・ウェポン 吟遊詩人",
+			"data": [
+				{
+					"title": "レジスタンス・ウェポン：ブリリアンス",
+					"description": "ブリリアンスを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8b/8b53ab3a530719e8a8da43e179ca3dbf4c4cf7b9.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/8b53ab3a530719e8a8da43e179ca3dbf4c4cf7b9.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						28,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：ブリリアンス・リコレクション",
+					"description": "ブリリアンス・リコレクションを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8b/8b53ab3a530719e8a8da43e179ca3dbf4c4cf7b9.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/8b53ab3a530719e8a8da43e179ca3dbf4c4cf7b9.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						28,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：ジャッジオーダー・コンポジットボウRE",
+					"description": "ジャッジオーダー・コンポジットボウREを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/87/87359505eb348b7594380cc678915d4b4846366e.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/87359505eb348b7594380cc678915d4b4846366e.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						28,
+						62,
+						193
+					]
+				}
+			]
+		},
+		{
+			"title": "レジスタンス・ウェポン 忍者",
+			"data": [
+				{
+					"title": "レジスタンス・ウェポン：骨不知",
+					"description": "骨不知を入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/65/6527bddb774b1b7e904fbfbe7a5eecf140404c36.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/6527bddb774b1b7e904fbfbe7a5eecf140404c36.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						26,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：骨不知【記】",
+					"description": "骨不知【記】を入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/65/6527bddb774b1b7e904fbfbe7a5eecf140404c36.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/6527bddb774b1b7e904fbfbe7a5eecf140404c36.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						26,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：ジャッジオーダー・ナイフRE",
+					"description": "ジャッジオーダー・ナイフREを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b0/b0f7becafe4d56db2998e43ae9675343a1e4b526.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/b0f7becafe4d56db2998e43ae9675343a1e4b526.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						26,
+						62,
+						193
+					]
+				}
+			]
+		},
+		{
+			"title": "レジスタンス・ウェポン 白魔道士",
+			"data": [
+				{
+					"title": "レジスタンス・ウェポン：イングリム",
+					"description": "イングリムを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0e/0eb2390c13308fa11aba6dd7abb2d0afbfeda4cf.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/0eb2390c13308fa11aba6dd7abb2d0afbfeda4cf.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						35,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：イングリム・リコレクション",
+					"description": "イングリム・リコレクションを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0e/0eb2390c13308fa11aba6dd7abb2d0afbfeda4cf.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/0eb2390c13308fa11aba6dd7abb2d0afbfeda4cf.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						35,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：ジャッジオーダー・ケーンRE",
+					"description": "ジャッジオーダー・ケーンREを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/70/70c3b9b42f876079d023c5ad0eca419f1c9365f2.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/70c3b9b42f876079d023c5ad0eca419f1c9365f2.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						35,
+						62,
+						193
+					]
+				}
+			]
+		},
+		{
+			"title": "レジスタンス・ウェポン 黒魔道士",
+			"data": [
+				{
+					"title": "レジスタンス・ウェポン：ソウルスカージ",
+					"description": "ソウルスカージを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/97/9727cdb82cab1450dbe25637c6d7ffb5cc0abda1.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/9727cdb82cab1450dbe25637c6d7ffb5cc0abda1.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						31,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：ソウルスカージ・リコレクション",
+					"description": "ソウルスカージ・リコレクションを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/97/9727cdb82cab1450dbe25637c6d7ffb5cc0abda1.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/9727cdb82cab1450dbe25637c6d7ffb5cc0abda1.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						31,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：ジャッジオーダー・ロッドRE",
+					"description": "ジャッジオーダー・ロッドREを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2b/2b15583af6ac4b14dabe8a9d2fa5b6ebdff8976a.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/2b15583af6ac4b14dabe8a9d2fa5b6ebdff8976a.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						31,
+						62,
+						193
+					]
+				}
+			]
+		},
+		{
+			"title": "レジスタンス・ウェポン 召喚士",
+			"data": [
+				{
+					"title": "レジスタンス・ウェポン：エスピリトゥス",
+					"description": "エスピリトゥスを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/94/9455f4d7ffd110770a6473ca3e03c60df216c399.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/9455f4d7ffd110770a6473ca3e03c60df216c399.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						32,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：アカデモス・リコレクション",
+					"description": "アカデモス・リコレクションを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3e/3e54773b10fdba6f4ef52871fdd1e6112b63835f.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/3e54773b10fdba6f4ef52871fdd1e6112b63835f.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						32,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：ジャッジオーダー・インデックスRE",
+					"description": "ジャッジオーダー・インデックスREを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1a/1a5966163a83782d2152a0b29c30b0e3798dc0a7.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/1a5966163a83782d2152a0b29c30b0e3798dc0a7.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						32,
+						62,
+						193
+					]
+				}
+			]
+		},
+		{
+			"title": "レジスタンス・ウェポン 学者",
+			"data": [
+				{
+					"title": "レジスタンス・ウェポン：アカデモス",
+					"description": "アカデモスを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3e/3e54773b10fdba6f4ef52871fdd1e6112b63835f.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/3e54773b10fdba6f4ef52871fdd1e6112b63835f.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						36,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：アカデモス・リコレクション",
+					"description": "アカデモス・リコレクションを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3e/3e54773b10fdba6f4ef52871fdd1e6112b63835f.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/3e54773b10fdba6f4ef52871fdd1e6112b63835f.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						36,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：ジャッジオーダー・コーデックスRE",
+					"description": "ジャッジオーダー・コーデックスREを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7e/7edddd34e993b6d9d5854a59d9964f82bafa69a9.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/7edddd34e993b6d9d5854a59d9964f82bafa69a9.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						36,
+						62,
+						193
+					]
+				}
+			]
+		},
+		{
+			"title": "レジスタンス・ウェポン 暗黒騎士",
+			"data": [
+				{
+					"title": "レジスタンス・ウェポン：ウォウボーン",
+					"description": "ウォウボーンを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/05/05d547d68ae26eb9e5100a497d1fe051d81d0efa.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/05d547d68ae26eb9e5100a497d1fe051d81d0efa.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						22,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：ウォウボーン・リコレクション",
+					"description": "ウォウボーン・リコレクションを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/05/05d547d68ae26eb9e5100a497d1fe051d81d0efa.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/05d547d68ae26eb9e5100a497d1fe051d81d0efa.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						22,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：ジャッジオーダー・ツヴァイハンダーRE",
+					"description": "ジャッジオーダー・ツヴァイハンダーREを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b8/b8d1a9d36a93be16699dcb106fa1f767ca56285b.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/b8d1a9d36a93be16699dcb106fa1f767ca56285b.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						22,
+						62,
+						193
+					]
+				}
+			]
+		},
+		{
+			"title": "レジスタンス・ウェポン 機工士",
+			"data": [
+				{
+					"title": "レジスタンス・ウェポン：ローマン",
+					"description": "ローマンを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/66/66e81c46798810f786c9360184a8a5933bceeb8c.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/66e81c46798810f786c9360184a8a5933bceeb8c.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						29,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：ローマン・リコレクション",
+					"description": "ローマン・リコレクションを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/66/66e81c46798810f786c9360184a8a5933bceeb8c.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/66e81c46798810f786c9360184a8a5933bceeb8c.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						29,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：ジャッジオーダー・リボルバーRE",
+					"description": "ジャッジオーダー・リボルバーREを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fd/fda905ac66bd150e59a158680065f86643a58b13.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/fda905ac66bd150e59a158680065f86643a58b13.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						29,
+						62,
+						193
+					]
+				}
+			]
+		},
+		{
+			"title": "レジスタンス・ウェポン 占星術師",
+			"data": [
+				{
+					"title": "レジスタンス・ウェポン：ソールスティス",
+					"description": "ソールスティスを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/47/4729c3047414a174037a7048d9489cc85a9e65ec.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/4729c3047414a174037a7048d9489cc85a9e65ec.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						37,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：ソールスティス・リコレクション",
+					"description": "ソールスティス・リコレクションを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/47/4729c3047414a174037a7048d9489cc85a9e65ec.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/4729c3047414a174037a7048d9489cc85a9e65ec.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						37,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：ジャッジオーダー・アストロメーターRE",
+					"description": "ジャッジオーダー・アストロメーターREを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0e/0e7ccb745810e60aca30a4ba68e8ff02698c0c17.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/0e7ccb745810e60aca30a4ba68e8ff02698c0c17.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						37,
+						62,
+						193
+					]
+				}
+			]
+		},
+		{
+			"title": "レジスタンス・ウェポン 侍",
+			"data": [
+				{
+					"title": "レジスタンス・ウェポン：星切",
+					"description": "星切を入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/06/064d53ec8b6dfdd581438012adbdf5ef3cc4e127.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/064d53ec8b6dfdd581438012adbdf5ef3cc4e127.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						27,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：星切【記】",
+					"description": "星切【記】を入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/06/064d53ec8b6dfdd581438012adbdf5ef3cc4e127.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/064d53ec8b6dfdd581438012adbdf5ef3cc4e127.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						27,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：ジャッジオーダー・サムライブレードRE",
+					"description": "ジャッジオーダー・サムライブレードREを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/09/0991c1c05a4ba71e7af8729c7ca763e5ff18a2e9.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/0991c1c05a4ba71e7af8729c7ca763e5ff18a2e9.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						27,
+						62,
+						193
+					]
+				}
+			]
+		},
+		{
+			"title": "レジスタンス・ウェポン 赤魔道士",
+			"data": [
+				{
+					"title": "レジスタンス・ウェポン：テイルキーパー",
+					"description": "テイルキーパーを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/01/01136c00c0dcd74512b1a2ff543482b1b55c3985.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/01136c00c0dcd74512b1a2ff543482b1b55c3985.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						33,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：テイルキーパー・リコレクション",
+					"description": "テイルキーパー・リコレクションを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/01/01136c00c0dcd74512b1a2ff543482b1b55c3985.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/01136c00c0dcd74512b1a2ff543482b1b55c3985.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						33,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：ジャッジオーダー・レイピアRE",
+					"description": "ジャッジオーダー・レイピアREを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/68/6882e63e4938ccdd23acd97033ee40b6bc301375.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/6882e63e4938ccdd23acd97033ee40b6bc301375.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						33,
+						62,
+						193
+					]
+				}
+			]
+		},
+		{
+			"title": "レジスタンス・ウェポン ガンブレイカー",
+			"data": [
+				{
+					"title": "レジスタンス・ウェポン：クラウンブレード",
+					"description": "クラウンブレードを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/53/5375257f19b68b988f116ab7e48b275a528ed9ef.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/5375257f19b68b988f116ab7e48b275a528ed9ef.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						23,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：クラウンブレード・リコレクション",
+					"description": "クラウンブレード・リコレクションを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/53/5375257f19b68b988f116ab7e48b275a528ed9ef.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/5375257f19b68b988f116ab7e48b275a528ed9ef.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						23,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：ジャッジオーダー・マナトリガーRE",
+					"description": "ジャッジオーダー・マナトリガーREを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c3/c3d01404d602ac4123a19483ea39cb324435ab0b.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/c3d01404d602ac4123a19483ea39cb324435ab0b.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						23,
+						62,
+						193
+					]
+				}
+			]
+		},
+		{
+			"title": "レジスタンス・ウェポン 踊り子",
+			"data": [
+				{
+					"title": "レジスタンス・ウェポン：エンチュフラ",
+					"description": "エンチュフラを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/34/34e60216a98b3ebd840e9d7fd298d91497ec40d2.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/34e60216a98b3ebd840e9d7fd298d91497ec40d2.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						30,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：エンチュフラ・リコレクション",
+					"description": "エンチュフラ・リコレクションを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/34/34e60216a98b3ebd840e9d7fd298d91497ec40d2.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/34e60216a98b3ebd840e9d7fd298d91497ec40d2.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						30,
+						62,
+						193
+					]
+				},
+				{
+					"title": "レジスタンス・ウェポン：ジャッジオーダー・チャクラムRE",
+					"description": "ジャッジオーダー・チャクラムREを入手する",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/6e/6e7a1f248fd8764c2cd71dcf129c3098d3196599.png?n5.45",
+					"iconPath": "~/static/achievementData/img/items/resistance_weapons/6e7a1f248fd8764c2cd71dcf129c3098d3196599.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						30,
+						62,
+						193
+					]
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

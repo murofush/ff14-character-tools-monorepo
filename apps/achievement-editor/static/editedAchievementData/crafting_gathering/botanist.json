@@ -1,0 +1,817 @@
+{
+	"title": "botanist",
+	"categorized": [
+		{
+			"title": "園芸師 ラノシア 採集回数",
+			"data": [
+				{
+					"title": "ラノシアの伐採名人：グレード1",
+					"description": "ラノシアのレベル1-10のポイントで20回伐採・草刈を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/86/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png",
+					"url": "/lodestone/playguide/db/achievement/2a0454fffb2/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						50
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ラノシアの伐採名人：グレード2",
+					"description": "ラノシアのレベル11-20のポイントで300回伐採・草刈を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/86/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png",
+					"url": "/lodestone/playguide/db/achievement/8e66d6ae5f6/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						50
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ラノシアの伐採名人：グレード3",
+					"description": "ラノシアのレベル21-30のポイントで1,000回伐採・草刈を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/86/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png",
+					"url": "/lodestone/playguide/db/achievement/c4e5af871c0/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						50
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ラノシアの伐採名人：グレード4",
+					"description": "ラノシアのレベル31-40のポイントで2,000回伐採・草刈を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/86/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png",
+					"url": "/lodestone/playguide/db/achievement/8b5b563a757/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						50
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ラノシアの伐採名人：グレード5",
+					"description": "ラノシアのレベル41-50のポイントで4,000回伐採・草刈を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/86/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png",
+					"url": "/lodestone/playguide/db/achievement/def65a3cd39/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						50
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ラノシアの伐採王",
+					"description": "アチーブメント「ラノシアの伐採名人：グレード1」～「ラノシアの伐採名人：グレード5」までをすべて達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4b/4b2c629a7f3aa5739bd9911272af316483a5a913.png?n5.45",
+					"point": 10,
+					"titleAward": "La Noscea Logger",
+					"awardCondition": [
+						"ラノシアの伐採名人：グレード1",
+						"ラノシアの伐採名人：グレード2",
+						"ラノシアの伐採名人：グレード3",
+						"ラノシアの伐採名人：グレード4",
+						"ラノシアの伐採名人：グレード5"
+					],
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/4b2c629a7f3aa5739bd9911272af316483a5a913.png",
+					"url": "/lodestone/playguide/db/achievement/33554655759/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						50
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "園芸師 黒衣森 採集回数",
+			"data": [
+				{
+					"title": "黒衣森の伐採名人：グレード1",
+					"description": "黒衣森のレベル1-10のポイントで20回伐採・草刈を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/86/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png",
+					"url": "/lodestone/playguide/db/achievement/2e3544e491f/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						51
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黒衣森の伐採名人：グレード2",
+					"description": "黒衣森のレベル11-20のポイントで300回伐採・草刈を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/86/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png",
+					"url": "/lodestone/playguide/db/achievement/aeac5ba1c0c/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						51
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黒衣森の伐採名人：グレード3",
+					"description": "黒衣森のレベル21-30のポイントで1,000回伐採・草刈を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/86/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png",
+					"url": "/lodestone/playguide/db/achievement/938b250883e/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						51
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黒衣森の伐採名人：グレード4",
+					"description": "黒衣森のレベル31-40のポイントで2,000回伐採・草刈を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/86/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png",
+					"url": "/lodestone/playguide/db/achievement/0f2e53993a1/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						51
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黒衣森の伐採名人：グレード5",
+					"description": "黒衣森のレベル41-50のポイントで4,000回伐採・草刈を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/86/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png",
+					"url": "/lodestone/playguide/db/achievement/de9e98d8b04/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						51
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黒衣森の伐採王",
+					"description": "アチーブメント「黒衣森の伐採名人：グレード1」～「黒衣森の伐採名人：グレード5」までをすべて達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4b/4b2c629a7f3aa5739bd9911272af316483a5a913.png?n5.45",
+					"point": 10,
+					"titleAward": "Shroud Logger",
+					"awardCondition": [
+						"黒衣森の伐採名人：グレード1",
+						"黒衣森の伐採名人：グレード2",
+						"黒衣森の伐採名人：グレード3",
+						"黒衣森の伐採名人：グレード4",
+						"黒衣森の伐採名人：グレード5"
+					],
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/4b2c629a7f3aa5739bd9911272af316483a5a913.png",
+					"url": "/lodestone/playguide/db/achievement/5d0707b3493/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						51
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "園芸師 ザナラーン 採集回数",
+			"data": [
+				{
+					"title": "ザナラーンの伐採名人：グレード1",
+					"description": "ザナラーンのレベル1-10のポイントで20回伐採・草刈を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/86/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png",
+					"url": "/lodestone/playguide/db/achievement/7b76c49691a/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						51
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ザナラーンの伐採名人：グレード2",
+					"description": "ザナラーンのレベル11-20のポイントで300回伐採・草刈を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/86/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png",
+					"url": "/lodestone/playguide/db/achievement/92cfd82dee8/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						51
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ザナラーンの伐採名人：グレード3",
+					"description": "ザナラーンのレベル21-30のポイントで1,000回伐採・草刈を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/86/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png",
+					"url": "/lodestone/playguide/db/achievement/4a89928e0d0/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						51
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ザナラーンの伐採名人：グレード4",
+					"description": "ザナラーンのレベル31-40のポイントで2,000回伐採・草刈を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/86/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png",
+					"url": "/lodestone/playguide/db/achievement/02961afafe0/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						51
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ザナラーンの伐採名人：グレード5",
+					"description": "ザナラーンのレベル41-50のポイントで4,000回伐採・草刈を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/86/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png",
+					"url": "/lodestone/playguide/db/achievement/e3d01a8c31c/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						51
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ザナラーンの伐採王",
+					"description": "アチーブメント「ザナラーンの伐採名人：グレード1」～「ザナラーンの伐採名人：グレード5」までをすべて達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4b/4b2c629a7f3aa5739bd9911272af316483a5a913.png?n5.45",
+					"point": 10,
+					"titleAward": "Thanalan Logger",
+					"awardCondition": [
+						"ザナラーンの伐採名人：グレード1",
+						"ザナラーンの伐採名人：グレード2",
+						"ザナラーンの伐採名人：グレード3",
+						"ザナラーンの伐採名人：グレード4",
+						"ザナラーンの伐採名人：グレード5"
+					],
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/4b2c629a7f3aa5739bd9911272af316483a5a913.png",
+					"url": "/lodestone/playguide/db/achievement/cce5701b511/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						51
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "園芸師 地域別 採集回数",
+			"data": [
+				{
+					"title": "黄金の手斧",
+					"description": "アチーブメント「ラノシアの伐採王」「黒衣森の伐採王」「ザナラーンの伐採王」をすべて達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f9/f939364b3fb9946d43cb505b2040d23d2612faee.png?n5.45",
+					"point": 30,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/3404f646644/",
+					"itemAward": "ルミナリーアクス",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f9/f939364b3fb9946d43cb505b2040d23d2612faee.png?n5.45",
+					"awardCondition": [
+						"ラノシアの伐採王",
+						"黒衣森の伐採王",
+						"ザナラーンの伐採王"
+					],
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/f939364b3fb9946d43cb505b2040d23d2612faee.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/botanist/f939364b3fb9946d43cb505b2040d23d2612faee.png",
+					"url": "/lodestone/playguide/db/achievement/8873dddaaed/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						50,
+						51,
+						52
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天の伐採名人",
+					"description": "レベル51-60のポイントで5,000回伐採・草刈を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/86/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png",
+					"url": "/lodestone/playguide/db/achievement/4cb855dc7ef/",
+					"isLatestPatch": false,
+					"sourceIndex": 19,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						128,
+						129,
+						130,
+						132,
+						133,
+						134
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "紅蓮の伐採名人",
+					"description": "レベル61-70のポイントで5,000回伐採・草刈を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/86/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png",
+					"url": "/lodestone/playguide/db/achievement/f0ba10e5ec3/",
+					"isLatestPatch": false,
+					"sourceIndex": 20,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						54,
+						55
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "漆黒の伐採名人",
+					"description": "レベル71-80のポイントで5,000回伐採・草刈を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/86/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/8661ef41368512bb25aef6298eb2c1a9023fc1ab.png",
+					"url": "/lodestone/playguide/db/achievement/77152f4efbb/",
+					"isLatestPatch": false,
+					"sourceIndex": 21,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						56
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "園芸師 採集手帳 種類数",
+			"data": [
+				{
+					"title": "手帳好きの園芸師：ランク1",
+					"description": "園芸師でのみ採集可能アイテムのうち、25種類を採集し、採集手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d0/d0d28be1c62f1f4e982b7c97b41e796fbd7ee60f.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/d0d28be1c62f1f4e982b7c97b41e796fbd7ee60f.png",
+					"url": "/lodestone/playguide/db/achievement/edadd398e41/",
+					"isLatestPatch": false,
+					"sourceIndex": 22,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの園芸師：ランク2",
+					"description": "園芸師でのみ採集可能アイテムのうち、50種類を採集し、採集手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d0/d0d28be1c62f1f4e982b7c97b41e796fbd7ee60f.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/d0d28be1c62f1f4e982b7c97b41e796fbd7ee60f.png",
+					"url": "/lodestone/playguide/db/achievement/70a356c3e76/",
+					"isLatestPatch": false,
+					"sourceIndex": 23,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの園芸師：ランク3",
+					"description": "園芸師でのみ採集可能アイテムのうち、100種類を採集し、採集手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d0/d0d28be1c62f1f4e982b7c97b41e796fbd7ee60f.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/39a7b908a41/",
+					"itemAward": "マスターカッターリング",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/16/167d15a3d3299f3c01f92f132dae0ad4c7ce7fc5.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/d0d28be1c62f1f4e982b7c97b41e796fbd7ee60f.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/botanist/167d15a3d3299f3c01f92f132dae0ad4c7ce7fc5.png",
+					"url": "/lodestone/playguide/db/achievement/68a9c933d45/",
+					"isLatestPatch": false,
+					"sourceIndex": 24,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの園芸師：ランク4",
+					"description": "園芸師でのみ採集可能アイテムのうち、150種類を採集し、採集手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d0/d0d28be1c62f1f4e982b7c97b41e796fbd7ee60f.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/d0d28be1c62f1f4e982b7c97b41e796fbd7ee60f.png",
+					"url": "/lodestone/playguide/db/achievement/7214306162b/",
+					"isLatestPatch": false,
+					"sourceIndex": 25,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "手帳好きの園芸師：ランク5",
+					"description": "園芸師でのみ採集可能アイテムのうち、230種類を採集し、採集手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d0/d0d28be1c62f1f4e982b7c97b41e796fbd7ee60f.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/f83bcd85d16/",
+					"itemAward": "ブレスド・フィールドキープハチェット",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/62/622388b1ce9e20116ab39a112f8a39204d1b1db2.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/d0d28be1c62f1f4e982b7c97b41e796fbd7ee60f.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/botanist/622388b1ce9e20116ab39a112f8a39204d1b1db2.png",
+					"url": "/lodestone/playguide/db/achievement/147a27e6dac/",
+					"isLatestPatch": false,
+					"sourceIndex": 26,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "手帳好きの園芸師：ランク6",
+					"description": "園芸師でのみ採集可能アイテムのうち、280種類を採集し、採集手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d0/d0d28be1c62f1f4e982b7c97b41e796fbd7ee60f.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/16e997b1a39/",
+					"itemAward": "ブレスド・フィールドキングハチェット",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a8/a89d6944b23e60f080ec7f98ffe34a457392bd5b.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/d0d28be1c62f1f4e982b7c97b41e796fbd7ee60f.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/botanist/a89d6944b23e60f080ec7f98ffe34a457392bd5b.png",
+					"url": "/lodestone/playguide/db/achievement/3039fb99f7b/",
+					"isLatestPatch": false,
+					"sourceIndex": 27,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "手帳好きの園芸師：ランク７",
+					"description": "園芸師でのみ採集可能アイテムのうち、340種類を採集し、採集手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d0/d0d28be1c62f1f4e982b7c97b41e796fbd7ee60f.png?n5.5",
+					"point": 10,
+					"isLatestPatch": true,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/4614ae21c6a/",
+					"itemAward": "リスプレンデント・フィールドフィーンドハチェット",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/73/73b6befc7cb8b3b1b0cf963863034a39f90e0ee0.png?n5.5",
+					"mustBeUpdated": true,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/d0d28be1c62f1f4e982b7c97b41e796fbd7ee60f.png",
+					"itemAwardImagePath": "~/static/achievementData/img/crafting_gathering/botanist/item/73b6befc7cb8b3b1b0cf963863034a39f90e0ee0.png",
+					"url": "/lodestone/playguide/db/achievement/367c39b01e0/",
+					"sourceIndex": 28,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "園芸師 HQ 採集回数",
+			"data": [
+				{
+					"title": "腕利きの園芸師：ランク1",
+					"description": "園芸師でHQアイテムを計300回採集する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5e/5e2b34105ab0c3546b63033228d2a1722cd5de37.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/5e2b34105ab0c3546b63033228d2a1722cd5de37.png",
+					"url": "/lodestone/playguide/db/achievement/9f10f8f881e/",
+					"isLatestPatch": false,
+					"sourceIndex": 29,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの園芸師：ランク2",
+					"description": "園芸師でHQアイテムを計1,500回採集する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5e/5e2b34105ab0c3546b63033228d2a1722cd5de37.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/5e2b34105ab0c3546b63033228d2a1722cd5de37.png",
+					"url": "/lodestone/playguide/db/achievement/b1717c96777/",
+					"isLatestPatch": false,
+					"sourceIndex": 30,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの園芸師：ランク3",
+					"description": "園芸師でHQアイテムを計10,000回採集する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5e/5e2b34105ab0c3546b63033228d2a1722cd5de37.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/5e2b34105ab0c3546b63033228d2a1722cd5de37.png",
+					"url": "/lodestone/playguide/db/achievement/e1be91c9112/",
+					"isLatestPatch": false,
+					"sourceIndex": 31,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの園芸師：ランク4",
+					"description": "園芸師でHQアイテムを計20,000回採集する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5e/5e2b34105ab0c3546b63033228d2a1722cd5de37.png?n5.45",
+					"point": 10,
+					"titleAward": "Master Harvester",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/5e2b34105ab0c3546b63033228d2a1722cd5de37.png",
+					"url": "/lodestone/playguide/db/achievement/dbdbf68b59a/",
+					"isLatestPatch": false,
+					"sourceIndex": 32,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "園芸師 イシュガルド復興 技巧点",
+			"data": [
+				{
+					"title": "蒼天街の園芸師：ランク1",
+					"description": "イシュガルド復興において、園芸師で技巧点を50,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3b/3b5a9c260eebb753105054bf39ea66c2bc0bb9d7.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/3b5a9c260eebb753105054bf39ea66c2bc0bb9d7.png",
+					"url": "/lodestone/playguide/db/achievement/fab3947378b/",
+					"isLatestPatch": false,
+					"sourceIndex": 33,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天街の園芸師：ランク2",
+					"description": "イシュガルド復興において、園芸師で技巧点を150,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3b/3b5a9c260eebb753105054bf39ea66c2bc0bb9d7.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/3b5a9c260eebb753105054bf39ea66c2bc0bb9d7.png",
+					"url": "/lodestone/playguide/db/achievement/e9427d4fe13/",
+					"isLatestPatch": false,
+					"sourceIndex": 34,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天街の園芸マスター",
+					"description": "イシュガルド復興において、園芸師で技巧点を500,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3b/3b5a9c260eebb753105054bf39ea66c2bc0bb9d7.png?n5.45",
+					"point": 10,
+					"titleAward": "Hatchet of the Firmament",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/3b5a9c260eebb753105054bf39ea66c2bc0bb9d7.png",
+					"url": "/lodestone/playguide/db/achievement/f8dc862ae6a/",
+					"isLatestPatch": false,
+					"sourceIndex": 35,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						78
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "園芸師 イシュガルド復興 幻 採集回数",
+			"data": [
+				{
+					"title": "幻の園芸師：ランク1",
+					"description": "園芸師で幻の採集場所で50回伐採・草刈を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0d/0ddb50c67d09fd471615f741292ee741e0a466a1.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/0ddb50c67d09fd471615f741292ee741e0a466a1.png",
+					"url": "/lodestone/playguide/db/achievement/f780b90a1e6/",
+					"isLatestPatch": false,
+					"sourceIndex": 36,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "幻の園芸師：ランク2",
+					"description": "園芸師で幻の採集場所で500回伐採・草刈を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0d/0ddb50c67d09fd471615f741292ee741e0a466a1.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/0ddb50c67d09fd471615f741292ee741e0a466a1.png",
+					"url": "/lodestone/playguide/db/achievement/5b310f4f791/",
+					"isLatestPatch": false,
+					"sourceIndex": 37,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "幻の園芸師：ランク3",
+					"description": "園芸師で幻の採集場所で1,000回伐採・草刈を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0d/0ddb50c67d09fd471615f741292ee741e0a466a1.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/0ddb50c67d09fd471615f741292ee741e0a466a1.png",
+					"url": "/lodestone/playguide/db/achievement/5fa10e092a7/",
+					"isLatestPatch": false,
+					"sourceIndex": 38,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						78
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "園芸師 イシュガルド復興 高難易度レシピ向けアイテム 検品数",
+			"data": [
+				{
+					"title": "ニューネスト居住区の園芸師",
+					"description": "第二次復興事業計画用の、園芸師が採集する高難易度レシピ向けアイテムを50,000個検品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/86/8681f575105ab2aecebe233ab891afa334d0d1de.png?n5.45",
+					"point": 10,
+					"titleAward": "the Nest's Own Botanist",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/8681f575105ab2aecebe233ab891afa334d0d1de.png",
+					"url": "/lodestone/playguide/db/achievement/847af36ec05/",
+					"isLatestPatch": false,
+					"sourceIndex": 39,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						78
+					],
+					"adjustmentPatchId": 80
+				},
+				{
+					"title": "フェザーフォール商業区の園芸師",
+					"description": "第三次復興事業計画用の、園芸師が採集する高難易度レシピ向けアイテムを50,000個検品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3c/3c04eb46d236718af2cc40eae9016421f7d10cb4.png?n5.45",
+					"point": 10,
+					"titleAward": "Featherfall's Finest Botanist",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/3c04eb46d236718af2cc40eae9016421f7d10cb4.png",
+					"url": "/lodestone/playguide/db/achievement/50cbcf69a32/",
+					"isLatestPatch": false,
+					"sourceIndex": 40,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						78
+					],
+					"adjustmentPatchId": 83
+				},
+				{
+					"title": "リズンソング文化区の園芸師",
+					"description": "第四次復興事業計画用の、園芸師が採集する高難易度レシピ向けアイテムを50,000個検品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/25/257740078950cf42bbd9dfb60e699e8c5e763d43.png?n5.45",
+					"point": 10,
+					"isLatestPatch": true,
+					"titleAward": "the Risensung Botanist",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/botanist/257740078950cf42bbd9dfb60e699e8c5e763d43.png",
+					"url": "/lodestone/playguide/db/achievement/e83563df5be/",
+					"sourceIndex": 41,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						78
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

@@ -1,0 +1,27 @@
+{
+	"title": "mor_dhona",
+	"categorized": [
+		{
+			"title": "モードゥナ マップ開示",
+			"data": [
+				{
+					"title": "モードゥナに到達せし者",
+					"description": "モードゥナに到達し、マップを開示する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/exploration/mor_dhona/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png",
+					"url": "/lodestone/playguide/db/achievement/6772ddb404b/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						125
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

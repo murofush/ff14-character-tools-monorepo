@@ -1,0 +1,108 @@
+{
+	"title": "exploration",
+	"categorized": [
+		{
+			"title": "エーテライト/エーテリアルゲート 到達",
+			"data": [
+				{
+					"title": "ラノシアの旅人",
+					"description": "ラノシアにあるすべてのエーテライトとエーテリアルゲート（合計19カ所）に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/79/79fa35303d8d6e37a6d701b27a9a757254ebb68c.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/exploration/79fa35303d8d6e37a6d701b27a9a757254ebb68c.png",
+					"url": "/lodestone/playguide/db/achievement/5b1756de297/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黒衣森の旅人",
+					"description": "黒衣森にあるすべてのエーテライトとエーテリアルゲート（合計23カ所）に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/79/79fa35303d8d6e37a6d701b27a9a757254ebb68c.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/exploration/79fa35303d8d6e37a6d701b27a9a757254ebb68c.png",
+					"url": "/lodestone/playguide/db/achievement/64813ca8e9d/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ザナラーンの旅人",
+					"description": "ザナラーンにあるすべてのエーテライトとエーテリアルゲート（合計22カ所）に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/79/79fa35303d8d6e37a6d701b27a9a757254ebb68c.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/exploration/79fa35303d8d6e37a6d701b27a9a757254ebb68c.png",
+					"url": "/lodestone/playguide/db/achievement/f1528c37936/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "クルザスの旅人",
+					"description": "クルザスにあるすべてのエーテライトとエーテリアルゲート（合計19カ所）に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/79/79fa35303d8d6e37a6d701b27a9a757254ebb68c.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/exploration/79fa35303d8d6e37a6d701b27a9a757254ebb68c.png",
+					"url": "/lodestone/playguide/db/achievement/c17121c423a/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "モードゥナの旅人",
+					"description": "モードゥナにある指定のエーテライトとエーテリアルゲート（合計4カ所）に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/79/79fa35303d8d6e37a6d701b27a9a757254ebb68c.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/exploration/79fa35303d8d6e37a6d701b27a9a757254ebb68c.png",
+					"url": "/lodestone/playguide/db/achievement/70d5897e8b5/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "旅神オシュオンに愛されし者",
+					"description": "アチーブメント「ラノシアの旅人」「黒衣森の旅人」「ザナラーンの旅人」「クルザスの旅人」「モードゥナの旅人」をすべて達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c7/c75d5fed334daf4876c4edea6a437fdd0734662e.png?n5.45",
+					"point": 10,
+					"titleAward": "Oschon's Saint",
+					"iconPath": "~/static/achievementData/img/legacy/exploration/c75d5fed334daf4876c4edea6a437fdd0734662e.png",
+					"url": "/lodestone/playguide/db/achievement/47ae9981b45/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

@@ -1,0 +1,207 @@
+{
+	"title": "rival_wings",
+	"categorized": [
+		{
+			"title": "ライバルウィングズ 参戦数",
+			"data": [
+				{
+					"title": "勇猛なる翼：ランク1",
+					"description": "ライバルウィングズに初めて参加する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/57/579c906187d8002f4665f82c0e9bfb895f8d357f.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/rival_wings/579c906187d8002f4665f82c0e9bfb895f8d357f.png",
+					"url": "/lodestone/playguide/db/achievement/66c940be102/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						158
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勇猛なる翼：ランク2",
+					"description": "ライバルウィングズに50回参戦する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/57/579c906187d8002f4665f82c0e9bfb895f8d357f.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/rival_wings/579c906187d8002f4665f82c0e9bfb895f8d357f.png",
+					"url": "/lodestone/playguide/db/achievement/88e04dda063/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						158
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勇猛なる翼：ランク3",
+					"description": "ライバルウィングズに100回参戦する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/57/579c906187d8002f4665f82c0e9bfb895f8d357f.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/rival_wings/579c906187d8002f4665f82c0e9bfb895f8d357f.png",
+					"url": "/lodestone/playguide/db/achievement/6291d081df7/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						158
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勇猛なる翼：ランク4",
+					"description": "ライバルウィングズに500回参戦する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/57/579c906187d8002f4665f82c0e9bfb895f8d357f.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/pvp/rival_wings/579c906187d8002f4665f82c0e9bfb895f8d357f.png",
+					"url": "/lodestone/playguide/db/achievement/f375b4e3291/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						158
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勇猛なる翼：ランク5",
+					"description": "ライバルウィングズに1,000回参戦する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/57/579c906187d8002f4665f82c0e9bfb895f8d357f.png?n5.45",
+					"point": 20,
+					"titleAward": "Wings of Steel",
+					"iconPath": "~/static/achievementData/img/pvp/rival_wings/579c906187d8002f4665f82c0e9bfb895f8d357f.png",
+					"url": "/lodestone/playguide/db/achievement/8f10d6b0662/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						158
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "ライバルウィングズ 勝利数",
+			"data": [
+				{
+					"title": "凱旋せし翼：ランク1",
+					"description": "ライバルウィングズで初めて勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f3/f3afff6d9bb48bd0055765357a55d4420be06655.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/rival_wings/f3afff6d9bb48bd0055765357a55d4420be06655.png",
+					"url": "/lodestone/playguide/db/achievement/da36be4e503/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						158
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "凱旋せし翼：ランク2",
+					"description": "ライバルウィングズで50回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f3/f3afff6d9bb48bd0055765357a55d4420be06655.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/rival_wings/f3afff6d9bb48bd0055765357a55d4420be06655.png",
+					"url": "/lodestone/playguide/db/achievement/55f210c62bd/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						158
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "凱旋せし翼：ランク3",
+					"description": "ライバルウィングズで100回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f3/f3afff6d9bb48bd0055765357a55d4420be06655.png?n5.45",
+					"point": 5,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/dd633bb5cf6/",
+					"itemAward": "魔導アヴェンジャー騎乗型認証鍵",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/cf/cff6637fdb1586c6fa598bf34328bb1e5a59bef2.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/rival_wings/f3afff6d9bb48bd0055765357a55d4420be06655.png",
+					"itemAwardImagePath": "~/static/achievementData/img/pvp/rival_wings/item/cff6637fdb1586c6fa598bf34328bb1e5a59bef2.png",
+					"url": "/lodestone/playguide/db/achievement/0c341d7291f/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						158
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "凱旋せし翼：ランク4",
+					"description": "ライバルウィングズで500回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f3/f3afff6d9bb48bd0055765357a55d4420be06655.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/pvp/rival_wings/f3afff6d9bb48bd0055765357a55d4420be06655.png",
+					"url": "/lodestone/playguide/db/achievement/ba3c36a4f12/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						158
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "凱旋せし翼：ランク5",
+					"description": "ライバルウィングズで1,000回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f3/f3afff6d9bb48bd0055765357a55d4420be06655.png?n5.45",
+					"point": 20,
+					"titleAward": "Wings of Fire",
+					"iconPath": "~/static/achievementData/img/pvp/rival_wings/f3afff6d9bb48bd0055765357a55d4420be06655.png",
+					"url": "/lodestone/playguide/db/achievement/e4fc0817410/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						158
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "ヒドゥンゴージ機工戦 勝利数",
+			"data": [
+				{
+					"title": "隠塞の翼",
+					"description": "ヒドゥンゴージ（機工戦）で100回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f3/f3afff6d9bb48bd0055765357a55d4420be06655.png?n5.45",
+					"point": 5,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/771c858150a/",
+					"itemAward": "魔導アヴェンジャー寒冷地仕様認証鍵",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/cf/cff6637fdb1586c6fa598bf34328bb1e5a59bef2.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/rival_wings/f3afff6d9bb48bd0055765357a55d4420be06655.png",
+					"itemAwardImagePath": "~/static/achievementData/img/pvp/rival_wings/item/cff6637fdb1586c6fa598bf34328bb1e5a59bef2.png",
+					"url": "/lodestone/playguide/db/achievement/d3fecae38bb/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						158
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

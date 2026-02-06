@@ -1,0 +1,107 @@
+{
+	"title": "la_noscea",
+	"categorized": [
+		{
+			"title": "ラノシア マップ開示",
+			"data": [
+				{
+					"title": "中央ラノシアに到達せし者",
+					"description": "中央ラノシアに到達し、マップを開示する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/exploration/la_noscea/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png",
+					"url": "/lodestone/playguide/db/achievement/c745f07edbc/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						108
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "低地ラノシアに到達せし者",
+					"description": "低地ラノシアに到達し、マップを開示する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/exploration/la_noscea/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png",
+					"url": "/lodestone/playguide/db/achievement/dd7007a325e/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						109
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "東ラノシアに到達せし者",
+					"description": "東ラノシアに到達し、マップを開示する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/exploration/la_noscea/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png",
+					"url": "/lodestone/playguide/db/achievement/9c1b2593e1e/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						110
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "西ラノシアに到達せし者",
+					"description": "西ラノシアに到達し、マップを開示する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/exploration/la_noscea/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png",
+					"url": "/lodestone/playguide/db/achievement/c4dd2edce65/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						111
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "高地ラノシアに到達せし者",
+					"description": "高地ラノシアに到達し、マップを開示する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/exploration/la_noscea/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png",
+					"url": "/lodestone/playguide/db/achievement/2f5ce44a1ed/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						112
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "外地ラノシアに到達せし者",
+					"description": "外地ラノシアに到達し、マップを開示する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/exploration/la_noscea/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png",
+					"url": "/lodestone/playguide/db/achievement/6511a6ad82d/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						113
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

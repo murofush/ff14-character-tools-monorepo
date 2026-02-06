@@ -1,0 +1,91 @@
+{
+	"title": "thanalan",
+	"categorized": [
+		{
+			"title": "ザナラーン マップ開示",
+			"data": [
+				{
+					"title": "西ザナラーンに到達せし者",
+					"description": "西ザナラーンに到達し、マップを開示する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/exploration/thanalan/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png",
+					"url": "/lodestone/playguide/db/achievement/1305c6c4b61/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						120
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "中央ザナラーンに到達せし者",
+					"description": "中央ザナラーンに到達し、マップを開示する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/exploration/thanalan/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png",
+					"url": "/lodestone/playguide/db/achievement/2d8ad34b278/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						121
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "東ザナラーンに到達せし者",
+					"description": "東ザナラーンに到達し、マップを開示する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/exploration/thanalan/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png",
+					"url": "/lodestone/playguide/db/achievement/e379d81e46a/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						122
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "南ザナラーンに到達せし者",
+					"description": "南ザナラーンに到達し、マップを開示する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/exploration/thanalan/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png",
+					"url": "/lodestone/playguide/db/achievement/9cb32f3840c/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						123
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "北ザナラーンに到達せし者",
+					"description": "北ザナラーンに到達し、マップを開示する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/exploration/thanalan/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png",
+					"url": "/lodestone/playguide/db/achievement/a2731553885/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						124
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

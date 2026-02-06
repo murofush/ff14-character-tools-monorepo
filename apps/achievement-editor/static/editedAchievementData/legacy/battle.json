@@ -1,0 +1,193 @@
+{
+	"title": "battle",
+	"categorized": [
+		{
+			"title": "ノートリアルモンスター 討伐",
+			"data": [
+				{
+					"title": "大物狙い：ラノシア",
+					"description": "バロメッツ、スリプリーサイクス、グルタナスガーティ、ボムバロン、アンノウンソルジャー、オールドシックスアームズ、グレートバッファローをすべて討伐する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fe/fee22f0411bedbe54237eb14042c5e4de18309ce.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/legacy/battle/fee22f0411bedbe54237eb14042c5e4de18309ce.png",
+					"url": "/lodestone/playguide/db/achievement/16bd26a02ad/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "大物狙い：黒衣森",
+					"description": "アルシュ、クィーンボリート、ジャッカネイプス、シロッコ、パイア、太っ腹のホットポックス、プリンスオブペストをすべて討伐する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fe/fee22f0411bedbe54237eb14042c5e4de18309ce.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/legacy/battle/fee22f0411bedbe54237eb14042c5e4de18309ce.png",
+					"url": "/lodestone/playguide/db/achievement/faa2c89568c/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "大物狙い：ザナラーン",
+					"description": "エルダーモスホーン、カクタージャック、ダディーロングレッグ、弾指のココルン、ネストコマンダー、バルディ、ピュラウスタをすべて討伐する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fe/fee22f0411bedbe54237eb14042c5e4de18309ce.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/legacy/battle/fee22f0411bedbe54237eb14042c5e4de18309ce.png",
+					"url": "/lodestone/playguide/db/achievement/aafc0790381/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "大物狙い：クルザス",
+					"description": "ウラエウス、スピットファイア、ダウニーダンスタンをすべて討伐する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fe/fee22f0411bedbe54237eb14042c5e4de18309ce.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/legacy/battle/fee22f0411bedbe54237eb14042c5e4de18309ce.png",
+					"url": "/lodestone/playguide/db/achievement/e9901670965/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "大物狙い：モードゥナ",
+					"description": "ドドレを討伐する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fe/fee22f0411bedbe54237eb14042c5e4de18309ce.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/legacy/battle/fee22f0411bedbe54237eb14042c5e4de18309ce.png",
+					"url": "/lodestone/playguide/db/achievement/ba5e335f6dc/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "大物狙い：シュポシェの霊窟",
+					"description": "シアリングシェリダン、ジャイアントレモラ、ローンクァールをすべて討伐する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fe/fee22f0411bedbe54237eb14042c5e4de18309ce.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/legacy/battle/fee22f0411bedbe54237eb14042c5e4de18309ce.png",
+					"url": "/lodestone/playguide/db/achievement/b5845c6ffad/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "大物狙い：蛮族",
+					"description": "断頭のロゾル・トトロック、炎拳のアリグ・ロー、ペイトリアーク03 ズ・ガをすべて討伐する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fe/fee22f0411bedbe54237eb14042c5e4de18309ce.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/legacy/battle/fee22f0411bedbe54237eb14042c5e4de18309ce.png",
+					"url": "/lodestone/playguide/db/achievement/48e992260fb/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "名うての大物殺し",
+					"description": "ノートリアスモンスターを25種類討伐する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fe/fee22f0411bedbe54237eb14042c5e4de18309ce.png?n5.45",
+					"point": 30,
+					"titleAward": "Notorious Monster Hunter",
+					"iconPath": "~/static/achievementData/img/legacy/battle/fee22f0411bedbe54237eb14042c5e4de18309ce.png",
+					"url": "/lodestone/playguide/db/achievement/9309507965b/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "討伐・討滅戦",
+			"data": [
+				{
+					"title": "真イフリート討滅",
+					"description": "真イフリート討滅戦で、イフリートを討伐する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/57/5715d257c1123b08a99c8fca5bd695723fd523e9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/battle/5715d257c1123b08a99c8fca5bd695723fd523e9.png",
+					"url": "/lodestone/playguide/db/achievement/b94f91db317/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "善王モグル・モグXII世 討滅",
+					"description": "善王モグル・モグXII世 討滅戦で、善王モグル・モグXII世を討伐する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/57/5715d257c1123b08a99c8fca5bd695723fd523e9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/battle/5715d257c1123b08a99c8fca5bd695723fd523e9.png",
+					"url": "/lodestone/playguide/db/achievement/1d0e023f3dc/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "真ガルーダ討滅",
+					"description": "真ガルーダ討滅戦で、ガルーダを討伐する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/57/5715d257c1123b08a99c8fca5bd695723fd523e9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/battle/5715d257c1123b08a99c8fca5bd695723fd523e9.png",
+					"url": "/lodestone/playguide/db/achievement/5846645644b/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

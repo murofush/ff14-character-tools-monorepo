@@ -1,0 +1,1224 @@
+{
+	"title": "the_wolves_den",
+	"categorized": [
+		{
+			"title": "ザ・フォールド/ザ・フィースト 参戦数",
+			"data": [
+				{
+					"title": "檻の中の狼：ランク1",
+					"description": "「ザ・フォールド」、もしくは「ザ・フィースト」に初めて参戦する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4d/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png",
+					"url": "/lodestone/playguide/db/achievement/9939d82d437/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						154,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "檻の中の狼：ランク2",
+					"description": "「ザ・フォールド」、もしくは「ザ・フィースト」に計50回参戦する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4d/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png",
+					"url": "/lodestone/playguide/db/achievement/8add083f475/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						154,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "檻の中の狼：ランク3",
+					"description": "「ザ・フォールド」、もしくは「ザ・フィースト」に計100回参戦する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4d/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png",
+					"url": "/lodestone/playguide/db/achievement/e91896b3cb4/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						154,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "檻の中の狼：ランク4",
+					"description": "「ザ・フォールド」、もしくは「ザ・フィースト」に計500回参戦する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4d/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png",
+					"url": "/lodestone/playguide/db/achievement/10967f84442/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						154,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "檻の中の狼：ランク5",
+					"description": "「ザ・フォールド」、もしくは「ザ・フィースト」に計1,000回参戦する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4d/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png",
+					"url": "/lodestone/playguide/db/achievement/44c65748f73/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						154,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "檻の中の古狼",
+					"description": "「ザ・フォールド」、もしくは「ザ・フィースト」に計5,000回参戦する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4d/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png?n5.45",
+					"point": 20,
+					"titleAward": "Ravenous Wolf",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png",
+					"url": "/lodestone/playguide/db/achievement/1c9dfb7a434/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						154,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "狼たちの饗宴：ランク1",
+					"description": "ザ・フィーストに初めて参戦する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4d/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png",
+					"url": "/lodestone/playguide/db/achievement/0552f712bf7/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						154,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "狼たちの饗宴：ランク2",
+					"description": "ザ・フィーストに累計50回参戦する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4d/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png",
+					"url": "/lodestone/playguide/db/achievement/df52c402b01/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						154,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "狼たちの饗宴：ランク3",
+					"description": "ザ・フィーストに累計100回参戦する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4d/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png",
+					"url": "/lodestone/playguide/db/achievement/72d2d503633/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						154,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "狼たちの饗宴：ランク4",
+					"description": "ザ・フィーストに累計200回参戦する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4d/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png",
+					"url": "/lodestone/playguide/db/achievement/af959e8e85f/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						154,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "狼たちの饗宴：ランク5",
+					"description": "ザ・フィーストに累計500回参戦する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4d/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png",
+					"url": "/lodestone/playguide/db/achievement/9a44d11db5b/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						154,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "饗宴の主賓",
+					"description": "ザ・フィーストに累計1,000回参戦する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4d/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png?n5.45",
+					"point": 20,
+					"titleAward": "Hungry Wolf",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/4d153a91bd3d04b27eeea10f0d98b097a0640d38.png",
+					"url": "/lodestone/playguide/db/achievement/7ff081c226e/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						154,
+						155
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "ザ・フォールド/ザ・フィースト 勝利数",
+			"data": [
+				{
+					"title": "牙を剥く者：ランク1",
+					"description": "「ザ・フォールド」、もしくは「ザ・フィースト」で初めて勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c3/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png",
+					"url": "/lodestone/playguide/db/achievement/8655e775978/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						154,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "牙を剥く者：ランク2",
+					"description": "「ザ・フォールド」、もしくは「ザ・フィースト」で計50回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c3/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png",
+					"url": "/lodestone/playguide/db/achievement/2dd5136c9de/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						154,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "牙を剥く者：ランク3",
+					"description": "「ザ・フォールド」、もしくは「ザ・フィースト」で計100回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c3/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png",
+					"url": "/lodestone/playguide/db/achievement/8dfcf030908/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						154,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "牙を剥く者：ランク4",
+					"description": "「ザ・フォールド」、もしくは「ザ・フィースト」で計500回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c3/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png",
+					"url": "/lodestone/playguide/db/achievement/8f89906af26/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						154,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "牙を剥く者：ランク5",
+					"description": "「ザ・フォールド」、もしくは「ザ・フィースト」で計1,000回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c3/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png",
+					"url": "/lodestone/playguide/db/achievement/93c22bd2964/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						154,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "鋭き牙",
+					"description": "「ザ・フォールド」、もしくは「ザ・フィースト」で計5,000回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c3/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png?n5.45",
+					"point": 20,
+					"titleAward": "Alpha Wolf",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png",
+					"url": "/lodestone/playguide/db/achievement/adb36b6076a/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						154,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "爪を研ぐ者：ランク1",
+					"description": "ザ・フィーストで初めて勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c3/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png",
+					"url": "/lodestone/playguide/db/achievement/a4915606935/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "爪を研ぐ者：ランク2",
+					"description": "ザ・フィーストで累計50回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c3/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png",
+					"url": "/lodestone/playguide/db/achievement/0e0e0d64cb2/",
+					"isLatestPatch": false,
+					"sourceIndex": 19,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "爪を研ぐ者：ランク3",
+					"description": "ザ・フィーストで累計100回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c3/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png",
+					"url": "/lodestone/playguide/db/achievement/c136c5870e5/",
+					"isLatestPatch": false,
+					"sourceIndex": 20,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "爪を研ぐ者：ランク4",
+					"description": "ザ・フィーストで累計200回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c3/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png?n5.45",
+					"point": 5,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/f1588cffe7b/",
+					"itemAward": "グローリア号起動鍵",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/cf/cff6637fdb1586c6fa598bf34328bb1e5a59bef2.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png",
+					"itemAwardImagePath": "~/static/achievementData/img/pvp/the_wolves_den/item/cff6637fdb1586c6fa598bf34328bb1e5a59bef2.png",
+					"url": "/lodestone/playguide/db/achievement/d62c4ce82fb/",
+					"isLatestPatch": false,
+					"sourceIndex": 21,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "爪を研ぐ者：ランク5",
+					"description": "ザ・フィーストで累計500回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c3/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png",
+					"url": "/lodestone/playguide/db/achievement/6164f219520/",
+					"isLatestPatch": false,
+					"sourceIndex": 22,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "鋭き爪",
+					"description": "ザ・フィーストで累計1,000回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c3/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png?n5.45",
+					"point": 20,
+					"titleAward": "the Devourer",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/c3b7bdb0259e13c6fefcb4c21653ce45548a5cce.png",
+					"url": "/lodestone/playguide/db/achievement/c108d158a71/",
+					"isLatestPatch": false,
+					"sourceIndex": 23,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "爪を研ぐ群狼：ランク1",
+					"description": "ザ・フィーストにて、PvPチームで初めて勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0b/0b765c74e094511b5b21b80c5e3fd9155ea67288.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/0b765c74e094511b5b21b80c5e3fd9155ea67288.png",
+					"url": "/lodestone/playguide/db/achievement/bf460ee17d3/",
+					"isLatestPatch": false,
+					"sourceIndex": 59,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						164
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "爪を研ぐ群狼：ランク2",
+					"description": "ザ・フィーストにて、PvPチームで累計10回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0b/0b765c74e094511b5b21b80c5e3fd9155ea67288.png?n5.45",
+					"point": 5,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/9f7ea16ece3/",
+					"itemAward": "エバーシャープ・チョーカー",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c3/c32a15c7add76028503aefdfc412b1c1c73e9b04.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/0b765c74e094511b5b21b80c5e3fd9155ea67288.png",
+					"itemAwardImagePath": "~/static/achievementData/img/pvp/the_wolves_den/item/c32a15c7add76028503aefdfc412b1c1c73e9b04.png",
+					"url": "/lodestone/playguide/db/achievement/bc5f1677a28/",
+					"isLatestPatch": false,
+					"sourceIndex": 60,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						164
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "爪を研ぐ群狼：ランク3",
+					"description": "ザ・フィーストにて、PvPチームで累計50回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0b/0b765c74e094511b5b21b80c5e3fd9155ea67288.png?n5.45",
+					"point": 5,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/a7d0f12f72f/",
+					"itemAward": "エバーシャープ・イヤリング",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2d/2d1183d48d75b3bcd451e299dab382bffbf9de09.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/0b765c74e094511b5b21b80c5e3fd9155ea67288.png",
+					"itemAwardImagePath": "~/static/achievementData/img/pvp/the_wolves_den/item/2d1183d48d75b3bcd451e299dab382bffbf9de09.png",
+					"url": "/lodestone/playguide/db/achievement/d72e2e7bdb9/",
+					"isLatestPatch": false,
+					"sourceIndex": 61,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						164
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "爪を研ぐ群狼：ランク4",
+					"description": "ザ・フィーストにて、PvPチームで累計100回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0b/0b765c74e094511b5b21b80c5e3fd9155ea67288.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/92beab75763/",
+					"itemAward": "エバーシャープ・リング",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c7/c7f194d91ed12bb9465e148184f71cfa74e3c1f5.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/0b765c74e094511b5b21b80c5e3fd9155ea67288.png",
+					"itemAwardImagePath": "~/static/achievementData/img/pvp/the_wolves_den/item/c7f194d91ed12bb9465e148184f71cfa74e3c1f5.png",
+					"url": "/lodestone/playguide/db/achievement/63d9c8718fe/",
+					"isLatestPatch": false,
+					"sourceIndex": 62,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						164
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "爪を研ぐ群狼：ランク5",
+					"description": "ザ・フィーストにて、PvPチームで累計200回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0b/0b765c74e094511b5b21b80c5e3fd9155ea67288.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/7c37ab548f7/",
+					"itemAward": "エバーシャープ・リストバンド",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0c/0c94146959c76d926b9eac715ba0e3e2ccfa845f.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/0b765c74e094511b5b21b80c5e3fd9155ea67288.png",
+					"itemAwardImagePath": "~/static/achievementData/img/pvp/the_wolves_den/item/0c94146959c76d926b9eac715ba0e3e2ccfa845f.png",
+					"url": "/lodestone/playguide/db/achievement/4a2f53bd87b/",
+					"isLatestPatch": false,
+					"sourceIndex": 63,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						164
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "鋭爪の群狼",
+					"description": "ザ・フィーストにて、PvPチームで累計500回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0b/0b765c74e094511b5b21b80c5e3fd9155ea67288.png?n5.45",
+					"point": 20,
+					"titleAward": "Eversharp",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/0b765c74e094511b5b21b80c5e3fd9155ea67288.png",
+					"url": "/lodestone/playguide/db/achievement/3b704840781/",
+					"isLatestPatch": false,
+					"sourceIndex": 64,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						164
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "ザ・フィースト K/A数",
+			"data": [
+				{
+					"title": "ハードパンチャー：ランク1",
+					"description": "ザ・フィーストにて、初めてノックアウトする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c81fe516bc62265ca1594db25eba0e6af2a90e71.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/c81fe516bc62265ca1594db25eba0e6af2a90e71.png",
+					"url": "/lodestone/playguide/db/achievement/ad6a28e83f9/",
+					"isLatestPatch": false,
+					"sourceIndex": 49,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ハードパンチャー：ランク2",
+					"description": "ザ・フィーストにて、累計100回ノックアウトする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c81fe516bc62265ca1594db25eba0e6af2a90e71.png?n5.45",
+					"point": 5,
+					"titleAward": "Hard Puncher",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/c81fe516bc62265ca1594db25eba0e6af2a90e71.png",
+					"url": "/lodestone/playguide/db/achievement/a2d45dee1ce/",
+					"isLatestPatch": false,
+					"sourceIndex": 50,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ハードパンチャー：ランク3",
+					"description": "ザ・フィーストにて、累計300回ノックアウトする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c81fe516bc62265ca1594db25eba0e6af2a90e71.png?n5.45",
+					"point": 5,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/b37934d856c/",
+					"itemAward": "ヘルパピー",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/51/5150525bd9ea930e0725fe64d62d13fa2c3ec05c.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/c81fe516bc62265ca1594db25eba0e6af2a90e71.png",
+					"itemAwardImagePath": "~/static/achievementData/img/pvp/the_wolves_den/item/5150525bd9ea930e0725fe64d62d13fa2c3ec05c.png",
+					"url": "/lodestone/playguide/db/achievement/b7a31c7d1bd/",
+					"isLatestPatch": false,
+					"sourceIndex": 51,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ハードパンチャー：ランク4",
+					"description": "ザ・フィーストにて、累計1,000回ノックアウトする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c81fe516bc62265ca1594db25eba0e6af2a90e71.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/c81fe516bc62265ca1594db25eba0e6af2a90e71.png",
+					"url": "/lodestone/playguide/db/achievement/e910c80e09d/",
+					"isLatestPatch": false,
+					"sourceIndex": 52,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ハードパンチャー：ランク5",
+					"description": "ザ・フィーストにて、累計5,000回ノックアウトする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c81fe516bc62265ca1594db25eba0e6af2a90e71.png?n5.45",
+					"point": 20,
+					"titleAward": "Rhalgr's Saint",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/c81fe516bc62265ca1594db25eba0e6af2a90e71.png",
+					"url": "/lodestone/playguide/db/achievement/255170e3b5d/",
+					"isLatestPatch": false,
+					"sourceIndex": 53,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "チャンスメーカー：ランク1",
+					"description": "ザ・フィーストにて、初めてアシストする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7c/7c0823b47dba52714c88b6800ee44ef02d4ddad4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/7c0823b47dba52714c88b6800ee44ef02d4ddad4.png",
+					"url": "/lodestone/playguide/db/achievement/055efc0865b/",
+					"isLatestPatch": false,
+					"sourceIndex": 54,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "チャンスメーカー：ランク2",
+					"description": "ザ・フィーストにて、累計100回アシストする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7c/7c0823b47dba52714c88b6800ee44ef02d4ddad4.png?n5.45",
+					"point": 5,
+					"titleAward": "Tablesetter",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/7c0823b47dba52714c88b6800ee44ef02d4ddad4.png",
+					"url": "/lodestone/playguide/db/achievement/a9822508b57/",
+					"isLatestPatch": false,
+					"sourceIndex": 55,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "チャンスメーカー：ランク3",
+					"description": "ザ・フィーストにて、累計300回アシストする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7c/7c0823b47dba52714c88b6800ee44ef02d4ddad4.png?n5.45",
+					"point": 5,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/4a4f94bbca9/",
+					"itemAward": "フェイパピー",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/40/40955fece562b75e74baa2cddfa273313b0d0a1c.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/7c0823b47dba52714c88b6800ee44ef02d4ddad4.png",
+					"itemAwardImagePath": "~/static/achievementData/img/pvp/the_wolves_den/item/40955fece562b75e74baa2cddfa273313b0d0a1c.png",
+					"url": "/lodestone/playguide/db/achievement/623552c3e27/",
+					"isLatestPatch": false,
+					"sourceIndex": 56,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "チャンスメーカー：ランク4",
+					"description": "ザ・フィーストにて、累計1,000回アシストする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7c/7c0823b47dba52714c88b6800ee44ef02d4ddad4.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/7c0823b47dba52714c88b6800ee44ef02d4ddad4.png",
+					"url": "/lodestone/playguide/db/achievement/5bd3f7e7474/",
+					"isLatestPatch": false,
+					"sourceIndex": 57,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "チャンスメーカー：ランク5",
+					"description": "ザ・フィーストにて、累計5,000回アシストする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7c/7c0823b47dba52714c88b6800ee44ef02d4ddad4.png?n5.45",
+					"point": 20,
+					"titleAward": "Halone's Saint",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/7c0823b47dba52714c88b6800ee44ef02d4ddad4.png",
+					"url": "/lodestone/playguide/db/achievement/4a4c024c3a7/",
+					"isLatestPatch": false,
+					"sourceIndex": 58,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						155
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "ザ・フィーストTANK 勝利数",
+			"data": [
+				{
+					"title": "勝利を呼ぶ守護者：ランク1",
+					"description": "ザ・フィーストにて、TANKで累計10回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d9/d9c58d855921bfde362f6d6303dd50fc61894227.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/d9c58d855921bfde362f6d6303dd50fc61894227.png",
+					"url": "/lodestone/playguide/db/achievement/43f007faa62/",
+					"isLatestPatch": false,
+					"sourceIndex": 24,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						13,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勝利を呼ぶ守護者：ランク2",
+					"description": "ザ・フィーストにて、TANKで累計50回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d9/d9c58d855921bfde362f6d6303dd50fc61894227.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/d9c58d855921bfde362f6d6303dd50fc61894227.png",
+					"url": "/lodestone/playguide/db/achievement/6cc4d972149/",
+					"isLatestPatch": false,
+					"sourceIndex": 25,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						13,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勝利を呼ぶ守護者：ランク3",
+					"description": "ザ・フィーストにて、TANKで累計100回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d9/d9c58d855921bfde362f6d6303dd50fc61894227.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/d9c58d855921bfde362f6d6303dd50fc61894227.png",
+					"url": "/lodestone/playguide/db/achievement/db5ca6b3b30/",
+					"isLatestPatch": false,
+					"sourceIndex": 26,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						13,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勝利を呼ぶ守護者：ランク4",
+					"description": "ザ・フィーストにて、TANKで累計500回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d9/d9c58d855921bfde362f6d6303dd50fc61894227.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/d9c58d855921bfde362f6d6303dd50fc61894227.png",
+					"url": "/lodestone/playguide/db/achievement/f99b0dfaff8/",
+					"isLatestPatch": false,
+					"sourceIndex": 27,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						13,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "絶対の守護者",
+					"description": "ザ・フィーストにて、TANKで累計1,000回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d9/d9c58d855921bfde362f6d6303dd50fc61894227.png?n5.45",
+					"point": 10,
+					"titleAward": "the Unmoving",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/d9c58d855921bfde362f6d6303dd50fc61894227.png",
+					"url": "/lodestone/playguide/db/achievement/218fa0ec841/",
+					"isLatestPatch": false,
+					"sourceIndex": 28,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						13,
+						155
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "ザ・フィースト Melee DPS 勝利数",
+			"data": [
+				{
+					"title": "勝利を呼ぶ闘士：ランク1",
+					"description": "ザ・フィーストにて、Melee DPS（近接DPS）で累計10回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3f/3f20c278775824f86179bd2f04f0f31e8abf7f9b.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/3f20c278775824f86179bd2f04f0f31e8abf7f9b.png",
+					"url": "/lodestone/playguide/db/achievement/e1028de2e21/",
+					"isLatestPatch": false,
+					"sourceIndex": 29,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						14,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勝利を呼ぶ闘士：ランク2",
+					"description": "ザ・フィーストにて、Melee DPS（近接DPS）で累計50回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3f/3f20c278775824f86179bd2f04f0f31e8abf7f9b.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/3f20c278775824f86179bd2f04f0f31e8abf7f9b.png",
+					"url": "/lodestone/playguide/db/achievement/5e3e6b0a6df/",
+					"isLatestPatch": false,
+					"sourceIndex": 30,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						14,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勝利を呼ぶ闘士：ランク3",
+					"description": "ザ・フィーストにて、Melee DPS（近接DPS）で累計100回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3f/3f20c278775824f86179bd2f04f0f31e8abf7f9b.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/3f20c278775824f86179bd2f04f0f31e8abf7f9b.png",
+					"url": "/lodestone/playguide/db/achievement/3de4fb0b088/",
+					"isLatestPatch": false,
+					"sourceIndex": 31,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						14,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勝利を呼ぶ闘士：ランク4",
+					"description": "ザ・フィーストにて、Melee DPS（近接DPS）で累計500回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3f/3f20c278775824f86179bd2f04f0f31e8abf7f9b.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/3f20c278775824f86179bd2f04f0f31e8abf7f9b.png",
+					"url": "/lodestone/playguide/db/achievement/5885af64edf/",
+					"isLatestPatch": false,
+					"sourceIndex": 32,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						14,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勇猛なる闘士",
+					"description": "ザ・フィーストにて、Melee DPS（近接DPS）で累計1,000回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3f/3f20c278775824f86179bd2f04f0f31e8abf7f9b.png?n5.45",
+					"point": 10,
+					"titleAward": "the Unrelenting",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/3f20c278775824f86179bd2f04f0f31e8abf7f9b.png",
+					"url": "/lodestone/playguide/db/achievement/680fff3f016/",
+					"isLatestPatch": false,
+					"sourceIndex": 33,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						14,
+						155
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "ザ・フィーストRanged DPS (物理) 勝利数",
+			"data": [
+				{
+					"title": "勝利を呼ぶ狙撃手：ランク1",
+					"description": "ザ・フィーストにて、Ranged DPS（遠隔物理DPS）で累計10回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/47/47530cf79ad3d854bbb78ee7b6a43dd65ae6cd83.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/47530cf79ad3d854bbb78ee7b6a43dd65ae6cd83.png",
+					"url": "/lodestone/playguide/db/achievement/51a406ec987/",
+					"isLatestPatch": false,
+					"sourceIndex": 34,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						15,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勝利を呼ぶ狙撃手：ランク2",
+					"description": "ザ・フィーストにて、Ranged DPS（遠隔物理DPS）で累計50回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/47/47530cf79ad3d854bbb78ee7b6a43dd65ae6cd83.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/47530cf79ad3d854bbb78ee7b6a43dd65ae6cd83.png",
+					"url": "/lodestone/playguide/db/achievement/ce57211bc85/",
+					"isLatestPatch": false,
+					"sourceIndex": 35,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						15,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勝利を呼ぶ狙撃手：ランク3",
+					"description": "ザ・フィーストにて、Ranged DPS（遠隔物理DPS）で累計100回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/47/47530cf79ad3d854bbb78ee7b6a43dd65ae6cd83.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/47530cf79ad3d854bbb78ee7b6a43dd65ae6cd83.png",
+					"url": "/lodestone/playguide/db/achievement/109cc564234/",
+					"isLatestPatch": false,
+					"sourceIndex": 36,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						15,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勝利を呼ぶ狙撃手：ランク4",
+					"description": "ザ・フィーストにて、Ranged DPS（遠隔物理DPS）で累計500回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/47/47530cf79ad3d854bbb78ee7b6a43dd65ae6cd83.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/47530cf79ad3d854bbb78ee7b6a43dd65ae6cd83.png",
+					"url": "/lodestone/playguide/db/achievement/381d2adeebf/",
+					"isLatestPatch": false,
+					"sourceIndex": 37,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						15,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "鋭敏なる狙撃手",
+					"description": "ザ・フィーストにて、Ranged DPS（遠隔物理DPS）で累計1,000回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/47/47530cf79ad3d854bbb78ee7b6a43dd65ae6cd83.png?n5.45",
+					"point": 10,
+					"titleAward": "the Unseen",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/47530cf79ad3d854bbb78ee7b6a43dd65ae6cd83.png",
+					"url": "/lodestone/playguide/db/achievement/c776f49e2a5/",
+					"isLatestPatch": false,
+					"sourceIndex": 38,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						15,
+						155
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "ザ・フィーストRanged DPS (魔法) 勝利数",
+			"data": [
+				{
+					"title": "勝利を呼ぶ破壊者：ランク1",
+					"description": "ザ・フィーストにて、Ranged DPS（遠隔魔法DPS）で累計10回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c5/c5b96e7ec48f26225074443605cc4d02a18aaafd.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/c5b96e7ec48f26225074443605cc4d02a18aaafd.png",
+					"url": "/lodestone/playguide/db/achievement/dcf7b355379/",
+					"isLatestPatch": false,
+					"sourceIndex": 39,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						16,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勝利を呼ぶ破壊者：ランク2",
+					"description": "ザ・フィーストにて、Ranged DPS（遠隔魔法DPS）で累計50回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c5/c5b96e7ec48f26225074443605cc4d02a18aaafd.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/c5b96e7ec48f26225074443605cc4d02a18aaafd.png",
+					"url": "/lodestone/playguide/db/achievement/6b1ffb2261e/",
+					"isLatestPatch": false,
+					"sourceIndex": 40,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						16,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勝利を呼ぶ破壊者：ランク3",
+					"description": "ザ・フィーストにて、Ranged DPS（遠隔魔法DPS）で累計100回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c5/c5b96e7ec48f26225074443605cc4d02a18aaafd.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/c5b96e7ec48f26225074443605cc4d02a18aaafd.png",
+					"url": "/lodestone/playguide/db/achievement/9f0eb1c6e7f/",
+					"isLatestPatch": false,
+					"sourceIndex": 41,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						16,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勝利を呼ぶ破壊者：ランク4",
+					"description": "ザ・フィーストにて、Ranged DPS（遠隔魔法DPS）で累計500回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c5/c5b96e7ec48f26225074443605cc4d02a18aaafd.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/c5b96e7ec48f26225074443605cc4d02a18aaafd.png",
+					"url": "/lodestone/playguide/db/achievement/e81f2d36fb7/",
+					"isLatestPatch": false,
+					"sourceIndex": 42,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						16,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "冷酷なる破壊者",
+					"description": "ザ・フィーストにて、Ranged DPS（遠隔魔法DPS）で累計1,000回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c5/c5b96e7ec48f26225074443605cc4d02a18aaafd.png?n5.45",
+					"point": 10,
+					"titleAward": "the Unleashed",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/c5b96e7ec48f26225074443605cc4d02a18aaafd.png",
+					"url": "/lodestone/playguide/db/achievement/39ef531863e/",
+					"isLatestPatch": false,
+					"sourceIndex": 43,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						16,
+						155
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "ザ・フィーストHEALER 勝利数",
+			"data": [
+				{
+					"title": "勝利を呼ぶ癒し手：ランク1",
+					"description": "ザ・フィーストにて、HEALERで累計10回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5a/5a1be03c5919425a2b9b1602790cfc04209b17ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/5a1be03c5919425a2b9b1602790cfc04209b17ab.png",
+					"url": "/lodestone/playguide/db/achievement/6e485becba6/",
+					"isLatestPatch": false,
+					"sourceIndex": 44,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						17,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勝利を呼ぶ癒し手：ランク2",
+					"description": "ザ・フィーストにて、HEALERで累計50回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5a/5a1be03c5919425a2b9b1602790cfc04209b17ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/5a1be03c5919425a2b9b1602790cfc04209b17ab.png",
+					"url": "/lodestone/playguide/db/achievement/7b19ec58cf6/",
+					"isLatestPatch": false,
+					"sourceIndex": 45,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						17,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勝利を呼ぶ癒し手：ランク3",
+					"description": "ザ・フィーストにて、HEALERで累計100回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5a/5a1be03c5919425a2b9b1602790cfc04209b17ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/5a1be03c5919425a2b9b1602790cfc04209b17ab.png",
+					"url": "/lodestone/playguide/db/achievement/4189f17b549/",
+					"isLatestPatch": false,
+					"sourceIndex": 46,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						17,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勝利を呼ぶ癒し手：ランク4",
+					"description": "ザ・フィーストにて、HEALERで累計500回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5a/5a1be03c5919425a2b9b1602790cfc04209b17ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/5a1be03c5919425a2b9b1602790cfc04209b17ab.png",
+					"url": "/lodestone/playguide/db/achievement/a3b5ed03dc7/",
+					"isLatestPatch": false,
+					"sourceIndex": 47,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						17,
+						155
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "慈愛の癒し手",
+					"description": "ザ・フィーストにて、HEALERで累計1,000回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5a/5a1be03c5919425a2b9b1602790cfc04209b17ab.png?n5.45",
+					"point": 10,
+					"titleAward": "the Undamaged",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/5a1be03c5919425a2b9b1602790cfc04209b17ab.png",
+					"url": "/lodestone/playguide/db/achievement/03c549b034f/",
+					"isLatestPatch": false,
+					"sourceIndex": 48,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						17,
+						155
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "The FEASTリージョンチャンピオンシップ2018",
+			"data": [
+				{
+					"title": "リージョンチャンピオン：FRC2018",
+					"description": "The FEASTリージョンチャンピオンシップ2018にて、日本リージョンで優勝する",
+					"point": 0,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/cd/cd5afe4cc06db1fbe83a87af583ac9e045958ca2.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/cd5afe4cc06db1fbe83a87af583ac9e045958ca2.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						12,
+						164
+					],
+					"titleAward": "FRC2018 Champion"
+				},
+				{
+					"title": "リージョンファイナリスト：FRC2018",
+					"description": "The FEASTリージョンチャンピオンシップ2018にて、ファイナルに進出する",
+					"point": 0,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/72/729fa57a09d5b1ddc0310b72a25aef7159fb6f8c.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/729fa57a09d5b1ddc0310b72a25aef7159fb6f8c.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						12,
+						164
+					],
+					"titleAward": "FRC2018 Finalist"
+				},
+				{
+					"title": "リージョンランカー：FRC2018",
+					"description": "The FEASTリージョンチャンピオンシップ2018にて、予選ラウンドで1～10位になる",
+					"point": 0,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8a/8a92fb161557dff3131d5b959b001a59a88cb821.png?n5.45",
+					"iconPath": "~/static/achievementData/img/pvp/the_wolves_den/8a92fb161557dff3131d5b959b001a59a88cb821.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						12,
+						164
+					],
+					"titleAward": "FRC2018 Ranker"
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

@@ -1,0 +1,177 @@
+// Import Vuetify: styling;
+@import '~assets/style/variables.scss';
+
+html {
+  color: map-get($local-colors, "text");
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.our-button-class {
+  &:disabled {
+    color: map-get($local-colors, "disabled") !important;
+  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  // tui-editorに合わせるため固定値
+  color: #555555 !important;
+}
+.main-label {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.disabled-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: map-get($local-colors, "disabled-text");
+}
+
+.label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  .required {
+    display: inline-block;
+    margin-left: 4px;
+    font-weight: 500;
+    font-size: 0.75rem;
+    color: map-get($local-colors, "error");
+    &:after{
+      content: '(必須)';
+    }
+  }
+}
+.secondary-label {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: map-get($local-colors, "secondary-text");
+}
+.incard-label {
+  font-size: 0.75rem;
+  color: map-get($local-colors, "text");
+  margin: 0;
+}
+.form-card {
+  max-width: 1000px !important;
+  .form-card-content {
+    margin: 0 20px 20px 20px;
+  }
+  .form-card-title {
+    margin: 10px 20px 0px 20px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: map-get($local-colors, 'primary-dark');
+  }
+}
+.form {
+  padding: 0px;
+  transition: border .1s ease-in;
+  max-width: 800px;
+}
+.window_height_100 {
+  height: 100%;
+}
+.error-message-container {
+  margin-top: 2px;
+  height: 1.4em;
+  overflow: hidden;
+  .error-message {
+    // Vuetifyのエラーに合わせるために12px固定
+    font-size: 12px;
+    color: map-get($local-colors, "error") !important;
+    margin-bottom: 0px;
+  }
+  .error-text-container{
+    span {
+      color: map-get($local-colors, "error") !important;
+    }
+  }
+  .error-input {
+    border: 1px solid map-get($local-colors, "error") !important;
+    transition: border .1s ease-in;
+  }
+  // .label
+  .vueity-label {
+    transition: color .1s ease-in;
+  }
+}
+.post-detail{
+  max-width: 900px;
+}
+
+.user_select_disable {
+  user-select: none;
+}
+
+
+
+// https://github.com/vuetifyjs/vuetify/issues/5416
+.v-input--selection-controls .v-input__control {
+  width: 100%;
+}
+
+.v-input--checkbox{
+  .v-label{
+    font-size: 0.875rem !important;
+    font-weight: 500;
+  }
+}
+
+.p-static{
+  position: static !important;
+}
+.no-select{
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.break-word {
+  word-break: break-all;
+}
+
+// 上書き
+.v-stepper {
+  overflow: visible !important;
+}
+.v-stepper__items {
+  overflow: visible !important;
+}
+.v-stepper__wrapper {
+  overflow: visible !important;
+}
+.v-navigation-drawer {
+  overflow: visible !important;
+}
+.v-navigation-drawer__content {
+  overflow: visible !important;
+}
+
+.v-btn {
+  font-weight: bold !important;
+}
+
+.no_wrap {
+  white-space: nowrap;
+  word-break: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.v-overlay__content {
+  height: 100%;
+  width: 100%;
+}

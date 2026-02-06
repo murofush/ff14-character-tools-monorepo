@@ -1,0 +1,1475 @@
+{
+	"title": "anima_weapons",
+	"categorized": [
+		{
+			"title": "アニマウェポン ナイト",
+			"data": [
+				{
+					"title": "アニマウェポン：アルマス＆アンキレー",
+					"description": "アルマスとアンキレーを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/40/40a7448126e068e0160eaefba611592be6fd194f.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/40a7448126e068e0160eaefba611592be6fd194f.png",
+					"url": "/lodestone/playguide/db/achievement/3cb7dddaf10/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						20,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：アルマス・コンダクト＆アンキレー・コンダクト",
+					"description": "アルマス・コンダクトとアンキレー・コンダクトを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/40/40a7448126e068e0160eaefba611592be6fd194f.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/40a7448126e068e0160eaefba611592be6fd194f.png",
+					"url": "/lodestone/playguide/db/achievement/7fd0719b146/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						20,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：セインズソード＆セインズシールド",
+					"description": "セインズソードとセインズシールドを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d4/d4bd75edf6418ca2b563e3ca2eef37ffcdf29de0.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/d4bd75edf6418ca2b563e3ca2eef37ffcdf29de0.png",
+					"url": "/lodestone/playguide/db/achievement/c9e646fca79/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						20,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：セインズソード・シャープ＆セインズシールド・シャープ",
+					"description": "セインズソード・シャープとセインズシールド・シャープを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d4/d4bd75edf6418ca2b563e3ca2eef37ffcdf29de0.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/d4bd75edf6418ca2b563e3ca2eef37ffcdf29de0.png",
+					"url": "/lodestone/playguide/db/achievement/291805a25ab/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						20,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：エーティル＆プリュウェン",
+					"description": "エーティルとプリュウェンを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/40/4034ca4eee5cfaf7f700ba4440eba2155d845112.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/4034ca4eee5cfaf7f700ba4440eba2155d845112.png",
+					"url": "/lodestone/playguide/db/achievement/a1b83bfdcd3/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						20,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：エーティル・ルクス＆プリュウェン・ルクス",
+					"description": "エーティル・ルクスとプリュウェン・ルクスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/65/6536f6bd19a86e2816a1719dd9036e43534445a6.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/6536f6bd19a86e2816a1719dd9036e43534445a6.png",
+					"url": "/lodestone/playguide/db/achievement/8ed00938347/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						20,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				}
+			]
+		},
+		{
+			"title": "アニマウェポン モンク",
+			"data": [
+				{
+					"title": "アニマウェポン：ウルスラグナ",
+					"description": "ウルスラグナを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ab/abb95b3ace9a384f057cc66787bbbc8655128956.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/abb95b3ace9a384f057cc66787bbbc8655128956.png",
+					"url": "/lodestone/playguide/db/achievement/e70d3b9bf6f/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						24,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ウルスラグナ・コンダクト",
+					"description": "ウルスラグナ・コンダクトを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ab/abb95b3ace9a384f057cc66787bbbc8655128956.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/abb95b3ace9a384f057cc66787bbbc8655128956.png",
+					"url": "/lodestone/playguide/db/achievement/5e4c355a532/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						24,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：スルタンズフィスト",
+					"description": "スルタンズフィストを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/92/9203d43e7129db516712c08fad4b02efc1bf1629.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/9203d43e7129db516712c08fad4b02efc1bf1629.png",
+					"url": "/lodestone/playguide/db/achievement/184320441c1/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						24,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：スルタンズフィスト・シャープ",
+					"description": "スルタンズフィスト・シャープを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/92/9203d43e7129db516712c08fad4b02efc1bf1629.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/9203d43e7129db516712c08fad4b02efc1bf1629.png",
+					"url": "/lodestone/playguide/db/achievement/72c490819c2/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						24,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ニエーペル",
+					"description": "ニエーペルを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ab/ab2df5c3fd53055b9481df47b2ba801230bab101.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/ab2df5c3fd53055b9481df47b2ba801230bab101.png",
+					"url": "/lodestone/playguide/db/achievement/da06eaad239/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						24,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ニエーペル・ルクス",
+					"description": "ニエーペル・ルクスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a8/a85e3b5122a4234cb01242417d6cb061d18571a6.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/a85e3b5122a4234cb01242417d6cb061d18571a6.png",
+					"url": "/lodestone/playguide/db/achievement/64748c97452/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						24,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				}
+			]
+		},
+		{
+			"title": "アニマウェポン 戦士",
+			"data": [
+				{
+					"title": "アニマウェポン：ウコンバサラ",
+					"description": "ウコンバサラを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e0/e0a8708a1da01696f95d5f3ceb83c5ce387d5ec6.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/e0a8708a1da01696f95d5f3ceb83c5ce387d5ec6.png",
+					"url": "/lodestone/playguide/db/achievement/5cca0c95831/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						21,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ウコンバサラ・コンダクト",
+					"description": "ウコンバサラ・コンダクトを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e0/e0a8708a1da01696f95d5f3ceb83c5ce387d5ec6.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/e0a8708a1da01696f95d5f3ceb83c5ce387d5ec6.png",
+					"url": "/lodestone/playguide/db/achievement/9f79b8c302e/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						21,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ブラッドエンペラーアクス",
+					"description": "ブラッドエンペラーアクスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/90/904815104b003d5c81fca713e409bba856ede249.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/904815104b003d5c81fca713e409bba856ede249.png",
+					"url": "/lodestone/playguide/db/achievement/7e415588607/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						21,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ブラッドエンペラーアクス・シャープ",
+					"description": "ブラッドエンペラーアクス・シャープを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/90/904815104b003d5c81fca713e409bba856ede249.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/904815104b003d5c81fca713e409bba856ede249.png",
+					"url": "/lodestone/playguide/db/achievement/b262a27916a/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						21,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ミノス",
+					"description": "ミノスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ff/ffbeaaa7a591783ed87ff4bb490dc30bba4fdbe0.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/ffbeaaa7a591783ed87ff4bb490dc30bba4fdbe0.png",
+					"url": "/lodestone/playguide/db/achievement/a7fe95c5344/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						21,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ミノス・ルクス",
+					"description": "ミノス・ルクスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8e7436f9f226514b063e99deb92437405f13d6b4.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/8e7436f9f226514b063e99deb92437405f13d6b4.png",
+					"url": "/lodestone/playguide/db/achievement/b32c68f565e/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						21,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				}
+			]
+		},
+		{
+			"title": "アニマウェポン 竜騎士",
+			"data": [
+				{
+					"title": "アニマウェポン：ロンゴミアント",
+					"description": "ロンゴミアントを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fd/fd02dbb183c454137d5f02df7fd417f21b4a9dbd.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/fd02dbb183c454137d5f02df7fd417f21b4a9dbd.png",
+					"url": "/lodestone/playguide/db/achievement/27903449ab7/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						25,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ロンゴミアント・コンダクト",
+					"description": "ロンゴミアント・コンダクトを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fd/fd02dbb183c454137d5f02df7fd417f21b4a9dbd.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/fd02dbb183c454137d5f02df7fd417f21b4a9dbd.png",
+					"url": "/lodestone/playguide/db/achievement/515fe5892df/",
+					"isLatestPatch": false,
+					"sourceIndex": 19,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						25,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：オーバーロードトライデント",
+					"description": "オーバーロードトライデントを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fb/fb680956f6b5c94c161c6a6a4bcbdcc4af205aae.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/fb680956f6b5c94c161c6a6a4bcbdcc4af205aae.png",
+					"url": "/lodestone/playguide/db/achievement/5119c25d752/",
+					"isLatestPatch": false,
+					"sourceIndex": 20,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						25,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：オーバーロードトライデント・シャープ",
+					"description": "オーバーロードトライデント・シャープを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fb/fb680956f6b5c94c161c6a6a4bcbdcc4af205aae.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/fb680956f6b5c94c161c6a6a4bcbdcc4af205aae.png",
+					"url": "/lodestone/playguide/db/achievement/b19fed676ef/",
+					"isLatestPatch": false,
+					"sourceIndex": 21,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						25,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：アラドヴァル",
+					"description": "アラドヴァルを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e5/e58d96aaf63b0d8166c058e61d576a682d2a5242.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/e58d96aaf63b0d8166c058e61d576a682d2a5242.png",
+					"url": "/lodestone/playguide/db/achievement/9fc18fbc7b0/",
+					"isLatestPatch": false,
+					"sourceIndex": 22,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						25,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：アラドヴァル・ルクス",
+					"description": "アラドヴァル・ルクスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0a/0a29617569d989286cfc1dbf33fcaf2990dd5daa.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/0a29617569d989286cfc1dbf33fcaf2990dd5daa.png",
+					"url": "/lodestone/playguide/db/achievement/610abc2f8c3/",
+					"isLatestPatch": false,
+					"sourceIndex": 23,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						25,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				}
+			]
+		},
+		{
+			"title": "アニマウェポン 吟遊詩人",
+			"data": [
+				{
+					"title": "アニマウェポン：ガーンデーヴァ",
+					"description": "ガーンデーヴァを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8d/8d18611f44a5374f38b830dc76f6f5649439aaf5.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/8d18611f44a5374f38b830dc76f6f5649439aaf5.png",
+					"url": "/lodestone/playguide/db/achievement/e040e735f5d/",
+					"isLatestPatch": false,
+					"sourceIndex": 24,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						28,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ガーンデーヴァ・コンダクト",
+					"description": "ガーンデーヴァ・コンダクトを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8d/8d18611f44a5374f38b830dc76f6f5649439aaf5.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/8d18611f44a5374f38b830dc76f6f5649439aaf5.png",
+					"url": "/lodestone/playguide/db/achievement/7888fa2cfa3/",
+					"isLatestPatch": false,
+					"sourceIndex": 25,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						28,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：オウタークボウ",
+					"description": "オウタークボウを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/22/2257494e6bd68d29838b702e2888445c612a681b.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/2257494e6bd68d29838b702e2888445c612a681b.png",
+					"url": "/lodestone/playguide/db/achievement/822bf72626d/",
+					"isLatestPatch": false,
+					"sourceIndex": 26,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						28,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：オウタークボウ・シャープ",
+					"description": "オウタークボウ・シャープを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/22/2257494e6bd68d29838b702e2888445c612a681b.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/2257494e6bd68d29838b702e2888445c612a681b.png",
+					"url": "/lodestone/playguide/db/achievement/b7a36d7e224/",
+					"isLatestPatch": false,
+					"sourceIndex": 27,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						28,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：テルパンダー",
+					"description": "テルパンダーを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/19/1931757e1e32a905b634d565ac6c24cdac926d8e.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/1931757e1e32a905b634d565ac6c24cdac926d8e.png",
+					"url": "/lodestone/playguide/db/achievement/183de8f1221/",
+					"isLatestPatch": false,
+					"sourceIndex": 28,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						28,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：テルパンダー・ルクス",
+					"description": "テルパンダー・ルクスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2d/2d073a3e6186d9e38a5910fe208184beb2df070c.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/2d073a3e6186d9e38a5910fe208184beb2df070c.png",
+					"url": "/lodestone/playguide/db/achievement/73084a1f990/",
+					"isLatestPatch": false,
+					"sourceIndex": 29,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						28,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				}
+			]
+		},
+		{
+			"title": "アニマウェポン 忍者",
+			"data": [
+				{
+					"title": "アニマウェポン：神無",
+					"description": "神無を入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d0/d0a0a662b599199addcac09b1321f2a7ca0d2576.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/d0a0a662b599199addcac09b1321f2a7ca0d2576.png",
+					"url": "/lodestone/playguide/db/achievement/8406eb2b368/",
+					"isLatestPatch": false,
+					"sourceIndex": 30,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						26,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：神無【伝】",
+					"description": "神無【伝】を入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d0/d0a0a662b599199addcac09b1321f2a7ca0d2576.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/d0a0a662b599199addcac09b1321f2a7ca0d2576.png",
+					"url": "/lodestone/playguide/db/achievement/cd9b5b4d1b0/",
+					"isLatestPatch": false,
+					"sourceIndex": 31,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						26,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ソーンプリンスブレード",
+					"description": "ソーンプリンスブレードを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/36/36c0cc156481539c752d9da46fc03b2e43c3be6f.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/36c0cc156481539c752d9da46fc03b2e43c3be6f.png",
+					"url": "/lodestone/playguide/db/achievement/6c242fba43b/",
+					"isLatestPatch": false,
+					"sourceIndex": 32,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						26,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ソーンプリンスブレード・シャープ",
+					"description": "ソーンプリンスブレード・シャープを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/36/36c0cc156481539c752d9da46fc03b2e43c3be6f.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/36c0cc156481539c752d9da46fc03b2e43c3be6f.png",
+					"url": "/lodestone/playguide/db/achievement/57a735e03de/",
+					"isLatestPatch": false,
+					"sourceIndex": 33,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						26,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：サンダン",
+					"description": "サンダンを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a9/a9b6c3134c63e0e7bcec3c1d425db2c663aae01d.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/a9b6c3134c63e0e7bcec3c1d425db2c663aae01d.png",
+					"url": "/lodestone/playguide/db/achievement/1342914c8c3/",
+					"isLatestPatch": false,
+					"sourceIndex": 34,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						26,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：サンダン・ルクス",
+					"description": "サンダン・ルクスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/50/50558ab0c82aae042dcbf3bd6ebae658293a3334.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/50558ab0c82aae042dcbf3bd6ebae658293a3334.png",
+					"url": "/lodestone/playguide/db/achievement/7f1dbe6c4d9/",
+					"isLatestPatch": false,
+					"sourceIndex": 35,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						26,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				}
+			]
+		},
+		{
+			"title": "アニマウェポン 白魔道士",
+			"data": [
+				{
+					"title": "アニマウェポン：マジェスタス",
+					"description": "マジェスタスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fe/fea10ff1f44e5668ad56085d99d9ed6f6b9685d3.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/fea10ff1f44e5668ad56085d99d9ed6f6b9685d3.png",
+					"url": "/lodestone/playguide/db/achievement/85f65ad84bb/",
+					"isLatestPatch": false,
+					"sourceIndex": 36,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						35,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：マジェスタス・コンダクト",
+					"description": "マジェスタス・コンダクトを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fe/fea10ff1f44e5668ad56085d99d9ed6f6b9685d3.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/fea10ff1f44e5668ad56085d99d9ed6f6b9685d3.png",
+					"url": "/lodestone/playguide/db/achievement/6fe1a4e66c6/",
+					"isLatestPatch": false,
+					"sourceIndex": 37,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						35,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ホワイトザールケーン",
+					"description": "ホワイトザールケーンを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e8/e80e96f6706e42c846297081fb5accde328cc99c.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/e80e96f6706e42c846297081fb5accde328cc99c.png",
+					"url": "/lodestone/playguide/db/achievement/cd9b4599f6f/",
+					"isLatestPatch": false,
+					"sourceIndex": 38,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						35,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ホワイトザールケーン・シャープ",
+					"description": "ホワイトザールケーン・シャープを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e8/e80e96f6706e42c846297081fb5accde328cc99c.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/e80e96f6706e42c846297081fb5accde328cc99c.png",
+					"url": "/lodestone/playguide/db/achievement/7191083f788/",
+					"isLatestPatch": false,
+					"sourceIndex": 39,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						35,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：シンドリ",
+					"description": "シンドリを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2d/2d8d8bf906cb8e0b7dab01e3977c3090a6f2f78e.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/2d8d8bf906cb8e0b7dab01e3977c3090a6f2f78e.png",
+					"url": "/lodestone/playguide/db/achievement/5ac9aefc162/",
+					"isLatestPatch": false,
+					"sourceIndex": 40,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						35,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：シンドリ・ルクス",
+					"description": "シンドリ・ルクスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a2/a273566b1ee8833111269bab7d875785a49d2f9e.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/a273566b1ee8833111269bab7d875785a49d2f9e.png",
+					"url": "/lodestone/playguide/db/achievement/a586649d21a/",
+					"isLatestPatch": false,
+					"sourceIndex": 41,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						35,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				}
+			]
+		},
+		{
+			"title": "アニマウェポン 黒魔道士",
+			"data": [
+				{
+					"title": "アニマウェポン：フヴェルゲルミル",
+					"description": "フヴェルゲルミルを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1f/1f3b0c1db340a318f65544bf468bc99af19cd2a9.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/1f3b0c1db340a318f65544bf468bc99af19cd2a9.png",
+					"url": "/lodestone/playguide/db/achievement/37ffec33898/",
+					"isLatestPatch": false,
+					"sourceIndex": 42,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						31,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：フヴェルゲルミル・コンダクト",
+					"description": "フヴェルゲルミル・コンダクトを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1f/1f3b0c1db340a318f65544bf468bc99af19cd2a9.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/1f3b0c1db340a318f65544bf468bc99af19cd2a9.png",
+					"url": "/lodestone/playguide/db/achievement/552bbcf4cb5/",
+					"isLatestPatch": false,
+					"sourceIndex": 43,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						31,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ブラックハーンロッド",
+					"description": "ブラックハーンロッドを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/32/3288fd20ec17c6e99e1392d59e4cb35a7a64e074.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/3288fd20ec17c6e99e1392d59e4cb35a7a64e074.png",
+					"url": "/lodestone/playguide/db/achievement/0a417dbf949/",
+					"isLatestPatch": false,
+					"sourceIndex": 44,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						31,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ブラックハーンロッド・シャープ",
+					"description": "ブラックハーンロッド・シャープを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/32/3288fd20ec17c6e99e1392d59e4cb35a7a64e074.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/3288fd20ec17c6e99e1392d59e4cb35a7a64e074.png",
+					"url": "/lodestone/playguide/db/achievement/f01c8cde685/",
+					"isLatestPatch": false,
+					"sourceIndex": 45,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						31,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：カラダンダ",
+					"description": "カラダンダを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d0/d03c51359f863993a527d22f2126552a6f39c087.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/d03c51359f863993a527d22f2126552a6f39c087.png",
+					"url": "/lodestone/playguide/db/achievement/5378d8737eb/",
+					"isLatestPatch": false,
+					"sourceIndex": 46,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						31,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：カラダンダ・ルクス",
+					"description": "カラダンダ・ルクスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/35/357ca996aba83b17cd15a2e6b43ff10f63baee3d.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/357ca996aba83b17cd15a2e6b43ff10f63baee3d.png",
+					"url": "/lodestone/playguide/db/achievement/5022ac75469/",
+					"isLatestPatch": false,
+					"sourceIndex": 47,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						31,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				}
+			]
+		},
+		{
+			"title": "アニマウェポン 召喚士",
+			"data": [
+				{
+					"title": "アニマウェポン：ドラコノミコン",
+					"description": "ドラコノミコンを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/68/68d62437fcf099df0426db21bab1a2bc0963a588.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/68d62437fcf099df0426db21bab1a2bc0963a588.png",
+					"url": "/lodestone/playguide/db/achievement/09fe5c7bbfd/",
+					"isLatestPatch": false,
+					"sourceIndex": 48,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						32,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ドラコノミコン・コンダクト",
+					"description": "ドラコノミコン・コンダクトを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/68/68d62437fcf099df0426db21bab1a2bc0963a588.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/68d62437fcf099df0426db21bab1a2bc0963a588.png",
+					"url": "/lodestone/playguide/db/achievement/fdd8053fcf6/",
+					"isLatestPatch": false,
+					"sourceIndex": 49,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						32,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ブック・オブ・マッドクィーン",
+					"description": "ブック・オブ・マッドクィーンを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/13/13ce2438ba8f67797207262a2fc0ce1a928eb8ca.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/13ce2438ba8f67797207262a2fc0ce1a928eb8ca.png",
+					"url": "/lodestone/playguide/db/achievement/f9a01bc7ce2/",
+					"isLatestPatch": false,
+					"sourceIndex": 50,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						32,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ブック・オブ・マッドクィーン・シャープ",
+					"description": "ブック・オブ・マッドクィーン・シャープを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/13/13ce2438ba8f67797207262a2fc0ce1a928eb8ca.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/13ce2438ba8f67797207262a2fc0ce1a928eb8ca.png",
+					"url": "/lodestone/playguide/db/achievement/421e600f5cd/",
+					"isLatestPatch": false,
+					"sourceIndex": 51,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						32,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ミメーシス",
+					"description": "ミメーシスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ec/ecdc7e90a1d23b6d81cebbf707fb5164d29b21a3.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/ecdc7e90a1d23b6d81cebbf707fb5164d29b21a3.png",
+					"url": "/lodestone/playguide/db/achievement/5c20876f9ce/",
+					"isLatestPatch": false,
+					"sourceIndex": 52,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						32,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ミメーシス・ルクス",
+					"description": "ミメーシス・ルクスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/50/501d20a243805b63d9df8dc4652499a450f6fc05.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/501d20a243805b63d9df8dc4652499a450f6fc05.png",
+					"url": "/lodestone/playguide/db/achievement/3731a511d0a/",
+					"isLatestPatch": false,
+					"sourceIndex": 53,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						32,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				}
+			]
+		},
+		{
+			"title": "アニマウェポン 学者",
+			"data": [
+				{
+					"title": "アニマウェポン：テトラビブロス",
+					"description": "テトラビブロスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c4/c4a3fef0dd7804ddd267d56dc8274aff64d8e355.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/c4a3fef0dd7804ddd267d56dc8274aff64d8e355.png",
+					"url": "/lodestone/playguide/db/achievement/0ff9dc7ea35/",
+					"isLatestPatch": false,
+					"sourceIndex": 54,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						36,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：テトラビブロス・コンダクト",
+					"description": "テトラビブロス・コンダクトを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c4/c4a3fef0dd7804ddd267d56dc8274aff64d8e355.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/c4a3fef0dd7804ddd267d56dc8274aff64d8e355.png",
+					"url": "/lodestone/playguide/db/achievement/56c426457e4/",
+					"isLatestPatch": false,
+					"sourceIndex": 55,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						36,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ワード・オブ・マグネート",
+					"description": "ワード・オブ・マグネートを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/9c/9c1cc5fcaf6a84362847d5cdb9bb85bd28049d60.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/9c1cc5fcaf6a84362847d5cdb9bb85bd28049d60.png",
+					"url": "/lodestone/playguide/db/achievement/178fa55c172/",
+					"isLatestPatch": false,
+					"sourceIndex": 56,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						36,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ワード・オブ・マグネート・シャープ",
+					"description": "ワード・オブ・マグネート・シャープを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/9c/9c1cc5fcaf6a84362847d5cdb9bb85bd28049d60.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/9c1cc5fcaf6a84362847d5cdb9bb85bd28049d60.png",
+					"url": "/lodestone/playguide/db/achievement/19675f54aba/",
+					"isLatestPatch": false,
+					"sourceIndex": 57,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						36,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：アナバシス",
+					"description": "アナバシスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/61/619a9cf0641d98d09f67e9ba082620f2f3197050.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/619a9cf0641d98d09f67e9ba082620f2f3197050.png",
+					"url": "/lodestone/playguide/db/achievement/9a7c3e860a4/",
+					"isLatestPatch": false,
+					"sourceIndex": 58,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						36,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：アナバシス・ルクス",
+					"description": "アナバシス・ルクスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/48/484c36a3969bd1c5493b2c1b54e20a18226164a2.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/484c36a3969bd1c5493b2c1b54e20a18226164a2.png",
+					"url": "/lodestone/playguide/db/achievement/69ff1b29e83/",
+					"isLatestPatch": false,
+					"sourceIndex": 59,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						36,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				}
+			]
+		},
+		{
+			"title": "アニマウェポン 暗黒騎士",
+			"data": [
+				{
+					"title": "アニマウェポン：ノートゥング",
+					"description": "ノートゥングを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c6/c68d24b0278e5a5547681dba4db5036ddc14c2cc.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/c68d24b0278e5a5547681dba4db5036ddc14c2cc.png",
+					"url": "/lodestone/playguide/db/achievement/690ba38860c/",
+					"isLatestPatch": false,
+					"sourceIndex": 60,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						22,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ノートゥング・コンダクト",
+					"description": "ノートゥング・コンダクトを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c6/c68d24b0278e5a5547681dba4db5036ddc14c2cc.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/c68d24b0278e5a5547681dba4db5036ddc14c2cc.png",
+					"url": "/lodestone/playguide/db/achievement/1c70ff082e4/",
+					"isLatestPatch": false,
+					"sourceIndex": 61,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						22,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：タイラントディバイダー",
+					"description": "タイラントディバイダーを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/19/19e2a08afdbbe686f04c8446f521298e92886745.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/19e2a08afdbbe686f04c8446f521298e92886745.png",
+					"url": "/lodestone/playguide/db/achievement/e1455a05355/",
+					"isLatestPatch": false,
+					"sourceIndex": 62,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						22,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：タイラントディバイダー・シャープ",
+					"description": "タイラントディバイダー・シャープを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/19/19e2a08afdbbe686f04c8446f521298e92886745.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/19e2a08afdbbe686f04c8446f521298e92886745.png",
+					"url": "/lodestone/playguide/db/achievement/1242a14ab03/",
+					"isLatestPatch": false,
+					"sourceIndex": 63,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						22,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：クロノス",
+					"description": "クロノスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/48/48f937bcc27f7910cc6e7f3202243423048b54ac.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/48f937bcc27f7910cc6e7f3202243423048b54ac.png",
+					"url": "/lodestone/playguide/db/achievement/ebf3556a640/",
+					"isLatestPatch": false,
+					"sourceIndex": 64,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						22,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：クロノス・ルクス",
+					"description": "クロノス・ルクスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a1/a12a63eb33cd8998baef009ad43d5b288166b59a.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/a12a63eb33cd8998baef009ad43d5b288166b59a.png",
+					"url": "/lodestone/playguide/db/achievement/02374eb34f8/",
+					"isLatestPatch": false,
+					"sourceIndex": 65,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						22,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				}
+			]
+		},
+		{
+			"title": "アニマウェポン 機工士",
+			"data": [
+				{
+					"title": "アニマウェポン：アルマゲドン",
+					"description": "アルマゲドンを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/9b/9b2d3cc8c0a1b15fb07ab0a0670b97a7a2c9e338.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/9b2d3cc8c0a1b15fb07ab0a0670b97a7a2c9e338.png",
+					"url": "/lodestone/playguide/db/achievement/c795ca3a217/",
+					"isLatestPatch": false,
+					"sourceIndex": 66,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						29,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：アルマゲドン・コンダクト",
+					"description": "アルマゲドン・コンダクトを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/9b/9b2d3cc8c0a1b15fb07ab0a0670b97a7a2c9e338.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/9b2d3cc8c0a1b15fb07ab0a0670b97a7a2c9e338.png",
+					"url": "/lodestone/playguide/db/achievement/5f934ada33b/",
+					"isLatestPatch": false,
+					"sourceIndex": 67,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						29,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ダイナストファイア",
+					"description": "ダイナストファイアを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bf/bfe74d175142436e8fb98fd174e3a4f2d8bcb411.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/bfe74d175142436e8fb98fd174e3a4f2d8bcb411.png",
+					"url": "/lodestone/playguide/db/achievement/22022378510/",
+					"isLatestPatch": false,
+					"sourceIndex": 68,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						29,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ダイナストファイア・シャープ",
+					"description": "ダイナストファイア・シャープを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bf/bfe74d175142436e8fb98fd174e3a4f2d8bcb411.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/bfe74d175142436e8fb98fd174e3a4f2d8bcb411.png",
+					"url": "/lodestone/playguide/db/achievement/7d02c4c096a/",
+					"isLatestPatch": false,
+					"sourceIndex": 69,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						29,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：デスロック",
+					"description": "デスロックを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/42/42f07cdac7cebfd6e165380217ac01980a338fd8.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/42f07cdac7cebfd6e165380217ac01980a338fd8.png",
+					"url": "/lodestone/playguide/db/achievement/aa07b46e004/",
+					"isLatestPatch": false,
+					"sourceIndex": 70,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						29,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：デスロック・ルクス",
+					"description": "デスロック・ルクスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/69/694829c4991ffe41c982b7492c6fe7780cef7372.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/694829c4991ffe41c982b7492c6fe7780cef7372.png",
+					"url": "/lodestone/playguide/db/achievement/2bd278dd314/",
+					"isLatestPatch": false,
+					"sourceIndex": 71,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						29,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				}
+			]
+		},
+		{
+			"title": "アニマウェポン 占星術師",
+			"data": [
+				{
+					"title": "アニマウェポン：デネブ",
+					"description": "デネブを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/21/21bf0bf55c8be74ce38703adc2d526e1bdeca9e4.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/21bf0bf55c8be74ce38703adc2d526e1bdeca9e4.png",
+					"url": "/lodestone/playguide/db/achievement/ff0aa86d958/",
+					"isLatestPatch": false,
+					"sourceIndex": 72,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						37,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：デネブ・コンダクト",
+					"description": "デネブ・コンダクトを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/21/21bf0bf55c8be74ce38703adc2d526e1bdeca9e4.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/21bf0bf55c8be74ce38703adc2d526e1bdeca9e4.png",
+					"url": "/lodestone/playguide/db/achievement/3635db76fb9/",
+					"isLatestPatch": false,
+					"sourceIndex": 73,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						37,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ラストエアープラニスフィア",
+					"description": "ラストエアープラニスフィアを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a3/a3f2ecf00c27491b48177130fd1f566b58c912c8.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/a3f2ecf00c27491b48177130fd1f566b58c912c8.png",
+					"url": "/lodestone/playguide/db/achievement/e15876891c1/",
+					"isLatestPatch": false,
+					"sourceIndex": 74,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						37,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：ラストエアープラニスフィア・シャープ",
+					"description": "ラストエアープラニスフィア・シャープを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a3/a3f2ecf00c27491b48177130fd1f566b58c912c8.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/a3f2ecf00c27491b48177130fd1f566b58c912c8.png",
+					"url": "/lodestone/playguide/db/achievement/7813e7a1054/",
+					"isLatestPatch": false,
+					"sourceIndex": 75,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						37,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：カノープス",
+					"description": "カノープスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/28/2837768d2d7742d4947836a2ffc7cb0df911fe19.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/2837768d2d7742d4947836a2ffc7cb0df911fe19.png",
+					"url": "/lodestone/playguide/db/achievement/471845d8175/",
+					"isLatestPatch": false,
+					"sourceIndex": 76,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						37,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "アニマウェポン：カノープス・ルクス",
+					"description": "カノープス・ルクスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c6/c608f286d6af52a2c5191fb1c69a874ddc6756ff.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/anima_weapons/c608f286d6af52a2c5191fb1c69a874ddc6756ff.png",
+					"url": "/lodestone/playguide/db/achievement/60e624059e9/",
+					"isLatestPatch": false,
+					"sourceIndex": 77,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						37,
+						60,
+						193
+					],
+					"adjustmentPatchId": 43
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

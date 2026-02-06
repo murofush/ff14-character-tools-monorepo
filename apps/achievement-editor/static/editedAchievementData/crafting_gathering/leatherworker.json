@@ -1,0 +1,504 @@
+{
+	"title": "leatherworker",
+	"categorized": [
+		{
+			"title": "革細工師 レベル別 製作回数",
+			"data": [
+				{
+					"title": "革細工職人：素人",
+					"description": "革細工スキルのレベル1-10のレシピを50回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a2/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png",
+					"url": "/lodestone/playguide/db/achievement/d9b2034164e/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "革細工職人：見習",
+					"description": "革細工スキルのレベル11-20のレシピを300回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a2/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png",
+					"url": "/lodestone/playguide/db/achievement/752e03b62f4/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "革細工職人：徒弟",
+					"description": "革細工スキルのレベル21-30のレシピを750回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a2/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png",
+					"url": "/lodestone/playguide/db/achievement/bcb9a79c9e2/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "革細工職人：下級",
+					"description": "革細工スキルのレベル31-40のレシピを1,500回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a2/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png",
+					"url": "/lodestone/playguide/db/achievement/feee21c6646/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "革細工職人：上級",
+					"description": "革細工スキルのレベル41-50のレシピを3,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a2/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png?n5.45",
+					"point": 10,
+					"titleAward": "of the Golden Hide",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png",
+					"url": "/lodestone/playguide/db/achievement/9feec86cd2d/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "革細工の匠",
+					"description": "アチーブメント「革細工職人：素人」「革細工職人：見習」「革細工職人：徒弟」「革細工職人：下級」「革細工職人：上級」をすべて達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c7/c7f082b007d077e574cdae686bdb55056ea67f42.png?n5.45",
+					"point": 30,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/f1bf890e476/",
+					"itemAward": "ルミナリーナイフ",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c7/c7f082b007d077e574cdae686bdb55056ea67f42.png?n5.45",
+					"awardCondition": [
+						"革細工職人：素人",
+						"革細工職人：見習",
+						"革細工職人：徒弟",
+						"革細工職人：下級",
+						"革細工職人：上級"
+					],
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/c7f082b007d077e574cdae686bdb55056ea67f42.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/leatherworker/c7f082b007d077e574cdae686bdb55056ea67f42.png",
+					"url": "/lodestone/playguide/db/achievement/30852f95e59/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "革細工職人：名取",
+					"description": "革細工スキルのレベル51-60のレシピを1,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a2/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png",
+					"url": "/lodestone/playguide/db/achievement/9a066340e99/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "革細工職人：目録",
+					"description": "革細工スキルのレベル61-70のレシピを1,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a2/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png",
+					"url": "/lodestone/playguide/db/achievement/fa08da18064/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "革細工職人：印可",
+					"description": "革細工スキルのレベル71-80のレシピを1,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a2/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png",
+					"url": "/lodestone/playguide/db/achievement/e3edfdae213/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "革細工師 製作手帳 種類数",
+			"data": [
+				{
+					"title": "手帳好きの革細工師：ランク1",
+					"description": "革細工師のレシピのうち、50種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/65/656c61a24402971c017d12bc868652f33e201ec7.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/656c61a24402971c017d12bc868652f33e201ec7.png",
+					"url": "/lodestone/playguide/db/achievement/661128824d4/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの革細工師：ランク2",
+					"description": "革細工師のレシピのうち、110種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/65/656c61a24402971c017d12bc868652f33e201ec7.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/656c61a24402971c017d12bc868652f33e201ec7.png",
+					"url": "/lodestone/playguide/db/achievement/4707e0de591/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの革細工師：ランク3",
+					"description": "革細工師のレシピのうち、220種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/65/656c61a24402971c017d12bc868652f33e201ec7.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/b2da7c71c13/",
+					"itemAward": "マスターレザーワーカー・リング",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fd/fd0ec795cbc7bb8424e7f3335409bee07ab09c4d.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/656c61a24402971c017d12bc868652f33e201ec7.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/leatherworker/fd0ec795cbc7bb8424e7f3335409bee07ab09c4d.png",
+					"url": "/lodestone/playguide/db/achievement/f5efc2cdc2b/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの革細工師：ランク4",
+					"description": "革細工師のレシピのうち、320種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/65/656c61a24402971c017d12bc868652f33e201ec7.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/656c61a24402971c017d12bc868652f33e201ec7.png",
+					"url": "/lodestone/playguide/db/achievement/517d9935a58/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "手帳好きの革細工師：ランク5",
+					"description": "革細工師のレシピのうち、420種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/65/656c61a24402971c017d12bc868652f33e201ec7.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/1cd8042a1a7/",
+					"itemAward": "ブレスド・ハイドキープナイフ",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f4/f4552a31c8c5e4bafee602c57aa2fb54a00bebd1.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/656c61a24402971c017d12bc868652f33e201ec7.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/leatherworker/f4552a31c8c5e4bafee602c57aa2fb54a00bebd1.png",
+					"url": "/lodestone/playguide/db/achievement/ded9f7ae058/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "手帳好きの革細工師：ランク6",
+					"description": "革細工師のレシピのうち、550種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/65/656c61a24402971c017d12bc868652f33e201ec7.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/04c54128f77/",
+					"itemAward": "ブレスド・ハイドキングナイフ",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d9/d961d3732916913752c306bc3e18e7c893242a81.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/656c61a24402971c017d12bc868652f33e201ec7.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/leatherworker/d961d3732916913752c306bc3e18e7c893242a81.png",
+					"url": "/lodestone/playguide/db/achievement/9dcb374ea16/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 68
+				}
+			]
+		},
+		{
+			"title": "革細工師 HQ 製作回数",
+			"data": [
+				{
+					"title": "腕利きの革細工師：ランク1",
+					"description": "革細工師でHQアイテムを計100回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/10/1069711b59d875395562ef91ff34381d8139bfdb.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/1069711b59d875395562ef91ff34381d8139bfdb.png",
+					"url": "/lodestone/playguide/db/achievement/1fab522cc99/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの革細工師：ランク2",
+					"description": "革細工師でHQアイテムを計500回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/10/1069711b59d875395562ef91ff34381d8139bfdb.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/1069711b59d875395562ef91ff34381d8139bfdb.png",
+					"url": "/lodestone/playguide/db/achievement/298353d8ff1/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの革細工師：ランク3",
+					"description": "革細工師でHQアイテムを計3,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/10/1069711b59d875395562ef91ff34381d8139bfdb.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/1069711b59d875395562ef91ff34381d8139bfdb.png",
+					"url": "/lodestone/playguide/db/achievement/a120f34bb8d/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの革細工師：ランク4",
+					"description": "革細工師でHQアイテムを計5,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/10/1069711b59d875395562ef91ff34381d8139bfdb.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/1069711b59d875395562ef91ff34381d8139bfdb.png",
+					"url": "/lodestone/playguide/db/achievement/857c40e633b/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの革細工師：ランク5",
+					"description": "革細工師でHQアイテムを計10,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/10/1069711b59d875395562ef91ff34381d8139bfdb.png?n5.45",
+					"point": 10,
+					"titleAward": "Master Tanner",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/1069711b59d875395562ef91ff34381d8139bfdb.png",
+					"url": "/lodestone/playguide/db/achievement/9e3e3a822eb/",
+					"isLatestPatch": false,
+					"sourceIndex": 19,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "革細工師 イシュガルド復興 技巧点",
+			"data": [
+				{
+					"title": "蒼天街の革細工師：ランク1",
+					"description": "イシュガルド復興において、革細工師で技巧点を50,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fa/fad79724879f5c35b83448cf47a7e0904d5ba28b.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/fad79724879f5c35b83448cf47a7e0904d5ba28b.png",
+					"url": "/lodestone/playguide/db/achievement/6eb3c3e7d47/",
+					"isLatestPatch": false,
+					"sourceIndex": 20,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天街の革細工師：ランク2",
+					"description": "イシュガルド復興において、革細工師で技巧点を150,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fa/fad79724879f5c35b83448cf47a7e0904d5ba28b.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/fad79724879f5c35b83448cf47a7e0904d5ba28b.png",
+					"url": "/lodestone/playguide/db/achievement/4bdb99373c3/",
+					"isLatestPatch": false,
+					"sourceIndex": 21,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天街の革細工マスター",
+					"description": "イシュガルド復興において、革細工師で技巧点を500,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fa/fad79724879f5c35b83448cf47a7e0904d5ba28b.png?n5.45",
+					"point": 10,
+					"titleAward": "Knife of the Firmament",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/fad79724879f5c35b83448cf47a7e0904d5ba28b.png",
+					"url": "/lodestone/playguide/db/achievement/ba1fed21d91/",
+					"isLatestPatch": false,
+					"sourceIndex": 22,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42,
+						78
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "革細工師 イシュガルド復興 高難易度レシピ 製作数",
+			"data": [
+				{
+					"title": "ニューネスト居住区の革細工師",
+					"description": "第二次復興事業計画向け納品において、革細工師の高難易度レシピのアイテムを100個納品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d6/d6c4fdab76b5eb76b60e551f87ccf74713dce453.png?n5.45",
+					"point": 10,
+					"titleAward": "the Nest's Own Leatherworker",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/d6c4fdab76b5eb76b60e551f87ccf74713dce453.png",
+					"url": "/lodestone/playguide/db/achievement/0d3298a788b/",
+					"isLatestPatch": false,
+					"sourceIndex": 23,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42,
+						78
+					],
+					"adjustmentPatchId": 80
+				},
+				{
+					"title": "フェザーフォール商業区の革細工師",
+					"description": "第三次復興事業計画向け納品において、革細工師の高難易度レシピのアイテムを100個納品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e8/e84eebfb381b785020399cce4341ce5bd3a346c9.png?n5.45",
+					"point": 10,
+					"titleAward": "Featherfall's Finest Leatherworker",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/e84eebfb381b785020399cce4341ce5bd3a346c9.png",
+					"url": "/lodestone/playguide/db/achievement/1cb964e2d8b/",
+					"isLatestPatch": false,
+					"sourceIndex": 24,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42,
+						78
+					],
+					"adjustmentPatchId": 83
+				},
+				{
+					"title": "リズンソング文化区の革細工師",
+					"description": "第四次復興事業計画向け納品において、革細工師の高難易度レシピのアイテムを100個納品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c0/c0f246c898fd338df450bed8fc305e96d806965f.png?n5.45",
+					"point": 10,
+					"isLatestPatch": true,
+					"titleAward": "the Risensung Leatherworker",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/c0f246c898fd338df450bed8fc305e96d806965f.png",
+					"url": "/lodestone/playguide/db/achievement/a48f5d783a6/",
+					"sourceIndex": 25,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42,
+						78
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}, {
+			"title": "リスプレンデントツール",
+			"data": [
+				{
+					"title": "リスプレンデントツール：リスプレンデント・ハイドフィーンドナイフ",
+					"description": "リスプレンデント・ハイドフィーンドナイフを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5e/5e9ff2376528bf107a283f0f80a88faa7ae921c9.png?n5.5",
+					"point": 10,
+					"isLatestPatch": true,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/leatherworker/5e9ff2376528bf107a283f0f80a88faa7ae921c9.png",
+					"url": "/lodestone/playguide/db/achievement/b02b1d0cad3/",
+					"sourceIndex": 26,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						195
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": [
+	]
+}

@@ -1,0 +1,1149 @@
+{
+	"title": "disciples_of_war",
+	"categorized": [
+		{
+			"title": "剣術士 (ナイト)",
+			"data": [
+				{
+					"title": "剣術士：レベル10",
+					"description": "剣術士のレベルが10に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/26/26641822d49df189d5836e42eed1e56f28247287.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/26641822d49df189d5836e42eed1e56f28247287.png",
+					"url": "/lodestone/playguide/db/achievement/4e4ad519c32/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						20
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "剣術士：レベル20",
+					"description": "剣術士のレベルが20に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/26/26641822d49df189d5836e42eed1e56f28247287.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/26641822d49df189d5836e42eed1e56f28247287.png",
+					"url": "/lodestone/playguide/db/achievement/606c582a13d/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						20
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "剣術士：レベル30",
+					"description": "剣術士のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/26/26641822d49df189d5836e42eed1e56f28247287.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/26641822d49df189d5836e42eed1e56f28247287.png",
+					"url": "/lodestone/playguide/db/achievement/765d6a57298/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						20
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "剣術士：レベル40",
+					"description": "剣術士のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/26/26641822d49df189d5836e42eed1e56f28247287.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/26641822d49df189d5836e42eed1e56f28247287.png",
+					"url": "/lodestone/playguide/db/achievement/f50745f0bc1/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						20
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "剣術士：レベル50",
+					"description": "剣術士のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/26/26641822d49df189d5836e42eed1e56f28247287.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/26641822d49df189d5836e42eed1e56f28247287.png",
+					"url": "/lodestone/playguide/db/achievement/0b6434e010d/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						20
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "剣術士：レベル60",
+					"description": "剣術士のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/26/26641822d49df189d5836e42eed1e56f28247287.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/26641822d49df189d5836e42eed1e56f28247287.png",
+					"url": "/lodestone/playguide/db/achievement/709585ad2bf/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						20
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "剣術士：レベル70",
+					"description": "剣術士のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/26/26641822d49df189d5836e42eed1e56f28247287.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/26641822d49df189d5836e42eed1e56f28247287.png",
+					"url": "/lodestone/playguide/db/achievement/cf17d7bbf67/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						20
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "剣術士：レベル80",
+					"description": "剣術士のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/26/26641822d49df189d5836e42eed1e56f28247287.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/26641822d49df189d5836e42eed1e56f28247287.png",
+					"url": "/lodestone/playguide/db/achievement/9d926c1312f/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						20
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "格闘士 (モンク)",
+			"data": [
+				{
+					"title": "格闘士：レベル10",
+					"description": "格闘士のレベルが10に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e7/e7a1c96423ed2f6e4a38279fc5cb00d4bc045116.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/e7a1c96423ed2f6e4a38279fc5cb00d4bc045116.png",
+					"url": "/lodestone/playguide/db/achievement/6011a4e9074/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						24
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "格闘士：レベル20",
+					"description": "格闘士のレベルが20に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e7/e7a1c96423ed2f6e4a38279fc5cb00d4bc045116.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/e7a1c96423ed2f6e4a38279fc5cb00d4bc045116.png",
+					"url": "/lodestone/playguide/db/achievement/3f87551d4a4/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						24
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "格闘士：レベル30",
+					"description": "格闘士のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e7/e7a1c96423ed2f6e4a38279fc5cb00d4bc045116.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/e7a1c96423ed2f6e4a38279fc5cb00d4bc045116.png",
+					"url": "/lodestone/playguide/db/achievement/9ac93338b09/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						24
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "格闘士：レベル40",
+					"description": "格闘士のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e7/e7a1c96423ed2f6e4a38279fc5cb00d4bc045116.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/e7a1c96423ed2f6e4a38279fc5cb00d4bc045116.png",
+					"url": "/lodestone/playguide/db/achievement/1ed90dd0f51/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						24
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "格闘士：レベル50",
+					"description": "格闘士のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e7/e7a1c96423ed2f6e4a38279fc5cb00d4bc045116.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/e7a1c96423ed2f6e4a38279fc5cb00d4bc045116.png",
+					"url": "/lodestone/playguide/db/achievement/45cdb305cf4/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						24
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "格闘士：レベル60",
+					"description": "格闘士のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e7/e7a1c96423ed2f6e4a38279fc5cb00d4bc045116.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/e7a1c96423ed2f6e4a38279fc5cb00d4bc045116.png",
+					"url": "/lodestone/playguide/db/achievement/6998ecf3bc2/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						24
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "格闘士：レベル70",
+					"description": "格闘士のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e7/e7a1c96423ed2f6e4a38279fc5cb00d4bc045116.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/e7a1c96423ed2f6e4a38279fc5cb00d4bc045116.png",
+					"url": "/lodestone/playguide/db/achievement/49adb327efa/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						24
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "格闘士：レベル80",
+					"description": "格闘士のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e7/e7a1c96423ed2f6e4a38279fc5cb00d4bc045116.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/e7a1c96423ed2f6e4a38279fc5cb00d4bc045116.png",
+					"url": "/lodestone/playguide/db/achievement/9d485b17bd1/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						24
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "斧術士 (戦士)",
+			"data": [
+				{
+					"title": "斧術士：レベル10",
+					"description": "斧術士のレベルが10に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f5/f5adf758a40d104d4cb1b2f4406ba64e3686f667.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/f5adf758a40d104d4cb1b2f4406ba64e3686f667.png",
+					"url": "/lodestone/playguide/db/achievement/2aca7dc19d9/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						21
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "斧術士：レベル20",
+					"description": "斧術士のレベルが20に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f5/f5adf758a40d104d4cb1b2f4406ba64e3686f667.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/f5adf758a40d104d4cb1b2f4406ba64e3686f667.png",
+					"url": "/lodestone/playguide/db/achievement/8019c31cce1/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						21
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "斧術士：レベル30",
+					"description": "斧術士のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f5/f5adf758a40d104d4cb1b2f4406ba64e3686f667.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/f5adf758a40d104d4cb1b2f4406ba64e3686f667.png",
+					"url": "/lodestone/playguide/db/achievement/17e190c55ac/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						21
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "斧術士：レベル40",
+					"description": "斧術士のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f5/f5adf758a40d104d4cb1b2f4406ba64e3686f667.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/f5adf758a40d104d4cb1b2f4406ba64e3686f667.png",
+					"url": "/lodestone/playguide/db/achievement/14280206045/",
+					"isLatestPatch": false,
+					"sourceIndex": 19,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						21
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "斧術士：レベル50",
+					"description": "斧術士のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f5/f5adf758a40d104d4cb1b2f4406ba64e3686f667.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/f5adf758a40d104d4cb1b2f4406ba64e3686f667.png",
+					"url": "/lodestone/playguide/db/achievement/5a2a6fe445e/",
+					"isLatestPatch": false,
+					"sourceIndex": 20,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						21
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "斧術士：レベル60",
+					"description": "斧術士のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f5/f5adf758a40d104d4cb1b2f4406ba64e3686f667.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/f5adf758a40d104d4cb1b2f4406ba64e3686f667.png",
+					"url": "/lodestone/playguide/db/achievement/d213fb9e840/",
+					"isLatestPatch": false,
+					"sourceIndex": 21,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						21
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "斧術士：レベル70",
+					"description": "斧術士のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f5/f5adf758a40d104d4cb1b2f4406ba64e3686f667.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/f5adf758a40d104d4cb1b2f4406ba64e3686f667.png",
+					"url": "/lodestone/playguide/db/achievement/8408756c2de/",
+					"isLatestPatch": false,
+					"sourceIndex": 22,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						21
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "斧術士：レベル80",
+					"description": "斧術士のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f5/f5adf758a40d104d4cb1b2f4406ba64e3686f667.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/f5adf758a40d104d4cb1b2f4406ba64e3686f667.png",
+					"url": "/lodestone/playguide/db/achievement/3a39fe8ef18/",
+					"isLatestPatch": false,
+					"sourceIndex": 23,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						21
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "槍術士 (竜騎士)",
+			"data": [
+				{
+					"title": "槍術士：レベル10",
+					"description": "槍術士のレベルが10に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29e14cf6487ffe7291337fa441bbd6ab2287b613.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/29e14cf6487ffe7291337fa441bbd6ab2287b613.png",
+					"url": "/lodestone/playguide/db/achievement/25c399d4415/",
+					"isLatestPatch": false,
+					"sourceIndex": 24,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						25
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "槍術士：レベル20",
+					"description": "槍術士のレベルが20に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29e14cf6487ffe7291337fa441bbd6ab2287b613.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/29e14cf6487ffe7291337fa441bbd6ab2287b613.png",
+					"url": "/lodestone/playguide/db/achievement/a2dc237bdc2/",
+					"isLatestPatch": false,
+					"sourceIndex": 25,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						25
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "槍術士：レベル30",
+					"description": "槍術士のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29e14cf6487ffe7291337fa441bbd6ab2287b613.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/29e14cf6487ffe7291337fa441bbd6ab2287b613.png",
+					"url": "/lodestone/playguide/db/achievement/c44421c69c8/",
+					"isLatestPatch": false,
+					"sourceIndex": 26,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						25
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "槍術士：レベル40",
+					"description": "槍術士のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29e14cf6487ffe7291337fa441bbd6ab2287b613.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/29e14cf6487ffe7291337fa441bbd6ab2287b613.png",
+					"url": "/lodestone/playguide/db/achievement/9327dc9ad27/",
+					"isLatestPatch": false,
+					"sourceIndex": 27,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						25
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "槍術士：レベル50",
+					"description": "槍術士のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29e14cf6487ffe7291337fa441bbd6ab2287b613.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/29e14cf6487ffe7291337fa441bbd6ab2287b613.png",
+					"url": "/lodestone/playguide/db/achievement/30266a971e9/",
+					"isLatestPatch": false,
+					"sourceIndex": 28,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						25
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "槍術士：レベル60",
+					"description": "槍術士のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29e14cf6487ffe7291337fa441bbd6ab2287b613.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/29e14cf6487ffe7291337fa441bbd6ab2287b613.png",
+					"url": "/lodestone/playguide/db/achievement/82ac8a246cf/",
+					"isLatestPatch": false,
+					"sourceIndex": 29,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						25
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "槍術士：レベル70",
+					"description": "槍術士のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29e14cf6487ffe7291337fa441bbd6ab2287b613.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/29e14cf6487ffe7291337fa441bbd6ab2287b613.png",
+					"url": "/lodestone/playguide/db/achievement/8180e378f54/",
+					"isLatestPatch": false,
+					"sourceIndex": 30,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						25
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "槍術士：レベル80",
+					"description": "槍術士のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29e14cf6487ffe7291337fa441bbd6ab2287b613.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/29e14cf6487ffe7291337fa441bbd6ab2287b613.png",
+					"url": "/lodestone/playguide/db/achievement/98ff82e1be6/",
+					"isLatestPatch": false,
+					"sourceIndex": 31,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						25
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "弓術士 (吟遊詩人)",
+			"data": [
+				{
+					"title": "弓術士：レベル10",
+					"description": "弓術士のレベルが10に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2b/2b5ccd70491942ffc5905c560973f523f8f49ca9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/2b5ccd70491942ffc5905c560973f523f8f49ca9.png",
+					"url": "/lodestone/playguide/db/achievement/c97659e3dde/",
+					"isLatestPatch": false,
+					"sourceIndex": 32,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						28
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "弓術士：レベル20",
+					"description": "弓術士のレベルが20に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2b/2b5ccd70491942ffc5905c560973f523f8f49ca9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/2b5ccd70491942ffc5905c560973f523f8f49ca9.png",
+					"url": "/lodestone/playguide/db/achievement/36b8f06eb47/",
+					"isLatestPatch": false,
+					"sourceIndex": 33,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						28
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "弓術士：レベル30",
+					"description": "弓術士のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2b/2b5ccd70491942ffc5905c560973f523f8f49ca9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/2b5ccd70491942ffc5905c560973f523f8f49ca9.png",
+					"url": "/lodestone/playguide/db/achievement/01e210ecc6d/",
+					"isLatestPatch": false,
+					"sourceIndex": 34,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						28
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "弓術士：レベル40",
+					"description": "弓術士のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2b/2b5ccd70491942ffc5905c560973f523f8f49ca9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/2b5ccd70491942ffc5905c560973f523f8f49ca9.png",
+					"url": "/lodestone/playguide/db/achievement/9577c4e55a8/",
+					"isLatestPatch": false,
+					"sourceIndex": 35,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						28
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "弓術士：レベル50",
+					"description": "弓術士のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2b/2b5ccd70491942ffc5905c560973f523f8f49ca9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/2b5ccd70491942ffc5905c560973f523f8f49ca9.png",
+					"url": "/lodestone/playguide/db/achievement/dace709990b/",
+					"isLatestPatch": false,
+					"sourceIndex": 36,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						28
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "弓術士：レベル60",
+					"description": "弓術士のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2b/2b5ccd70491942ffc5905c560973f523f8f49ca9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/2b5ccd70491942ffc5905c560973f523f8f49ca9.png",
+					"url": "/lodestone/playguide/db/achievement/6735da39103/",
+					"isLatestPatch": false,
+					"sourceIndex": 37,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						28
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "弓術士：レベル70",
+					"description": "弓術士のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2b/2b5ccd70491942ffc5905c560973f523f8f49ca9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/2b5ccd70491942ffc5905c560973f523f8f49ca9.png",
+					"url": "/lodestone/playguide/db/achievement/dba2762f5fb/",
+					"isLatestPatch": false,
+					"sourceIndex": 38,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						28
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "弓術士：レベル80",
+					"description": "弓術士のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2b/2b5ccd70491942ffc5905c560973f523f8f49ca9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/2b5ccd70491942ffc5905c560973f523f8f49ca9.png",
+					"url": "/lodestone/playguide/db/achievement/dd31d28d9ea/",
+					"isLatestPatch": false,
+					"sourceIndex": 39,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						28
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "双剣士 (忍者)",
+			"data": [
+				{
+					"title": "双剣士：レベル10",
+					"description": "双剣士のレベルが10に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d9/d99b1b175354775842e6252282569d2e739c8ec6.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/d99b1b175354775842e6252282569d2e739c8ec6.png",
+					"url": "/lodestone/playguide/db/achievement/4eb7e43b058/",
+					"isLatestPatch": false,
+					"sourceIndex": 40,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						26
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "双剣士：レベル20",
+					"description": "双剣士のレベルが20に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d9/d99b1b175354775842e6252282569d2e739c8ec6.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/d99b1b175354775842e6252282569d2e739c8ec6.png",
+					"url": "/lodestone/playguide/db/achievement/02d26ca97ed/",
+					"isLatestPatch": false,
+					"sourceIndex": 41,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						26
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "双剣士：レベル30",
+					"description": "双剣士のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d9/d99b1b175354775842e6252282569d2e739c8ec6.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/d99b1b175354775842e6252282569d2e739c8ec6.png",
+					"url": "/lodestone/playguide/db/achievement/7063aed8424/",
+					"isLatestPatch": false,
+					"sourceIndex": 42,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						26
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "双剣士：レベル40",
+					"description": "双剣士のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d9/d99b1b175354775842e6252282569d2e739c8ec6.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/d99b1b175354775842e6252282569d2e739c8ec6.png",
+					"url": "/lodestone/playguide/db/achievement/df1e2f25dd7/",
+					"isLatestPatch": false,
+					"sourceIndex": 43,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						26
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "双剣士：レベル50",
+					"description": "双剣士のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d9/d99b1b175354775842e6252282569d2e739c8ec6.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/d99b1b175354775842e6252282569d2e739c8ec6.png",
+					"url": "/lodestone/playguide/db/achievement/83fbd2835c3/",
+					"isLatestPatch": false,
+					"sourceIndex": 44,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						26
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "双剣士：レベル60",
+					"description": "双剣士のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d9/d99b1b175354775842e6252282569d2e739c8ec6.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/d99b1b175354775842e6252282569d2e739c8ec6.png",
+					"url": "/lodestone/playguide/db/achievement/14251cf3db4/",
+					"isLatestPatch": false,
+					"sourceIndex": 45,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						26
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "双剣士：レベル70",
+					"description": "双剣士のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d9/d99b1b175354775842e6252282569d2e739c8ec6.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/d99b1b175354775842e6252282569d2e739c8ec6.png",
+					"url": "/lodestone/playguide/db/achievement/7c836b555f8/",
+					"isLatestPatch": false,
+					"sourceIndex": 46,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						26
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "双剣士：レベル80",
+					"description": "双剣士のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d9/d99b1b175354775842e6252282569d2e739c8ec6.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/d99b1b175354775842e6252282569d2e739c8ec6.png",
+					"url": "/lodestone/playguide/db/achievement/9b37a8642ac/",
+					"isLatestPatch": false,
+					"sourceIndex": 47,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						26
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "暗黒騎士",
+			"data": [
+				{
+					"title": "暗黒騎士：レベル30",
+					"description": "暗黒騎士のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/98/98865fa964188466c8557d3e3106adfa842832f2.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/98865fa964188466c8557d3e3106adfa842832f2.png",
+					"url": "/lodestone/playguide/db/achievement/a94a0c2bc27/",
+					"isLatestPatch": false,
+					"sourceIndex": 48,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						22
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "暗黒騎士：レベル40",
+					"description": "暗黒騎士のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/98/98865fa964188466c8557d3e3106adfa842832f2.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/98865fa964188466c8557d3e3106adfa842832f2.png",
+					"url": "/lodestone/playguide/db/achievement/60a2e1d1c68/",
+					"isLatestPatch": false,
+					"sourceIndex": 49,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						22
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "暗黒騎士：レベル50",
+					"description": "暗黒騎士のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/98/98865fa964188466c8557d3e3106adfa842832f2.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/98865fa964188466c8557d3e3106adfa842832f2.png",
+					"url": "/lodestone/playguide/db/achievement/cc7e6148a80/",
+					"isLatestPatch": false,
+					"sourceIndex": 50,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						22
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "暗黒騎士：レベル60",
+					"description": "暗黒騎士のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/98/98865fa964188466c8557d3e3106adfa842832f2.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/98865fa964188466c8557d3e3106adfa842832f2.png",
+					"url": "/lodestone/playguide/db/achievement/22dbf549d36/",
+					"isLatestPatch": false,
+					"sourceIndex": 51,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						22
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "暗黒騎士：レベル70",
+					"description": "暗黒騎士のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/98/98865fa964188466c8557d3e3106adfa842832f2.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/98865fa964188466c8557d3e3106adfa842832f2.png",
+					"url": "/lodestone/playguide/db/achievement/ed361d992f2/",
+					"isLatestPatch": false,
+					"sourceIndex": 52,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						22
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "暗黒騎士：レベル80",
+					"description": "暗黒騎士のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/98/98865fa964188466c8557d3e3106adfa842832f2.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/98865fa964188466c8557d3e3106adfa842832f2.png",
+					"url": "/lodestone/playguide/db/achievement/577f51e9198/",
+					"isLatestPatch": false,
+					"sourceIndex": 53,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						22
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "機工士",
+			"data": [
+				{
+					"title": "機工士：レベル30",
+					"description": "機工士のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f019338d8064d2c4405163f60dfdcce40dee66b8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/f019338d8064d2c4405163f60dfdcce40dee66b8.png",
+					"url": "/lodestone/playguide/db/achievement/f2fd9cc0519/",
+					"isLatestPatch": false,
+					"sourceIndex": 54,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						29
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "機工士：レベル40",
+					"description": "機工士のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f019338d8064d2c4405163f60dfdcce40dee66b8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/f019338d8064d2c4405163f60dfdcce40dee66b8.png",
+					"url": "/lodestone/playguide/db/achievement/54a7eb9cda3/",
+					"isLatestPatch": false,
+					"sourceIndex": 55,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						29
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "機工士：レベル50",
+					"description": "機工士のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f019338d8064d2c4405163f60dfdcce40dee66b8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/f019338d8064d2c4405163f60dfdcce40dee66b8.png",
+					"url": "/lodestone/playguide/db/achievement/245c87e6f0f/",
+					"isLatestPatch": false,
+					"sourceIndex": 56,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						29
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "機工士：レベル60",
+					"description": "機工士のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f019338d8064d2c4405163f60dfdcce40dee66b8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/f019338d8064d2c4405163f60dfdcce40dee66b8.png",
+					"url": "/lodestone/playguide/db/achievement/bcf336f4ecf/",
+					"isLatestPatch": false,
+					"sourceIndex": 57,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						29
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "機工士：レベル70",
+					"description": "機工士のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f019338d8064d2c4405163f60dfdcce40dee66b8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/f019338d8064d2c4405163f60dfdcce40dee66b8.png",
+					"url": "/lodestone/playguide/db/achievement/a8075034fbb/",
+					"isLatestPatch": false,
+					"sourceIndex": 58,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						29
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "機工士：レベル80",
+					"description": "機工士のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f019338d8064d2c4405163f60dfdcce40dee66b8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/f019338d8064d2c4405163f60dfdcce40dee66b8.png",
+					"url": "/lodestone/playguide/db/achievement/84f79f5b69f/",
+					"isLatestPatch": false,
+					"sourceIndex": 59,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						29
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "侍",
+			"data": [
+				{
+					"title": "侍：レベル50",
+					"description": "侍のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/01/019582ca01899f98fd4405a5522682948d4415b8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/019582ca01899f98fd4405a5522682948d4415b8.png",
+					"url": "/lodestone/playguide/db/achievement/39e94465558/",
+					"isLatestPatch": false,
+					"sourceIndex": 60,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						27
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "侍：レベル60",
+					"description": "侍のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/01/019582ca01899f98fd4405a5522682948d4415b8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/019582ca01899f98fd4405a5522682948d4415b8.png",
+					"url": "/lodestone/playguide/db/achievement/16e09b69b77/",
+					"isLatestPatch": false,
+					"sourceIndex": 61,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						27
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "侍：レベル70",
+					"description": "侍のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/01/019582ca01899f98fd4405a5522682948d4415b8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/019582ca01899f98fd4405a5522682948d4415b8.png",
+					"url": "/lodestone/playguide/db/achievement/01e32b3f16a/",
+					"isLatestPatch": false,
+					"sourceIndex": 62,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						27
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "侍：レベル80",
+					"description": "侍のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/01/019582ca01899f98fd4405a5522682948d4415b8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/019582ca01899f98fd4405a5522682948d4415b8.png",
+					"url": "/lodestone/playguide/db/achievement/dcf14433f3e/",
+					"isLatestPatch": false,
+					"sourceIndex": 63,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						27
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "ガンブレイカー",
+			"data": [
+				{
+					"title": "ガンブレイカー：レベル70",
+					"description": "ガンブレイカーのレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4d/4dd42470400b4fa29233c4b09acfbe55b59be5b9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/4dd42470400b4fa29233c4b09acfbe55b59be5b9.png",
+					"url": "/lodestone/playguide/db/achievement/3d8516fb91a/",
+					"isLatestPatch": false,
+					"sourceIndex": 64,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						23
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ガンブレイカー：レベル80",
+					"description": "ガンブレイカーのレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4d/4dd42470400b4fa29233c4b09acfbe55b59be5b9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/4dd42470400b4fa29233c4b09acfbe55b59be5b9.png",
+					"url": "/lodestone/playguide/db/achievement/9fdd926b48b/",
+					"isLatestPatch": false,
+					"sourceIndex": 65,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						23
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "踊り子",
+			"data": [
+				{
+					"title": "踊り子：レベル70",
+					"description": "踊り子のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/cf/cf989ad273d20e186e223213d8c08fff2f625bde.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/cf989ad273d20e186e223213d8c08fff2f625bde.png",
+					"url": "/lodestone/playguide/db/achievement/bcf1457c4ce/",
+					"isLatestPatch": false,
+					"sourceIndex": 66,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						30
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "踊り子：レベル80",
+					"description": "踊り子のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/cf/cf989ad273d20e186e223213d8c08fff2f625bde.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_war/cf989ad273d20e186e223213d8c08fff2f625bde.png",
+					"url": "/lodestone/playguide/db/achievement/eb87f911137/",
+					"isLatestPatch": false,
+					"sourceIndex": 67,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						30
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

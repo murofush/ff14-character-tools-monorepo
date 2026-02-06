@@ -1,0 +1,46 @@
+{
+	"title": "zodiac_weapons",
+	"categorized": [
+		{
+			"title": "レリック武器 強化 (ゾディアックウェポン 入手)",
+			"data": [
+				{
+					"title": "ゾディアックウェポンオーナー",
+					"description": "「ゾディアックウェポン」のいずれかを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/9b/9b43363a2a1dc6f994c8549d504e8a6a258a99a4.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/zodiac_weapons/9b43363a2a1dc6f994c8549d504e8a6a258a99a4.png",
+					"url": "/lodestone/playguide/db/achievement/357dbdaeac2/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						59,
+						193
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "ゾディアックウェポン・ゼータ",
+					"description": "いずれかのゾディアックウェポン・ゼータを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/9b/9b43363a2a1dc6f994c8549d504e8a6a258a99a4.png?n5.45",
+					"point": 20,
+					"titleAward": "the Zeta",
+					"iconPath": "~/static/achievementData/img/items/zodiac_weapons/9b43363a2a1dc6f994c8549d504e8a6a258a99a4.png",
+					"url": "/lodestone/playguide/db/achievement/e1f349e70b9/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						59,
+						193
+					],
+					"adjustmentPatchId": 20
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

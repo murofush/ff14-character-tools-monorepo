@@ -1,0 +1,506 @@
+{
+	"title": "goldsmith",
+	"categorized": [
+		{
+			"title": "彫金師 レベル別 製作回数",
+			"data": [
+				{
+					"title": "彫金職人：素人",
+					"description": "彫金スキルのレベル1-10のレシピを50回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c8a4304c4a627556d8911866612d44268fd45715.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/c8a4304c4a627556d8911866612d44268fd45715.png",
+					"url": "/lodestone/playguide/db/achievement/448820d18f5/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "彫金職人：見習",
+					"description": "彫金スキルのレベル11-20のレシピを300回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c8a4304c4a627556d8911866612d44268fd45715.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/c8a4304c4a627556d8911866612d44268fd45715.png",
+					"url": "/lodestone/playguide/db/achievement/163a2bcfb0f/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "彫金職人：徒弟",
+					"description": "彫金スキルのレベル21-30のレシピを750回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c8a4304c4a627556d8911866612d44268fd45715.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/c8a4304c4a627556d8911866612d44268fd45715.png",
+					"url": "/lodestone/playguide/db/achievement/ac2b0b5748e/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "彫金職人：下級",
+					"description": "彫金スキルのレベル31-40のレシピを1,500回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c8a4304c4a627556d8911866612d44268fd45715.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/c8a4304c4a627556d8911866612d44268fd45715.png",
+					"url": "/lodestone/playguide/db/achievement/ab889fe1256/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "彫金職人：上級",
+					"description": "彫金スキルのレベル41-50のレシピを3,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c8a4304c4a627556d8911866612d44268fd45715.png?n5.45",
+					"point": 10,
+					"titleAward": "of the Golden Leaf",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/c8a4304c4a627556d8911866612d44268fd45715.png",
+					"url": "/lodestone/playguide/db/achievement/d0afa802706/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "彫金の匠",
+					"description": "アチーブメント「彫金職人：素人」「彫金職人：見習」「彫金職人：徒弟」「彫金職人：下級」「彫金職人：上級」をすべて達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a1/a1efcdab549cd9e62cf8d8c45008db46cda7a75e.png?n5.45",
+					"point": 30,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/6c76c9f53d7/",
+					"itemAward": "ルミナリーガヴェル",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a1/a1efcdab549cd9e62cf8d8c45008db46cda7a75e.png?n5.45",
+					"awardCondition": [
+						"彫金職人：素人",
+						"彫金職人：見習",
+						"彫金職人：徒弟",
+						"彫金職人：下級",
+						"彫金職人：上級"
+					],
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/a1efcdab549cd9e62cf8d8c45008db46cda7a75e.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/goldsmith/a1efcdab549cd9e62cf8d8c45008db46cda7a75e.png",
+					"url": "/lodestone/playguide/db/achievement/01bfbbb33ea/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "彫金職人：名取",
+					"description": "彫金スキルのレベル51-60のレシピを1,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c8a4304c4a627556d8911866612d44268fd45715.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/c8a4304c4a627556d8911866612d44268fd45715.png",
+					"url": "/lodestone/playguide/db/achievement/a693a5ae742/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "彫金職人：目録",
+					"description": "彫金スキルのレベル61-70のレシピを1,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c8a4304c4a627556d8911866612d44268fd45715.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/c8a4304c4a627556d8911866612d44268fd45715.png",
+					"url": "/lodestone/playguide/db/achievement/249f85f884b/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "彫金職人：印可",
+					"description": "彫金スキルのレベル71-80のレシピを1,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c8a4304c4a627556d8911866612d44268fd45715.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/c8a4304c4a627556d8911866612d44268fd45715.png",
+					"url": "/lodestone/playguide/db/achievement/a962dfdcf1d/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "彫金師 製作手帳 種類数",
+			"data": [
+				{
+					"title": "手帳好きの彫金師：ランク1",
+					"description": "彫金師のレシピのうち、60種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/09/098efa0b19a43e8406e0456662484c8c258a68e3.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/098efa0b19a43e8406e0456662484c8c258a68e3.png",
+					"url": "/lodestone/playguide/db/achievement/bed505a3eb1/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの彫金師：ランク2",
+					"description": "彫金師のレシピのうち、130種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/09/098efa0b19a43e8406e0456662484c8c258a68e3.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/098efa0b19a43e8406e0456662484c8c258a68e3.png",
+					"url": "/lodestone/playguide/db/achievement/c6c44619de2/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの彫金師：ランク3",
+					"description": "彫金師のレシピのうち、270種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/09/098efa0b19a43e8406e0456662484c8c258a68e3.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/b58aa6cee0f/",
+					"itemAward": "マスターゴールドスミス・リング",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/6c/6c83a0d8383fe7efd7945d22f5394b06278cd00a.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/098efa0b19a43e8406e0456662484c8c258a68e3.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/goldsmith/6c83a0d8383fe7efd7945d22f5394b06278cd00a.png",
+					"url": "/lodestone/playguide/db/achievement/fe0916c7ddd/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの彫金師：ランク4",
+					"description": "彫金師のレシピのうち、380種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/09/098efa0b19a43e8406e0456662484c8c258a68e3.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/098efa0b19a43e8406e0456662484c8c258a68e3.png",
+					"url": "/lodestone/playguide/db/achievement/d2644befccb/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "手帳好きの彫金師：ランク5",
+					"description": "彫金師のレシピのうち、550種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/09/098efa0b19a43e8406e0456662484c8c258a68e3.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/7b942f92b34/",
+					"itemAward": "ブレスド・ジェムキープマレット",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/99/9960c10b4dc6f991ad283690878d1cc3ede06bf8.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/098efa0b19a43e8406e0456662484c8c258a68e3.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/goldsmith/9960c10b4dc6f991ad283690878d1cc3ede06bf8.png",
+					"url": "/lodestone/playguide/db/achievement/95a82514821/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "手帳好きの彫金師：ランク6",
+					"description": "彫金師のレシピのうち、730種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/09/098efa0b19a43e8406e0456662484c8c258a68e3.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/c6ae3f307d5/",
+					"itemAward": "ブレスド・ジェムキングマレット",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e9/e9a5c6c6c4df8e7c0f28dbb30ca572a051f6d122.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/098efa0b19a43e8406e0456662484c8c258a68e3.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/goldsmith/e9a5c6c6c4df8e7c0f28dbb30ca572a051f6d122.png",
+					"url": "/lodestone/playguide/db/achievement/4e3a52b4445/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 68
+				}
+			]
+		},
+		{
+			"title": "彫金師 HQ 製作回数",
+			"data": [
+				{
+					"title": "腕利きの彫金師：ランク1",
+					"description": "彫金師でHQアイテムを計100回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/59/59e43c1aa85b1292ab502e5369729da7b91cdaac.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/59e43c1aa85b1292ab502e5369729da7b91cdaac.png",
+					"url": "/lodestone/playguide/db/achievement/a30e1498963/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの彫金師：ランク2",
+					"description": "彫金師でHQアイテムを計500回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/59/59e43c1aa85b1292ab502e5369729da7b91cdaac.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/59e43c1aa85b1292ab502e5369729da7b91cdaac.png",
+					"url": "/lodestone/playguide/db/achievement/d26b6e7835a/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの彫金師：ランク3",
+					"description": "彫金師でHQアイテムを計3,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/59/59e43c1aa85b1292ab502e5369729da7b91cdaac.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/59e43c1aa85b1292ab502e5369729da7b91cdaac.png",
+					"url": "/lodestone/playguide/db/achievement/979953255c6/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの彫金師：ランク4",
+					"description": "彫金師でHQアイテムを計5,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/59/59e43c1aa85b1292ab502e5369729da7b91cdaac.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/59e43c1aa85b1292ab502e5369729da7b91cdaac.png",
+					"url": "/lodestone/playguide/db/achievement/93b2e10e106/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの彫金師：ランク5",
+					"description": "彫金師でHQアイテムを計10,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/59/59e43c1aa85b1292ab502e5369729da7b91cdaac.png?n5.45",
+					"point": 10,
+					"titleAward": "Master Goldsmith",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/59e43c1aa85b1292ab502e5369729da7b91cdaac.png",
+					"url": "/lodestone/playguide/db/achievement/86f270e5c65/",
+					"isLatestPatch": false,
+					"sourceIndex": 19,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "彫金師 イシュガルド復興 技巧点",
+			"data": [
+				{
+					"title": "蒼天街の彫金師：ランク1",
+					"description": "イシュガルド復興において、彫金師で技巧点を50,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c7/c73242ec6fe72c27c7b6350edaf5e122499a2288.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/c73242ec6fe72c27c7b6350edaf5e122499a2288.png",
+					"url": "/lodestone/playguide/db/achievement/ea5aa9e54ea/",
+					"isLatestPatch": false,
+					"sourceIndex": 20,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天街の彫金師：ランク2",
+					"description": "イシュガルド復興において、彫金師で技巧点を150,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c7/c73242ec6fe72c27c7b6350edaf5e122499a2288.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/c73242ec6fe72c27c7b6350edaf5e122499a2288.png",
+					"url": "/lodestone/playguide/db/achievement/bc3c9ad2e68/",
+					"isLatestPatch": false,
+					"sourceIndex": 21,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天街の彫金マスター",
+					"description": "イシュガルド復興において、彫金師で技巧点を500,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c7/c73242ec6fe72c27c7b6350edaf5e122499a2288.png?n5.45",
+					"point": 10,
+					"titleAward": "Jewel of the Firmament",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/c73242ec6fe72c27c7b6350edaf5e122499a2288.png",
+					"url": "/lodestone/playguide/db/achievement/fb44e4ffcd1/",
+					"isLatestPatch": false,
+					"sourceIndex": 22,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41,
+						78
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "彫金師 イシュガルド復興 高難易度レシピ 製作数",
+			"data": [
+				{
+					"title": "ニューネスト居住区の彫金師",
+					"description": "第二次復興事業計画向け納品において、彫金師の高難易度レシピのアイテムを100個納品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/14/14bb95798d005719d9e2821562dd8c338048768e.png?n5.45",
+					"point": 10,
+					"titleAward": "the Nest's Own Goldsmith",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/14bb95798d005719d9e2821562dd8c338048768e.png",
+					"url": "/lodestone/playguide/db/achievement/a4f48d0d0b7/",
+					"isLatestPatch": false,
+					"sourceIndex": 23,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41,
+						78
+					],
+					"adjustmentPatchId": 80
+				},
+				{
+					"title": "フェザーフォール商業区の彫金師",
+					"description": "第三次復興事業計画向け納品において、彫金師の高難易度レシピのアイテムを100個納品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/80/803f279ce8c74ab0c4901103d5e06ecc563b2380.png?n5.45",
+					"point": 10,
+					"titleAward": "Featherfall's Finest Goldsmith",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/803f279ce8c74ab0c4901103d5e06ecc563b2380.png",
+					"url": "/lodestone/playguide/db/achievement/4bc2e217544/",
+					"isLatestPatch": false,
+					"sourceIndex": 24,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41,
+						78
+					],
+					"adjustmentPatchId": 83
+				},
+				{
+					"title": "リズンソング文化区の彫金師",
+					"description": "第四次復興事業計画向け納品において、彫金師の高難易度レシピのアイテムを100個納品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/9a/9a3a10fe34cceceab108ca46d47d91b26de4f5d5.png?n5.45",
+					"point": 10,
+					"isLatestPatch": true,
+					"titleAward": "the Risensung Goldsmith",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/9a3a10fe34cceceab108ca46d47d91b26de4f5d5.png",
+					"url": "/lodestone/playguide/db/achievement/2427338bd51/",
+					"sourceIndex": 25,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41,
+						78
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "リスプレンデントツール",
+			"data": [
+				{
+					"title": "リスプレンデントツール：リスプレンデント・ジェムフィーンドマレット",
+					"description": "リスプレンデント・ジェムフィーンドマレットを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f7/f75a8028c3576ddbdafbb8c7d2ce2cfc0e099bfe.png?n5.5",
+					"point": 10,
+					"isLatestPatch": true,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/goldsmith/f75a8028c3576ddbdafbb8c7d2ce2cfc0e099bfe.png",
+					"url": "/lodestone/playguide/db/achievement/cf68c8c2cd5/",
+					"sourceIndex": 26,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						195
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": [
+
+	]
+}

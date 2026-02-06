@@ -1,0 +1,457 @@
+{
+	"title": "skysteel_tools",
+	"categorized": [
+		{
+			"title": "スカイスチールツール 木工師",
+			"data": [
+				{
+					"title": "スカイスチールツール：スカイソング・ソー",
+					"description": "スカイソング・ソーを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d4/d46f164694be9e66a2770759ba8d061355835063.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/skysteel_tools/d46f164694be9e66a2770759ba8d061355835063.png",
+					"url": "/lodestone/playguide/db/achievement/dcc944357b0/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38,
+						62,
+						195
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "スカイスチールツール：スカイビルダーズ・ソー",
+					"description": "スカイビルダーズ・ソーを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d4/d46f164694be9e66a2770759ba8d061355835063.png?n5.45",
+					"point": 10,
+					"isLatestPatch": true,
+					"iconPath": "~/static/achievementData/img/items/skysteel_tools/d46f164694be9e66a2770759ba8d061355835063.png",
+					"url": "/lodestone/playguide/db/achievement/d11daa00cd5/",
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38,
+						62,
+						195
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "スカイスチールツール 鍛冶師",
+			"data": [
+				{
+					"title": "スカイスチールツール：スカイソング・クロスペインハンマー",
+					"description": "スカイソング・クロスペインハンマーを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/01/013ddbb324b5da03b91f13e655f96fedd2f2fc9b.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/skysteel_tools/013ddbb324b5da03b91f13e655f96fedd2f2fc9b.png",
+					"url": "/lodestone/playguide/db/achievement/e41da4acab7/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						39,
+						62,
+						195
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "スカイスチールツール：スカイビルダーズ・クロスペインハンマー",
+					"description": "スカイビルダーズ・クロスペインハンマーを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/01/013ddbb324b5da03b91f13e655f96fedd2f2fc9b.png?n5.45",
+					"point": 10,
+					"isLatestPatch": true,
+					"iconPath": "~/static/achievementData/img/items/skysteel_tools/013ddbb324b5da03b91f13e655f96fedd2f2fc9b.png",
+					"url": "/lodestone/playguide/db/achievement/cf7c06051f3/",
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						39,
+						62,
+						195
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "スカイスチールツール 甲冑師",
+			"data": [
+				{
+					"title": "スカイスチールツール：スカイソング・レイジングハンマー",
+					"description": "スカイソング・レイジングハンマーを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/df/df701f2dad20dcc38ab34dc50ae43ed293dfb9bb.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/skysteel_tools/df701f2dad20dcc38ab34dc50ae43ed293dfb9bb.png",
+					"url": "/lodestone/playguide/db/achievement/86fb151d057/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40,
+						62,
+						195
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "スカイスチールツール：スカイビルダーズ・レイジングハンマー",
+					"description": "スカイビルダーズ・レイジングハンマーを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/df/df701f2dad20dcc38ab34dc50ae43ed293dfb9bb.png?n5.45",
+					"point": 10,
+					"isLatestPatch": true,
+					"iconPath": "~/static/achievementData/img/items/skysteel_tools/df701f2dad20dcc38ab34dc50ae43ed293dfb9bb.png",
+					"url": "/lodestone/playguide/db/achievement/5b6aed5b733/",
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40,
+						62,
+						195
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "スカイスチールツール 彫金師",
+			"data": [
+				{
+					"title": "スカイスチールツール：スカイソング・ラピダリーハンマー",
+					"description": "スカイソング・ラピダリーハンマーを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3f/3ff429ef7755044fc61b61406af653e9eebf5c3a.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/skysteel_tools/3ff429ef7755044fc61b61406af653e9eebf5c3a.png",
+					"url": "/lodestone/playguide/db/achievement/c489f665a0e/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41,
+						62,
+						195
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "スカイスチールツール：スカイビルダーズ・ラピダリーハンマー",
+					"description": "スカイビルダーズ・ラピダリーハンマーを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3f/3ff429ef7755044fc61b61406af653e9eebf5c3a.png?n5.45",
+					"point": 10,
+					"isLatestPatch": true,
+					"iconPath": "~/static/achievementData/img/items/skysteel_tools/3ff429ef7755044fc61b61406af653e9eebf5c3a.png",
+					"url": "/lodestone/playguide/db/achievement/18fa7ae3d32/",
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41,
+						62,
+						195
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "スカイスチールツール 革細工師",
+			"data": [
+				{
+					"title": "スカイスチールツール：スカイソング・ラウンドナイフ",
+					"description": "スカイソング・ラウンドナイフを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1a/1adf8938b19404dbf55629471843a4bc5466db35.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/skysteel_tools/1adf8938b19404dbf55629471843a4bc5466db35.png",
+					"url": "/lodestone/playguide/db/achievement/da3ef583967/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42,
+						62,
+						195
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "スカイスチールツール：スカイビルダーズ・ラウンドナイフ",
+					"description": "スカイビルダーズ・ラウンドナイフを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1a/1adf8938b19404dbf55629471843a4bc5466db35.png?n5.45",
+					"point": 10,
+					"isLatestPatch": true,
+					"iconPath": "~/static/achievementData/img/items/skysteel_tools/1adf8938b19404dbf55629471843a4bc5466db35.png",
+					"url": "/lodestone/playguide/db/achievement/091221af68f/",
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42,
+						62,
+						195
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "スカイスチールツール 裁縫師",
+			"data": [
+				{
+					"title": "スカイスチールツール：スカイソング・ニードル",
+					"description": "スカイソング・ニードルを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ed/ed2697e55d0bc31de1a3f6769fd6326c4fa01a79.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/skysteel_tools/ed2697e55d0bc31de1a3f6769fd6326c4fa01a79.png",
+					"url": "/lodestone/playguide/db/achievement/f98bd5925a6/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43,
+						62,
+						195
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "スカイスチールツール：スカイビルダーズ・ニードル",
+					"description": "スカイビルダーズ・ニードルを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ed/ed2697e55d0bc31de1a3f6769fd6326c4fa01a79.png?n5.45",
+					"point": 10,
+					"isLatestPatch": true,
+					"iconPath": "~/static/achievementData/img/items/skysteel_tools/ed2697e55d0bc31de1a3f6769fd6326c4fa01a79.png",
+					"url": "/lodestone/playguide/db/achievement/b84051b1eab/",
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43,
+						62,
+						195
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "スカイスチールツール 錬金術師",
+			"data": [
+				{
+					"title": "スカイスチールツール：スカイソング・アレンビック",
+					"description": "スカイソング・アレンビックを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e8/e862b53852efec1394c4cb77e7e283a1176e7e97.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/skysteel_tools/e862b53852efec1394c4cb77e7e283a1176e7e97.png",
+					"url": "/lodestone/playguide/db/achievement/0f87f0ffe6e/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						44,
+						62,
+						195
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "スカイスチールツール：スカイビルダーズ・アレンビック",
+					"description": "スカイビルダーズ・アレンビックを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e8/e862b53852efec1394c4cb77e7e283a1176e7e97.png?n5.45",
+					"point": 10,
+					"isLatestPatch": true,
+					"iconPath": "~/static/achievementData/img/items/skysteel_tools/e862b53852efec1394c4cb77e7e283a1176e7e97.png",
+					"url": "/lodestone/playguide/db/achievement/d543295a10c/",
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						44,
+						62,
+						195
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "スカイスチールツール 調理師",
+			"data": [
+				{
+					"title": "スカイスチールツール：スカイソング・フライパン",
+					"description": "スカイソング・フライパンを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/58/58157ae3691a86628f5a500986f3c6e4cb0d1a11.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/skysteel_tools/58157ae3691a86628f5a500986f3c6e4cb0d1a11.png",
+					"url": "/lodestone/playguide/db/achievement/4fa9bbcc071/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45,
+						62,
+						195
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "スカイスチールツール：スカイビルダーズ・フライパン",
+					"description": "スカイビルダーズ・フライパンを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/58/58157ae3691a86628f5a500986f3c6e4cb0d1a11.png?n5.45",
+					"point": 10,
+					"isLatestPatch": true,
+					"iconPath": "~/static/achievementData/img/items/skysteel_tools/58157ae3691a86628f5a500986f3c6e4cb0d1a11.png",
+					"url": "/lodestone/playguide/db/achievement/7e0c8e720a2/",
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45,
+						62,
+						195
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "スカイスチールツール 採掘師",
+			"data": [
+				{
+					"title": "スカイスチールツール：スカイソング・ピック",
+					"description": "スカイソング・ピックを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/6c/6cf174dcc7d7e606b658f4a4574e47c5938a9468.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/skysteel_tools/6cf174dcc7d7e606b658f4a4574e47c5938a9468.png",
+					"url": "/lodestone/playguide/db/achievement/50dc91f8981/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						62,
+						195
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "スカイスチールツール：スカイビルダーズ・ピック",
+					"description": "スカイビルダーズ・ピックを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/6c/6cf174dcc7d7e606b658f4a4574e47c5938a9468.png?n5.45",
+					"point": 10,
+					"isLatestPatch": true,
+					"iconPath": "~/static/achievementData/img/items/skysteel_tools/6cf174dcc7d7e606b658f4a4574e47c5938a9468.png",
+					"url": "/lodestone/playguide/db/achievement/e307a98a413/",
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						62,
+						195
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "スカイスチールツール 園芸師",
+			"data": [
+				{
+					"title": "スカイスチールツール：スカイソング・ハチェット",
+					"description": "スカイソング・ハチェットを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/19/191a0634ef3e1a4e3d688fbd609aac9ba6d6808d.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/skysteel_tools/191a0634ef3e1a4e3d688fbd609aac9ba6d6808d.png",
+					"url": "/lodestone/playguide/db/achievement/18329b53bfa/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						62,
+						195
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "スカイスチールツール：スカイビルダーズ・ハチェット",
+					"description": "スカイビルダーズ・ハチェットを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/19/191a0634ef3e1a4e3d688fbd609aac9ba6d6808d.png?n5.45",
+					"point": 10,
+					"isLatestPatch": true,
+					"iconPath": "~/static/achievementData/img/items/skysteel_tools/191a0634ef3e1a4e3d688fbd609aac9ba6d6808d.png",
+					"url": "/lodestone/playguide/db/achievement/dd433f50eed/",
+					"sourceIndex": 19,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						47,
+						62,
+						195
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "スカイスチールツール 漁師",
+			"data": [
+				{
+					"title": "スカイスチールツール：スカイソング・フィッシングロッド",
+					"description": "スカイソング・フィッシングロッドを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c4/c4e7820be8ecafd175b779ff970dc599cbbbceb2.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/skysteel_tools/c4e7820be8ecafd175b779ff970dc599cbbbceb2.png",
+					"url": "/lodestone/playguide/db/achievement/52405da6125/",
+					"isLatestPatch": false,
+					"sourceIndex": 20,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						49,
+						62,
+						195
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "スカイスチールツール：スカイビルダーズ・フィッシングロッド",
+					"description": "スカイビルダーズ・フィッシングロッドを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c4/c4e7820be8ecafd175b779ff970dc599cbbbceb2.png?n5.45",
+					"point": 10,
+					"isLatestPatch": true,
+					"iconPath": "~/static/achievementData/img/items/skysteel_tools/c4e7820be8ecafd175b779ff970dc599cbbbceb2.png",
+					"url": "/lodestone/playguide/db/achievement/940a61393cc/",
+					"sourceIndex": 21,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						49,
+						62,
+						195
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

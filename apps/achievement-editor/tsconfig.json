@@ -1,0 +1,8 @@
+{
+  "extends": "@ff14/tsconfig/react-vite.json",
+  "compilerOptions": {
+    "useDefineForClassFields": true,
+    "skipLibCheck": true
+  },
+  "include": ["src", "vite.config.ts"]
+}

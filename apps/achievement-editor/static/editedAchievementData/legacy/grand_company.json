@@ -1,0 +1,195 @@
+{
+	"title": "grand_company",
+	"categorized": [
+		{
+			"title": "キャラバン護衛 クリアタイム",
+			"data": [
+				{
+					"title": "堅実なキャラバン隊：レベル20",
+					"description": "ランク20帯のキャラバン護衛を12分以内にクリア",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4c/4c699a01adc8bfd00231ce7cfa66127ff85d830a.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/grand_company/4c699a01adc8bfd00231ce7cfa66127ff85d830a.png",
+					"url": "/lodestone/playguide/db/achievement/4f4eb9ffc0a/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "風の如きキャラバン隊：レベル20",
+					"description": "ランク20帯のキャラバン護衛を10分以内にクリア",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4c/4c699a01adc8bfd00231ce7cfa66127ff85d830a.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/grand_company/4c699a01adc8bfd00231ce7cfa66127ff85d830a.png",
+					"url": "/lodestone/playguide/db/achievement/4bec95da38c/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "疾風怒涛のキャラバン隊：レベル20",
+					"description": "ランク20帯のキャラバン護衛を8分以内にクリア",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4c/4c699a01adc8bfd00231ce7cfa66127ff85d830a.png?n5.45",
+					"point": 10,
+					"titleAward": "the Featherfoot",
+					"iconPath": "~/static/achievementData/img/legacy/grand_company/4c699a01adc8bfd00231ce7cfa66127ff85d830a.png",
+					"url": "/lodestone/playguide/db/achievement/cbd3539d7bb/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "堅実なキャラバン隊：レベル40",
+					"description": "ランク40帯のキャラバン護衛を12分以内にクリア",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4c/4c699a01adc8bfd00231ce7cfa66127ff85d830a.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/grand_company/4c699a01adc8bfd00231ce7cfa66127ff85d830a.png",
+					"url": "/lodestone/playguide/db/achievement/107c25d2321/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "風の如きキャラバン隊：レベル40",
+					"description": "ランク40帯のキャラバン護衛を10分以内にクリア",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4c/4c699a01adc8bfd00231ce7cfa66127ff85d830a.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/grand_company/4c699a01adc8bfd00231ce7cfa66127ff85d830a.png",
+					"url": "/lodestone/playguide/db/achievement/0488abc3965/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "疾風怒涛のキャラバン隊：レベル40",
+					"description": "ランク40帯のキャラバン護衛を8分以内にクリア",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4c/4c699a01adc8bfd00231ce7cfa66127ff85d830a.png?n5.45",
+					"point": 10,
+					"titleAward": "Speedster",
+					"iconPath": "~/static/achievementData/img/legacy/grand_company/4c699a01adc8bfd00231ce7cfa66127ff85d830a.png",
+					"url": "/lodestone/playguide/db/achievement/2e6df3c6ea9/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "キャラバン護衛 運搬回数",
+			"data": [
+				{
+					"title": "大量輸送：ランク1",
+					"description": "キャラバン護衛で荷物を累計100個運ぶ",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a3/a3ce86a435bd1e66415e9287b688b648a342218e.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/grand_company/a3ce86a435bd1e66415e9287b688b648a342218e.png",
+					"url": "/lodestone/playguide/db/achievement/15fe5f7bb0f/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "大量輸送：ランク2",
+					"description": "キャラバン護衛で荷物を累計500個運ぶ",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a3/a3ce86a435bd1e66415e9287b688b648a342218e.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/grand_company/a3ce86a435bd1e66415e9287b688b648a342218e.png",
+					"url": "/lodestone/playguide/db/achievement/cb8b7eacc7a/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "大量輸送：ランク3",
+					"description": "キャラバン護衛で荷物を累計1,000個運ぶ",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a3/a3ce86a435bd1e66415e9287b688b648a342218e.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/grand_company/a3ce86a435bd1e66415e9287b688b648a342218e.png",
+					"url": "/lodestone/playguide/db/achievement/bb4aea50da4/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "大量輸送：ランク4",
+					"description": "キャラバン護衛で荷物を累計5,000個運ぶ",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a3/a3ce86a435bd1e66415e9287b688b648a342218e.png?n5.45",
+					"point": 10,
+					"titleAward": "Caravan Driver",
+					"iconPath": "~/static/achievementData/img/legacy/grand_company/a3ce86a435bd1e66415e9287b688b648a342218e.png",
+					"url": "/lodestone/playguide/db/achievement/9aa34cc2e51/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "物流の大動脈",
+					"description": "キャラバン護衛で荷物を累計10,000個運ぶ",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a3/a3ce86a435bd1e66415e9287b688b648a342218e.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/legacy/grand_company/a3ce86a435bd1e66415e9287b688b648a342218e.png",
+					"url": "/lodestone/playguide/db/achievement/30c8bac9f32/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

@@ -1,0 +1,296 @@
+{
+	"title": "relic_weapons",
+	"categorized": [
+		{
+			"title": "クエスト「蘇る古の武器」報酬",
+			"data": [
+				{
+					"title": "古の武器：コルタナ＆ホーリーシールド",
+					"description": "クエスト「蘇る古の武器」をコンプリートし、コルタナとホーリーシールドを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/be/bef39afeded7ec387802057880e738d264c4a68b.png?n5.45",
+					"point": 10,
+					"titleAward": "the True",
+					"iconPath": "~/static/achievementData/img/items/relic_weapons/bef39afeded7ec387802057880e738d264c4a68b.png",
+					"url": "/lodestone/playguide/db/achievement/a53381a2240/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						20,
+						59,
+						193
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "古の武器：スファライ",
+					"description": "クエスト「蘇る古の武器」をコンプリートし、スファライを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b2/b232b23fb91c3f917cd2f3cd48b6c0b6635da9f7.png?n5.45",
+					"point": 10,
+					"titleAward": "Coeurlfist",
+					"iconPath": "~/static/achievementData/img/items/relic_weapons/b232b23fb91c3f917cd2f3cd48b6c0b6635da9f7.png",
+					"url": "/lodestone/playguide/db/achievement/c8ef2791d45/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						24,
+						59,
+						193
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "古の武器：ブラビューラ",
+					"description": "クエスト「蘇る古の武器」をコンプリートし、ブラビューラを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b2/b23fe2165038a852087682d97b01302b5c43b211.png?n5.45",
+					"point": 10,
+					"titleAward": "Ironeater",
+					"iconPath": "~/static/achievementData/img/items/relic_weapons/b23fe2165038a852087682d97b01302b5c43b211.png",
+					"url": "/lodestone/playguide/db/achievement/b47bdc2b8fa/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						21,
+						59,
+						193
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "古の武器：ゲイボルグ",
+					"description": "クエスト「蘇る古の武器」をコンプリートし、ゲイボルグを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/36/36b2a9bd012c018d4801e36d609f28050acfa783.png?n5.45",
+					"point": 10,
+					"titleAward": "of the Vengeful Lance",
+					"iconPath": "~/static/achievementData/img/items/relic_weapons/36b2a9bd012c018d4801e36d609f28050acfa783.png",
+					"url": "/lodestone/playguide/db/achievement/05fe7fdbd41/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						25,
+						59,
+						193
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "古の武器：アルテミスの弓",
+					"description": "クエスト「蘇る古の武器」をコンプリートし、アルテミスの弓を入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d6/d6ceea0280adda799ae96f6691c442b2d35aeb9c.png?n5.45",
+					"point": 10,
+					"titleAward": "the Godsbow",
+					"iconPath": "~/static/achievementData/img/items/relic_weapons/d6ceea0280adda799ae96f6691c442b2d35aeb9c.png",
+					"url": "/lodestone/playguide/db/achievement/0759bf6607f/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						28,
+						59,
+						193
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "古の武器：吉光",
+					"description": "クエスト「蘇る古の武器」をコンプリートし、吉光を入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/69/692f39459d4cdf3638f1a3175a69047cbc79f662.png?n5.45",
+					"point": 10,
+					"titleAward": "the Shadow",
+					"iconPath": "~/static/achievementData/img/items/relic_weapons/692f39459d4cdf3638f1a3175a69047cbc79f662.png",
+					"url": "/lodestone/playguide/db/achievement/392a11e3a96/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						26,
+						59,
+						193
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "古の武器：タイラス",
+					"description": "クエスト「蘇る古の武器」をコンプリートし、タイラスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/be/beef6a4127e5abfb329927f5d1434f2a6279e6b6.png?n5.45",
+					"point": 10,
+					"titleAward": "the White",
+					"iconPath": "~/static/achievementData/img/items/relic_weapons/beef6a4127e5abfb329927f5d1434f2a6279e6b6.png",
+					"url": "/lodestone/playguide/db/achievement/77aaf7aa9d8/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						35,
+						59,
+						193
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "古の武器：星屑のロッド",
+					"description": "クエスト「蘇る古の武器」をコンプリートし、星屑のロッドを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/83/83ee99e7182e0b52f08ec0c3a2db6b11f4536dd1.png?n5.45",
+					"point": 10,
+					"titleAward": "Starcaller",
+					"iconPath": "~/static/achievementData/img/items/relic_weapons/83ee99e7182e0b52f08ec0c3a2db6b11f4536dd1.png",
+					"url": "/lodestone/playguide/db/achievement/fdedfbbb9e7/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						31,
+						59,
+						193
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "古の武器：ウイユヴェール",
+					"description": "クエスト「蘇る古の武器」をコンプリートし、ウイユヴェールを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0d/0d0d8f8ef4b226ffa66ba80e7cab783f1f5b1c2d.png?n5.45",
+					"point": 10,
+					"titleAward": "the Oeilvert",
+					"iconPath": "~/static/achievementData/img/items/relic_weapons/0d0d8f8ef4b226ffa66ba80e7cab783f1f5b1c2d.png",
+					"url": "/lodestone/playguide/db/achievement/e8557a5794c/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						32,
+						59,
+						193
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "古の武器：マダレムジエン",
+					"description": "クエスト「蘇る古の武器」をコンプリートし、マダレムジエンを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d9/d9bfcd8b1cc227f41004da163370e9b10a73c7e6.png?n5.45",
+					"point": 10,
+					"titleAward": "Strategist",
+					"iconPath": "~/static/achievementData/img/items/relic_weapons/d9bfcd8b1cc227f41004da163370e9b10a73c7e6.png",
+					"url": "/lodestone/playguide/db/achievement/a6995647f03/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						36,
+						59,
+						193
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "蘇りし古の武器",
+					"description": "クエスト「蘇る古の武器」をコンプリートし、コルタナ、ホーリーシールド、スファライ、ブラビューラ、ゲイボルグ、アルテミスの弓、タイラス、星屑のロッド、ウイユヴェール、マダレムジエンを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5f/5f54478d922f410ac72fb66ef211de92d9a67bd0.png?n5.45",
+					"point": 30,
+					"titleAward": "the Insatiable",
+					"awardCondition": [
+						"古の武器：コルタナ＆ホーリーシールド",
+						"古の武器：スファライ",
+						"古の武器：ブラビューラ",
+						"古の武器：ゲイボルグ",
+						"古の武器：アルテミスの弓",
+						"古の武器：タイラス",
+						"古の武器：星屑のロッド",
+						"古の武器：ウイユヴェール",
+						"古の武器：マダレムジエン"
+					],
+					"iconPath": "~/static/achievementData/img/items/relic_weapons/5f54478d922f410ac72fb66ef211de92d9a67bd0.png",
+					"url": "/lodestone/playguide/db/achievement/9937b518eaf/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						20,
+						21,
+						24,
+						25,
+						26,
+						28,
+						31,
+						32,
+						35,
+						36,
+						59,
+						193
+					],
+					"adjustmentPatchId": 20
+				}
+			]
+		},
+		{
+			"title": "レリック武器 強化",
+			"data": [
+				{
+					"title": "黄道の輝き",
+					"description": "「古の武器・アニムス」のいずれかを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fe/fe938c054ed6ac6c57a2ce1d810e25fb49c33d20.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/relic_weapons/fe938c054ed6ac6c57a2ce1d810e25fb49c33d20.png",
+					"url": "/lodestone/playguide/db/achievement/caa7b28420d/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						59,
+						193
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "星々の輝き",
+					"description": "「古の武器・ノウス」のいずれかを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fe/fe938c054ed6ac6c57a2ce1d810e25fb49c33d20.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/relic_weapons/fe938c054ed6ac6c57a2ce1d810e25fb49c33d20.png",
+					"url": "/lodestone/playguide/db/achievement/f12ac360537/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						59,
+						193
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "ネクサスの輝き",
+					"description": "「古の武器・ネクサス」のいずれかを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fe/fe938c054ed6ac6c57a2ce1d810e25fb49c33d20.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/relic_weapons/fe938c054ed6ac6c57a2ce1d810e25fb49c33d20.png",
+					"url": "/lodestone/playguide/db/achievement/05330b7816f/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						59,
+						193
+					],
+					"adjustmentPatchId": 20
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

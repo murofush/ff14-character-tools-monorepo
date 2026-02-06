@@ -1,0 +1,43 @@
+{
+	"title": "abalathias_spine",
+	"categorized": [
+		{
+			"title": "アバラシア マップ開示",
+			"data": [
+				{
+					"title": "アバラシア雲海を踏破せし者",
+					"description": "アバラシア雲海を踏破し、マップをすべて開示する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/exploration/abalathias_spine/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png",
+					"url": "/lodestone/playguide/db/achievement/197c44305df/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						129
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "アジス・ラーを踏破せし者",
+					"description": "アジス・ラーを踏破し、マップをすべて開示する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/exploration/abalathias_spine/8e92f1cfb0b8af7a417c6012b33e11b72adfd10e.png",
+					"url": "/lodestone/playguide/db/achievement/e9b2dd3daf4/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						130
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

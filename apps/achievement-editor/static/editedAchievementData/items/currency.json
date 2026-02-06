@@ -1,0 +1,124 @@
+{
+	"title": "currency",
+	"categorized": [
+		{
+			"title": "リーヴ報酬 累計取得ギル",
+			"data": [
+				{
+					"title": "血と汗の対価：ランク1",
+					"description": "リーヴの報酬により、累計100ギル獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/00/00193984c8d4aee411d863ddf95150b02b20149d.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/items/currency/00193984c8d4aee411d863ddf95150b02b20149d.png",
+					"url": "/lodestone/playguide/db/achievement/a4fbe46f203/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						181
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "血と汗の対価：ランク2",
+					"description": "リーヴの報酬により、累計1,000ギル獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/00/00193984c8d4aee411d863ddf95150b02b20149d.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/items/currency/00193984c8d4aee411d863ddf95150b02b20149d.png",
+					"url": "/lodestone/playguide/db/achievement/109958383fa/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						181
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "血と汗の対価：ランク3",
+					"description": "リーヴの報酬により、累計10,000ギル獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/00/00193984c8d4aee411d863ddf95150b02b20149d.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/items/currency/00193984c8d4aee411d863ddf95150b02b20149d.png",
+					"url": "/lodestone/playguide/db/achievement/4bdd4dfc44b/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						181
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "血と汗の対価：ランク4",
+					"description": "リーヴの報酬により、累計100,000ギル獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/00/00193984c8d4aee411d863ddf95150b02b20149d.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/items/currency/00193984c8d4aee411d863ddf95150b02b20149d.png",
+					"url": "/lodestone/playguide/db/achievement/9a5eed1afba/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						181
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "血と汗の対価：ランク5",
+					"description": "リーヴの報酬により、累計1,000,000ギル獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/00/00193984c8d4aee411d863ddf95150b02b20149d.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/items/currency/00193984c8d4aee411d863ddf95150b02b20149d.png",
+					"url": "/lodestone/playguide/db/achievement/09ab125ee46/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						181
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "商神ナルザルに愛されし者",
+					"description": "リーヴの報酬により、累計10,000,000ギル獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/47/4760bf8354e2c34e20472c6b60e5f1f628574fc2.png?n5.45",
+					"point": 10,
+					"titleAward": "Honest Adventurer",
+					"iconPath": "~/static/achievementData/img/items/currency/4760bf8354e2c34e20472c6b60e5f1f628574fc2.png",
+					"url": "/lodestone/playguide/db/achievement/2ce398503e8/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						181
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "血と汗の対価：ランク6",
+					"description": "リーヴの報酬により、累計20,000,000ギル獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/47/4760bf8354e2c34e20472c6b60e5f1f628574fc2.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/items/currency/4760bf8354e2c34e20472c6b60e5f1f628574fc2.png",
+					"url": "/lodestone/playguide/db/achievement/2e7c570fec1/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						181
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

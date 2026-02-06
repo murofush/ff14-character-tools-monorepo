@@ -1,0 +1,45 @@
+// 呼び出し方法
+// - stylus
+// @require '~assets/style/variables.scss'
+// - sass
+// @import '~assets/style/variables.scss';
+// webサイトの色合いは全体のテーマは
+
+$local-colors: (
+  // 基本色
+  color:          #29B6F6, // light-green
+  // メイン
+  primary:        #29B6F6, // light-green
+  primary-dark:   #0288D1, // light-green darken-2
+  primary-light:  #B3E5FC, // light-green lighten-4
+  // アクセント
+  accent:         #FF9100, // amber
+  // 状態（Vuetifyに準じた値）
+  disabled:       #EEEEEE, // gray lighten-3
+  disabled-text:  #757575, // gray-darken-1
+  error:          #ff5252,   // red accent-2
+
+  // 文字色
+  text:           #212121, // grey darken-4
+  primary-text:     #212121, // grey darken-4
+  secondary-text:   #757575, // grey darken-1
+  // その他
+  divider:        #BDBDBD, // grey lighten-1
+  border:           #BDBDBD,
+
+  // マテリアルデザインカラーパレット
+  deep-orange--lighten1:  #FF7043,
+  deep-orange--lighten4:  #FFCCBC,
+  blue-grey--lighten4:    #CFD8DC,
+  blue--lighten1:         #42A5F5,
+  blue--lighten4:         #BBDEFB,
+
+  // 他サービスカラー
+  twitter:          #1DA1F2,
+  facebook:         #3B5998,
+  line:             #00B900,
+  google:           #4285F4,
+
+  black:            #000,
+  white:            #fff,
+)

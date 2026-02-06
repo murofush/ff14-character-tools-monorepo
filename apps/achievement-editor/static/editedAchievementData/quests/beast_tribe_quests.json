@@ -1,0 +1,1163 @@
+{
+	"title": "beast_tribe_quests",
+	"categorized": [
+		{
+			"title": "蛮族エクストラストーリー (蛮族友好関係 最大)",
+			"data": [
+				{
+					"title": "六族連盟の同志",
+					"description": "クエスト「集うは我ら、信頼の絆」をコンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7b/7bc4fad43e8a003494b6a50a534c3b447be61e75.png?n5.45",
+					"point": 20,
+					"titleAward": "the Negotiator",
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/7bc4fad43e8a003494b6a50a534c3b447be61e75.png",
+					"url": "/lodestone/playguide/db/achievement/8fed8b6d2e5/",
+					"isLatestPatch": false,
+					"sourceIndex": 20,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						18,
+						59,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "導かれし盟友たち",
+					"description": "クエスト「導かれし盟友たち」をコンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7b/7bc4fad43e8a003494b6a50a534c3b447be61e75.png?n5.45",
+					"point": 20,
+					"titleAward": "Moonlift Dancer",
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/7bc4fad43e8a003494b6a50a534c3b447be61e75.png",
+					"url": "/lodestone/playguide/db/achievement/754e80765f8/",
+					"isLatestPatch": false,
+					"sourceIndex": 33,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						18,
+						60,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ウェスト・ミート・イースト",
+					"description": "クエスト「三種の至宝」をコンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7b/7bc4fad43e8a003494b6a50a534c3b447be61e75.png?n5.45",
+					"point": 20,
+					"titleAward": "Kageyama Killer",
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/7bc4fad43e8a003494b6a50a534c3b447be61e75.png",
+					"url": "/lodestone/playguide/db/achievement/82c71f214d0/",
+					"isLatestPatch": false,
+					"sourceIndex": 46,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						18,
+						61,
+						106
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "アマルジャ族 友好関係",
+			"data": [
+				{
+					"title": "灰の一党：ランク1",
+					"description": "アマルジャ族「灰の一党」の友好関係をランク1「中立」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/12/12dbf47eb88b7d8d590f68ba48055d042b1b233e.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/12dbf47eb88b7d8d590f68ba48055d042b1b233e.png",
+					"url": "/lodestone/playguide/db/achievement/bbfced6e821/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						59,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "灰の一党：ランク2",
+					"description": "アマルジャ族「灰の一党」の友好関係をランク2「認定」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/12/12dbf47eb88b7d8d590f68ba48055d042b1b233e.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/12dbf47eb88b7d8d590f68ba48055d042b1b233e.png",
+					"url": "/lodestone/playguide/db/achievement/df540341353/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						59,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "灰の一党：ランク3",
+					"description": "アマルジャ族「灰の一党」の友好関係をランク3「友好」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/12/12dbf47eb88b7d8d590f68ba48055d042b1b233e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/12dbf47eb88b7d8d590f68ba48055d042b1b233e.png",
+					"url": "/lodestone/playguide/db/achievement/a8d38ce8cec/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						59,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "灰の武人",
+					"description": "アマルジャ族「灰の一党」の友好関係をランク4「信頼」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/12/12dbf47eb88b7d8d590f68ba48055d042b1b233e.png?n5.45",
+					"point": 20,
+					"titleAward": "Ashen Warrior",
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/12dbf47eb88b7d8d590f68ba48055d042b1b233e.png",
+					"url": "/lodestone/playguide/db/achievement/7809627e276/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						59,
+						106
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "シルフ族 友好関係",
+			"data": [
+				{
+					"title": "仮宿のシルフ：ランク1",
+					"description": "シルフ族「仮宿のシルフ」の友好関係をランク1「中立」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/12/12b14f3d57d46ca9500b480b226dd2715185ff59.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/12b14f3d57d46ca9500b480b226dd2715185ff59.png",
+					"url": "/lodestone/playguide/db/achievement/3509846054f/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						59,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "仮宿のシルフ：ランク2",
+					"description": "シルフ族「仮宿のシルフ」の友好関係をランク2「認定」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/12/12b14f3d57d46ca9500b480b226dd2715185ff59.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/12b14f3d57d46ca9500b480b226dd2715185ff59.png",
+					"url": "/lodestone/playguide/db/achievement/68c5ee74430/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						59,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "仮宿のシルフ：ランク3",
+					"description": "シルフ族「仮宿のシルフ」の友好関係をランク3「友好」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/12/12b14f3d57d46ca9500b480b226dd2715185ff59.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/12b14f3d57d46ca9500b480b226dd2715185ff59.png",
+					"url": "/lodestone/playguide/db/achievement/161ca3e7dac/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						59,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "シルフのお友達",
+					"description": "シルフ族「仮宿のシルフ」の友好関係をランク4「信頼」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/12/12b14f3d57d46ca9500b480b226dd2715185ff59.png?n5.45",
+					"point": 20,
+					"titleAward": "Sylph-Friend",
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/12b14f3d57d46ca9500b480b226dd2715185ff59.png",
+					"url": "/lodestone/playguide/db/achievement/ed7a8928c18/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						59,
+						106
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "コボルド族 友好関係",
+			"data": [
+				{
+					"title": "第789洞穴団：ランク1",
+					"description": "コボルド族「第789洞穴団」の友好関係をランク1「中立」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/dc/dc6ea9c3f8e4cca03e6e2d0ab939cee28dd2a895.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/dc6ea9c3f8e4cca03e6e2d0ab939cee28dd2a895.png",
+					"url": "/lodestone/playguide/db/achievement/3f1760d69bb/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						59,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "第789洞穴団：ランク2",
+					"description": "コボルド族「第789洞穴団」の友好関係をランク2「認定」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/dc/dc6ea9c3f8e4cca03e6e2d0ab939cee28dd2a895.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/dc6ea9c3f8e4cca03e6e2d0ab939cee28dd2a895.png",
+					"url": "/lodestone/playguide/db/achievement/d0ceaed33fd/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						59,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "第789洞穴団：ランク3",
+					"description": "コボルド族「第789洞穴団」の友好関係をランク3「友好」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/dc/dc6ea9c3f8e4cca03e6e2d0ab939cee28dd2a895.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/dc6ea9c3f8e4cca03e6e2d0ab939cee28dd2a895.png",
+					"url": "/lodestone/playguide/db/achievement/e4e271b6a36/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						59,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "落ちこぼれの英雄",
+					"description": "コボルド族「第789洞穴団」の友好関係をランク4「信頼」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/dc/dc6ea9c3f8e4cca03e6e2d0ab939cee28dd2a895.png?n5.45",
+					"point": 20,
+					"titleAward": "789th Order Champion",
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/dc6ea9c3f8e4cca03e6e2d0ab939cee28dd2a895.png",
+					"url": "/lodestone/playguide/db/achievement/c5c42226f4a/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						59,
+						106
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "サハギン族 友好関係",
+			"data": [
+				{
+					"title": "ノォヴ一味：ランク1",
+					"description": "サハギン族「ノォヴ一味」の友好関係をランク1「中立」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/cd/cd2457086caa0e9cd31ff21336d7c52515729944.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/cd2457086caa0e9cd31ff21336d7c52515729944.png",
+					"url": "/lodestone/playguide/db/achievement/dded8ed09eb/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						59,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ノォヴ一味：ランク2",
+					"description": "サハギン族「ノォヴ一味」の友好関係をランク2「認定」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/cd/cd2457086caa0e9cd31ff21336d7c52515729944.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/cd2457086caa0e9cd31ff21336d7c52515729944.png",
+					"url": "/lodestone/playguide/db/achievement/a1615aa50f0/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						59,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ノォヴ一味：ランク3",
+					"description": "サハギン族「ノォヴ一味」の友好関係をランク3「友好」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/cd/cd2457086caa0e9cd31ff21336d7c52515729944.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/cd2457086caa0e9cd31ff21336d7c52515729944.png",
+					"url": "/lodestone/playguide/db/achievement/a6bd874690a/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						59,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ノォヴの家族",
+					"description": "サハギン族「ノォヴ一味」の友好関係をランク4「信頼」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/cd/cd2457086caa0e9cd31ff21336d7c52515729944.png?n5.45",
+					"point": 20,
+					"titleAward": "Novv Clutchmate",
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/cd2457086caa0e9cd31ff21336d7c52515729944.png",
+					"url": "/lodestone/playguide/db/achievement/236bb9e0ebb/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						59,
+						106
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "イクサル族 友好関係",
+			"data": [
+				{
+					"title": "エカトル空力団：ランク1",
+					"description": "イクサル族「エカトル空力団」の友好関係をランク1「中立」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b3/b3faeaf48f3c5e7438995ec7b1731b165c153f62.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/b3faeaf48f3c5e7438995ec7b1731b165c153f62.png",
+					"url": "/lodestone/playguide/db/achievement/b15e9885603/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						59,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "エカトル空力団：ランク2",
+					"description": "イクサル族「エカトル空力団」の友好関係をランク3「友好」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b3/b3faeaf48f3c5e7438995ec7b1731b165c153f62.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/b3faeaf48f3c5e7438995ec7b1731b165c153f62.png",
+					"url": "/lodestone/playguide/db/achievement/a0b8bad9117/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						59,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "エカトル空力団：ランク3",
+					"description": "イクサル族「エカトル空力団」の友好関係をランク5「敬意」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b3/b3faeaf48f3c5e7438995ec7b1731b165c153f62.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/b3faeaf48f3c5e7438995ec7b1731b165c153f62.png",
+					"url": "/lodestone/playguide/db/achievement/4c9f2cc1e67/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						59,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "エカトルのマブダチ",
+					"description": "イクサル族「エカトル空力団」の友好関係をランク7「誓約」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b3/b3faeaf48f3c5e7438995ec7b1731b165c153f62.png?n5.45",
+					"point": 20,
+					"titleAward": "Ehcatl Blackguard",
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/b3faeaf48f3c5e7438995ec7b1731b165c153f62.png",
+					"url": "/lodestone/playguide/db/achievement/f41efdb1de2/",
+					"isLatestPatch": false,
+					"sourceIndex": 19,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						59,
+						106
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "バヌバヌ族 友好関係",
+			"data": [
+				{
+					"title": "鮮やかなグンド：ランク1",
+					"description": "バヌバヌ族「鮮やかなグンド」の友好関係をランク1「中立」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/15/15f0d2ed2524248721ea84cf9a12f13158d0a117.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/15f0d2ed2524248721ea84cf9a12f13158d0a117.png",
+					"url": "/lodestone/playguide/db/achievement/959820389a8/",
+					"isLatestPatch": false,
+					"sourceIndex": 21,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						60,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "鮮やかなグンド：ランク2",
+					"description": "バヌバヌ族「鮮やかなグンド」の友好関係をランク3「友好」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/15/15f0d2ed2524248721ea84cf9a12f13158d0a117.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/15f0d2ed2524248721ea84cf9a12f13158d0a117.png",
+					"url": "/lodestone/playguide/db/achievement/e36a1ec4130/",
+					"isLatestPatch": false,
+					"sourceIndex": 22,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						60,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "鮮やかなグンド：ランク3",
+					"description": "バヌバヌ族「鮮やかなグンド」の友好関係をランク5「敬意」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/15/15f0d2ed2524248721ea84cf9a12f13158d0a117.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/15f0d2ed2524248721ea84cf9a12f13158d0a117.png",
+					"url": "/lodestone/playguide/db/achievement/9c275829d0b/",
+					"isLatestPatch": false,
+					"sourceIndex": 23,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						60,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "太陽の舞手",
+					"description": "バヌバヌ族「鮮やかなグンド」の友好関係をランク7「誓約」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/15/15f0d2ed2524248721ea84cf9a12f13158d0a117.png?n5.45",
+					"point": 20,
+					"titleAward": "Sundrop Dancer",
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/15f0d2ed2524248721ea84cf9a12f13158d0a117.png",
+					"url": "/lodestone/playguide/db/achievement/aa71fcf64a4/",
+					"isLatestPatch": false,
+					"sourceIndex": 24,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						60,
+						106
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "グナース族 友好関係",
+			"data": [
+				{
+					"title": "分かたれし者たち：ランク1",
+					"description": "グナース族「分かたれし者たち」の友好関係をランク3「友好」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f03f048ff79cb2d0abaee1ccd6d72a12c60bdf90.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/f03f048ff79cb2d0abaee1ccd6d72a12c60bdf90.png",
+					"url": "/lodestone/playguide/db/achievement/2dd39aa7175/",
+					"isLatestPatch": false,
+					"sourceIndex": 25,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						60,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "分かたれし者たち：ランク2",
+					"description": "グナース族「分かたれし者たち」の友好関係をランク4「信頼」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f03f048ff79cb2d0abaee1ccd6d72a12c60bdf90.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/f03f048ff79cb2d0abaee1ccd6d72a12c60bdf90.png",
+					"url": "/lodestone/playguide/db/achievement/925fc08a9a2/",
+					"isLatestPatch": false,
+					"sourceIndex": 26,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						60,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "分かたれし者たち：ランク3",
+					"description": "グナース族「分かたれし者たち」の友好関係をランク6「名誉」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f03f048ff79cb2d0abaee1ccd6d72a12c60bdf90.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/f03f048ff79cb2d0abaee1ccd6d72a12c60bdf90.png",
+					"url": "/lodestone/playguide/db/achievement/d532997e803/",
+					"isLatestPatch": false,
+					"sourceIndex": 27,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						60,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ヴァスの先輩冒険者",
+					"description": "グナース族「分かたれし者たち」の友好関係をランク7「誓約」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f03f048ff79cb2d0abaee1ccd6d72a12c60bdf90.png?n5.45",
+					"point": 20,
+					"titleAward": "the Newmind",
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/f03f048ff79cb2d0abaee1ccd6d72a12c60bdf90.png",
+					"url": "/lodestone/playguide/db/achievement/c060962c490/",
+					"isLatestPatch": false,
+					"sourceIndex": 28,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						60,
+						106
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "モーグリ族 友好関係",
+			"data": [
+				{
+					"title": "モグモグ修復団：ランク1",
+					"description": "モーグリ族「モグモグ修復団」の友好関係をランク1「中立」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/dc/dc2e02b2fc263ff5b64b83eebf7e618624bc0ee6.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/dc2e02b2fc263ff5b64b83eebf7e618624bc0ee6.png",
+					"url": "/lodestone/playguide/db/achievement/f843bca1ef0/",
+					"isLatestPatch": false,
+					"sourceIndex": 29,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						60,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "モグモグ修復団：ランク2",
+					"description": "モーグリ族「モグモグ修復団」の友好関係をランク3「友好」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/dc/dc2e02b2fc263ff5b64b83eebf7e618624bc0ee6.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/dc2e02b2fc263ff5b64b83eebf7e618624bc0ee6.png",
+					"url": "/lodestone/playguide/db/achievement/a05304b4d89/",
+					"isLatestPatch": false,
+					"sourceIndex": 30,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						60,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "モグモグ修復団：ランク3",
+					"description": "モーグリ族「モグモグ修復団」の友好関係をランク5「敬意」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/dc/dc2e02b2fc263ff5b64b83eebf7e618624bc0ee6.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/dc2e02b2fc263ff5b64b83eebf7e618624bc0ee6.png",
+					"url": "/lodestone/playguide/db/achievement/390cc0bc07f/",
+					"isLatestPatch": false,
+					"sourceIndex": 31,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						60,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "修復団のセンセイ",
+					"description": "モーグリ族「モグモグ修復団」の友好関係をランク7「誓約」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/dc/dc2e02b2fc263ff5b64b83eebf7e618624bc0ee6.png?n5.45",
+					"point": 20,
+					"titleAward": "Mog Friend",
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/dc2e02b2fc263ff5b64b83eebf7e618624bc0ee6.png",
+					"url": "/lodestone/playguide/db/achievement/83e5ec1602f/",
+					"isLatestPatch": false,
+					"sourceIndex": 32,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						60,
+						106
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "コウジン族 友好関係",
+			"data": [
+				{
+					"title": "碧甲羅：ランク1",
+					"description": "コウジン族「碧甲羅」の友好関係をランク3「友好」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1c/1c860c4e504a5ebe619e61540d16d4791be0e41f.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/1c860c4e504a5ebe619e61540d16d4791be0e41f.png",
+					"url": "/lodestone/playguide/db/achievement/45d6e827398/",
+					"isLatestPatch": false,
+					"sourceIndex": 34,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						61,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "碧甲羅：ランク2",
+					"description": "コウジン族「碧甲羅」の友好関係をランク4「信頼」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1c/1c860c4e504a5ebe619e61540d16d4791be0e41f.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/1c860c4e504a5ebe619e61540d16d4791be0e41f.png",
+					"url": "/lodestone/playguide/db/achievement/b919e1123f7/",
+					"isLatestPatch": false,
+					"sourceIndex": 35,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						61,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "碧甲羅：ランク3",
+					"description": "コウジン族「碧甲羅」の友好関係をランク6「名誉」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1c/1c860c4e504a5ebe619e61540d16d4791be0e41f.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/1c860c4e504a5ebe619e61540d16d4791be0e41f.png",
+					"url": "/lodestone/playguide/db/achievement/48dbd876d35/",
+					"isLatestPatch": false,
+					"sourceIndex": 36,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						61,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "宝探衆の縁者",
+					"description": "コウジン族「碧甲羅」の友好関係をランク7「誓約」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1c/1c860c4e504a5ebe619e61540d16d4791be0e41f.png?n5.45",
+					"point": 20,
+					"titleAward": "the Blue",
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/1c860c4e504a5ebe619e61540d16d4791be0e41f.png",
+					"url": "/lodestone/playguide/db/achievement/07f01483ca2/",
+					"isLatestPatch": false,
+					"sourceIndex": 37,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						61,
+						106
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "アナンタ族 友好関係",
+			"data": [
+				{
+					"title": "アルパ国境警備隊：ランク1",
+					"description": "アナンタ族「アルパ国境警備隊」の友好関係をランク3「友好」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d7/d703ae52299c61264d64032c1df38e7f2f8c6ef2.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/d703ae52299c61264d64032c1df38e7f2f8c6ef2.png",
+					"url": "/lodestone/playguide/db/achievement/f764c48789c/",
+					"isLatestPatch": false,
+					"sourceIndex": 38,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						61,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "アルパ国境警備隊：ランク2",
+					"description": "アナンタ族「アルパ国境警備隊」の友好関係をランク4「信頼」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d7/d703ae52299c61264d64032c1df38e7f2f8c6ef2.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/d703ae52299c61264d64032c1df38e7f2f8c6ef2.png",
+					"url": "/lodestone/playguide/db/achievement/ed6888dfc49/",
+					"isLatestPatch": false,
+					"sourceIndex": 39,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						61,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "アルパ国境警備隊：ランク3",
+					"description": "アナンタ族「アルパ国境警備隊」の友好関係をランク6「名誉」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d7/d703ae52299c61264d64032c1df38e7f2f8c6ef2.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/d703ae52299c61264d64032c1df38e7f2f8c6ef2.png",
+					"url": "/lodestone/playguide/db/achievement/ba7f7efab24/",
+					"isLatestPatch": false,
+					"sourceIndex": 40,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						61,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "アルパの導き手",
+					"description": "アナンタ族「アルパ国境警備隊」の友好関係をランク7「誓約」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d7/d703ae52299c61264d64032c1df38e7f2f8c6ef2.png?n5.45",
+					"point": 20,
+					"titleAward": "Snake in the Grass",
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/d703ae52299c61264d64032c1df38e7f2f8c6ef2.png",
+					"url": "/lodestone/playguide/db/achievement/c5e7959cc7f/",
+					"isLatestPatch": false,
+					"sourceIndex": 41,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						61,
+						106
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "ナマズオ族 友好関係",
+			"data": [
+				{
+					"title": "大鯰大祭実行委員会：ランク1",
+					"description": "ナマズオ族「大鯰大祭実行委員会」の友好関係をランク3「友好」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/6b/6becdef00d9c75dfd22a0a151abefb311fa61100.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/6becdef00d9c75dfd22a0a151abefb311fa61100.png",
+					"url": "/lodestone/playguide/db/achievement/cf19d5f1e02/",
+					"isLatestPatch": false,
+					"sourceIndex": 42,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						61,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "大鯰大祭実行委員会：ランク2",
+					"description": "ナマズオ族「大鯰大祭実行委員会」の友好関係をランク4「信頼」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/6b/6becdef00d9c75dfd22a0a151abefb311fa61100.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/6becdef00d9c75dfd22a0a151abefb311fa61100.png",
+					"url": "/lodestone/playguide/db/achievement/63e585bb1e1/",
+					"isLatestPatch": false,
+					"sourceIndex": 43,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						61,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "大鯰大祭実行委員会：ランク3",
+					"description": "ナマズオ族「大鯰大祭実行委員会」の友好関係をランク6「名誉」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/6b/6becdef00d9c75dfd22a0a151abefb311fa61100.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/6becdef00d9c75dfd22a0a151abefb311fa61100.png",
+					"url": "/lodestone/playguide/db/achievement/b40b9ed150a/",
+					"isLatestPatch": false,
+					"sourceIndex": 44,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						61,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "あっぱれ文明開化",
+					"description": "ナマズオ族「大鯰大祭実行委員会」の友好関係をランク7「誓約」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/6b/6becdef00d9c75dfd22a0a151abefb311fa61100.png?n5.45",
+					"point": 20,
+					"titleAward": "Siltwater Socialite",
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/6becdef00d9c75dfd22a0a151abefb311fa61100.png",
+					"url": "/lodestone/playguide/db/achievement/e3ed3b0139a/",
+					"isLatestPatch": false,
+					"sourceIndex": 45,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						61,
+						106
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "ピクシー族 友好関係",
+			"data": [
+				{
+					"title": "夢の園の妖精：ランク1",
+					"description": "ピクシー族「夢の園の妖精」の友好関係をランク3「友好」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/af/af027298e0bea84ffd35f1d171a429c48981a445.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/af027298e0bea84ffd35f1d171a429c48981a445.png",
+					"url": "/lodestone/playguide/db/achievement/5c431b32ea0/",
+					"isLatestPatch": false,
+					"sourceIndex": 47,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						62,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "夢の園の妖精：ランク2",
+					"description": "ピクシー族「夢の園の妖精」の友好関係をランク4「信頼」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/af/af027298e0bea84ffd35f1d171a429c48981a445.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/af027298e0bea84ffd35f1d171a429c48981a445.png",
+					"url": "/lodestone/playguide/db/achievement/9c924b077ea/",
+					"isLatestPatch": false,
+					"sourceIndex": 48,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						62,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "夢の園の妖精：ランク3",
+					"description": "ピクシー族「夢の園の妖精」の友好関係をランク6「名誉」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/af/af027298e0bea84ffd35f1d171a429c48981a445.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/af027298e0bea84ffd35f1d171a429c48981a445.png",
+					"url": "/lodestone/playguide/db/achievement/8d0d39eaf5f/",
+					"isLatestPatch": false,
+					"sourceIndex": 49,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						62,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "夢の園の住人",
+					"description": "ピクシー族「夢の園の妖精」の友好関係をランク7「誓約」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/af/af027298e0bea84ffd35f1d171a429c48981a445.png?n5.45",
+					"point": 20,
+					"titleAward": "Sweet Dreamer",
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/af027298e0bea84ffd35f1d171a429c48981a445.png",
+					"url": "/lodestone/playguide/db/achievement/d372194e3e7/",
+					"isLatestPatch": false,
+					"sourceIndex": 50,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						1,
+						62,
+						106
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "キタリ族 友好関係",
+			"data": [
+				{
+					"title": "ルリの発掘隊：ランク1",
+					"description": "キタリ族「ルリの発掘隊」の友好関係をランク3「友好」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/6a/6ae26c7b5012e22fa537b510dc8be3558e21ea98.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/6ae26c7b5012e22fa537b510dc8be3558e21ea98.png",
+					"url": "/lodestone/playguide/db/achievement/777f16a1b43/",
+					"isLatestPatch": false,
+					"sourceIndex": 51,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						19,
+						62,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ルリの発掘隊：ランク2",
+					"description": "キタリ族「ルリの発掘隊」の友好関係をランク4「信頼」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/6a/6ae26c7b5012e22fa537b510dc8be3558e21ea98.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/6ae26c7b5012e22fa537b510dc8be3558e21ea98.png",
+					"url": "/lodestone/playguide/db/achievement/29ff66f2eef/",
+					"isLatestPatch": false,
+					"sourceIndex": 52,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						19,
+						62,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ルリの発掘隊：ランク3",
+					"description": "キタリ族「ルリの発掘隊」の友好関係をランク6「名誉」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/6a/6ae26c7b5012e22fa537b510dc8be3558e21ea98.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/6ae26c7b5012e22fa537b510dc8be3558e21ea98.png",
+					"url": "/lodestone/playguide/db/achievement/95281a7a870/",
+					"isLatestPatch": false,
+					"sourceIndex": 53,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						19,
+						62,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ロンカの書記官",
+					"description": "キタリ族「ルリの発掘隊」の友好関係をランク7「誓約」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/6a/6ae26c7b5012e22fa537b510dc8be3558e21ea98.png?n5.45",
+					"point": 20,
+					"titleAward": "Ronkan Historian",
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/6ae26c7b5012e22fa537b510dc8be3558e21ea98.png",
+					"url": "/lodestone/playguide/db/achievement/db900f53285/",
+					"isLatestPatch": false,
+					"sourceIndex": 54,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						19,
+						62,
+						106
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "ドワーフ族 友好関係",
+			"data": [
+				{
+					"title": "ドワーフ族：ランク1",
+					"description": "ドワーフ族「ワッツハンマー・ガレージ」の友好関係をランク3「友好」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ca/ca18a090383401268fc1e35c30894407b6a22924.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/ca18a090383401268fc1e35c30894407b6a22924.png",
+					"url": "/lodestone/playguide/db/achievement/a0901c4d634/",
+					"isLatestPatch": false,
+					"sourceIndex": 55,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						62,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ドワーフ族：ランク2",
+					"description": "ドワーフ族「ワッツハンマー・ガレージ」の友好関係をランク4「信頼」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ca/ca18a090383401268fc1e35c30894407b6a22924.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/ca18a090383401268fc1e35c30894407b6a22924.png",
+					"url": "/lodestone/playguide/db/achievement/f62daa024f2/",
+					"isLatestPatch": false,
+					"sourceIndex": 56,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						62,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ドワーフ族：ランク3",
+					"description": "ドワーフ族「ワッツハンマー・ガレージ」の友好関係をランク6「名誉」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ca/ca18a090383401268fc1e35c30894407b6a22924.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/ca18a090383401268fc1e35c30894407b6a22924.png",
+					"url": "/lodestone/playguide/db/achievement/1d347ef502e/",
+					"isLatestPatch": false,
+					"sourceIndex": 57,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						62,
+						106
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ガレージのマブダチ",
+					"description": "ドワーフ族「ワッツハンマー・ガレージ」の友好関係をランク7「誓約」にする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ca/ca18a090383401268fc1e35c30894407b6a22924.png?n5.45",
+					"point": 20,
+					"titleAward": "Tank Technician",
+					"iconPath": "~/static/achievementData/img/quests/beast_tribe_quests/ca18a090383401268fc1e35c30894407b6a22924.png",
+					"url": "/lodestone/playguide/db/achievement/791e4d91ad5/",
+					"isLatestPatch": false,
+					"sourceIndex": 58,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						62,
+						106
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

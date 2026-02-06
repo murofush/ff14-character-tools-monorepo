@@ -1,0 +1,442 @@
+{
+	"title": "deep_dungeon_weapons",
+	"categorized": [
+		{
+			"title": "死者の宮殿 魔器武器 (パジャル装備) ナイト",
+			"data": [
+				{
+					"title": "強化されし魔器：ブレード＆シールド",
+					"description": "パジャルブレードとパジャルシールドを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7c/7c5343d1df5d9ea9274f65c4f723cb217ebf8b2d.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/deep_dungeon_weapons/7c5343d1df5d9ea9274f65c4f723cb217ebf8b2d.png",
+					"url": "/lodestone/playguide/db/achievement/2f7e9a2240b/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						20,
+						81,
+						193
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "死者の宮殿 魔器武器 (パジャル装備) モンク",
+			"data": [
+				{
+					"title": "強化されし魔器：ナックル",
+					"description": "パジャルナックルを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1d/1db9a46c45ba26dc739de7a6e589ba9bc8af9eb1.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/deep_dungeon_weapons/1db9a46c45ba26dc739de7a6e589ba9bc8af9eb1.png",
+					"url": "/lodestone/playguide/db/achievement/e7774c0f740/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						24,
+						81,
+						193
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "死者の宮殿 魔器武器 (パジャル装備) 戦士",
+			"data": [
+				{
+					"title": "強化されし魔器：アクス",
+					"description": "パジャルアクスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/70/709c168afa9ec14f84fca143f3ff7dffab219f71.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/deep_dungeon_weapons/709c168afa9ec14f84fca143f3ff7dffab219f71.png",
+					"url": "/lodestone/playguide/db/achievement/e1d6cc715e9/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						21,
+						81,
+						193
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "死者の宮殿 魔器武器 (パジャル装備) 竜騎士",
+			"data": [
+				{
+					"title": "強化されし魔器：スピア",
+					"description": "パジャルスピアを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a9/a9eba865821a363a8501142aff092e3c4b281516.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/deep_dungeon_weapons/a9eba865821a363a8501142aff092e3c4b281516.png",
+					"url": "/lodestone/playguide/db/achievement/1342c5a33e1/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						25,
+						81,
+						193
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "死者の宮殿 魔器武器 (パジャル装備) 吟遊詩人",
+			"data": [
+				{
+					"title": "強化されし魔器：ロングボウ",
+					"description": "パジャルロングボウを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2a/2a0b4b4f2bf2033e1dc3d7b2ba2ac82cf58b829c.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/deep_dungeon_weapons/2a0b4b4f2bf2033e1dc3d7b2ba2ac82cf58b829c.png",
+					"url": "/lodestone/playguide/db/achievement/f0fb2195a56/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						28,
+						81,
+						193
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "死者の宮殿 魔器武器 (パジャル装備) 忍者",
+			"data": [
+				{
+					"title": "強化されし魔器：ダガー",
+					"description": "パジャルダガーを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f5/f58142f907b371a672e1bc52a0a15a35b64714ea.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/deep_dungeon_weapons/f58142f907b371a672e1bc52a0a15a35b64714ea.png",
+					"url": "/lodestone/playguide/db/achievement/db845c42474/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						26,
+						81,
+						193
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "死者の宮殿 魔器武器 (パジャル装備) 白魔道士",
+			"data": [
+				{
+					"title": "強化されし魔器：ケーン",
+					"description": "パジャルケーンを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae489c63ae14ed9a941ae99dbe03cceb1104cdd6.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/deep_dungeon_weapons/ae489c63ae14ed9a941ae99dbe03cceb1104cdd6.png",
+					"url": "/lodestone/playguide/db/achievement/251d4b265b2/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						35,
+						81,
+						193
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "死者の宮殿 魔器武器 (パジャル装備) 黒魔道士",
+			"data": [
+				{
+					"title": "強化されし魔器：ロッド",
+					"description": "パジャルロッドを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/06/0683f7e5c47d2896befc00e547af064634b4b52b.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/deep_dungeon_weapons/0683f7e5c47d2896befc00e547af064634b4b52b.png",
+					"url": "/lodestone/playguide/db/achievement/f131509674a/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						31,
+						81,
+						193
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "死者の宮殿 魔器武器 (パジャル装備) 召喚士",
+			"data": [
+				{
+					"title": "強化されし魔器：グリモア",
+					"description": "パジャルグリモアを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/85/85ed1a6ea7c131b3c7a592db4b9e60dad37b9442.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/deep_dungeon_weapons/85ed1a6ea7c131b3c7a592db4b9e60dad37b9442.png",
+					"url": "/lodestone/playguide/db/achievement/de98c5a7ee0/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						32,
+						81,
+						193
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "死者の 魔器武器 (パジャル装備) 学者",
+			"data": [
+				{
+					"title": "強化されし魔器：コーデックス",
+					"description": "パジャルコーデックスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f7/f75ec54dcc25409f2e2d0dcad5a90677f9189bc1.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/deep_dungeon_weapons/f75ec54dcc25409f2e2d0dcad5a90677f9189bc1.png",
+					"url": "/lodestone/playguide/db/achievement/3cea21ceb63/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						36,
+						81,
+						193
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "死者の宮殿 魔器武器 (パジャル装備) 暗黒騎士",
+			"data": [
+				{
+					"title": "強化されし魔器：グレートソード",
+					"description": "パジャルグレートソードを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e3/e31901e617562c1afac12cea11dd9a0b2100d2a6.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/deep_dungeon_weapons/e31901e617562c1afac12cea11dd9a0b2100d2a6.png",
+					"url": "/lodestone/playguide/db/achievement/0e41b13a9f4/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						22,
+						81,
+						193
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "死者の宮殿 魔器武器 (パジャル装備) 機工士",
+			"data": [
+				{
+					"title": "強化されし魔器：リボルバー",
+					"description": "パジャルリボルバーを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d0/d0eb9f7e60581c8aa724cd82c8f8bcf1d2144536.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/deep_dungeon_weapons/d0eb9f7e60581c8aa724cd82c8f8bcf1d2144536.png",
+					"url": "/lodestone/playguide/db/achievement/3355b1e800f/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						29,
+						81,
+						193
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "死者の宮殿 魔器武器 (パジャル装備) 占星術師",
+			"data": [
+				{
+					"title": "強化されし魔器：アストロメーター",
+					"description": "パジャルアストロメーターを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7c/7c453ee73ea3bddf9d069e48e6ef1824d45e8064.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/deep_dungeon_weapons/7c453ee73ea3bddf9d069e48e6ef1824d45e8064.png",
+					"url": "/lodestone/playguide/db/achievement/b2123e6b6df/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						37,
+						81,
+						193
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "死者の宮殿 魔器武器 (パジャル装備) 侍",
+			"data": [
+				{
+					"title": "強化されし魔器：角尊之剣",
+					"description": "角尊之剣を入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3a/3af46c417f7af662774baede7e5973234cf89fc3.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/deep_dungeon_weapons/3af46c417f7af662774baede7e5973234cf89fc3.png",
+					"url": "/lodestone/playguide/db/achievement/3dd5c02b334/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						27,
+						81,
+						193
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "死者の宮殿 魔器武器 (パジャル装備) 赤魔道士",
+			"data": [
+				{
+					"title": "強化されし魔器：レイピア",
+					"description": "パジャルレイピアを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/6d/6df38e2d445136cc2bcf94a04189ba314d1bc48e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/deep_dungeon_weapons/6df38e2d445136cc2bcf94a04189ba314d1bc48e.png",
+					"url": "/lodestone/playguide/db/achievement/f79ad426ed9/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						33,
+						81,
+						193
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "死者の宮殿 魔器武器 (パジャル装備) ガンブレイカー",
+			"data": [
+				{
+					"title": "強化されし魔器：パジャルガンブレード",
+					"description": "パジャルガンブレードを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e7/e7164fa8e36037972c44af1afed63ad2dffa43c0.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/deep_dungeon_weapons/e7164fa8e36037972c44af1afed63ad2dffa43c0.png",
+					"url": "/lodestone/playguide/db/achievement/321ddf03f9e/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						23,
+						81,
+						193
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "死者の宮殿 魔器武器 (パジャル装備) 踊り子",
+			"data": [
+				{
+					"title": "強化されし魔器：パジャルウォーコイト",
+					"description": "パジャルウォーコイトを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/27/279dc522c6f772868b1744460caa574baed0bf66.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/deep_dungeon_weapons/279dc522c6f772868b1744460caa574baed0bf66.png",
+					"url": "/lodestone/playguide/db/achievement/0faf7199b12/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						30,
+						81,
+						193
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "死者の宮殿 魔器武器 (キンナ装備)",
+			"data": [
+				{
+					"title": "さらに強化されし魔器",
+					"description": "「キンナ装備」のいずれかを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/68/686732004173d4212a53fe7abeee3c5bc77be44c.png?n5.45",
+					"point": 10,
+					"titleAward": "the Lightbringer",
+					"iconPath": "~/static/achievementData/img/items/deep_dungeon_weapons/686732004173d4212a53fe7abeee3c5bc77be44c.png",
+					"url": "/lodestone/playguide/db/achievement/078626a2345/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						81,
+						193
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "アメノミハシラ 魔器武器 (天之武器)",
+			"data": [
+				{
+					"title": "強化されし天之魔器",
+					"description": "「天之武器」のいずれかを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/68/686732004173d4212a53fe7abeee3c5bc77be44c.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/deep_dungeon_weapons/686732004173d4212a53fe7abeee3c5bc77be44c.png",
+					"url": "/lodestone/playguide/db/achievement/545efc96271/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						82,
+						193
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

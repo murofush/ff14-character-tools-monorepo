@@ -1,0 +1,24 @@
+{
+  "name": "ff14-character-tools-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.13.1",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=10.13.1"
+  },
+  "scripts": {
+    "preinstall": "node ./scripts/enforce-pnpm.cjs",
+    "dev": "pnpm -r --parallel --filter \"./apps/*\" dev",
+    "build": "pnpm -r --filter \"./apps/*\" build",
+    "typecheck": "pnpm -r --filter \"./apps/*\" typecheck",
+    "lint": "pnpm -r --filter \"./apps/*\" --if-present lint",
+    "dev:chara": "pnpm --filter @ff14/chara-card-creator dev",
+    "dev:achievement": "pnpm --filter @ff14/achievement-editor dev",
+    "build:chara": "pnpm --filter @ff14/chara-card-creator build",
+    "build:achievement": "pnpm --filter @ff14/achievement-editor build",
+    "lint:achievement": "pnpm --filter @ff14/achievement-editor lint",
+    "preview:chara": "pnpm --filter @ff14/chara-card-creator preview",
+    "preview:achievement": "pnpm --filter @ff14/achievement-editor preview"
+  }
+}

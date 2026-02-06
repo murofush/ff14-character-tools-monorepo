@@ -1,0 +1,403 @@
+{
+	"title": "order_of_the_twin_adder",
+	"categorized": [
+		{
+			"title": "双蛇党 配属/双蛇党 軍票",
+			"data": [
+				{
+					"title": "正式配属：双蛇党",
+					"description": "双蛇党に正式配属される",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a7/a74027b598f9e289128f4b86f85b8d118ccc0148.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/a74027b598f9e289128f4b86f85b8d118ccc0148.png",
+					"url": "/lodestone/playguide/db/achievement/5b060724c3e/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						96
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "双蛇党の軍票：ランク1",
+					"description": "双蛇党で軍票を10,000獲得",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a7/a74027b598f9e289128f4b86f85b8d118ccc0148.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/a74027b598f9e289128f4b86f85b8d118ccc0148.png",
+					"url": "/lodestone/playguide/db/achievement/fb551a584af/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						96
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "双蛇党の軍票：ランク2",
+					"description": "双蛇党で軍票を50,000獲得",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a7/a74027b598f9e289128f4b86f85b8d118ccc0148.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/a74027b598f9e289128f4b86f85b8d118ccc0148.png",
+					"url": "/lodestone/playguide/db/achievement/854398e6d20/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						96
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "双蛇党の軍票：ランク3",
+					"description": "双蛇党で軍票を100,000獲得",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a7/a74027b598f9e289128f4b86f85b8d118ccc0148.png?n5.45",
+					"point": 10,
+					"titleAward": "Gridanian Hero",
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/a74027b598f9e289128f4b86f85b8d118ccc0148.png",
+					"url": "/lodestone/playguide/db/achievement/ed66585db41/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						96
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "マホガニー勲章",
+					"description": "双蛇党で軍票を500,000獲得",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a7/a74027b598f9e289128f4b86f85b8d118ccc0148.png?n5.45",
+					"point": 20,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/e3bbe02b839/",
+					"itemAward": "グリダニアンエスカッシャン",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/97/973917ea8958fd54ee6bc04139b4aa8b64805f42.png?n5.45",
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/a74027b598f9e289128f4b86f85b8d118ccc0148.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/grand_company/grand_company/973917ea8958fd54ee6bc04139b4aa8b64805f42.png",
+					"url": "/lodestone/playguide/db/achievement/3f44816eb31/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						96
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "双蛇党 カンパニーリーヴ コンプリート数",
+			"data": [
+				{
+					"title": "双蛇党の熟練兵：ランク1",
+					"description": "双蛇党のカンパニーリーヴを計10回コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a7/a74027b598f9e289128f4b86f85b8d118ccc0148.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/a74027b598f9e289128f4b86f85b8d118ccc0148.png",
+					"url": "/lodestone/playguide/db/achievement/2eefe3c966d/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						96,
+						191
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "双蛇党の熟練兵：ランク2",
+					"description": "双蛇党のカンパニーリーヴを計100回コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a7/a74027b598f9e289128f4b86f85b8d118ccc0148.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/a74027b598f9e289128f4b86f85b8d118ccc0148.png",
+					"url": "/lodestone/playguide/db/achievement/28f2db3327b/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						96,
+						191
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "双蛇党の熟練兵：ランク3",
+					"description": "双蛇党のカンパニーリーヴを計200回コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a7/a74027b598f9e289128f4b86f85b8d118ccc0148.png?n5.45",
+					"point": 10,
+					"titleAward": "Gridanian Veteran",
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/a74027b598f9e289128f4b86f85b8d118ccc0148.png",
+					"url": "/lodestone/playguide/db/achievement/83bc38173dc/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						96,
+						191
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "アイアンウッド勲章",
+					"description": "双蛇党のカンパニーリーヴを計500回コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a7/a74027b598f9e289128f4b86f85b8d118ccc0148.png?n5.45",
+					"point": 20,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/6388ae9118a/",
+					"itemAward": "リリー・アンド・サーペント・ブレスレット",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/28/281e0165cc3a01ab5aa470e0d88cd80d38aa1da8.png?n5.45",
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/a74027b598f9e289128f4b86f85b8d118ccc0148.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/grand_company/grand_company/281e0165cc3a01ab5aa470e0d88cd80d38aa1da8.png",
+					"url": "/lodestone/playguide/db/achievement/13ae4780c6c/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						96,
+						191
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "双蛇党 カンパニーリーヴ コンプリート 種類数",
+			"data": [
+				{
+					"title": "双蛇党カンパニーリーヴ：ランク1",
+					"description": "双蛇党のグランドカンパニーリーヴの任務を、5種類コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a7/a74027b598f9e289128f4b86f85b8d118ccc0148.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/a74027b598f9e289128f4b86f85b8d118ccc0148.png",
+					"url": "/lodestone/playguide/db/achievement/95e222df2fa/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						96,
+						191
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "双蛇党カンパニーリーヴ：ランク2",
+					"description": "双蛇党のグランドカンパニーリーヴの任務を、10種類コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a7/a74027b598f9e289128f4b86f85b8d118ccc0148.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/a74027b598f9e289128f4b86f85b8d118ccc0148.png",
+					"url": "/lodestone/playguide/db/achievement/f675d297db1/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						96,
+						191
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "双蛇党カンパニーリーヴ：ランク3",
+					"description": "双蛇党のグランドカンパニーリーヴの任務を、15種類コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a7/a74027b598f9e289128f4b86f85b8d118ccc0148.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/a74027b598f9e289128f4b86f85b8d118ccc0148.png",
+					"url": "/lodestone/playguide/db/achievement/ae805221545/",
+					"isLatestPatch": false,
+					"sourceIndex": 19,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						96,
+						191
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "双蛇党 軍需品調達",
+			"data": [
+				{
+					"title": "双蛇党の輜重兵：ランク1",
+					"description": "双蛇党の軍需品調達を計10回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a7/a74027b598f9e289128f4b86f85b8d118ccc0148.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/a74027b598f9e289128f4b86f85b8d118ccc0148.png",
+					"url": "/lodestone/playguide/db/achievement/dce6c693161/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						96
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "双蛇党の輜重兵：ランク2",
+					"description": "双蛇党の軍需品調達を計50回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a7/a74027b598f9e289128f4b86f85b8d118ccc0148.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/a74027b598f9e289128f4b86f85b8d118ccc0148.png",
+					"url": "/lodestone/playguide/db/achievement/da207a4c77e/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						96
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "双蛇党の輜重兵：ランク3",
+					"description": "双蛇党の軍需品調達を計200回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a7/a74027b598f9e289128f4b86f85b8d118ccc0148.png?n5.45",
+					"point": 10,
+					"titleAward": "Gridanian Carrier",
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/a74027b598f9e289128f4b86f85b8d118ccc0148.png",
+					"url": "/lodestone/playguide/db/achievement/81f2174a5df/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						96
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "シカモア勲章",
+					"description": "双蛇党の軍需品調達を計500回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a7/a74027b598f9e289128f4b86f85b8d118ccc0148.png?n5.45",
+					"point": 20,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/88d4ba9dbe9/",
+					"itemAward": "リリー・アンド・サーペント・イヤリング",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e1/e1caee98ce7cc057547159d4283cdb8ef8d826e8.png?n5.45",
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/a74027b598f9e289128f4b86f85b8d118ccc0148.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/grand_company/grand_company/e1caee98ce7cc057547159d4283cdb8ef8d826e8.png",
+					"url": "/lodestone/playguide/db/achievement/136890f77b0/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						96
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "双蛇党 補給品調達",
+			"data": [
+				{
+					"title": "双蛇党の補給兵：ランク1",
+					"description": "双蛇党の補給品調達を計10回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a7/a74027b598f9e289128f4b86f85b8d118ccc0148.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/a74027b598f9e289128f4b86f85b8d118ccc0148.png",
+					"url": "/lodestone/playguide/db/achievement/ccdb28ba811/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						96
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "双蛇党の補給兵：ランク2",
+					"description": "双蛇党の補給品調達を計30回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a7/a74027b598f9e289128f4b86f85b8d118ccc0148.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/a74027b598f9e289128f4b86f85b8d118ccc0148.png",
+					"url": "/lodestone/playguide/db/achievement/89295109f10/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						96
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "双蛇党の補給兵：ランク3",
+					"description": "双蛇党の補給品調達を計100回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a7/a74027b598f9e289128f4b86f85b8d118ccc0148.png?n5.45",
+					"point": 10,
+					"titleAward": "Gridanian Builder",
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/a74027b598f9e289128f4b86f85b8d118ccc0148.png",
+					"url": "/lodestone/playguide/db/achievement/079f30ceb60/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						96
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ウィロー勲章",
+					"description": "双蛇党の補給品調達を計200回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a7/a74027b598f9e289128f4b86f85b8d118ccc0148.png?n5.45",
+					"point": 20,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/e22bbb92e0b/",
+					"itemAward": "リリー・アンド・サーペント・リング",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/00/002a5b3d0b96f5f6b0f246b4956316cfd09c06e5.png?n5.45",
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/a74027b598f9e289128f4b86f85b8d118ccc0148.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/grand_company/grand_company/002a5b3d0b96f5f6b0f246b4956316cfd09c06e5.png",
+					"url": "/lodestone/playguide/db/achievement/8b125ce1d66/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						96
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "双蛇党 討伐手帳 コンプリート",
+			"data": [
+				{
+					"title": "手帳好きの双蛇党員",
+					"description": "双蛇党の討伐手帳を、すべてコンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a7/a74027b598f9e289128f4b86f85b8d118ccc0148.png?n5.45",
+					"point": 20,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/6273bb53c18/",
+					"itemAward": "マメット003G",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/17/172fa24a6b099d16cc1cfb667a54147f80a0dfb0.png?n5.45",
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/a74027b598f9e289128f4b86f85b8d118ccc0148.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/grand_company/grand_company/172fa24a6b099d16cc1cfb667a54147f80a0dfb0.png",
+					"url": "/lodestone/playguide/db/achievement/c28e8993774/",
+					"isLatestPatch": false,
+					"sourceIndex": 20,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						96
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

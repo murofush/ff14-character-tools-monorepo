@@ -1,0 +1,887 @@
+{
+	"title": "dungeons",
+	"categorized": [
+		{
+			"title": "ダンジョン攻略 種類数",
+			"data": [
+				{
+					"title": "ダンジョン好きの冒険者：ランク1",
+					"description": "5種類のダンジョン、討伐・討滅戦を攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b9/b957518bbaec8a40bc5293ce82518f59501113c8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/b957518bbaec8a40bc5293ce82518f59501113c8.png",
+					"url": "/lodestone/playguide/db/achievement/231f1c4065c/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						66
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ダンジョン好きの冒険者：ランク2",
+					"description": "10種類のダンジョン、討伐・討滅戦を攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b9/b957518bbaec8a40bc5293ce82518f59501113c8.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/b957518bbaec8a40bc5293ce82518f59501113c8.png",
+					"url": "/lodestone/playguide/db/achievement/eb6650e14df/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						66
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ダンジョン好きの冒険者：ランク3",
+					"description": "20種類のダンジョン、討伐・討滅戦を攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b9/b957518bbaec8a40bc5293ce82518f59501113c8.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/b957518bbaec8a40bc5293ce82518f59501113c8.png",
+					"url": "/lodestone/playguide/db/achievement/f75be8b750d/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						66
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ダンジョン好きの冒険者：ランク4",
+					"description": "30種類のダンジョン、討伐・討滅戦を攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b9/b957518bbaec8a40bc5293ce82518f59501113c8.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/b957518bbaec8a40bc5293ce82518f59501113c8.png",
+					"url": "/lodestone/playguide/db/achievement/39da77c683e/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						66
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ダンジョン好きの冒険者：ランク5",
+					"description": "40種類のダンジョン、討伐・討滅戦を攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b9/b957518bbaec8a40bc5293ce82518f59501113c8.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/b957518bbaec8a40bc5293ce82518f59501113c8.png",
+					"url": "/lodestone/playguide/db/achievement/644ba2be006/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						66
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ダンジョン好きの冒険者：ランク6",
+					"description": "50種類のダンジョン、討伐・討滅戦を攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b9/b957518bbaec8a40bc5293ce82518f59501113c8.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/b957518bbaec8a40bc5293ce82518f59501113c8.png",
+					"url": "/lodestone/playguide/db/achievement/b18091eeb72/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						66
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "ダンジョン攻略 回数",
+			"data": [
+				{
+					"title": "ダンジョンの覇者：ランク1",
+					"description": "ダンジョン、討伐・討滅戦を計10回攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/60/60b4f6eb60deb94367533c1cf568d6c3e9c6a760.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/60b4f6eb60deb94367533c1cf568d6c3e9c6a760.png",
+					"url": "/lodestone/playguide/db/achievement/0f2317942f8/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						66
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ダンジョンの覇者：ランク2",
+					"description": "ダンジョン、討伐・討滅戦を計30回攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/60/60b4f6eb60deb94367533c1cf568d6c3e9c6a760.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/60b4f6eb60deb94367533c1cf568d6c3e9c6a760.png",
+					"url": "/lodestone/playguide/db/achievement/e7f144d0bb7/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						66
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ダンジョンの覇者：ランク3",
+					"description": "ダンジョン、討伐・討滅戦を計100回攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/60/60b4f6eb60deb94367533c1cf568d6c3e9c6a760.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/60b4f6eb60deb94367533c1cf568d6c3e9c6a760.png",
+					"url": "/lodestone/playguide/db/achievement/d154d300122/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						66
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ダンジョンの覇者：ランク4",
+					"description": "ダンジョン、討伐・討滅戦を計300回攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/60/60b4f6eb60deb94367533c1cf568d6c3e9c6a760.png?n5.45",
+					"point": 10,
+					"titleAward": "Dungeon Explorer",
+					"iconPath": "~/static/achievementData/img/battle/dungeons/60b4f6eb60deb94367533c1cf568d6c3e9c6a760.png",
+					"url": "/lodestone/playguide/db/achievement/4346224b49a/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						66
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "偉大なる探検家",
+					"description": "ダンジョン、討伐・討滅戦を計1,000回攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/60/60b4f6eb60deb94367533c1cf568d6c3e9c6a760.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/60b4f6eb60deb94367533c1cf568d6c3e9c6a760.png",
+					"url": "/lodestone/playguide/db/achievement/11a7139309a/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						66,
+						161
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "語り継がれし冒険譚：ランク1",
+					"description": "ダンジョン、討伐・討滅戦を計2,000回攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/60/60b4f6eb60deb94367533c1cf568d6c3e9c6a760.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/60b4f6eb60deb94367533c1cf568d6c3e9c6a760.png",
+					"url": "/lodestone/playguide/db/achievement/42ef9309eb6/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						66
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "語り継がれし冒険譚：ランク2",
+					"description": "ダンジョン、討伐・討滅戦を計5,000回攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/60/60b4f6eb60deb94367533c1cf568d6c3e9c6a760.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/60b4f6eb60deb94367533c1cf568d6c3e9c6a760.png",
+					"url": "/lodestone/playguide/db/achievement/f9654a4be4a/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						66
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "語り継がれし冒険譚：ランク3",
+					"description": "ダンジョン、討伐・討滅戦を計10,000回攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/60/60b4f6eb60deb94367533c1cf568d6c3e9c6a760.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/60b4f6eb60deb94367533c1cf568d6c3e9c6a760.png",
+					"url": "/lodestone/playguide/db/achievement/8f66d241170/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						66
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "死者の宮殿 攻略階層",
+			"data": [
+				{
+					"title": "死者の宮殿の探索者：ランク1",
+					"description": "死者の宮殿のB10を攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3f/3fe3b763937fea2885bc752abfd258a949f99bb8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/3fe3b763937fea2885bc752abfd258a949f99bb8.png",
+					"url": "/lodestone/playguide/db/achievement/e85812843e0/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						81
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "死者の宮殿の探索者：ランク2",
+					"description": "死者の宮殿のB20を攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3f/3fe3b763937fea2885bc752abfd258a949f99bb8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/3fe3b763937fea2885bc752abfd258a949f99bb8.png",
+					"url": "/lodestone/playguide/db/achievement/abff1d0132e/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						81
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "死者の宮殿の探索者：ランク3",
+					"description": "死者の宮殿のB30を攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3f/3fe3b763937fea2885bc752abfd258a949f99bb8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/3fe3b763937fea2885bc752abfd258a949f99bb8.png",
+					"url": "/lodestone/playguide/db/achievement/d752bb02961/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						81
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "死者の宮殿の探索者：ランク4",
+					"description": "死者の宮殿のB40を攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3f/3fe3b763937fea2885bc752abfd258a949f99bb8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/3fe3b763937fea2885bc752abfd258a949f99bb8.png",
+					"url": "/lodestone/playguide/db/achievement/6c3135c73ba/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						81
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "死者の宮殿の探索者：ランク5",
+					"description": "死者の宮殿のB50を攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3f/3fe3b763937fea2885bc752abfd258a949f99bb8.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/3fe3b763937fea2885bc752abfd258a949f99bb8.png",
+					"url": "/lodestone/playguide/db/achievement/ff321349c4a/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						81
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "死者の宮殿の探索者：ランク6",
+					"description": "死者の宮殿のB100を攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3f/3fe3b763937fea2885bc752abfd258a949f99bb8.png?n5.45",
+					"point": 10,
+					"titleAward": "the Hero of Gelmorra",
+					"iconPath": "~/static/achievementData/img/battle/dungeons/3fe3b763937fea2885bc752abfd258a949f99bb8.png",
+					"url": "/lodestone/playguide/db/achievement/e5a56ca4425/",
+					"isLatestPatch": false,
+					"sourceIndex": 19,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						81
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "死者の宮殿の探索者：ランク7",
+					"description": "死者の宮殿のB150を攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3f/3fe3b763937fea2885bc752abfd258a949f99bb8.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/3fe3b763937fea2885bc752abfd258a949f99bb8.png",
+					"url": "/lodestone/playguide/db/achievement/528b740c066/",
+					"isLatestPatch": false,
+					"sourceIndex": 20,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						81
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "死者の宮殿の探索者：ランク8",
+					"description": "死者の宮殿のB200を攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3f/3fe3b763937fea2885bc752abfd258a949f99bb8.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/3fe3b763937fea2885bc752abfd258a949f99bb8.png",
+					"url": "/lodestone/playguide/db/achievement/7d5ce46cd10/",
+					"isLatestPatch": false,
+					"sourceIndex": 21,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						81
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "死者の宮殿 攻略階層 ソロ",
+			"data": [
+				{
+					"title": "孤独なる挑戦者：ランク1",
+					"description": "死者の宮殿にソロでB1から突入しB50より深い階層で、スコアを記録した",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3f/3fe3b763937fea2885bc752abfd258a949f99bb8.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/3fe3b763937fea2885bc752abfd258a949f99bb8.png",
+					"url": "/lodestone/playguide/db/achievement/24608426fe7/",
+					"isLatestPatch": false,
+					"sourceIndex": 22,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						81
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "孤独なる挑戦者：ランク2",
+					"description": "死者の宮殿にソロでB1から突入しB100より深い階層で、スコアを記録した",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3f/3fe3b763937fea2885bc752abfd258a949f99bb8.png?n5.45",
+					"point": 10,
+					"titleAward": "Lonely Explorer",
+					"iconPath": "~/static/achievementData/img/battle/dungeons/3fe3b763937fea2885bc752abfd258a949f99bb8.png",
+					"url": "/lodestone/playguide/db/achievement/bc79c14bf3a/",
+					"isLatestPatch": false,
+					"sourceIndex": 23,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						81
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "孤独なる挑戦者：ランク3",
+					"description": "死者の宮殿にソロでB1から突入しB200に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3f/3fe3b763937fea2885bc752abfd258a949f99bb8.png?n5.45",
+					"point": 20,
+					"titleAward": "the Necromancer",
+					"iconPath": "~/static/achievementData/img/battle/dungeons/3fe3b763937fea2885bc752abfd258a949f99bb8.png",
+					"url": "/lodestone/playguide/db/achievement/bf25fe273b9/",
+					"isLatestPatch": false,
+					"sourceIndex": 24,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						81
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "埋もれた財宝 発見数",
+			"data": [
+				{
+					"title": "埋もれた財宝：ランク1",
+					"description": "埋もれた財宝を初めて発見した",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/28/28b41c8f79020879939e47e86c612a9c439e0c8f.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/28b41c8f79020879939e47e86c612a9c439e0c8f.png",
+					"url": "/lodestone/playguide/db/achievement/d646d2e39a5/",
+					"isLatestPatch": false,
+					"sourceIndex": 25,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						79
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "埋もれた財宝：ランク2",
+					"description": "埋もれた財宝を100個発見した",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/28/28b41c8f79020879939e47e86c612a9c439e0c8f.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/28b41c8f79020879939e47e86c612a9c439e0c8f.png",
+					"url": "/lodestone/playguide/db/achievement/076fa4b8447/",
+					"isLatestPatch": false,
+					"sourceIndex": 26,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						79
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "埋もれた財宝：ランク3",
+					"description": "埋もれた財宝を1,000個発見した",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/28/28b41c8f79020879939e47e86c612a9c439e0c8f.png?n5.45",
+					"point": 10,
+					"titleAward": "Lucky Person",
+					"iconPath": "~/static/achievementData/img/battle/dungeons/28b41c8f79020879939e47e86c612a9c439e0c8f.png",
+					"url": "/lodestone/playguide/db/achievement/beceed07e84/",
+					"isLatestPatch": false,
+					"sourceIndex": 27,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						79
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "埋もれた財宝：ランク4",
+					"description": "埋もれた財宝を5,000個発見した",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/28/28b41c8f79020879939e47e86c612a9c439e0c8f.png?n5.45",
+					"point": 20,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/28b41c8f79020879939e47e86c612a9c439e0c8f.png",
+					"url": "/lodestone/playguide/db/achievement/e357fc9a75f/",
+					"isLatestPatch": false,
+					"sourceIndex": 28,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						79
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "埋もれた財宝：ランク5",
+					"description": "埋もれた財宝を10,000個発見した",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/28/28b41c8f79020879939e47e86c612a9c439e0c8f.png?n5.45",
+					"point": 20,
+					"titleAward": "Hoarder",
+					"iconPath": "~/static/achievementData/img/battle/dungeons/28b41c8f79020879939e47e86c612a9c439e0c8f.png",
+					"url": "/lodestone/playguide/db/achievement/7e168d23176/",
+					"isLatestPatch": false,
+					"sourceIndex": 29,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						79
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "埋もれた財宝 発見数 魔土器：財宝感知 未使用",
+			"data": [
+				{
+					"title": "ここ掘れワンワン：ランク1",
+					"description": "埋もれた財宝を、魔土器：財宝感知を使わずに初めて発見した",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/28/28b41c8f79020879939e47e86c612a9c439e0c8f.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/28b41c8f79020879939e47e86c612a9c439e0c8f.png",
+					"url": "/lodestone/playguide/db/achievement/aff68ac621b/",
+					"isLatestPatch": false,
+					"sourceIndex": 30,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						79
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ここ掘れワンワン：ランク2",
+					"description": "埋もれた財宝を、魔土器：財宝感知を使わずに100個発見した",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/28/28b41c8f79020879939e47e86c612a9c439e0c8f.png?n5.45",
+					"point": 20,
+					"titleAward": "Sixth Sense",
+					"iconPath": "~/static/achievementData/img/battle/dungeons/28b41c8f79020879939e47e86c612a9c439e0c8f.png",
+					"url": "/lodestone/playguide/db/achievement/3810207fb87/",
+					"isLatestPatch": false,
+					"sourceIndex": 31,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						79
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "アメノミハシラ 攻略階層",
+			"data": [
+				{
+					"title": "アメノミハシラの探索者：ランク1",
+					"description": "アメノミハシラの10層を攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/03/03b826b671355bce0599ab3301a0725a640bad23.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/03b826b671355bce0599ab3301a0725a640bad23.png",
+					"url": "/lodestone/playguide/db/achievement/6357a015232/",
+					"isLatestPatch": false,
+					"sourceIndex": 32,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						82
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "アメノミハシラの探索者：ランク2",
+					"description": "アメノミハシラの20層を攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/03/03b826b671355bce0599ab3301a0725a640bad23.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/03b826b671355bce0599ab3301a0725a640bad23.png",
+					"url": "/lodestone/playguide/db/achievement/a217f837e73/",
+					"isLatestPatch": false,
+					"sourceIndex": 33,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						82
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "アメノミハシラの探索者：ランク3",
+					"description": "アメノミハシラの30層を攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/03/03b826b671355bce0599ab3301a0725a640bad23.png?n5.45",
+					"point": 5,
+					"titleAward": "Hiruko Hunter",
+					"iconPath": "~/static/achievementData/img/battle/dungeons/03b826b671355bce0599ab3301a0725a640bad23.png",
+					"url": "/lodestone/playguide/db/achievement/86f69de46a2/",
+					"isLatestPatch": false,
+					"sourceIndex": 34,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						82
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "アメノミハシラの探索者：ランク4",
+					"description": "アメノミハシラの50層を攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/03/03b826b671355bce0599ab3301a0725a640bad23.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/03b826b671355bce0599ab3301a0725a640bad23.png",
+					"url": "/lodestone/playguide/db/achievement/a8e169eb732/",
+					"isLatestPatch": false,
+					"sourceIndex": 35,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						82
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "アメノミハシラの探索者：ランク5",
+					"description": "アメノミハシラの100層を攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/03/03b826b671355bce0599ab3301a0725a640bad23.png?n5.45",
+					"point": 10,
+					"titleAward": "Heavenly Gate Crasher",
+					"iconPath": "~/static/achievementData/img/battle/dungeons/03b826b671355bce0599ab3301a0725a640bad23.png",
+					"url": "/lodestone/playguide/db/achievement/38cd2b99188/",
+					"isLatestPatch": false,
+					"sourceIndex": 36,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						82
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "アメノミハシラ 攻略階層 ソロ",
+			"data": [
+				{
+					"title": "孤高なる挑戦者：ランク1",
+					"description": "アメノミハシラにソロで1層から突入し50層より高い階層で、スコアを記録した",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/03/03b826b671355bce0599ab3301a0725a640bad23.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/03b826b671355bce0599ab3301a0725a640bad23.png",
+					"url": "/lodestone/playguide/db/achievement/07f8273c114/",
+					"isLatestPatch": false,
+					"sourceIndex": 37,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						82
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "孤高なる挑戦者：ランク2",
+					"description": "アメノミハシラにソロで1層から突入し100層に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/03/03b826b671355bce0599ab3301a0725a640bad23.png?n5.45",
+					"point": 10,
+					"titleAward": "Lone Hero",
+					"iconPath": "~/static/achievementData/img/battle/dungeons/03b826b671355bce0599ab3301a0725a640bad23.png",
+					"url": "/lodestone/playguide/db/achievement/8e23a1d733e/",
+					"isLatestPatch": false,
+					"sourceIndex": 38,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						82
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "青魔道士 マスクカーニバル ステージ攻略 種類数",
+			"data": [
+				{
+					"title": "マスクカーニバル：ランク1",
+					"description": "マスクカーニバルのステージを1種類攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/27/2713a47b9fa047915f2edff0922ebc05f9f89770.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/2713a47b9fa047915f2edff0922ebc05f9f89770.png",
+					"url": "/lodestone/playguide/db/achievement/ec865aebb21/",
+					"isLatestPatch": false,
+					"sourceIndex": 39,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "マスクカーニバル：ランク2",
+					"description": "マスクカーニバルのステージを5種類攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/27/2713a47b9fa047915f2edff0922ebc05f9f89770.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/2713a47b9fa047915f2edff0922ebc05f9f89770.png",
+					"url": "/lodestone/playguide/db/achievement/98e9f365b1d/",
+					"isLatestPatch": false,
+					"sourceIndex": 40,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "マスクカーニバル：ランク3",
+					"description": "マスクカーニバルのステージを10種類攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/27/2713a47b9fa047915f2edff0922ebc05f9f89770.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/2713a47b9fa047915f2edff0922ebc05f9f89770.png",
+					"url": "/lodestone/playguide/db/achievement/dcc99ff8544/",
+					"isLatestPatch": false,
+					"sourceIndex": 41,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "マスクカーニバル：ランク4",
+					"description": "マスクカーニバルのステージを15種類攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/27/2713a47b9fa047915f2edff0922ebc05f9f89770.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/2713a47b9fa047915f2edff0922ebc05f9f89770.png",
+					"url": "/lodestone/playguide/db/achievement/335fffd8de8/",
+					"isLatestPatch": false,
+					"sourceIndex": 42,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "マスクカーニバル：ランク5",
+					"description": "マスクカーニバルのステージを20種類攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/27/2713a47b9fa047915f2edff0922ebc05f9f89770.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/2713a47b9fa047915f2edff0922ebc05f9f89770.png",
+					"url": "/lodestone/playguide/db/achievement/68cf5f10da1/",
+					"isLatestPatch": false,
+					"sourceIndex": 43,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "マスクカーニバル：ランク6",
+					"description": "マスクカーニバルのステージを25種類攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/27/2713a47b9fa047915f2edff0922ebc05f9f89770.png?n5.45",
+					"point": 5,
+					"titleAward": "Mask the Blue",
+					"iconPath": "~/static/achievementData/img/battle/dungeons/2713a47b9fa047915f2edff0922ebc05f9f89770.png",
+					"url": "/lodestone/playguide/db/achievement/7e8a5c43eb4/",
+					"isLatestPatch": false,
+					"sourceIndex": 44,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "マスクカーニバル：ランク7",
+					"description": "マスクカーニバルのステージを30種類攻略する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/27/2713a47b9fa047915f2edff0922ebc05f9f89770.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/2713a47b9fa047915f2edff0922ebc05f9f89770.png",
+					"url": "/lodestone/playguide/db/achievement/e3d6c93114e/",
+					"isLatestPatch": false,
+					"sourceIndex": 45,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "青魔道士 マスクカーニバル 特殊条件",
+			"data": [
+				{
+					"title": "ジャイアントキリング",
+					"description": "マスクカーニバルにて、ジャイアントキリングを達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2a/2a35bd2a5d96a21fd3644b1ebefdfdc02f48ce04.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/2a35bd2a5d96a21fd3644b1ebefdfdc02f48ce04.png",
+					"url": "/lodestone/playguide/db/achievement/e8988064fe9/",
+					"isLatestPatch": false,
+					"sourceIndex": 46,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "たこあしフェチ",
+					"description": "マスクカーニバルにて、たこあしフェチを達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2a/2a35bd2a5d96a21fd3644b1ebefdfdc02f48ce04.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/battle/dungeons/2a35bd2a5d96a21fd3644b1ebefdfdc02f48ce04.png",
+					"url": "/lodestone/playguide/db/achievement/ddb5620e8d5/",
+					"isLatestPatch": false,
+					"sourceIndex": 47,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "パーフェクトブルー",
+					"description": "マスクカーニバルにて、パーフェクトブルーを達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2a/2a35bd2a5d96a21fd3644b1ebefdfdc02f48ce04.png?n5.45",
+					"point": 10,
+					"titleAward": "Perfect Blue",
+					"iconPath": "~/static/achievementData/img/battle/dungeons/2a35bd2a5d96a21fd3644b1ebefdfdc02f48ce04.png",
+					"url": "/lodestone/playguide/db/achievement/3fe2b338140/",
+					"isLatestPatch": false,
+					"sourceIndex": 48,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "セルリウムブルー",
+					"description": "マスクカーニバルにて、セルリウムブルーを達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2a/2a35bd2a5d96a21fd3644b1ebefdfdc02f48ce04.png?n5.45",
+					"point": 10,
+					"titleAward": "Champion of the Blue",
+					"iconPath": "~/static/achievementData/img/battle/dungeons/2a35bd2a5d96a21fd3644b1ebefdfdc02f48ce04.png",
+					"url": "/lodestone/playguide/db/achievement/a5d402d442d/",
+					"isLatestPatch": false,
+					"sourceIndex": 49,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ピュアブルー",
+					"description": "マスクカーニバルにて、ピュアブルーを達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2a/2a35bd2a5d96a21fd3644b1ebefdfdc02f48ce04.png?n5.45",
+					"point": 10,
+					"isLatestPatch": true,
+					"titleAward": "of the Truest Blue",
+					"iconPath": "~/static/achievementData/img/battle/dungeons/2a35bd2a5d96a21fd3644b1ebefdfdc02f48ce04.png",
+					"url": "/lodestone/playguide/db/achievement/31bf613c66a/",
+					"sourceIndex": 50,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						34
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

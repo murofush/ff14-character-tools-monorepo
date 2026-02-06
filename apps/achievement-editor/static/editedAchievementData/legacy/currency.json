@@ -1,0 +1,108 @@
+{
+	"title": "currency",
+	"categorized": [
+		{
+			"title": "エネミー討伐 獲得ギル数",
+			"data": [
+				{
+					"title": "塵も積もれば山となる：ランク1",
+					"description": "エネミー討伐時に得られるギルにより、累計1,000ギル獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ba/baa2341dd17414fae7fd62ae7bc62c64589b67be.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/currency/baa2341dd17414fae7fd62ae7bc62c64589b67be.png",
+					"url": "/lodestone/playguide/db/achievement/49aa5305eb2/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "塵も積もれば山となる：ランク2",
+					"description": "エネミー討伐時に得られるギルにより、累計10,000ギル獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ba/baa2341dd17414fae7fd62ae7bc62c64589b67be.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/currency/baa2341dd17414fae7fd62ae7bc62c64589b67be.png",
+					"url": "/lodestone/playguide/db/achievement/dc69181cc00/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "塵も積もれば山となる：ランク3",
+					"description": "エネミー討伐時に得られるギルにより、累計100,000ギル獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ba/baa2341dd17414fae7fd62ae7bc62c64589b67be.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/currency/baa2341dd17414fae7fd62ae7bc62c64589b67be.png",
+					"url": "/lodestone/playguide/db/achievement/3e9f5f3c69a/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "塵も積もれば山となる：ランク4",
+					"description": "エネミー討伐時に得られるギルにより、累計1,000,000ギル獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ba/baa2341dd17414fae7fd62ae7bc62c64589b67be.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/currency/baa2341dd17414fae7fd62ae7bc62c64589b67be.png",
+					"url": "/lodestone/playguide/db/achievement/4f887884350/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "塵も積もれば山となる：ランク5",
+					"description": "エネミー討伐時に得られるギルにより、累計10,000,000ギル獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ba/baa2341dd17414fae7fd62ae7bc62c64589b67be.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/currency/baa2341dd17414fae7fd62ae7bc62c64589b67be.png",
+					"url": "/lodestone/playguide/db/achievement/5a86542c467/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "筋金入りの武辺者",
+					"description": "エネミー討伐時に得られるギルにより、累計100,000,000ギル獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8eea8b66cfef950f0cf185a456ef76cf0cdbddc2.png?n5.45",
+					"point": 10,
+					"titleAward": "Scavenger",
+					"iconPath": "~/static/achievementData/img/legacy/currency/8eea8b66cfef950f0cf185a456ef76cf0cdbddc2.png",
+					"url": "/lodestone/playguide/db/achievement/01c2c9965dc/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

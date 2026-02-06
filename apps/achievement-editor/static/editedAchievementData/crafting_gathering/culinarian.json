@@ -1,0 +1,504 @@
+{
+	"title": "culinarian",
+	"categorized": [
+		{
+			"title": "調理師 レベル別 製作回数",
+			"data": [
+				{
+					"title": "調理職人：素人",
+					"description": "調理スキルのレベル1-10のレシピを50回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/89/89422378ca60a03363b0aa060487bfe99968fe5c.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/89422378ca60a03363b0aa060487bfe99968fe5c.png",
+					"url": "/lodestone/playguide/db/achievement/3e471e903ce/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "調理職人：見習",
+					"description": "調理スキルのレベル11-20のレシピを300回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/89/89422378ca60a03363b0aa060487bfe99968fe5c.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/89422378ca60a03363b0aa060487bfe99968fe5c.png",
+					"url": "/lodestone/playguide/db/achievement/c82a3eb3398/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "調理職人：徒弟",
+					"description": "調理スキルのレベル21-30のレシピを750回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/89/89422378ca60a03363b0aa060487bfe99968fe5c.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/89422378ca60a03363b0aa060487bfe99968fe5c.png",
+					"url": "/lodestone/playguide/db/achievement/bd8d5479f2b/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "調理職人：下級",
+					"description": "調理スキルのレベル31-40のレシピを1,500回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/89/89422378ca60a03363b0aa060487bfe99968fe5c.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/89422378ca60a03363b0aa060487bfe99968fe5c.png",
+					"url": "/lodestone/playguide/db/achievement/c5b6ed7f5f0/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "調理職人：上級",
+					"description": "調理スキルのレベル41-50のレシピを3,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/89/89422378ca60a03363b0aa060487bfe99968fe5c.png?n5.45",
+					"point": 10,
+					"titleAward": "of the Golden Ladle",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/89422378ca60a03363b0aa060487bfe99968fe5c.png",
+					"url": "/lodestone/playguide/db/achievement/9b9676c6927/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "調理の匠",
+					"description": "アチーブメント「調理職人：素人」「調理職人：見習」「調理職人：徒弟」「調理職人：下級」「調理職人：上級」をすべて達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c5/c5b768fcb396fc2e9d53a1f66927fff5599e244e.png?n5.45",
+					"point": 30,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/4fd8e6f03dd/",
+					"itemAward": "ルミナリーフライパン",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c5/c5b768fcb396fc2e9d53a1f66927fff5599e244e.png?n5.45",
+					"awardCondition": [
+						"調理職人：素人",
+						"調理職人：見習",
+						"調理職人：徒弟",
+						"調理職人：下級",
+						"調理職人：上級"
+					],
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/c5b768fcb396fc2e9d53a1f66927fff5599e244e.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/culinarian/c5b768fcb396fc2e9d53a1f66927fff5599e244e.png",
+					"url": "/lodestone/playguide/db/achievement/54463b7c9ac/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "調理職人：名取",
+					"description": "調理スキルのレベル51-60のレシピを1,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/89/89422378ca60a03363b0aa060487bfe99968fe5c.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/89422378ca60a03363b0aa060487bfe99968fe5c.png",
+					"url": "/lodestone/playguide/db/achievement/941fd010020/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "調理職人：目録",
+					"description": "調理スキルのレベル61-70のレシピを1,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/89/89422378ca60a03363b0aa060487bfe99968fe5c.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/89422378ca60a03363b0aa060487bfe99968fe5c.png",
+					"url": "/lodestone/playguide/db/achievement/5f2569fce47/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "調理職人：印可",
+					"description": "調理スキルのレベル71-80のレシピを1,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/89/89422378ca60a03363b0aa060487bfe99968fe5c.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/89422378ca60a03363b0aa060487bfe99968fe5c.png",
+					"url": "/lodestone/playguide/db/achievement/a173eadc523/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "調理師 製作手帳 種類数",
+			"data": [
+				{
+					"title": "手帳好きの調理師：ランク1",
+					"description": "調理師のレシピのうち、30種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bd/bd09c0590c864797871d1e4e6b42ed7575b0e601.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/bd09c0590c864797871d1e4e6b42ed7575b0e601.png",
+					"url": "/lodestone/playguide/db/achievement/7128dd15df3/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの調理師：ランク2",
+					"description": "調理師のレシピのうち、60種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bd/bd09c0590c864797871d1e4e6b42ed7575b0e601.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/bd09c0590c864797871d1e4e6b42ed7575b0e601.png",
+					"url": "/lodestone/playguide/db/achievement/c0503ac950b/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの調理師：ランク3",
+					"description": "調理師のレシピのうち、120種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bd/bd09c0590c864797871d1e4e6b42ed7575b0e601.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/251a08bcb2c/",
+					"itemAward": "マスタークリナリアンリング",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/be/be592d28082cdc83867b9d50f2c19f7583c0a48d.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/bd09c0590c864797871d1e4e6b42ed7575b0e601.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/culinarian/be592d28082cdc83867b9d50f2c19f7583c0a48d.png",
+					"url": "/lodestone/playguide/db/achievement/9c7db4c5ca6/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの調理師：ランク4",
+					"description": "調理師のレシピのうち、160種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bd/bd09c0590c864797871d1e4e6b42ed7575b0e601.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/bd09c0590c864797871d1e4e6b42ed7575b0e601.png",
+					"url": "/lodestone/playguide/db/achievement/2c06d4e19e0/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "手帳好きの調理師：ランク5",
+					"description": "調理師のレシピのうち、190種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bd/bd09c0590c864797871d1e4e6b42ed7575b0e601.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/3a3883e41a6/",
+					"itemAward": "ブレスド・ガリーキープフライパン",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/44/44950c3988b11c7ebbe14ed8892c97c037fdb7ee.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/bd09c0590c864797871d1e4e6b42ed7575b0e601.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/culinarian/44950c3988b11c7ebbe14ed8892c97c037fdb7ee.png",
+					"url": "/lodestone/playguide/db/achievement/4f699fd5788/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "手帳好きの調理師：ランク6",
+					"description": "調理師のレシピのうち、230種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bd/bd09c0590c864797871d1e4e6b42ed7575b0e601.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/d617b063091/",
+					"itemAward": "ブレスド・ガリーキングフライパン",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a6/a642b447234aa9b411478e3f30eb278cb7354781.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/bd09c0590c864797871d1e4e6b42ed7575b0e601.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/culinarian/a642b447234aa9b411478e3f30eb278cb7354781.png",
+					"url": "/lodestone/playguide/db/achievement/6f35cae8fcf/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 68
+				}
+			]
+		},
+		{
+			"title": "調理師 HQ 製作回数",
+			"data": [
+				{
+					"title": "腕利きの調理師：ランク1",
+					"description": "調理師でHQアイテムを計100回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b7/b74fa342346be977846c5796af704deb6c55ca0b.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/b74fa342346be977846c5796af704deb6c55ca0b.png",
+					"url": "/lodestone/playguide/db/achievement/aecaefb9c36/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの調理師：ランク2",
+					"description": "調理師でHQアイテムを計500回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b7/b74fa342346be977846c5796af704deb6c55ca0b.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/b74fa342346be977846c5796af704deb6c55ca0b.png",
+					"url": "/lodestone/playguide/db/achievement/01a97ae75d6/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの調理師：ランク3",
+					"description": "調理師でHQアイテムを計3,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b7/b74fa342346be977846c5796af704deb6c55ca0b.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/b74fa342346be977846c5796af704deb6c55ca0b.png",
+					"url": "/lodestone/playguide/db/achievement/58344155ccd/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの調理師：ランク4",
+					"description": "調理師でHQアイテムを計5,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b7/b74fa342346be977846c5796af704deb6c55ca0b.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/b74fa342346be977846c5796af704deb6c55ca0b.png",
+					"url": "/lodestone/playguide/db/achievement/c463f8a99b4/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの調理師：ランク5",
+					"description": "調理師でHQアイテムを計10,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b7/b74fa342346be977846c5796af704deb6c55ca0b.png?n5.45",
+					"point": 10,
+					"titleAward": "Master Culinarian",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/b74fa342346be977846c5796af704deb6c55ca0b.png",
+					"url": "/lodestone/playguide/db/achievement/d0edd48892f/",
+					"isLatestPatch": false,
+					"sourceIndex": 19,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "調理師 イシュガルド復興 技巧点",
+			"data": [
+				{
+					"title": "蒼天街の調理師：ランク1",
+					"description": "イシュガルド復興において、調理師で技巧点を50,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/99/99bff7ff25ea7a3d5b465559faacf741b362d775.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/99bff7ff25ea7a3d5b465559faacf741b362d775.png",
+					"url": "/lodestone/playguide/db/achievement/c1876c77713/",
+					"isLatestPatch": false,
+					"sourceIndex": 20,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天街の調理師：ランク2",
+					"description": "イシュガルド復興において、調理師で技巧点を150,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/99/99bff7ff25ea7a3d5b465559faacf741b362d775.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/99bff7ff25ea7a3d5b465559faacf741b362d775.png",
+					"url": "/lodestone/playguide/db/achievement/36b88c39df9/",
+					"isLatestPatch": false,
+					"sourceIndex": 21,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天街の調理マスター",
+					"description": "イシュガルド復興において、調理師で技巧点を500,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/99/99bff7ff25ea7a3d5b465559faacf741b362d775.png?n5.45",
+					"point": 10,
+					"titleAward": "Pan of the Firmament",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/99bff7ff25ea7a3d5b465559faacf741b362d775.png",
+					"url": "/lodestone/playguide/db/achievement/46529dfe9ee/",
+					"isLatestPatch": false,
+					"sourceIndex": 22,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45,
+						78
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "調理師 イシュガルド復興 高難易度レシピ 製作数",
+			"data": [
+				{
+					"title": "ニューネスト居住区の調理師",
+					"description": "第二次復興事業計画向け納品において、調理師の高難易度レシピのアイテムを100個納品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/cd/cdad3a556366e0b5604806663e2fc6443b1bbb08.png?n5.45",
+					"point": 10,
+					"titleAward": "the Nest's Own Culinarian",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/cdad3a556366e0b5604806663e2fc6443b1bbb08.png",
+					"url": "/lodestone/playguide/db/achievement/f73e7f29549/",
+					"isLatestPatch": false,
+					"sourceIndex": 23,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45,
+						78
+					],
+					"adjustmentPatchId": 80
+				},
+				{
+					"title": "フェザーフォール商業区の調理師",
+					"description": "第三次復興事業計画向け納品において、調理師の高難易度レシピのアイテムを100個納品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bb/bb95688eba21810f6fc62eb013f425f9fb1e1af5.png?n5.45",
+					"point": 10,
+					"titleAward": "Featherfall's Finest Culinarian",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/bb95688eba21810f6fc62eb013f425f9fb1e1af5.png",
+					"url": "/lodestone/playguide/db/achievement/cfd8b1d7a4c/",
+					"isLatestPatch": false,
+					"sourceIndex": 24,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45,
+						78
+					],
+					"adjustmentPatchId": 83
+				},
+				{
+					"title": "リズンソング文化区の調理師",
+					"description": "第四次復興事業計画向け納品において、調理師の高難易度レシピのアイテムを100個納品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/47/473bcb2f3ed6788b7ab6710d04bacdfc1507e8d5.png?n5.45",
+					"point": 10,
+					"isLatestPatch": true,
+					"titleAward": "the Risensung Culinarian",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/473bcb2f3ed6788b7ab6710d04bacdfc1507e8d5.png",
+					"url": "/lodestone/playguide/db/achievement/666eecdd58c/",
+					"sourceIndex": 25,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45,
+						78
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}, {
+			"title": "リスプレンデントツール",
+			"data": [
+				{
+					"title": "リスプレンデントツール：リスプレンデント・ガリーフィーンドフライパン",
+					"description": "リスプレンデント・ガリーフィーンドフライパンを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ab/ab5d491d32f0bdedd014d00084b41500270bb608.png?n5.5",
+					"point": 10,
+					"isLatestPatch": true,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/culinarian/ab5d491d32f0bdedd014d00084b41500270bb608.png",
+					"url": "/lodestone/playguide/db/achievement/6425a0ff6c5/",
+					"sourceIndex": 26,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						195
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": [
+	]
+}

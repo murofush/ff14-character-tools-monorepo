@@ -1,0 +1,1070 @@
+{
+	"title": "disciples_of_the_hand",
+	"categorized": [
+		{
+			"title": "木工師",
+			"data": [
+				{
+					"title": "木工師：レベル10",
+					"description": "木工師のレベルが10に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/48/485e81f009337aad790edf50aa5c84e6a37a2921.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/485e81f009337aad790edf50aa5c84e6a37a2921.png",
+					"url": "/lodestone/playguide/db/achievement/fb0fc76d8e3/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "木工師：レベル20",
+					"description": "木工師のレベルが20に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/48/485e81f009337aad790edf50aa5c84e6a37a2921.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/485e81f009337aad790edf50aa5c84e6a37a2921.png",
+					"url": "/lodestone/playguide/db/achievement/9d8d60ff823/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "木工師：レベル30",
+					"description": "木工師のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/48/485e81f009337aad790edf50aa5c84e6a37a2921.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/485e81f009337aad790edf50aa5c84e6a37a2921.png",
+					"url": "/lodestone/playguide/db/achievement/f770babe817/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "木工師：レベル40",
+					"description": "木工師のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/48/485e81f009337aad790edf50aa5c84e6a37a2921.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/485e81f009337aad790edf50aa5c84e6a37a2921.png",
+					"url": "/lodestone/playguide/db/achievement/37027465211/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "木工師：レベル50",
+					"description": "木工師のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/48/485e81f009337aad790edf50aa5c84e6a37a2921.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/485e81f009337aad790edf50aa5c84e6a37a2921.png",
+					"url": "/lodestone/playguide/db/achievement/2f4ca293081/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "木工師：レベル60",
+					"description": "木工師のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/48/485e81f009337aad790edf50aa5c84e6a37a2921.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/485e81f009337aad790edf50aa5c84e6a37a2921.png",
+					"url": "/lodestone/playguide/db/achievement/a56d7412a63/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "木工師：レベル70",
+					"description": "木工師のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/48/485e81f009337aad790edf50aa5c84e6a37a2921.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/485e81f009337aad790edf50aa5c84e6a37a2921.png",
+					"url": "/lodestone/playguide/db/achievement/a60386a268c/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "木工師：レベル80",
+					"description": "木工師のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/48/485e81f009337aad790edf50aa5c84e6a37a2921.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/485e81f009337aad790edf50aa5c84e6a37a2921.png",
+					"url": "/lodestone/playguide/db/achievement/982f22d1c9f/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						38
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "鍛冶師",
+			"data": [
+				{
+					"title": "鍛冶師：レベル10",
+					"description": "鍛冶師のレベルが10に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e4/e4c2b8249dc29735f7d139aa2e98f8821ee102ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/e4c2b8249dc29735f7d139aa2e98f8821ee102ab.png",
+					"url": "/lodestone/playguide/db/achievement/5b6c4af91c1/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						39
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "鍛冶師：レベル20",
+					"description": "鍛冶師のレベルが20に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e4/e4c2b8249dc29735f7d139aa2e98f8821ee102ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/e4c2b8249dc29735f7d139aa2e98f8821ee102ab.png",
+					"url": "/lodestone/playguide/db/achievement/f6432912b87/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						39
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "鍛冶師：レベル30",
+					"description": "鍛冶師のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e4/e4c2b8249dc29735f7d139aa2e98f8821ee102ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/e4c2b8249dc29735f7d139aa2e98f8821ee102ab.png",
+					"url": "/lodestone/playguide/db/achievement/bb0a204b2cc/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						39
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "鍛冶師：レベル40",
+					"description": "鍛冶師のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e4/e4c2b8249dc29735f7d139aa2e98f8821ee102ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/e4c2b8249dc29735f7d139aa2e98f8821ee102ab.png",
+					"url": "/lodestone/playguide/db/achievement/7de5d1a29e5/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						39
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "鍛冶師：レベル50",
+					"description": "鍛冶師のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e4/e4c2b8249dc29735f7d139aa2e98f8821ee102ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/e4c2b8249dc29735f7d139aa2e98f8821ee102ab.png",
+					"url": "/lodestone/playguide/db/achievement/3bbef1166cd/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						39
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "鍛冶師：レベル60",
+					"description": "鍛冶師のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e4/e4c2b8249dc29735f7d139aa2e98f8821ee102ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/e4c2b8249dc29735f7d139aa2e98f8821ee102ab.png",
+					"url": "/lodestone/playguide/db/achievement/552c35e2627/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						39
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "鍛冶師：レベル70",
+					"description": "鍛冶師のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e4/e4c2b8249dc29735f7d139aa2e98f8821ee102ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/e4c2b8249dc29735f7d139aa2e98f8821ee102ab.png",
+					"url": "/lodestone/playguide/db/achievement/973a9ae05df/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						39
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "鍛冶師：レベル80",
+					"description": "鍛冶師のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e4/e4c2b8249dc29735f7d139aa2e98f8821ee102ab.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/e4c2b8249dc29735f7d139aa2e98f8821ee102ab.png",
+					"url": "/lodestone/playguide/db/achievement/476954fd6ea/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						39
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "甲冑師",
+			"data": [
+				{
+					"title": "甲冑師：レベル10",
+					"description": "甲冑師のレベルが10に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/71/71bf526e770bd8ce2f286801d434162196a38ab0.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/71bf526e770bd8ce2f286801d434162196a38ab0.png",
+					"url": "/lodestone/playguide/db/achievement/bcb3d2331b3/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "甲冑師：レベル20",
+					"description": "甲冑師のレベルが20に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/71/71bf526e770bd8ce2f286801d434162196a38ab0.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/71bf526e770bd8ce2f286801d434162196a38ab0.png",
+					"url": "/lodestone/playguide/db/achievement/f6313bb6741/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "甲冑師：レベル30",
+					"description": "甲冑師のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/71/71bf526e770bd8ce2f286801d434162196a38ab0.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/71bf526e770bd8ce2f286801d434162196a38ab0.png",
+					"url": "/lodestone/playguide/db/achievement/97ec5d49e4d/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "甲冑師：レベル40",
+					"description": "甲冑師のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/71/71bf526e770bd8ce2f286801d434162196a38ab0.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/71bf526e770bd8ce2f286801d434162196a38ab0.png",
+					"url": "/lodestone/playguide/db/achievement/19f36092792/",
+					"isLatestPatch": false,
+					"sourceIndex": 19,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "甲冑師：レベル50",
+					"description": "甲冑師のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/71/71bf526e770bd8ce2f286801d434162196a38ab0.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/71bf526e770bd8ce2f286801d434162196a38ab0.png",
+					"url": "/lodestone/playguide/db/achievement/0f2ae4d3de1/",
+					"isLatestPatch": false,
+					"sourceIndex": 20,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "甲冑師：レベル60",
+					"description": "甲冑師のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/71/71bf526e770bd8ce2f286801d434162196a38ab0.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/71bf526e770bd8ce2f286801d434162196a38ab0.png",
+					"url": "/lodestone/playguide/db/achievement/2db83f2bf45/",
+					"isLatestPatch": false,
+					"sourceIndex": 21,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "甲冑師：レベル70",
+					"description": "甲冑師のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/71/71bf526e770bd8ce2f286801d434162196a38ab0.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/71bf526e770bd8ce2f286801d434162196a38ab0.png",
+					"url": "/lodestone/playguide/db/achievement/d109467ec16/",
+					"isLatestPatch": false,
+					"sourceIndex": 22,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "甲冑師：レベル80",
+					"description": "甲冑師のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/71/71bf526e770bd8ce2f286801d434162196a38ab0.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/71bf526e770bd8ce2f286801d434162196a38ab0.png",
+					"url": "/lodestone/playguide/db/achievement/5cf155853a4/",
+					"isLatestPatch": false,
+					"sourceIndex": 23,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "彫金師",
+			"data": [
+				{
+					"title": "彫金師：レベル10",
+					"description": "彫金師のレベルが10に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c8a4304c4a627556d8911866612d44268fd45715.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/c8a4304c4a627556d8911866612d44268fd45715.png",
+					"url": "/lodestone/playguide/db/achievement/d87f4122fdf/",
+					"isLatestPatch": false,
+					"sourceIndex": 24,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "彫金師：レベル20",
+					"description": "彫金師のレベルが20に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c8a4304c4a627556d8911866612d44268fd45715.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/c8a4304c4a627556d8911866612d44268fd45715.png",
+					"url": "/lodestone/playguide/db/achievement/7bf6ed2d6fa/",
+					"isLatestPatch": false,
+					"sourceIndex": 25,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "彫金師：レベル30",
+					"description": "彫金師のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c8a4304c4a627556d8911866612d44268fd45715.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/c8a4304c4a627556d8911866612d44268fd45715.png",
+					"url": "/lodestone/playguide/db/achievement/70ef5b498dc/",
+					"isLatestPatch": false,
+					"sourceIndex": 26,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "彫金師：レベル40",
+					"description": "彫金師のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c8a4304c4a627556d8911866612d44268fd45715.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/c8a4304c4a627556d8911866612d44268fd45715.png",
+					"url": "/lodestone/playguide/db/achievement/9c5f5a2d17d/",
+					"isLatestPatch": false,
+					"sourceIndex": 27,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "彫金師：レベル50",
+					"description": "彫金師のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c8a4304c4a627556d8911866612d44268fd45715.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/c8a4304c4a627556d8911866612d44268fd45715.png",
+					"url": "/lodestone/playguide/db/achievement/d10298e582f/",
+					"isLatestPatch": false,
+					"sourceIndex": 28,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "彫金師：レベル60",
+					"description": "彫金師のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c8a4304c4a627556d8911866612d44268fd45715.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/c8a4304c4a627556d8911866612d44268fd45715.png",
+					"url": "/lodestone/playguide/db/achievement/1e8dff32db8/",
+					"isLatestPatch": false,
+					"sourceIndex": 29,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "彫金師：レベル70",
+					"description": "彫金師のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c8a4304c4a627556d8911866612d44268fd45715.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/c8a4304c4a627556d8911866612d44268fd45715.png",
+					"url": "/lodestone/playguide/db/achievement/da1de5df359/",
+					"isLatestPatch": false,
+					"sourceIndex": 30,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "彫金師：レベル80",
+					"description": "彫金師のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c8a4304c4a627556d8911866612d44268fd45715.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/c8a4304c4a627556d8911866612d44268fd45715.png",
+					"url": "/lodestone/playguide/db/achievement/211ac7969a3/",
+					"isLatestPatch": false,
+					"sourceIndex": 31,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						41
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "革細工師",
+			"data": [
+				{
+					"title": "革細工師：レベル10",
+					"description": "革細工師のレベルが10に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a2/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png",
+					"url": "/lodestone/playguide/db/achievement/7929a97f3cb/",
+					"isLatestPatch": false,
+					"sourceIndex": 32,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "革細工師：レベル20",
+					"description": "革細工師のレベルが20に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a2/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png",
+					"url": "/lodestone/playguide/db/achievement/3ff0df04896/",
+					"isLatestPatch": false,
+					"sourceIndex": 33,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "革細工師：レベル30",
+					"description": "革細工師のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a2/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png",
+					"url": "/lodestone/playguide/db/achievement/d83d723db96/",
+					"isLatestPatch": false,
+					"sourceIndex": 34,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "革細工師：レベル40",
+					"description": "革細工師のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a2/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png",
+					"url": "/lodestone/playguide/db/achievement/e55406b60f7/",
+					"isLatestPatch": false,
+					"sourceIndex": 35,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "革細工師：レベル50",
+					"description": "革細工師のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a2/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png",
+					"url": "/lodestone/playguide/db/achievement/431d20cfb2f/",
+					"isLatestPatch": false,
+					"sourceIndex": 36,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "革細工師：レベル60",
+					"description": "革細工師のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a2/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png",
+					"url": "/lodestone/playguide/db/achievement/7ae08438579/",
+					"isLatestPatch": false,
+					"sourceIndex": 37,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "革細工師：レベル70",
+					"description": "革細工師のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a2/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png",
+					"url": "/lodestone/playguide/db/achievement/6c2f978a4ed/",
+					"isLatestPatch": false,
+					"sourceIndex": 38,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "革細工師：レベル80",
+					"description": "革細工師のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a2/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/a2cb774b8fe49cde2fd922fd52c3cd9d7d44a5b9.png",
+					"url": "/lodestone/playguide/db/achievement/e869703be8f/",
+					"isLatestPatch": false,
+					"sourceIndex": 39,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						42
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "裁縫師",
+			"data": [
+				{
+					"title": "裁縫師：レベル10",
+					"description": "裁縫師のレベルが10に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f038b41c34342411bd0fe70691e0fe839feb5507.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/f038b41c34342411bd0fe70691e0fe839feb5507.png",
+					"url": "/lodestone/playguide/db/achievement/148ab1e262f/",
+					"isLatestPatch": false,
+					"sourceIndex": 40,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "裁縫師：レベル20",
+					"description": "裁縫師のレベルが20に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f038b41c34342411bd0fe70691e0fe839feb5507.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/f038b41c34342411bd0fe70691e0fe839feb5507.png",
+					"url": "/lodestone/playguide/db/achievement/5fbfa303f27/",
+					"isLatestPatch": false,
+					"sourceIndex": 41,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "裁縫師：レベル30",
+					"description": "裁縫師のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f038b41c34342411bd0fe70691e0fe839feb5507.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/f038b41c34342411bd0fe70691e0fe839feb5507.png",
+					"url": "/lodestone/playguide/db/achievement/3f74817b804/",
+					"isLatestPatch": false,
+					"sourceIndex": 42,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "裁縫師：レベル40",
+					"description": "裁縫師のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f038b41c34342411bd0fe70691e0fe839feb5507.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/f038b41c34342411bd0fe70691e0fe839feb5507.png",
+					"url": "/lodestone/playguide/db/achievement/1adbf54f2b8/",
+					"isLatestPatch": false,
+					"sourceIndex": 43,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "裁縫師：レベル50",
+					"description": "裁縫師のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f038b41c34342411bd0fe70691e0fe839feb5507.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/f038b41c34342411bd0fe70691e0fe839feb5507.png",
+					"url": "/lodestone/playguide/db/achievement/fb6d7946a84/",
+					"isLatestPatch": false,
+					"sourceIndex": 44,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "裁縫師：レベル60",
+					"description": "裁縫師のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f038b41c34342411bd0fe70691e0fe839feb5507.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/f038b41c34342411bd0fe70691e0fe839feb5507.png",
+					"url": "/lodestone/playguide/db/achievement/bdcbba4ced8/",
+					"isLatestPatch": false,
+					"sourceIndex": 45,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "裁縫師：レベル70",
+					"description": "裁縫師のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f038b41c34342411bd0fe70691e0fe839feb5507.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/f038b41c34342411bd0fe70691e0fe839feb5507.png",
+					"url": "/lodestone/playguide/db/achievement/037d0c1eaae/",
+					"isLatestPatch": false,
+					"sourceIndex": 46,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "裁縫師：レベル80",
+					"description": "裁縫師のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f038b41c34342411bd0fe70691e0fe839feb5507.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/f038b41c34342411bd0fe70691e0fe839feb5507.png",
+					"url": "/lodestone/playguide/db/achievement/6e4cb019cdd/",
+					"isLatestPatch": false,
+					"sourceIndex": 47,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "錬金術師",
+			"data": [
+				{
+					"title": "錬金術師：レベル10",
+					"description": "錬金術師のレベルが10に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/eb/eb3f327bec5c91dec457f0c62e8b008e92cdf821.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/eb3f327bec5c91dec457f0c62e8b008e92cdf821.png",
+					"url": "/lodestone/playguide/db/achievement/166d622be40/",
+					"isLatestPatch": false,
+					"sourceIndex": 48,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						44
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "錬金術師：レベル20",
+					"description": "錬金術師のレベルが20に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/eb/eb3f327bec5c91dec457f0c62e8b008e92cdf821.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/eb3f327bec5c91dec457f0c62e8b008e92cdf821.png",
+					"url": "/lodestone/playguide/db/achievement/b57ce30ac8a/",
+					"isLatestPatch": false,
+					"sourceIndex": 49,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						44
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "錬金術師：レベル30",
+					"description": "錬金術師のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/eb/eb3f327bec5c91dec457f0c62e8b008e92cdf821.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/eb3f327bec5c91dec457f0c62e8b008e92cdf821.png",
+					"url": "/lodestone/playguide/db/achievement/f4bd95004f1/",
+					"isLatestPatch": false,
+					"sourceIndex": 50,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						44
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "錬金術師：レベル40",
+					"description": "錬金術師のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/eb/eb3f327bec5c91dec457f0c62e8b008e92cdf821.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/eb3f327bec5c91dec457f0c62e8b008e92cdf821.png",
+					"url": "/lodestone/playguide/db/achievement/66d8d172b6e/",
+					"isLatestPatch": false,
+					"sourceIndex": 51,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						44
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "錬金術師：レベル50",
+					"description": "錬金術師のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/eb/eb3f327bec5c91dec457f0c62e8b008e92cdf821.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/eb3f327bec5c91dec457f0c62e8b008e92cdf821.png",
+					"url": "/lodestone/playguide/db/achievement/94f89528d76/",
+					"isLatestPatch": false,
+					"sourceIndex": 52,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						44
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "錬金術師：レベル60",
+					"description": "錬金術師のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/eb/eb3f327bec5c91dec457f0c62e8b008e92cdf821.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/eb3f327bec5c91dec457f0c62e8b008e92cdf821.png",
+					"url": "/lodestone/playguide/db/achievement/abd4732ac83/",
+					"isLatestPatch": false,
+					"sourceIndex": 53,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						44
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "錬金術師：レベル70",
+					"description": "錬金術師のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/eb/eb3f327bec5c91dec457f0c62e8b008e92cdf821.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/eb3f327bec5c91dec457f0c62e8b008e92cdf821.png",
+					"url": "/lodestone/playguide/db/achievement/1243ae03b7d/",
+					"isLatestPatch": false,
+					"sourceIndex": 54,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						44
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "錬金術師：レベル80",
+					"description": "錬金術師のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/eb/eb3f327bec5c91dec457f0c62e8b008e92cdf821.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/eb3f327bec5c91dec457f0c62e8b008e92cdf821.png",
+					"url": "/lodestone/playguide/db/achievement/871eb34b136/",
+					"isLatestPatch": false,
+					"sourceIndex": 55,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						44
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "調理師",
+			"data": [
+				{
+					"title": "調理師：レベル10",
+					"description": "調理師のレベルが10に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/89/89422378ca60a03363b0aa060487bfe99968fe5c.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/89422378ca60a03363b0aa060487bfe99968fe5c.png",
+					"url": "/lodestone/playguide/db/achievement/ea61c16e96b/",
+					"isLatestPatch": false,
+					"sourceIndex": 56,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "調理師：レベル20",
+					"description": "調理師のレベルが20に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/89/89422378ca60a03363b0aa060487bfe99968fe5c.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/89422378ca60a03363b0aa060487bfe99968fe5c.png",
+					"url": "/lodestone/playguide/db/achievement/3d7b6a62d8b/",
+					"isLatestPatch": false,
+					"sourceIndex": 57,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "調理師：レベル30",
+					"description": "調理師のレベルが30に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/89/89422378ca60a03363b0aa060487bfe99968fe5c.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/89422378ca60a03363b0aa060487bfe99968fe5c.png",
+					"url": "/lodestone/playguide/db/achievement/43c837c93c5/",
+					"isLatestPatch": false,
+					"sourceIndex": 58,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "調理師：レベル40",
+					"description": "調理師のレベルが40に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/89/89422378ca60a03363b0aa060487bfe99968fe5c.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/89422378ca60a03363b0aa060487bfe99968fe5c.png",
+					"url": "/lodestone/playguide/db/achievement/da88c9f96c6/",
+					"isLatestPatch": false,
+					"sourceIndex": 59,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "調理師：レベル50",
+					"description": "調理師のレベルが50に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/89/89422378ca60a03363b0aa060487bfe99968fe5c.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/89422378ca60a03363b0aa060487bfe99968fe5c.png",
+					"url": "/lodestone/playguide/db/achievement/fa11c84b6bc/",
+					"isLatestPatch": false,
+					"sourceIndex": 60,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "調理師：レベル60",
+					"description": "調理師のレベルが60に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/89/89422378ca60a03363b0aa060487bfe99968fe5c.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/89422378ca60a03363b0aa060487bfe99968fe5c.png",
+					"url": "/lodestone/playguide/db/achievement/4451dd84dea/",
+					"isLatestPatch": false,
+					"sourceIndex": 61,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "調理師：レベル70",
+					"description": "調理師のレベルが70に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/89/89422378ca60a03363b0aa060487bfe99968fe5c.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/89422378ca60a03363b0aa060487bfe99968fe5c.png",
+					"url": "/lodestone/playguide/db/achievement/ac719f013be/",
+					"isLatestPatch": false,
+					"sourceIndex": 62,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "調理師：レベル80",
+					"description": "調理師のレベルが80に到達する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/89/89422378ca60a03363b0aa060487bfe99968fe5c.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/disciples_of_the_hand/89422378ca60a03363b0aa060487bfe99968fe5c.png",
+					"url": "/lodestone/playguide/db/achievement/8197a5a91d1/",
+					"isLatestPatch": false,
+					"sourceIndex": 63,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						45
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

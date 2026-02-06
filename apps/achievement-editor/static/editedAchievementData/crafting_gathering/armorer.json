@@ -1,0 +1,505 @@
+{
+	"title": "armorer",
+	"categorized": [
+		{
+			"title": "甲冑師 レベル別 製作回数",
+			"data": [
+				{
+					"title": "板金職人：素人",
+					"description": "板金スキルのレベル1-10のレシピを50回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/71/71bf526e770bd8ce2f286801d434162196a38ab0.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/71bf526e770bd8ce2f286801d434162196a38ab0.png",
+					"url": "/lodestone/playguide/db/achievement/e1988dfdae1/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "板金職人：見習",
+					"description": "板金スキルのレベル11-20のレシピを300回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/71/71bf526e770bd8ce2f286801d434162196a38ab0.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/71bf526e770bd8ce2f286801d434162196a38ab0.png",
+					"url": "/lodestone/playguide/db/achievement/6a81eeb0fdc/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "板金職人：徒弟",
+					"description": "板金スキルのレベル21-30のレシピを750回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/71/71bf526e770bd8ce2f286801d434162196a38ab0.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/71bf526e770bd8ce2f286801d434162196a38ab0.png",
+					"url": "/lodestone/playguide/db/achievement/f1883504a53/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "板金職人：下級",
+					"description": "板金スキルのレベル31-40のレシピを1,500回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/71/71bf526e770bd8ce2f286801d434162196a38ab0.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/71bf526e770bd8ce2f286801d434162196a38ab0.png",
+					"url": "/lodestone/playguide/db/achievement/f1e99857112/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "板金職人：上級",
+					"description": "板金スキルのレベル41-50のレシピを3,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/71/71bf526e770bd8ce2f286801d434162196a38ab0.png?n5.45",
+					"point": 10,
+					"titleAward": "of the Golden Hammer",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/71bf526e770bd8ce2f286801d434162196a38ab0.png",
+					"url": "/lodestone/playguide/db/achievement/f307d0fd0b9/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "板金の匠",
+					"description": "アチーブメント「板金職人：素人」「板金職人：見習」「板金職人：徒弟」「板金職人：下級」「板金職人：上級」をすべて達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/be/beab0ccdebab62129922700f05bf949134b9ede7.png?n5.45",
+					"point": 30,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/41e7afcdc4c/",
+					"itemAward": "ルミナリーマレット",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/be/beab0ccdebab62129922700f05bf949134b9ede7.png?n5.45",
+					"awardCondition": [
+						"板金職人：素人",
+						"板金職人：見習",
+						"板金職人：徒弟",
+						"板金職人：下級",
+						"板金職人：上級"
+					],
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/beab0ccdebab62129922700f05bf949134b9ede7.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/armorer/beab0ccdebab62129922700f05bf949134b9ede7.png",
+					"url": "/lodestone/playguide/db/achievement/6523261bc1e/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "板金職人：名取",
+					"description": "板金スキルのレベル51-60のレシピを1,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/71/71bf526e770bd8ce2f286801d434162196a38ab0.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/71bf526e770bd8ce2f286801d434162196a38ab0.png",
+					"url": "/lodestone/playguide/db/achievement/d7f3d90950d/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "板金職人：目録",
+					"description": "板金スキルのレベル61-70のレシピを1,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/71/71bf526e770bd8ce2f286801d434162196a38ab0.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/71bf526e770bd8ce2f286801d434162196a38ab0.png",
+					"url": "/lodestone/playguide/db/achievement/430230aab12/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "板金職人：印可",
+					"description": "板金スキルのレベル71-80のレシピを1,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/71/71bf526e770bd8ce2f286801d434162196a38ab0.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/71bf526e770bd8ce2f286801d434162196a38ab0.png",
+					"url": "/lodestone/playguide/db/achievement/68e97e70844/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "甲冑師 製作手帳 種類数",
+			"data": [
+				{
+					"title": "手帳好きの甲冑師：ランク1",
+					"description": "甲冑師のレシピのうち、40種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/84/840894c0736ab3e0a79bac72f2f0a1bfb13c445f.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/840894c0736ab3e0a79bac72f2f0a1bfb13c445f.png",
+					"url": "/lodestone/playguide/db/achievement/2ed7da4fe9b/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの甲冑師：ランク2",
+					"description": "甲冑師のレシピのうち、80種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/84/840894c0736ab3e0a79bac72f2f0a1bfb13c445f.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/840894c0736ab3e0a79bac72f2f0a1bfb13c445f.png",
+					"url": "/lodestone/playguide/db/achievement/62f099b0e29/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの甲冑師：ランク3",
+					"description": "甲冑師のレシピのうち、170種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/84/840894c0736ab3e0a79bac72f2f0a1bfb13c445f.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/89cdcf37a1e/",
+					"itemAward": "マスターアーモラーリング",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/25/256d6ca68fd4e361250867f56bfda68b3c19cdd9.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/840894c0736ab3e0a79bac72f2f0a1bfb13c445f.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/armorer/256d6ca68fd4e361250867f56bfda68b3c19cdd9.png",
+					"url": "/lodestone/playguide/db/achievement/31f2a2e162e/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの甲冑師：ランク4",
+					"description": "甲冑師のレシピのうち、230種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/84/840894c0736ab3e0a79bac72f2f0a1bfb13c445f.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/840894c0736ab3e0a79bac72f2f0a1bfb13c445f.png",
+					"url": "/lodestone/playguide/db/achievement/2d4ab4897c3/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "手帳好きの甲冑師：ランク5",
+					"description": "甲冑師のレシピのうち、300種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/84/840894c0736ab3e0a79bac72f2f0a1bfb13c445f.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/b451aaa1b3f/",
+					"itemAward": "ブレスド・ハンマーキープハンマー",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/49/49fc33f9b33b26c254b8612e7e5cd6e48c9cdc9f.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/840894c0736ab3e0a79bac72f2f0a1bfb13c445f.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/armorer/49fc33f9b33b26c254b8612e7e5cd6e48c9cdc9f.png",
+					"url": "/lodestone/playguide/db/achievement/6093dc77f72/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "手帳好きの甲冑師：ランク6",
+					"description": "甲冑師のレシピのうち、370種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/84/840894c0736ab3e0a79bac72f2f0a1bfb13c445f.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/457fb33706b/",
+					"itemAward": "ブレスド・ハンマーキングハンマー",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/6b/6bc8b95dc64a63c6214c3ce74a165701d9d394ef.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/840894c0736ab3e0a79bac72f2f0a1bfb13c445f.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/armorer/6bc8b95dc64a63c6214c3ce74a165701d9d394ef.png",
+					"url": "/lodestone/playguide/db/achievement/5f7e0a7a219/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 68
+				}
+			]
+		},
+		{
+			"title": "甲冑師 HQ 製作回数",
+			"data": [
+				{
+					"title": "腕利きの甲冑師：ランク1",
+					"description": "甲冑師でHQアイテムを計100回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/db/dbc47c336b4761b662462f70c13fd66dc58f67d8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/dbc47c336b4761b662462f70c13fd66dc58f67d8.png",
+					"url": "/lodestone/playguide/db/achievement/c9bd59bff64/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの甲冑師：ランク2",
+					"description": "甲冑師でHQアイテムを計500回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/db/dbc47c336b4761b662462f70c13fd66dc58f67d8.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/dbc47c336b4761b662462f70c13fd66dc58f67d8.png",
+					"url": "/lodestone/playguide/db/achievement/6f66fc9d382/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの甲冑師：ランク3",
+					"description": "甲冑師でHQアイテムを計3,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/db/dbc47c336b4761b662462f70c13fd66dc58f67d8.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/dbc47c336b4761b662462f70c13fd66dc58f67d8.png",
+					"url": "/lodestone/playguide/db/achievement/22343d56d06/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの甲冑師：ランク4",
+					"description": "甲冑師でHQアイテムを計5,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/db/dbc47c336b4761b662462f70c13fd66dc58f67d8.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/dbc47c336b4761b662462f70c13fd66dc58f67d8.png",
+					"url": "/lodestone/playguide/db/achievement/efee528ea6b/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの甲冑師：ランク5",
+					"description": "甲冑師でHQアイテムを計10,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/db/dbc47c336b4761b662462f70c13fd66dc58f67d8.png?n5.45",
+					"point": 10,
+					"titleAwardMan": "Master Armourer",
+					"titleAwardWoman": "Master Armorer",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/dbc47c336b4761b662462f70c13fd66dc58f67d8.png",
+					"url": "/lodestone/playguide/db/achievement/5fd609ec978/",
+					"isLatestPatch": false,
+					"sourceIndex": 19,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "甲冑師 イシュガルド復興 技巧点",
+			"data": [
+				{
+					"title": "蒼天街の甲冑師：ランク1",
+					"description": "イシュガルド復興において、甲冑師で技巧点を50,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c8629fb505be8157ed9e8bbe7e94b91d7fc119d1.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/c8629fb505be8157ed9e8bbe7e94b91d7fc119d1.png",
+					"url": "/lodestone/playguide/db/achievement/d528e14e19a/",
+					"isLatestPatch": false,
+					"sourceIndex": 20,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天街の甲冑師：ランク2",
+					"description": "イシュガルド復興において、甲冑師で技巧点を150,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c8629fb505be8157ed9e8bbe7e94b91d7fc119d1.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/c8629fb505be8157ed9e8bbe7e94b91d7fc119d1.png",
+					"url": "/lodestone/playguide/db/achievement/74fff566eb5/",
+					"isLatestPatch": false,
+					"sourceIndex": 21,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天街の甲冑マスター",
+					"description": "イシュガルド復興において、甲冑師で技巧点を500,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c8629fb505be8157ed9e8bbe7e94b91d7fc119d1.png?n5.45",
+					"point": 10,
+					"titleAward": "Hammer of the Firmament",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/c8629fb505be8157ed9e8bbe7e94b91d7fc119d1.png",
+					"url": "/lodestone/playguide/db/achievement/2b7c616604a/",
+					"isLatestPatch": false,
+					"sourceIndex": 22,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40,
+						78
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "甲冑師 イシュガルド復興 高難易度レシピ 製作数",
+			"data": [
+				{
+					"title": "ニューネスト居住区の甲冑師",
+					"description": "第二次復興事業計画向け納品において、甲冑師の高難易度レシピのアイテムを100個納品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/38/380bf64f646b7ca0b81da1b744414cc73897931d.png?n5.45",
+					"point": 10,
+					"titleAward": "the Nest's Own Armorer",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/380bf64f646b7ca0b81da1b744414cc73897931d.png",
+					"url": "/lodestone/playguide/db/achievement/e854817f683/",
+					"isLatestPatch": false,
+					"sourceIndex": 23,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40,
+						78
+					],
+					"adjustmentPatchId": 80
+				},
+				{
+					"title": "フェザーフォール商業区の甲冑師",
+					"description": "第三次復興事業計画向け納品において、甲冑師の高難易度レシピのアイテムを100個納品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c3/c335b4714612f2122867aa0b0cbf4a3f8eb5e00a.png?n5.45",
+					"point": 10,
+					"titleAward": "Featherfall's Finest Armorer",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/c335b4714612f2122867aa0b0cbf4a3f8eb5e00a.png",
+					"url": "/lodestone/playguide/db/achievement/706d8ed74d8/",
+					"isLatestPatch": false,
+					"sourceIndex": 24,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40,
+						78
+					],
+					"adjustmentPatchId": 83
+				},
+				{
+					"title": "リズンソング文化区の甲冑師",
+					"description": "第四次復興事業計画向け納品において、甲冑師の高難易度レシピのアイテムを100個納品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/07/07cf3fcd35c0711b2d61ee3797a17607ad2c1aa1.png?n5.45",
+					"point": 10,
+					"isLatestPatch": true,
+					"titleAward": "the Risensung Armorer",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/07cf3fcd35c0711b2d61ee3797a17607ad2c1aa1.png",
+					"url": "/lodestone/playguide/db/achievement/fa170c7786b/",
+					"sourceIndex": 25,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						40,
+						78
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}, {
+			"title": "リスプレンデントツール",
+			"data": [
+				{
+					"title": "リスプレンデントツール：リスプレンデント・ハンマーフィーンドハンマー",
+					"description": "リスプレンデント・ハンマーフィーンドハンマーを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/65/656ee25e9286559f1dd976ccde6286d53f85946c.png?n5.5",
+					"point": 10,
+					"isLatestPatch": true,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/armorer/656ee25e9286559f1dd976ccde6286d53f85946c.png",
+					"url": "/lodestone/playguide/db/achievement/d40c974864b/",
+					"sourceIndex": 26,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						195
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": [
+	]
+}

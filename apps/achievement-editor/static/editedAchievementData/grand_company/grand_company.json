@@ -1,0 +1,177 @@
+{
+	"title": "grand_company",
+	"categorized": [
+		{
+			"title": "マイチョコボ",
+			"data": [
+				{
+					"title": "愛しのマイチョコボ",
+					"description": "チョコボホイッスルを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/63/63e19581f16b49e41d2ad4f242654c39007d1f1a.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/63e19581f16b49e41d2ad4f242654c39007d1f1a.png",
+					"url": "/lodestone/playguide/db/achievement/0d544d2e49c/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						165
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "麗しのマイチョコボ",
+					"description": "いずれかのグランドカンパニーのチョコボ装甲3種類を入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c1/c153411ee9e83ab91e0ba92d85db5fd9d9284a18.png?n5.45",
+					"point": 5,
+					"titleAward": "Chocobo Cavalier",
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/c153411ee9e83ab91e0ba92d85db5fd9d9284a18.png",
+					"url": "/lodestone/playguide/db/achievement/431140c4ca4/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						165
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "グランドカンパニー 装備一式 入手",
+			"data": [
+				{
+					"title": "襟を正して：兵卒",
+					"description": "自分が所属する組織のソルジャー・キャップ、ソルジャー・コート、ソルジャー・グローブ、ソルジャー・ブーツをすべて入手する※入手した装備品をすべて着用した状態で、グリダニア旧市街にいる「ジョナサス」に話しかけてください",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/60/60b4f6eb60deb94367533c1cf568d6c3e9c6a760.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/60b4f6eb60deb94367533c1cf568d6c3e9c6a760.png",
+					"url": "/lodestone/playguide/db/achievement/2e48432a586/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						95,
+						96,
+						97,
+						194
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "冒険者小隊 派遣 成功回数",
+			"data": [
+				{
+					"title": "我らが小隊長：ランク1",
+					"description": "冒険者小隊を任務に派遣し、計10回成功させる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/dd/dd1e24b7e828d44c107d001e45515727d05865db.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/dd1e24b7e828d44c107d001e45515727d05865db.png",
+					"url": "/lodestone/playguide/db/achievement/b281cf67875/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						189
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "我らが小隊長：ランク2",
+					"description": "冒険者小隊を任務に派遣し、計30回成功させる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/dd/dd1e24b7e828d44c107d001e45515727d05865db.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/dd1e24b7e828d44c107d001e45515727d05865db.png",
+					"url": "/lodestone/playguide/db/achievement/8633668ea6d/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						189
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "我らが小隊長：ランク3",
+					"description": "冒険者小隊を任務に派遣し、計100回成功させる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/dd/dd1e24b7e828d44c107d001e45515727d05865db.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/dd1e24b7e828d44c107d001e45515727d05865db.png",
+					"url": "/lodestone/playguide/db/achievement/289e892c950/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						189
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "冒険者小隊 攻略任務 コンプリート数",
+			"data": [
+				{
+					"title": "頼れる小隊長：ランク1",
+					"description": "攻略任務を10回コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/dd/dd1e24b7e828d44c107d001e45515727d05865db.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/dd1e24b7e828d44c107d001e45515727d05865db.png",
+					"url": "/lodestone/playguide/db/achievement/60e9333c0fe/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						66,
+						189
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "頼れる小隊長：ランク2",
+					"description": "攻略任務を30回コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/dd/dd1e24b7e828d44c107d001e45515727d05865db.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/dd1e24b7e828d44c107d001e45515727d05865db.png",
+					"url": "/lodestone/playguide/db/achievement/cd1bad1e7ba/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						66,
+						189
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "頼れる小隊長：ランク3",
+					"description": "攻略任務を100回コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/dd/dd1e24b7e828d44c107d001e45515727d05865db.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/dd1e24b7e828d44c107d001e45515727d05865db.png",
+					"url": "/lodestone/playguide/db/achievement/3df249b0cc9/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						66,
+						189
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

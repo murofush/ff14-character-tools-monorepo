@@ -1,0 +1,171 @@
+{
+	"title": "dungeons",
+	"categorized": [
+		{
+			"title": "インスタンスレイド",
+			"data": [
+				{
+					"title": "トトラクの千獄：アンタレス討伐",
+					"description": "インスタンスレイド「トトラク威力偵察指令」を遂行し、「アンタレス」を倒す",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ef/ef2dd3521b722e8e0739e8fca6b487d00e6d7177.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/dungeons/ef2dd3521b722e8e0739e8fca6b487d00e6d7177.png",
+					"url": "/lodestone/playguide/db/achievement/44e645b5544/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "トトラクの千獄：サルガス討伐",
+					"description": "インスタンスレイド「トトラク威力偵察指令」を遂行し、「サルガス」を倒す",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ef/ef2dd3521b722e8e0739e8fca6b487d00e6d7177.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/dungeons/ef2dd3521b722e8e0739e8fca6b487d00e6d7177.png",
+					"url": "/lodestone/playguide/db/achievement/11591c990c5/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "トトラクの千獄：シャウラ討伐",
+					"description": "インスタンスレイド「トトラク威力偵察指令」を遂行し、「シャウラ」を倒す",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ef/ef2dd3521b722e8e0739e8fca6b487d00e6d7177.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/dungeons/ef2dd3521b722e8e0739e8fca6b487d00e6d7177.png",
+					"url": "/lodestone/playguide/db/achievement/e5db966c6ea/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ゼーメル要塞：バトラール討伐",
+					"description": "インスタンスレイド「ゼーメル要塞奪還作戦」を遂行し、「バトラール」を倒す",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ef/ef2dd3521b722e8e0739e8fca6b487d00e6d7177.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/dungeons/ef2dd3521b722e8e0739e8fca6b487d00e6d7177.png",
+					"url": "/lodestone/playguide/db/achievement/7cc4f0142a4/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "オーラムヴェイル：マイザーズミストレス討伐",
+					"description": "インスタンスレイド「オーラムヴェイル霧中行軍」を遂行し、「マイザーズミストレス」を倒す",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ef/ef2dd3521b722e8e0739e8fca6b487d00e6d7177.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/dungeons/ef2dd3521b722e8e0739e8fca6b487d00e6d7177.png",
+					"url": "/lodestone/playguide/db/achievement/fe4bbf3c8a8/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "オーラムヴェイル：トレジャーハンター",
+					"description": "「マイザーズミストレス」を倒し、宝箱を5つ出現させる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ef/ef2dd3521b722e8e0739e8fca6b487d00e6d7177.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/dungeons/ef2dd3521b722e8e0739e8fca6b487d00e6d7177.png",
+					"url": "/lodestone/playguide/db/achievement/0cafe23b664/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "オーラムヴェイル：やせ我慢",
+					"description": "怪樹の実、怪樹の根を一度も使用せずに、オーラムヴェイルを踏破する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ef/ef2dd3521b722e8e0739e8fca6b487d00e6d7177.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/dungeons/ef2dd3521b722e8e0739e8fca6b487d00e6d7177.png",
+					"url": "/lodestone/playguide/db/achievement/7fd7960e1e7/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "カッターズクライ：キマイラ討伐",
+					"description": "インスタンスレイド「カッターズクライ流砂迷宮」を遂行し、「キマイラ」を倒す",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ef/ef2dd3521b722e8e0739e8fca6b487d00e6d7177.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/dungeons/ef2dd3521b722e8e0739e8fca6b487d00e6d7177.png",
+					"url": "/lodestone/playguide/db/achievement/2778708efff/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "カッターズクライ：トレジャーハンター",
+					"description": "「キマイラ」を倒し、宝箱を5つ出現させる",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ef/ef2dd3521b722e8e0739e8fca6b487d00e6d7177.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/dungeons/ef2dd3521b722e8e0739e8fca6b487d00e6d7177.png",
+					"url": "/lodestone/playguide/db/achievement/c4fe4fe6636/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "カッターズクライ：揺るぎなき結束",
+					"description": "可能な限りパーティメンバー全員とともに行動しつつ、ミュルミドン・マーシャルを倒し、カッターズクライを踏破する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ef/ef2dd3521b722e8e0739e8fca6b487d00e6d7177.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/legacy/dungeons/ef2dd3521b722e8e0739e8fca6b487d00e6d7177.png",
+					"url": "/lodestone/playguide/db/achievement/8cd2b451f6f/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						58
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

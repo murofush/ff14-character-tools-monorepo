@@ -1,0 +1,1161 @@
+{
+	"title": "eureka_weapons",
+	"categorized": [
+		{
+			"title": "エウレカウェポン ナイト",
+			"data": [
+				{
+					"title": "エウレカウェポン：ガラティン・アネモス＆エヴァラック・アネモス",
+					"description": "ガラティン・アネモスとエヴァラック・アネモスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c6/c60421cd69f202542c2ad98233badb10510892e6.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/c60421cd69f202542c2ad98233badb10510892e6.png",
+					"url": "/lodestone/playguide/db/achievement/5dec5bc0e08/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						20,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：エレメンタルソード＆エレメンタルシールド",
+					"description": "エレメンタルソードとエレメンタルシールドを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/69/694df86dec30b2a29ba883d06edd66074515efe0.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/694df86dec30b2a29ba883d06edd66074515efe0.png",
+					"url": "/lodestone/playguide/db/achievement/9c83068e5dd/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						20,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：ピューロスソード＆ピューロスシールド",
+					"description": "ピューロスソードとピューロスシールドを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/69/694df86dec30b2a29ba883d06edd66074515efe0.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/694df86dec30b2a29ba883d06edd66074515efe0.png",
+					"url": "/lodestone/playguide/db/achievement/d0b160deb25/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						20,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：アンテア・エウレカ＆ベレロフォン・エウレカ",
+					"description": "アンテア・エウレカとベレロフォン・エウレカを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/87/8719a65f842542246da463eae4929a05b3e63589.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/8719a65f842542246da463eae4929a05b3e63589.png",
+					"url": "/lodestone/playguide/db/achievement/19b4cb8d413/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						20,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				}
+			]
+		},
+		{
+			"title": "エウレカウェポン モンク",
+			"data": [
+				{
+					"title": "エウレカウェポン：スダルシャナ・アネモス",
+					"description": "スダルシャナ・アネモスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/da/daf63b0f418079d37f1e1a22c0a8b793ffea73c1.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/daf63b0f418079d37f1e1a22c0a8b793ffea73c1.png",
+					"url": "/lodestone/playguide/db/achievement/1ac80ea1e94/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						24,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：エレメンタルナックル",
+					"description": "エレメンタルナックルを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/16/16830144740ea1e67dcba40f400bcd437eb6d4c3.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/16830144740ea1e67dcba40f400bcd437eb6d4c3.png",
+					"url": "/lodestone/playguide/db/achievement/0bd73dd8ec2/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						24,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：ピューロスナックル",
+					"description": "ピューロスナックルを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/16/16830144740ea1e67dcba40f400bcd437eb6d4c3.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/16830144740ea1e67dcba40f400bcd437eb6d4c3.png",
+					"url": "/lodestone/playguide/db/achievement/bbd77e698c7/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						24,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：デゥムズィ・エウレカ",
+					"description": "デゥムズィ・エウレカを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3f/3f80415453f6a9d5e8db8cc33b377282e9c032cc.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/3f80415453f6a9d5e8db8cc33b377282e9c032cc.png",
+					"url": "/lodestone/playguide/db/achievement/075f7b07ce7/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						24,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				}
+			]
+		},
+		{
+			"title": "エウレカウェポン 戦士",
+			"data": [
+				{
+					"title": "エウレカウェポン：ファルシャ・アネモス",
+					"description": "ファルシャ・アネモスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c9/c9d11f3aac3dfdc9ac7979b3d1aa61677fd37a27.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/c9d11f3aac3dfdc9ac7979b3d1aa61677fd37a27.png",
+					"url": "/lodestone/playguide/db/achievement/5c21ecb9f51/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						21,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：エレメンタルバトルアクス",
+					"description": "エレメンタルバトルアクスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3e/3e9d034e132d949a3e25badd4c0ca695f1465b9d.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/3e9d034e132d949a3e25badd4c0ca695f1465b9d.png",
+					"url": "/lodestone/playguide/db/achievement/b21b8900774/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						21,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：ピューロスバトルアクス",
+					"description": "ピューロスバトルアクスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3e/3e9d034e132d949a3e25badd4c0ca695f1465b9d.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/3e9d034e132d949a3e25badd4c0ca695f1465b9d.png",
+					"url": "/lodestone/playguide/db/achievement/4151e973954/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						21,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：シャマシュ・エウレカ",
+					"description": "シャマシュ・エウレカを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b7/b75eb9d8e5e0d6e524f66c5e94db1eef8fc0054b.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/b75eb9d8e5e0d6e524f66c5e94db1eef8fc0054b.png",
+					"url": "/lodestone/playguide/db/achievement/7b827638947/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						21,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				}
+			]
+		},
+		{
+			"title": "エウレカウェポン 竜騎士",
+			"data": [
+				{
+					"title": "エウレカウェポン：竜の髭【風】",
+					"description": "竜の髭【風】を入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0f/0fec77f2c34f0827e3e54e1e35a4d77fdc3a3260.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/0fec77f2c34f0827e3e54e1e35a4d77fdc3a3260.png",
+					"url": "/lodestone/playguide/db/achievement/21c933bf020/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						25,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：エレメンタルランス",
+					"description": "エレメンタルランスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/01/01e9a578584d42cd57fbf0cff2b540bf7e7ee55a.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/01e9a578584d42cd57fbf0cff2b540bf7e7ee55a.png",
+					"url": "/lodestone/playguide/db/achievement/82c85d5cf21/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						25,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：ピューロスランス",
+					"description": "ピューロスランスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/01/01e9a578584d42cd57fbf0cff2b540bf7e7ee55a.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/01e9a578584d42cd57fbf0cff2b540bf7e7ee55a.png",
+					"url": "/lodestone/playguide/db/achievement/217a66f6d5e/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						25,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：ダボヤ・エウレカ",
+					"description": "ダボヤ・エウレカを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f1/f19a12e37022fbad49fc822a48246de8792968ed.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/f19a12e37022fbad49fc822a48246de8792968ed.png",
+					"url": "/lodestone/playguide/db/achievement/97afe113c8f/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						25,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				}
+			]
+		},
+		{
+			"title": "エウレカウェポン 吟遊詩人",
+			"data": [
+				{
+					"title": "エウレカウェポン：フェイルノート・アネモス",
+					"description": "フェイルノート・アネモスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d8/d823e60bafadb148c858bc7b60db40c4623d340e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/d823e60bafadb148c858bc7b60db40c4623d340e.png",
+					"url": "/lodestone/playguide/db/achievement/0dd86ae0f67/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						28,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：エレメンタルハープボウ",
+					"description": "エレメンタルハープボウを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/71/716d4cfa8a4f5e7ebce03ce85b9d02ccb9b402e0.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/716d4cfa8a4f5e7ebce03ce85b9d02ccb9b402e0.png",
+					"url": "/lodestone/playguide/db/achievement/054ea25bd5d/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						28,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：ピューロスハープボウ",
+					"description": "ピューロスハープボウを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/71/716d4cfa8a4f5e7ebce03ce85b9d02ccb9b402e0.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/716d4cfa8a4f5e7ebce03ce85b9d02ccb9b402e0.png",
+					"url": "/lodestone/playguide/db/achievement/55d86872de6/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						28,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：キルキナエ・エウレカ",
+					"description": "キルキナエ・エウレカを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7c/7c8b0db445ba2e7c58b805f688b733c9598f9ce2.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/7c8b0db445ba2e7c58b805f688b733c9598f9ce2.png",
+					"url": "/lodestone/playguide/db/achievement/4af0e23c3ca/",
+					"isLatestPatch": false,
+					"sourceIndex": 19,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						28,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				}
+			]
+		},
+		{
+			"title": "エウレカウェポン 忍者",
+			"data": [
+				{
+					"title": "エウレカウェポン：凪【風】",
+					"description": "凪【風】を入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e9/e9c834670b19ea3d6ea1827a67c7dce8055f4f5e.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/e9c834670b19ea3d6ea1827a67c7dce8055f4f5e.png",
+					"url": "/lodestone/playguide/db/achievement/ff8d8406cf1/",
+					"isLatestPatch": false,
+					"sourceIndex": 20,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						26,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：エレメンタルナイフ",
+					"description": "エレメンタルナイフを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/6f/6f93f46e79b8562c427a7912c2ebe7adf23d61b8.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/6f93f46e79b8562c427a7912c2ebe7adf23d61b8.png",
+					"url": "/lodestone/playguide/db/achievement/95effe7d6f0/",
+					"isLatestPatch": false,
+					"sourceIndex": 21,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						26,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：ピューロスナイフ",
+					"description": "ピューロスナイフを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/6f/6f93f46e79b8562c427a7912c2ebe7adf23d61b8.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/6f93f46e79b8562c427a7912c2ebe7adf23d61b8.png",
+					"url": "/lodestone/playguide/db/achievement/1ca4505c12d/",
+					"isLatestPatch": false,
+					"sourceIndex": 22,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						26,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：鵲【禁】",
+					"description": "鵲【禁】を入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/55/55a3e8e0ec4d54eda97044304bed96caab7835fb.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/55a3e8e0ec4d54eda97044304bed96caab7835fb.png",
+					"url": "/lodestone/playguide/db/achievement/f10ff01c79c/",
+					"isLatestPatch": false,
+					"sourceIndex": 23,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						26,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				}
+			]
+		},
+		{
+			"title": "エウレカウェポン 白魔道士",
+			"data": [
+				{
+					"title": "エウレカウェポン：アイムール・アネモス",
+					"description": "アイムール・アネモスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2c/2cc5a8f16b1c0c36504b4dd079467b7d2df33f59.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/2cc5a8f16b1c0c36504b4dd079467b7d2df33f59.png",
+					"url": "/lodestone/playguide/db/achievement/527a7a222dc/",
+					"isLatestPatch": false,
+					"sourceIndex": 24,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						35,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：エレメンタルケーン",
+					"description": "エレメンタルケーンを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1c/1c83bdda4a54cc9ba9e95d922c4a5ac849a135d3.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/1c83bdda4a54cc9ba9e95d922c4a5ac849a135d3.png",
+					"url": "/lodestone/playguide/db/achievement/1432f3cfa75/",
+					"isLatestPatch": false,
+					"sourceIndex": 25,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						35,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：ピューロスケーン",
+					"description": "ピューロスケーンを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1c/1c83bdda4a54cc9ba9e95d922c4a5ac849a135d3.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/1c83bdda4a54cc9ba9e95d922c4a5ac849a135d3.png",
+					"url": "/lodestone/playguide/db/achievement/b5a75aad6ba/",
+					"isLatestPatch": false,
+					"sourceIndex": 26,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						35,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：ローズクーベルト・エウレカ",
+					"description": "ローズクーベルト・エウレカを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/98/98eb78263cab513c6e4fee0470a6c7081c170be8.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/98eb78263cab513c6e4fee0470a6c7081c170be8.png",
+					"url": "/lodestone/playguide/db/achievement/06efba1c73c/",
+					"isLatestPatch": false,
+					"sourceIndex": 27,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						35,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				}
+			]
+		},
+		{
+			"title": "エウレカウェポン 黒魔道士",
+			"data": [
+				{
+					"title": "エウレカウェポン：ヴァナルガンド・アネモス",
+					"description": "ヴァナルガンド・アネモスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bd/bd29b834ff81fd8c8214b30a399d9d16465c178f.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/bd29b834ff81fd8c8214b30a399d9d16465c178f.png",
+					"url": "/lodestone/playguide/db/achievement/ffae1b6a290/",
+					"isLatestPatch": false,
+					"sourceIndex": 28,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						31,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：エレメンタルロッド",
+					"description": "エレメンタルロッドを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3d/3dd033521f878fbf3f1674436d004965fdee2937.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/3dd033521f878fbf3f1674436d004965fdee2937.png",
+					"url": "/lodestone/playguide/db/achievement/5e778bd703c/",
+					"isLatestPatch": false,
+					"sourceIndex": 29,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						31,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：ピューロスロッド",
+					"description": "ピューロスロッドを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3d/3dd033521f878fbf3f1674436d004965fdee2937.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/3dd033521f878fbf3f1674436d004965fdee2937.png",
+					"url": "/lodestone/playguide/db/achievement/5706736bddc/",
+					"isLatestPatch": false,
+					"sourceIndex": 30,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						31,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：パイケア・エウレカ",
+					"description": "パイケア・エウレカを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2d/2d939488474f7e5dcd391fea564acdca8cb6697f.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/2d939488474f7e5dcd391fea564acdca8cb6697f.png",
+					"url": "/lodestone/playguide/db/achievement/81adfed9ff3/",
+					"isLatestPatch": false,
+					"sourceIndex": 31,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						31,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				}
+			]
+		},
+		{
+			"title": "エウレカウェポン 召喚士",
+			"data": [
+				{
+					"title": "エウレカウェポン：レメゲトン・アネモス",
+					"description": "レメゲトン・アネモスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/38/38b34ae35de8936459cc23466be07819dfe306a1.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/38b34ae35de8936459cc23466be07819dfe306a1.png",
+					"url": "/lodestone/playguide/db/achievement/6421451b1ff/",
+					"isLatestPatch": false,
+					"sourceIndex": 32,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						32,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：エレメンタルグリモア",
+					"description": "エレメンタルグリモアを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/76/76851dd85774ae3eb49a87ab5f6e3b53af9542e1.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/76851dd85774ae3eb49a87ab5f6e3b53af9542e1.png",
+					"url": "/lodestone/playguide/db/achievement/3e512301635/",
+					"isLatestPatch": false,
+					"sourceIndex": 33,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						32,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：ピューロスグリモア",
+					"description": "ピューロスグリモアを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/76/76851dd85774ae3eb49a87ab5f6e3b53af9542e1.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/76851dd85774ae3eb49a87ab5f6e3b53af9542e1.png",
+					"url": "/lodestone/playguide/db/achievement/98497ddbff4/",
+					"isLatestPatch": false,
+					"sourceIndex": 34,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						32,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：トゥア・エウレカ",
+					"description": "トゥア・エウレカを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ea/ea74dd76f6022aac6efd8852d9561bed6e859d2a.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/ea74dd76f6022aac6efd8852d9561bed6e859d2a.png",
+					"url": "/lodestone/playguide/db/achievement/0dd6ab58b48/",
+					"isLatestPatch": false,
+					"sourceIndex": 35,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						32,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				}
+			]
+		},
+		{
+			"title": "エウレカウェポン 学者",
+			"data": [
+				{
+					"title": "エウレカウェポン：オルガノン・アネモス",
+					"description": "オルガノン・アネモスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/87/87ebdd52e9d3dcc5cb0f91aa278bce63546b6dc2.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/87ebdd52e9d3dcc5cb0f91aa278bce63546b6dc2.png",
+					"url": "/lodestone/playguide/db/achievement/a9990073322/",
+					"isLatestPatch": false,
+					"sourceIndex": 36,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						36,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：エレメンタルコーデックス",
+					"description": "エレメンタルコーデックスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8ee971f5e95baaa92115b8bc8f913d2cf8d43493.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/8ee971f5e95baaa92115b8bc8f913d2cf8d43493.png",
+					"url": "/lodestone/playguide/db/achievement/df541329747/",
+					"isLatestPatch": false,
+					"sourceIndex": 37,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						36,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：ピューロスコーデックス",
+					"description": "ピューロスコーデックスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8ee971f5e95baaa92115b8bc8f913d2cf8d43493.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/8ee971f5e95baaa92115b8bc8f913d2cf8d43493.png",
+					"url": "/lodestone/playguide/db/achievement/b1f4f357d23/",
+					"isLatestPatch": false,
+					"sourceIndex": 38,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						36,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：ジェバト・エウレカ",
+					"description": "ジェバト・エウレカを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7b/7bbc313294f0a1e2249b06fd0dcedac938d42ec1.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/7bbc313294f0a1e2249b06fd0dcedac938d42ec1.png",
+					"url": "/lodestone/playguide/db/achievement/8bc7e7174cf/",
+					"isLatestPatch": false,
+					"sourceIndex": 39,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						36,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				}
+			]
+		},
+		{
+			"title": "エウレカウェポン 暗黒騎士",
+			"data": [
+				{
+					"title": "エウレカウェポン：カラドボルグ・アネモス",
+					"description": "カラドボルグ・アネモスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/70/70350f2d2cf1121679886ecc108a980e137d5d41.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/70350f2d2cf1121679886ecc108a980e137d5d41.png",
+					"url": "/lodestone/playguide/db/achievement/337de4e8c32/",
+					"isLatestPatch": false,
+					"sourceIndex": 40,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						22,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：エレメンタルディバイダー",
+					"description": "エレメンタルディバイダーを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8d/8de2b27f0ceb064b351d7c01ff5d34369a0b6548.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/8de2b27f0ceb064b351d7c01ff5d34369a0b6548.png",
+					"url": "/lodestone/playguide/db/achievement/041229c370d/",
+					"isLatestPatch": false,
+					"sourceIndex": 41,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						22,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：ピューロスディバイダー",
+					"description": "ピューロスディバイダーを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8d/8de2b27f0ceb064b351d7c01ff5d34369a0b6548.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/8de2b27f0ceb064b351d7c01ff5d34369a0b6548.png",
+					"url": "/lodestone/playguide/db/achievement/2080f7c45e7/",
+					"isLatestPatch": false,
+					"sourceIndex": 42,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						22,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：シフィアス・エウレカ",
+					"description": "シフィアス・エウレカを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/6c/6ce5d8efbfd10ac1843e7ecce046a225cacbefb6.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/6ce5d8efbfd10ac1843e7ecce046a225cacbefb6.png",
+					"url": "/lodestone/playguide/db/achievement/ab1105938b8/",
+					"isLatestPatch": false,
+					"sourceIndex": 43,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						22,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				}
+			]
+		},
+		{
+			"title": "エウレカウェポン 機工士",
+			"data": [
+				{
+					"title": "エウレカウェポン：アウトサイダー・アネモス",
+					"description": "アウトサイダー・アネモスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7d/7de53b1d8bc0ca87e8dfcea21b0b95b0778de5e1.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/7de53b1d8bc0ca87e8dfcea21b0b95b0778de5e1.png",
+					"url": "/lodestone/playguide/db/achievement/2486e578cc0/",
+					"isLatestPatch": false,
+					"sourceIndex": 44,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						29,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：エレメンタルハンドゴンネ",
+					"description": "エレメンタルハンドゴンネを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/88/88ea4f6d8423ce3a57d42222eb355554abe8537f.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/88ea4f6d8423ce3a57d42222eb355554abe8537f.png",
+					"url": "/lodestone/playguide/db/achievement/f6c4548ffa9/",
+					"isLatestPatch": false,
+					"sourceIndex": 45,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						29,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：ピューロスハンドゴンネ",
+					"description": "ピューロスハンドゴンネを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/88/88ea4f6d8423ce3a57d42222eb355554abe8537f.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/88ea4f6d8423ce3a57d42222eb355554abe8537f.png",
+					"url": "/lodestone/playguide/db/achievement/e121bb933e3/",
+					"isLatestPatch": false,
+					"sourceIndex": 46,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						29,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：モルフリッス・エウレカ",
+					"description": "モルフリッス・エウレカを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5e/5ee005877aaae263085a13482bf8a576f31dcfd6.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/5ee005877aaae263085a13482bf8a576f31dcfd6.png",
+					"url": "/lodestone/playguide/db/achievement/1482a62c21a/",
+					"isLatestPatch": false,
+					"sourceIndex": 47,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						29,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				}
+			]
+		},
+		{
+			"title": "エウレカウェポン 占星術師",
+			"data": [
+				{
+					"title": "エウレカウェポン：プレアデス・アネモス",
+					"description": "プレアデス・アネモスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/14/146797e44b4165faeab02fff41cebc6c0f125117.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/146797e44b4165faeab02fff41cebc6c0f125117.png",
+					"url": "/lodestone/playguide/db/achievement/b85cf12d02f/",
+					"isLatestPatch": false,
+					"sourceIndex": 48,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						37,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：エレメンタルアストロメーター",
+					"description": "エレメンタルアストロメーターを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1c/1cb65b8d0dbbef3bf5f6b029ab5a1a033c2884a3.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/1cb65b8d0dbbef3bf5f6b029ab5a1a033c2884a3.png",
+					"url": "/lodestone/playguide/db/achievement/fe161b34b23/",
+					"isLatestPatch": false,
+					"sourceIndex": 49,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						37,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：ピューロスアストロメーター",
+					"description": "ピューロスアストロメーターを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1c/1cb65b8d0dbbef3bf5f6b029ab5a1a033c2884a3.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/1cb65b8d0dbbef3bf5f6b029ab5a1a033c2884a3.png",
+					"url": "/lodestone/playguide/db/achievement/b6e8b577a0d/",
+					"isLatestPatch": false,
+					"sourceIndex": 50,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						37,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：アルビレオ・エウレカ",
+					"description": "アルビレオ・エウレカを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7d/7dcfb4e530a61c42af79f4b9d5b4871f7b7948ab.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/7dcfb4e530a61c42af79f4b9d5b4871f7b7948ab.png",
+					"url": "/lodestone/playguide/db/achievement/b879400bde1/",
+					"isLatestPatch": false,
+					"sourceIndex": 51,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						37,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				}
+			]
+		},
+		{
+			"title": "エウレカウェポン 侍",
+			"data": [
+				{
+					"title": "エウレカウェポン：菊一文字【風】",
+					"description": "菊一文字【風】を入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4e/4efe83aae73b7e6180bd540e218abbd96e0741d8.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/4efe83aae73b7e6180bd540e218abbd96e0741d8.png",
+					"url": "/lodestone/playguide/db/achievement/1b8219be4d5/",
+					"isLatestPatch": false,
+					"sourceIndex": 52,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						27,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：エレメンタルブレード",
+					"description": "エレメンタルブレードを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/36/369cfc687cdd1f995f1e65a4f55c46877fa9bed4.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/369cfc687cdd1f995f1e65a4f55c46877fa9bed4.png",
+					"url": "/lodestone/playguide/db/achievement/f7c902d87d3/",
+					"isLatestPatch": false,
+					"sourceIndex": 53,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						27,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：ピューロスブレード",
+					"description": "ピューロスブレードを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/36/369cfc687cdd1f995f1e65a4f55c46877fa9bed4.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/369cfc687cdd1f995f1e65a4f55c46877fa9bed4.png",
+					"url": "/lodestone/playguide/db/achievement/84dcd76b0b4/",
+					"isLatestPatch": false,
+					"sourceIndex": 54,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						27,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：鳥頭の太刀【禁】",
+					"description": "鳥頭の太刀【禁】を入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/6b/6bec273f4b029a4fbd3326f04e5c3cdba5e789f2.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/6bec273f4b029a4fbd3326f04e5c3cdba5e789f2.png",
+					"url": "/lodestone/playguide/db/achievement/a53f9fdd625/",
+					"isLatestPatch": false,
+					"sourceIndex": 55,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						27,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				}
+			]
+		},
+		{
+			"title": "エウレカウェポン 赤魔道士",
+			"data": [
+				{
+					"title": "エウレカウェポン：ミュルグレス・アネモス",
+					"description": "ミュルグレス・アネモスを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4f/4fe1999bee6e056b502a250974687dc8f4c944a4.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/4fe1999bee6e056b502a250974687dc8f4c944a4.png",
+					"url": "/lodestone/playguide/db/achievement/30c77582e6e/",
+					"isLatestPatch": false,
+					"sourceIndex": 56,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						33,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：エレメンタルタック",
+					"description": "エレメンタルタックを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29d2aa736db27810dc8682a7f5bec70770eb1ee1.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/29d2aa736db27810dc8682a7f5bec70770eb1ee1.png",
+					"url": "/lodestone/playguide/db/achievement/d4800ad182c/",
+					"isLatestPatch": false,
+					"sourceIndex": 57,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						33,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：ピューロスタック",
+					"description": "ピューロスタックを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29d2aa736db27810dc8682a7f5bec70770eb1ee1.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/29d2aa736db27810dc8682a7f5bec70770eb1ee1.png",
+					"url": "/lodestone/playguide/db/achievement/03be5221570/",
+					"isLatestPatch": false,
+					"sourceIndex": 58,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						33,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				},
+				{
+					"title": "エウレカウェポン：ブルネロ・エウレカ",
+					"description": "ブルネロ・エウレカを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f9/f9ac90e9f58bcf2d086b3aadf3784ccca2362b98.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/items/eureka_weapons/f9ac90e9f58bcf2d086b3aadf3784ccca2362b98.png",
+					"url": "/lodestone/playguide/db/achievement/b7c326fae76/",
+					"isLatestPatch": false,
+					"sourceIndex": 59,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						33,
+						85,
+						193
+					],
+					"adjustmentPatchId": 72
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

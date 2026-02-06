@@ -1,0 +1,817 @@
+{
+	"title": "miner",
+	"categorized": [
+		{
+			"title": "採掘師 ラノシア 採集回数",
+			"data": [
+				{
+					"title": "ラノシアの採掘名人：グレード1",
+					"description": "ラノシアのレベル1-10のポイントで20回採掘・砕岩を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"url": "/lodestone/playguide/db/achievement/9a956cc2270/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						50
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ラノシアの採掘名人：グレード2",
+					"description": "ラノシアのレベル11-20のポイントで300回採掘・砕岩を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"url": "/lodestone/playguide/db/achievement/9d67be41432/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						50
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ラノシアの採掘名人：グレード3",
+					"description": "ラノシアのレベル21-30のポイントで1,000回採掘・砕岩を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"url": "/lodestone/playguide/db/achievement/12fee9ccc06/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						50
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ラノシアの採掘名人：グレード4",
+					"description": "ラノシアのレベル31-40のポイントで2,000回採掘・砕岩を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"url": "/lodestone/playguide/db/achievement/bd00959882e/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						50
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ラノシアの採掘名人：グレード5",
+					"description": "ラノシアのレベル41-50のポイントで4,000回採掘・砕岩を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"url": "/lodestone/playguide/db/achievement/f74b88fb0c7/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						50
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ラノシアの採掘王",
+					"description": "アチーブメント「ラノシアの採掘名人：グレード1」～「ラノシアの採掘名人：グレード5」までをすべて達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f5/f52432c14f7fe5aade7dea66f5ba2ec7f37b96b2.png?n5.45",
+					"point": 10,
+					"titleAward": "La Noscea Digger",
+					"awardCondition": [
+						"ラノシアの採掘名人：グレード1",
+						"ラノシアの採掘名人：グレード2",
+						"ラノシアの採掘名人：グレード3",
+						"ラノシアの採掘名人：グレード4",
+						"ラノシアの採掘名人：グレード5"
+					],
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/f52432c14f7fe5aade7dea66f5ba2ec7f37b96b2.png",
+					"url": "/lodestone/playguide/db/achievement/37b38bc4430/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						50
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "採掘師 黒衣森 採集回数",
+			"data": [
+				{
+					"title": "黒衣森の採掘名人：グレード1",
+					"description": "黒衣森のレベル1-10のポイントで20回採掘・砕岩を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"url": "/lodestone/playguide/db/achievement/434e24efcff/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						51
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黒衣森の採掘名人：グレード2",
+					"description": "黒衣森のレベル11-20のポイントで300回採掘・砕岩を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"url": "/lodestone/playguide/db/achievement/275ff31972e/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						51
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黒衣森の採掘名人：グレード3",
+					"description": "黒衣森のレベル21-30のポイントで1,000回採掘・砕岩を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"url": "/lodestone/playguide/db/achievement/47ee3ab9120/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						51
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黒衣森の採掘名人：グレード4",
+					"description": "黒衣森のレベル31-40のポイントで2,000回採掘・砕岩を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"url": "/lodestone/playguide/db/achievement/02cf8d3f7c1/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						51
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黒衣森の採掘名人：グレード5",
+					"description": "黒衣森のレベル41-50のポイントで4,000回採掘・砕岩を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"url": "/lodestone/playguide/db/achievement/ac78f90a448/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						51
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黒衣森の採掘王",
+					"description": "アチーブメント「黒衣森の採掘名人：グレード1」～「黒衣森の採掘名人：グレード5」までをすべて達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f5/f52432c14f7fe5aade7dea66f5ba2ec7f37b96b2.png?n5.45",
+					"point": 10,
+					"titleAward": "Shroud Digger",
+					"awardCondition": [
+						"黒衣森の採掘名人：グレード1",
+						"黒衣森の採掘名人：グレード2",
+						"黒衣森の採掘名人：グレード3",
+						"黒衣森の採掘名人：グレード4",
+						"黒衣森の採掘名人：グレード5"
+					],
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/f52432c14f7fe5aade7dea66f5ba2ec7f37b96b2.png",
+					"url": "/lodestone/playguide/db/achievement/9bcc6a12d5e/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						51
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "採掘師 ザナラーン 採集回数",
+			"data": [
+				{
+					"title": "ザナラーンの採掘名人：グレード1",
+					"description": "ザナラーンのレベル1-10のポイントで20回採掘・砕岩を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"url": "/lodestone/playguide/db/achievement/52002ff515c/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						52
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ザナラーンの採掘名人：グレード2",
+					"description": "ザナラーンのレベル11-20のポイントで300回採掘・砕岩を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"url": "/lodestone/playguide/db/achievement/9eda0171031/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						52
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ザナラーンの採掘名人：グレード3",
+					"description": "ザナラーンのレベル21-30のポイントで1,000回採掘・砕岩を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"url": "/lodestone/playguide/db/achievement/71e86a9c1a3/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						52
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ザナラーンの採掘名人：グレード4",
+					"description": "ザナラーンのレベル31-40のポイントで2,000回採掘・砕岩を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"url": "/lodestone/playguide/db/achievement/71101e49a1f/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						52
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ザナラーンの採掘名人：グレード5",
+					"description": "ザナラーンのレベル41-50のポイントで4,000回採掘・砕岩を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"url": "/lodestone/playguide/db/achievement/f20b14b709c/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						52
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ザナラーンの採掘王",
+					"description": "アチーブメント「ザナラーンの採掘名人：グレード1」～「ザナラーンの採掘名人：グレード5」までをすべて達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f5/f52432c14f7fe5aade7dea66f5ba2ec7f37b96b2.png?n5.45",
+					"point": 10,
+					"titleAward": "Thanalan Digger",
+					"awardCondition": [
+						"ザナラーンの採掘名人：グレード1",
+						"ザナラーンの採掘名人：グレード2",
+						"ザナラーンの採掘名人：グレード3",
+						"ザナラーンの採掘名人：グレード4",
+						"ザナラーンの採掘名人：グレード5"
+					],
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/f52432c14f7fe5aade7dea66f5ba2ec7f37b96b2.png",
+					"url": "/lodestone/playguide/db/achievement/45677eff11c/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						52
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "採掘師 地域別 採掘回数",
+			"data": [
+				{
+					"title": "黄金の鶴嘴",
+					"description": "アチーブメント「ラノシアの採掘王」「黒衣森の採掘王」「ザナラーンの採掘王」をすべて達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/31/317c139e62a7ba511315d8d60265186850a5c137.png?n5.45",
+					"point": 30,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/6d538cc3e6e/",
+					"itemAward": "ルミナリーピック",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/31/317c139e62a7ba511315d8d60265186850a5c137.png?n5.45",
+					"awardCondition": [
+						"ラノシアの採掘王",
+						"黒衣森の採掘王",
+						"ザナラーンの採掘王"
+					],
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/317c139e62a7ba511315d8d60265186850a5c137.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/miner/317c139e62a7ba511315d8d60265186850a5c137.png",
+					"url": "/lodestone/playguide/db/achievement/0f2471d3ec0/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						50,
+						51,
+						52
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天の採掘名人",
+					"description": "レベル51-60のポイントで5,000回採掘・砕岩を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"url": "/lodestone/playguide/db/achievement/c550346e346/",
+					"isLatestPatch": false,
+					"sourceIndex": 19,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						128,
+						129,
+						130,
+						132,
+						133,
+						134
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "紅蓮の採掘名人",
+					"description": "レベル61-70のポイントで5,000回採掘・砕岩を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"url": "/lodestone/playguide/db/achievement/a22d431c299/",
+					"isLatestPatch": false,
+					"sourceIndex": 20,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						54,
+						55
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "漆黒の採掘名人",
+					"description": "レベル71-80のポイントで5,000回採掘・砕岩を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"url": "/lodestone/playguide/db/achievement/75b920581b8/",
+					"isLatestPatch": false,
+					"sourceIndex": 21,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						56
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "採掘師 採集手帳 種類数",
+			"data": [
+				{
+					"title": "手帳好きの採掘師：ランク1",
+					"description": "採掘師でのみ採集可能アイテムのうち、15種類を採集し、採集手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"url": "/lodestone/playguide/db/achievement/bad061e4a44/",
+					"isLatestPatch": false,
+					"sourceIndex": 22,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの採掘師：ランク2",
+					"description": "採掘師でのみ採集可能アイテムのうち、30種類を採集し、採集手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"url": "/lodestone/playguide/db/achievement/d35cf7fd302/",
+					"isLatestPatch": false,
+					"sourceIndex": 23,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの採掘師：ランク3",
+					"description": "採掘師でのみ採集可能アイテムのうち、50種類を採集し、採集手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/49550db34f3/",
+					"itemAward": "マスターディガーリング",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/19/198d1f56d5416e2994a22ade090277b1ca0b8779.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/miner/198d1f56d5416e2994a22ade090277b1ca0b8779.png",
+					"url": "/lodestone/playguide/db/achievement/268f5b17b49/",
+					"isLatestPatch": false,
+					"sourceIndex": 24,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの採掘師：ランク4",
+					"description": "採掘師でのみ採集可能アイテムのうち、100種類を採集し、採集手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"url": "/lodestone/playguide/db/achievement/50b63e82fc9/",
+					"isLatestPatch": false,
+					"sourceIndex": 25,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "手帳好きの採掘師：ランク5",
+					"description": "採掘師でのみ採集可能アイテムのうち、150種類を採集し、採集手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/e3ac741a70e/",
+					"itemAward": "ブレスド・マインキープピック",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e7/e7b621a98f5ab935d905e8d281b7297df5b94f4c.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/miner/e7b621a98f5ab935d905e8d281b7297df5b94f4c.png",
+					"url": "/lodestone/playguide/db/achievement/c067a2cb75c/",
+					"isLatestPatch": false,
+					"sourceIndex": 26,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "手帳好きの採掘師：ランク6",
+					"description": "採掘師でのみ採集可能アイテムのうち、180種類を採集し、採集手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/3b1d534bf42/",
+					"itemAward": "ブレスド・マインキングピック",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/15/158667f5c441331c954f41d2633c54799fe492b8.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/miner/158667f5c441331c954f41d2633c54799fe492b8.png",
+					"url": "/lodestone/playguide/db/achievement/32e137cf78a/",
+					"isLatestPatch": false,
+					"sourceIndex": 27,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "手帳好きの採掘師：ランク７",
+					"description": "採掘師でのみ採集可能アイテムのうち、220種類を採集し、採集手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bc/bc9c7e97a17f4086310481060294daeac5ef63d4.png?n5.5",
+					"point": 10,
+					"isLatestPatch": true,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/e5c05c9fc68/",
+					"itemAward": "リスプレンデント・マインフィーンドピック",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/00/006049ae6bb99419ffd988367d090ac5f52a4051.png?n5.5",
+					"mustBeUpdated": true,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/bc9c7e97a17f4086310481060294daeac5ef63d4.png",
+					"itemAwardImagePath": "~/static/achievementData/img/crafting_gathering/miner/item/006049ae6bb99419ffd988367d090ac5f52a4051.png",
+					"url": "/lodestone/playguide/db/achievement/a170f9ef3aa/",
+					"sourceIndex": 28,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "採掘師 HQ 採集回数",
+			"data": [
+				{
+					"title": "腕利きの採掘師：ランク1",
+					"description": "採掘師でHQアイテムを計300回採集する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/aefff7e5e3f74a8bab492a7c67affb015236af14.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/aefff7e5e3f74a8bab492a7c67affb015236af14.png",
+					"url": "/lodestone/playguide/db/achievement/ee729093a73/",
+					"isLatestPatch": false,
+					"sourceIndex": 29,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの採掘師：ランク2",
+					"description": "採掘師でHQアイテムを計1,500回採集する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/aefff7e5e3f74a8bab492a7c67affb015236af14.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/aefff7e5e3f74a8bab492a7c67affb015236af14.png",
+					"url": "/lodestone/playguide/db/achievement/e7e2e405d08/",
+					"isLatestPatch": false,
+					"sourceIndex": 30,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの採掘師：ランク3",
+					"description": "採掘師でHQアイテムを計10,000回採集する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/aefff7e5e3f74a8bab492a7c67affb015236af14.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/aefff7e5e3f74a8bab492a7c67affb015236af14.png",
+					"url": "/lodestone/playguide/db/achievement/517bdc7c9be/",
+					"isLatestPatch": false,
+					"sourceIndex": 31,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの採掘師：ランク4",
+					"description": "採掘師でHQアイテムを計20,000回採集する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/aefff7e5e3f74a8bab492a7c67affb015236af14.png?n5.45",
+					"point": 10,
+					"titleAward": "Master Miner",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/aefff7e5e3f74a8bab492a7c67affb015236af14.png",
+					"url": "/lodestone/playguide/db/achievement/6b81d021361/",
+					"isLatestPatch": false,
+					"sourceIndex": 32,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "採掘師 イシュガルド復興 技巧点",
+			"data": [
+				{
+					"title": "蒼天街の採掘師：ランク1",
+					"description": "イシュガルド復興において、採掘師で技巧点を50,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2c/2ce3c972482240c1a3dd877ce72ab51b161bbc16.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/2ce3c972482240c1a3dd877ce72ab51b161bbc16.png",
+					"url": "/lodestone/playguide/db/achievement/387a1213969/",
+					"isLatestPatch": false,
+					"sourceIndex": 33,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天街の採掘師：ランク2",
+					"description": "イシュガルド復興において、採掘師で技巧点を150,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2c/2ce3c972482240c1a3dd877ce72ab51b161bbc16.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/2ce3c972482240c1a3dd877ce72ab51b161bbc16.png",
+					"url": "/lodestone/playguide/db/achievement/7aad26c79ad/",
+					"isLatestPatch": false,
+					"sourceIndex": 34,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天街の採掘マスター",
+					"description": "イシュガルド復興において、採掘師で技巧点を500,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2c/2ce3c972482240c1a3dd877ce72ab51b161bbc16.png?n5.45",
+					"point": 10,
+					"titleAward": "Pick of the Firmament",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/2ce3c972482240c1a3dd877ce72ab51b161bbc16.png",
+					"url": "/lodestone/playguide/db/achievement/95059cb22a5/",
+					"isLatestPatch": false,
+					"sourceIndex": 35,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						78
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "採掘師 イシュガルド復興 幻 採集回数",
+			"data": [
+				{
+					"title": "幻の採掘師：ランク1",
+					"description": "採掘師で幻の採集場所で50回採掘・砕岩を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c2/c202db128a41ba78134f56af680ee4f5eff3346f.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/c202db128a41ba78134f56af680ee4f5eff3346f.png",
+					"url": "/lodestone/playguide/db/achievement/8245b376341/",
+					"isLatestPatch": false,
+					"sourceIndex": 36,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "幻の採掘師：ランク2",
+					"description": "採掘師で幻の採集場所で500回採掘・砕岩を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c2/c202db128a41ba78134f56af680ee4f5eff3346f.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/c202db128a41ba78134f56af680ee4f5eff3346f.png",
+					"url": "/lodestone/playguide/db/achievement/7b3e386f057/",
+					"isLatestPatch": false,
+					"sourceIndex": 37,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "幻の採掘師：ランク3",
+					"description": "採掘師で幻の採集場所で1,000回採掘・砕岩を行う",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c2/c202db128a41ba78134f56af680ee4f5eff3346f.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/c202db128a41ba78134f56af680ee4f5eff3346f.png",
+					"url": "/lodestone/playguide/db/achievement/cdc4a9aa821/",
+					"isLatestPatch": false,
+					"sourceIndex": 38,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						78
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "採掘師 イシュガルド復興 高難易度レシピ向けアイテム 検品数",
+			"data": [
+				{
+					"title": "ニューネスト居住区の採掘師",
+					"description": "第二次復興事業計画用の、採掘師が採集する高難易度レシピ向けアイテムを50,000個検品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/87/8746edf95e3a377cc42a05b99c057e3e83597080.png?n5.45",
+					"point": 10,
+					"titleAward": "the Nest's Own Miner",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/8746edf95e3a377cc42a05b99c057e3e83597080.png",
+					"url": "/lodestone/playguide/db/achievement/94dac71b08e/",
+					"isLatestPatch": false,
+					"sourceIndex": 39,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						78
+					],
+					"adjustmentPatchId": 80
+				},
+				{
+					"title": "フェザーフォール商業区の採掘師",
+					"description": "第三次復興事業計画用の、採掘師が採集する高難易度レシピ向けアイテムを50,000個検品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4a/4aecabd7de394888ac676858e4be8099ec981f15.png?n5.45",
+					"point": 10,
+					"titleAward": "Featherfall's Finest Miner",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/4aecabd7de394888ac676858e4be8099ec981f15.png",
+					"url": "/lodestone/playguide/db/achievement/167059ab16b/",
+					"isLatestPatch": false,
+					"sourceIndex": 40,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						78
+					],
+					"adjustmentPatchId": 83
+				},
+				{
+					"title": "リズンソング文化区の採掘師",
+					"description": "第四次復興事業計画用の、採掘師が採集する高難易度レシピ向けアイテムを50,000個検品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/27/27aa3a9f3e1c192390fed85ee4964ed40e9606af.png?n5.45",
+					"point": 10,
+					"isLatestPatch": true,
+					"titleAward": "the Risensung Miner",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/miner/27aa3a9f3e1c192390fed85ee4964ed40e9606af.png",
+					"url": "/lodestone/playguide/db/achievement/230d585a927/",
+					"sourceIndex": 41,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						78
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

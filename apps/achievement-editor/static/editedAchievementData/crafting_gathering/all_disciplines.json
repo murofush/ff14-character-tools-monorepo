@@ -1,0 +1,384 @@
+{
+	"title": "all_disciplines",
+	"categorized": [
+		{
+			"title": "イシュガルド復興 技巧点",
+			"data": [
+				{
+					"title": "蒼天街の製作マスター",
+					"description": "イシュガルド復興において、いずれかのクラフタークラスで技巧点を50,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3a/3a5badb44e203f20481f507f716491dc42dc263d.png?n5.45",
+					"point": 5,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/3712e666d5c/",
+					"itemAward": "ララダイル",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2a/2a268f277154b18cc33b2334ebfb1eb53da7f7c9.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/all_disciplines/3a5badb44e203f20481f507f716491dc42dc263d.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/all_disciplines/2a268f277154b18cc33b2334ebfb1eb53da7f7c9.png",
+					"url": "/lodestone/playguide/db/achievement/357f2a1d900/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天街の製作王",
+					"description": "イシュガルド復興において、全てのクラフタークラスで技巧点を500,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/6a/6ae174f8d353c42f740d37b288c4f199485a922f.png?n5.45",
+					"point": 10,
+					"titleAward": "the Hand of Creation",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/all_disciplines/6ae174f8d353c42f740d37b288c4f199485a922f.png",
+					"url": "/lodestone/playguide/db/achievement/35f545d7e3b/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天街の採集マスター",
+					"description": "イシュガルド復興において、いずれかのギャザラークラスで技巧点を50,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1d/1d2be754de517a7f299a4b3f80b1b378c5d54738.png?n5.45",
+					"point": 5,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/d46f985fca4/",
+					"itemAward": "マローン",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/36/3600b2f2f76850428aeec072f2e8e5c722885146.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/all_disciplines/1d2be754de517a7f299a4b3f80b1b378c5d54738.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/all_disciplines/3600b2f2f76850428aeec072f2e8e5c722885146.png",
+					"url": "/lodestone/playguide/db/achievement/90f7386e374/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						19,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天街の採集王",
+					"description": "イシュガルド復興において、全てのギャザラークラスで技巧点を500,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ac/ac50f328e26e8a90a741be56f52ba7c665bb616e.png?n5.45",
+					"point": 10,
+					"titleAward": "Divine Provider",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/all_disciplines/ac50f328e26e8a90a741be56f52ba7c665bb616e.png",
+					"url": "/lodestone/playguide/db/achievement/385e6d87cda/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						19,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天街の復興王",
+					"description": "イシュガルド復興において、全てのクラフター・ギャザラークラスで技巧点を500,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/96/966edf752e55e01d16f4c96b4164b53c3374aaf9.png?n5.45",
+					"point": 20,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/826427ce4d6/",
+					"itemAward": "プテラノドンホルン",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ed/edd097d4485ad5d2f5992cd077c8b65aa1f15d34.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/all_disciplines/966edf752e55e01d16f4c96b4164b53c3374aaf9.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/all_disciplines/edd097d4485ad5d2f5992cd077c8b65aa1f15d34.png",
+					"url": "/lodestone/playguide/db/achievement/b7b640ab6fe/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						19,
+						78
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "ディアデム諸島 エーテルオーガ",
+			"data": [
+				{
+					"title": "エーテルで穿つ者：ランク1",
+					"description": "エーテルオーガーを50回発射する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/24/24aab2bfbcc0f1081bbd18254b569567b6e91ad2.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/all_disciplines/24aab2bfbcc0f1081bbd18254b569567b6e91ad2.png",
+					"url": "/lodestone/playguide/db/achievement/709729b8e7d/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						47,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "エーテルで穿つ者：ランク2",
+					"description": "エーテルオーガーを500回発射する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/24/24aab2bfbcc0f1081bbd18254b569567b6e91ad2.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/all_disciplines/24aab2bfbcc0f1081bbd18254b569567b6e91ad2.png",
+					"url": "/lodestone/playguide/db/achievement/b33d8b741d0/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						47,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "エーテルで穿つ者：ランク3",
+					"description": "エーテルオーガーを1,000回発射する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/24/24aab2bfbcc0f1081bbd18254b569567b6e91ad2.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/all_disciplines/24aab2bfbcc0f1081bbd18254b569567b6e91ad2.png",
+					"url": "/lodestone/playguide/db/achievement/45f043ab144/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						46,
+						47,
+						78
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "クポフォーチュン",
+			"data": [
+				{
+					"title": "クポフォーチュンに導かれし者：ランク1",
+					"description": "クポフォーチュンで、1等に5回当選する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/67/670fb13d1a9a2944c38ce326937acb69f77c57e2.png?n5.45",
+					"point": 5,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/00d720c150b/",
+					"itemAward": "クポクポクラウン",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ef/efd290781b1a01035d482ec09be8b392660ef60d.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/all_disciplines/670fb13d1a9a2944c38ce326937acb69f77c57e2.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/all_disciplines/efd290781b1a01035d482ec09be8b392660ef60d.png",
+					"url": "/lodestone/playguide/db/achievement/79a9e3a0d1b/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "クポフォーチュンに導かれし者：ランク2",
+					"description": "クポフォーチュンで、1等に10回当選する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/67/670fb13d1a9a2944c38ce326937acb69f77c57e2.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/all_disciplines/670fb13d1a9a2944c38ce326937acb69f77c57e2.png",
+					"url": "/lodestone/playguide/db/achievement/66fd4b4dc3b/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "クポフォーチュンに導かれし者：ランク3",
+					"description": "クポフォーチュンで、1等に30回当選する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/67/670fb13d1a9a2944c38ce326937acb69f77c57e2.png?n5.45",
+					"point": 10,
+					"titleAward": "Fortune's Favored Kupo",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/all_disciplines/670fb13d1a9a2944c38ce326937acb69f77c57e2.png",
+					"url": "/lodestone/playguide/db/achievement/3e8163ee4b4/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						78
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "イシュガルド復興 職人ランキング",
+			"data": [
+				{
+					"title": "蒼天街の聖者：第二次復興事業",
+					"description": "イシュガルド復興（第二次復興事業）の職人ランキングで1～12位になる",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/9f/9f4a9230b9b82fc06314ec7c9141ced6b10fad1b.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/all_disciplines/9f4a9230b9b82fc06314ec7c9141ced6b10fad1b.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						12,
+						78
+					],
+					"titleAward": "Saint of the Firmament"
+				},
+				{
+					"title": "蒼天街の福者：第二次復興事業",
+					"description": "イシュガルド復興（第二次復興事業）の職人ランキングで1～100位になる",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8b/8bd919465d49fd4f39269b4f6c4256d24c38c47b.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/all_disciplines/8bd919465d49fd4f39269b4f6c4256d24c38c47b.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						12,
+						78
+					],
+					"titleAward": "Beatus of the Firmament"
+				},
+				{
+					"title": "蒼天街の聖者：第三次復興事業",
+					"description": "イシュガルド復興（第三次復興事業）の職人ランキングで1～12位になる",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/9f/9f4a9230b9b82fc06314ec7c9141ced6b10fad1b.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/all_disciplines/9f4a9230b9b82fc06314ec7c9141ced6b10fad1b.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						12,
+						78
+					],
+					"titleAward": "Saint of the Firmament"
+				},
+				{
+					"title": "蒼天街の福者：第三次復興事業",
+					"description": "イシュガルド復興（第三次復興事業）の職人ランキングで1～100位になる",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8b/8bd919465d49fd4f39269b4f6c4256d24c38c47b.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/all_disciplines/8bd919465d49fd4f39269b4f6c4256d24c38c47b.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						12,
+						78
+					],
+					"titleAward": "Beatus of the Firmament"
+				},
+				{
+					"title": "蒼天街の聖者：第四次復興事業",
+					"description": "イシュガルド復興（第四次復興事業）の職人ランキングで1～12位になる",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/9f/9f4a9230b9b82fc06314ec7c9141ced6b10fad1b.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/all_disciplines/9f4a9230b9b82fc06314ec7c9141ced6b10fad1b.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						12,
+						78
+					],
+					"titleAward": "Saint of the Firmament"
+				},
+				{
+					"title": "蒼天街の福者：第四次復興事業",
+					"description": "イシュガルド復興（第四次復興事業）の職人ランキングで1～100位になる",
+					"point": 10,
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8b/8bd919465d49fd4f39269b4f6c4256d24c38c47b.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/all_disciplines/8bd919465d49fd4f39269b4f6c4256d24c38c47b.png",
+					"isCreated": true,
+					"isEdited": true,
+					"sourceIndex": -1,
+					"isLatestPatch": false,
+					"tagIds": [
+						12,
+						78
+					],
+					"titleAward": "Beatus of the Firmament"
+				}
+			]
+		},
+		{
+			"title": "Fête",
+			"data": [
+				{
+					"title": "蒼天街のお祭り好き",
+					"description": "蒼天街復興祝祭にてFêteを最高評価で計10回コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0e/0ed7525588afa0a24f478b73d534a94436815adf.png?n5.5",
+					"point": 5,
+					"isLatestPatch": true,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/all_disciplines/0ed7525588afa0a24f478b73d534a94436815adf.png",
+					"url": "/lodestone/playguide/db/achievement/e2216054fc6/",
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						2,
+						78
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "リスプレンデントツール",
+			"data": [
+				{
+					"title": "良工は材を厳選す",
+					"description": "クラフター用のリスプレンデントツールをすべて入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/6a/6ae174f8d353c42f740d37b288c4f199485a922f.png?n5.5",
+					"point": 20,
+					"isLatestPatch": true,
+					"titleAward": "the Indefatigable",
+					"awardCondition": [
+						"リスプレンデントツール：リスプレンデント・ミルフィーンドソー",
+						"リスプレンデントツール：リスプレンデント・フォージフィーンドハンマー",
+						"リスプレンデントツール：リスプレンデント・ハンマーフィーンドハンマー",
+						"リスプレンデントツール：リスプレンデント・ジェムフィーンドマレット",
+						"リスプレンデントツール：リスプレンデント・ハイドフィーンドナイフ",
+						"リスプレンデントツール：リスプレンデント・ボルトフィーンドニードル",
+						"リスプレンデントツール：リスプレンデント・コルドロンフィーンドアレンビック",
+						"リスプレンデントツール：リスプレンデント・ガリーフィーンドフライパン"
+					],
+					"iconPath": "~/static/achievementData/img/crafting_gathering/all_disciplines/6ae174f8d353c42f740d37b288c4f199485a922f.png",
+					"url": "/lodestone/playguide/db/achievement/c297df36e8f/",
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						195
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

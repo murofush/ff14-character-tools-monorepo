@@ -1,0 +1,403 @@
+{
+	"title": "immortal_flames",
+	"categorized": [
+		{
+			"title": "不滅隊 配属/双蛇党 軍票",
+			"data": [
+				{
+					"title": "正式配属：不滅隊",
+					"description": "不滅隊に正式配属される",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/immortal_flames/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png",
+					"url": "/lodestone/playguide/db/achievement/bf1085d2d6e/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						97
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "不滅隊の軍票：ランク1",
+					"description": "不滅隊で軍票を10,000獲得",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/immortal_flames/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png",
+					"url": "/lodestone/playguide/db/achievement/f660384aa64/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						97
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "不滅隊の軍票：ランク2",
+					"description": "不滅隊で軍票を50,000獲得",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/immortal_flames/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png",
+					"url": "/lodestone/playguide/db/achievement/39bff52ce0e/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						97
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "不滅隊の軍票：ランク3",
+					"description": "不滅隊で軍票を100,000獲得",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png?n5.45",
+					"point": 10,
+					"titleAward": "Ul'dahn Hero",
+					"iconPath": "~/static/achievementData/img/grand_company/immortal_flames/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png",
+					"url": "/lodestone/playguide/db/achievement/3fb25a80da1/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						97
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "霊銀天秤章",
+					"description": "不滅隊で軍票を500,000獲得",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png?n5.45",
+					"point": 20,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/0706f3ca6b5/",
+					"itemAward": "ウルダハンエスカッシャン",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0b/0b74f7f9c8784f71c2601ab286a7a8abebdbb25b.png?n5.45",
+					"iconPath": "~/static/achievementData/img/grand_company/immortal_flames/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/grand_company/immortal_flames/0b74f7f9c8784f71c2601ab286a7a8abebdbb25b.png",
+					"url": "/lodestone/playguide/db/achievement/aefd5f3f2d3/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						97
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "不滅隊 カンパニーリーヴ コンプリート数",
+			"data": [
+				{
+					"title": "不滅隊の熟練兵：ランク1",
+					"description": "不滅隊のカンパニーリーヴを計10回コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/immortal_flames/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png",
+					"url": "/lodestone/playguide/db/achievement/23bcd41397c/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						97,
+						191
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "不滅隊の熟練兵：ランク2",
+					"description": "不滅隊のカンパニーリーヴを計100回コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/immortal_flames/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png",
+					"url": "/lodestone/playguide/db/achievement/eb71723c12d/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						97,
+						191
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "不滅隊の熟練兵：ランク3",
+					"description": "不滅隊のカンパニーリーヴを計200回コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png?n5.45",
+					"point": 10,
+					"titleAward": "Ul'dahn Veteran",
+					"iconPath": "~/static/achievementData/img/grand_company/immortal_flames/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png",
+					"url": "/lodestone/playguide/db/achievement/4070912d1da/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						97,
+						191
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "白銀天秤章",
+					"description": "不滅隊のカンパニーリーヴを計500回コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png?n5.45",
+					"point": 20,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/130fae276b7/",
+					"itemAward": "ティッピングスケール・ブレスレット",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4f/4f975424bf0abce9aed36b9da6a2beb00503fbf0.png?n5.45",
+					"iconPath": "~/static/achievementData/img/grand_company/immortal_flames/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/grand_company/immortal_flames/4f975424bf0abce9aed36b9da6a2beb00503fbf0.png",
+					"url": "/lodestone/playguide/db/achievement/1ca9ed586d0/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						97,
+						191
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "不滅隊 カンパニーリーヴ コンプリート 種類数",
+			"data": [
+				{
+					"title": "不滅隊カンパニーリーヴ：ランク1",
+					"description": "不滅隊のグランドカンパニーリーヴの任務を、5種類コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/immortal_flames/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png",
+					"url": "/lodestone/playguide/db/achievement/aa3fd685f4e/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						97,
+						191
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "不滅隊カンパニーリーヴ：ランク2",
+					"description": "不滅隊のグランドカンパニーリーヴの任務を、10種類コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/immortal_flames/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png",
+					"url": "/lodestone/playguide/db/achievement/0d20bf51952/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						97,
+						191
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "不滅隊カンパニーリーヴ：ランク3",
+					"description": "不滅隊のグランドカンパニーリーヴの任務を、15種類コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/grand_company/immortal_flames/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png",
+					"url": "/lodestone/playguide/db/achievement/479bc30e87a/",
+					"isLatestPatch": false,
+					"sourceIndex": 19,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						97,
+						191
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "不滅隊 軍需品調達",
+			"data": [
+				{
+					"title": "不滅隊の輜重兵：ランク1",
+					"description": "不滅隊の軍需品調達を計10回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/immortal_flames/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png",
+					"url": "/lodestone/playguide/db/achievement/1e8e624ca9e/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						97
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "不滅隊の輜重兵：ランク2",
+					"description": "不滅隊の軍需品調達を計50回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/immortal_flames/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png",
+					"url": "/lodestone/playguide/db/achievement/3d2fc6ef82e/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						97
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "不滅隊の輜重兵：ランク3",
+					"description": "不滅隊の軍需品調達を計200回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png?n5.45",
+					"point": 10,
+					"titleAward": "Ul'dahn Carrier",
+					"iconPath": "~/static/achievementData/img/grand_company/immortal_flames/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png",
+					"url": "/lodestone/playguide/db/achievement/66c3fa88646/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						97
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黄銅天秤章",
+					"description": "不滅隊の軍需品調達を計500回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png?n5.45",
+					"point": 20,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/9b1818e63ee/",
+					"itemAward": "ティッピングスケール・イヤリング",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/26/26c693da7779cec6fe60ec1c5ef972a8f43b0676.png?n5.45",
+					"iconPath": "~/static/achievementData/img/grand_company/immortal_flames/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/grand_company/immortal_flames/26c693da7779cec6fe60ec1c5ef972a8f43b0676.png",
+					"url": "/lodestone/playguide/db/achievement/15d8454a520/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						97
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "不滅隊 補給品調達",
+			"data": [
+				{
+					"title": "不滅隊の補給兵：ランク1",
+					"description": "不滅隊の補給品調達を計10回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/immortal_flames/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png",
+					"url": "/lodestone/playguide/db/achievement/37fda1993b8/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						97
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "不滅隊の補給兵：ランク2",
+					"description": "不滅隊の補給品調達を計30回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/immortal_flames/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png",
+					"url": "/lodestone/playguide/db/achievement/bdf6e502ea6/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						97
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "不滅隊の補給兵：ランク3",
+					"description": "不滅隊の補給品調達を計100回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png?n5.45",
+					"point": 10,
+					"titleAward": "Ul'dahn Builder",
+					"iconPath": "~/static/achievementData/img/grand_company/immortal_flames/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png",
+					"url": "/lodestone/playguide/db/achievement/0017a412c69/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						97
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "青銅天秤章",
+					"description": "不滅隊の補給品調達を計200回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png?n5.45",
+					"point": 20,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/3a1a33d089c/",
+					"itemAward": "ティッピングスケール・リング",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/bb/bb31223f88d242310eed1b8fd03e4df8351365e8.png?n5.45",
+					"iconPath": "~/static/achievementData/img/grand_company/immortal_flames/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/grand_company/immortal_flames/bb31223f88d242310eed1b8fd03e4df8351365e8.png",
+					"url": "/lodestone/playguide/db/achievement/cd82b5b3ce9/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						97
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "不滅隊 討伐手帳 コンプリート",
+			"data": [
+				{
+					"title": "手帳好きの不滅隊員",
+					"description": "不滅隊の討伐手帳を、すべてコンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/29/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png?n5.45",
+					"point": 20,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/16d7bcf6849/",
+					"itemAward": "マメット003U",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/23/2372cc0e9d9c15d75e622cdf222a0f5c83e81c02.png?n5.45",
+					"iconPath": "~/static/achievementData/img/grand_company/immortal_flames/29913a3ca0c9c37bb3aefa9eab4049f6df4b0d33.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/grand_company/immortal_flames/2372cc0e9d9c15d75e622cdf222a0f5c83e81c02.png",
+					"url": "/lodestone/playguide/db/achievement/0ef6b208c9d/",
+					"isLatestPatch": false,
+					"sourceIndex": 20,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						97
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

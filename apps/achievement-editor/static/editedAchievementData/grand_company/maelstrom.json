@@ -1,0 +1,403 @@
+{
+	"title": "maelstrom",
+	"categorized": [
+		{
+			"title": "黒渦団 配属/黒渦団 軍票",
+			"data": [
+				{
+					"title": "正式配属：黒渦団",
+					"description": "黒渦団に正式配属される",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b5/b54d4290ea7343381b4228807179e264f4a0c243.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/b54d4290ea7343381b4228807179e264f4a0c243.png",
+					"url": "/lodestone/playguide/db/achievement/47d15e527e5/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						95
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黒渦団の軍票：ランク1",
+					"description": "黒渦団で軍票を10,000獲得",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b5/b54d4290ea7343381b4228807179e264f4a0c243.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/b54d4290ea7343381b4228807179e264f4a0c243.png",
+					"url": "/lodestone/playguide/db/achievement/78ffdced850/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						95
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黒渦団の軍票：ランク2",
+					"description": "黒渦団で軍票を50,000獲得",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b5/b54d4290ea7343381b4228807179e264f4a0c243.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/b54d4290ea7343381b4228807179e264f4a0c243.png",
+					"url": "/lodestone/playguide/db/achievement/2751eba061c/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						95
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黒渦団の軍票：ランク3",
+					"description": "黒渦団で軍票を100,000獲得",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b5/b54d4290ea7343381b4228807179e264f4a0c243.png?n5.45",
+					"point": 10,
+					"titleAward": "Lominsan Hero",
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/b54d4290ea7343381b4228807179e264f4a0c243.png",
+					"url": "/lodestone/playguide/db/achievement/6ca5486251f/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						95
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "紅錨勲章",
+					"description": "黒渦団で軍票を500,000獲得",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b5/b54d4290ea7343381b4228807179e264f4a0c243.png?n5.45",
+					"point": 20,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/7ac1193316b/",
+					"itemAward": "ロミンサンエスカッシャン",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a6/a6098b91d59207f57ebda7f44b51cdc3a1c39d2a.png?n5.45",
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/b54d4290ea7343381b4228807179e264f4a0c243.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/grand_company/grand_company/a6098b91d59207f57ebda7f44b51cdc3a1c39d2a.png",
+					"url": "/lodestone/playguide/db/achievement/166f1a9a525/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						95
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "黒渦団 カンパニーリーヴ コンプリート数",
+			"data": [
+				{
+					"title": "黒渦団の熟練兵：ランク1",
+					"description": "黒渦団のカンパニーリーヴを計10回コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b5/b54d4290ea7343381b4228807179e264f4a0c243.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/b54d4290ea7343381b4228807179e264f4a0c243.png",
+					"url": "/lodestone/playguide/db/achievement/490d80f8336/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						95,
+						191
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黒渦団の熟練兵：ランク2",
+					"description": "黒渦団のカンパニーリーヴを計100回コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b5/b54d4290ea7343381b4228807179e264f4a0c243.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/b54d4290ea7343381b4228807179e264f4a0c243.png",
+					"url": "/lodestone/playguide/db/achievement/389d0e39821/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						95,
+						191
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黒渦団の熟練兵：ランク3",
+					"description": "黒渦団のカンパニーリーヴを計200回コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b5/b54d4290ea7343381b4228807179e264f4a0c243.png?n5.45",
+					"point": 10,
+					"titleAward": "Lominsan Veteran",
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/b54d4290ea7343381b4228807179e264f4a0c243.png",
+					"url": "/lodestone/playguide/db/achievement/15ca4c5db08/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						95,
+						191
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼砲勲章",
+					"description": "黒渦団のカンパニーリーヴを計500回コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b5/b54d4290ea7343381b4228807179e264f4a0c243.png?n5.45",
+					"point": 20,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/6f18ff7d04f/",
+					"itemAward": "クリムゾンスタンダード・ブレスレット",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8f/8f5bf6040d81ad280b730dce686162ad78aadb5f.png?n5.45",
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/b54d4290ea7343381b4228807179e264f4a0c243.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/grand_company/grand_company/8f5bf6040d81ad280b730dce686162ad78aadb5f.png",
+					"url": "/lodestone/playguide/db/achievement/805546627e3/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						95,
+						191
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "黒渦団 カンパニーリーヴ コンプリート 種類数",
+			"data": [
+				{
+					"title": "黒渦団カンパニーリーヴ：ランク1",
+					"description": "黒渦団のグランドカンパニーリーヴの任務を、5種類コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b5/b54d4290ea7343381b4228807179e264f4a0c243.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/b54d4290ea7343381b4228807179e264f4a0c243.png",
+					"url": "/lodestone/playguide/db/achievement/3bd23f57425/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						95,
+						191
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黒渦団カンパニーリーヴ：ランク2",
+					"description": "黒渦団のグランドカンパニーリーヴの任務を、10種類コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b5/b54d4290ea7343381b4228807179e264f4a0c243.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/b54d4290ea7343381b4228807179e264f4a0c243.png",
+					"url": "/lodestone/playguide/db/achievement/c59e6595c93/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						95,
+						191
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黒渦団カンパニーリーヴ：ランク3",
+					"description": "黒渦団のグランドカンパニーリーヴの任務を、15種類コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b5/b54d4290ea7343381b4228807179e264f4a0c243.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/b54d4290ea7343381b4228807179e264f4a0c243.png",
+					"url": "/lodestone/playguide/db/achievement/9bc82f776eb/",
+					"isLatestPatch": false,
+					"sourceIndex": 19,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						95,
+						191
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "黒渦団 軍需品調達",
+			"data": [
+				{
+					"title": "黒渦団の輜重兵：ランク1",
+					"description": "黒渦団の軍需品調達を計10回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b5/b54d4290ea7343381b4228807179e264f4a0c243.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/b54d4290ea7343381b4228807179e264f4a0c243.png",
+					"url": "/lodestone/playguide/db/achievement/ef4c1bc4acc/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						95
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黒渦団の輜重兵：ランク2",
+					"description": "黒渦団の軍需品調達を計50回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b5/b54d4290ea7343381b4228807179e264f4a0c243.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/b54d4290ea7343381b4228807179e264f4a0c243.png",
+					"url": "/lodestone/playguide/db/achievement/98b5e45f04c/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						95
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黒渦団の輜重兵：ランク3",
+					"description": "黒渦団の軍需品調達を計200回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b5/b54d4290ea7343381b4228807179e264f4a0c243.png?n5.45",
+					"point": 10,
+					"titleAward": "Lominsan Carrier",
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/b54d4290ea7343381b4228807179e264f4a0c243.png",
+					"url": "/lodestone/playguide/db/achievement/3a9bc09b20a/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						95
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黒櫂勲章",
+					"description": "黒渦団の軍需品調達を計500回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b5/b54d4290ea7343381b4228807179e264f4a0c243.png?n5.45",
+					"point": 20,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/96a7e492d08/",
+					"itemAward": "クリムゾンスタンダード・イヤリング",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8eb79221dbc2729c059e8c6d81b159dd49c3709f.png?n5.45",
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/b54d4290ea7343381b4228807179e264f4a0c243.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/grand_company/grand_company/8eb79221dbc2729c059e8c6d81b159dd49c3709f.png",
+					"url": "/lodestone/playguide/db/achievement/beb6fb693fe/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						95
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "黒渦団 補給品調達",
+			"data": [
+				{
+					"title": "黒渦団の補給兵：ランク1",
+					"description": "黒渦団の補給品調達を計10回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b5/b54d4290ea7343381b4228807179e264f4a0c243.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/b54d4290ea7343381b4228807179e264f4a0c243.png",
+					"url": "/lodestone/playguide/db/achievement/f1471813f72/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						95
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黒渦団の補給兵：ランク2",
+					"description": "黒渦団の補給品調達を計30回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b5/b54d4290ea7343381b4228807179e264f4a0c243.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/b54d4290ea7343381b4228807179e264f4a0c243.png",
+					"url": "/lodestone/playguide/db/achievement/aa9ee11b441/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						95
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黒渦団の補給兵：ランク3",
+					"description": "黒渦団の補給品調達を計100回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b5/b54d4290ea7343381b4228807179e264f4a0c243.png?n5.45",
+					"point": 10,
+					"titleAward": "Lominsan Builder",
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/b54d4290ea7343381b4228807179e264f4a0c243.png",
+					"url": "/lodestone/playguide/db/achievement/14ce5760549/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						95
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "翠柱勲章",
+					"description": "黒渦団の補給品調達を計200回実行する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b5/b54d4290ea7343381b4228807179e264f4a0c243.png?n5.45",
+					"point": 20,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/260a412c854/",
+					"itemAward": "クリムゾンスタンダード・リング",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/25/2587547e0e7c4486bcc01bb3bf5dfbd6299a0bfe.png?n5.45",
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/b54d4290ea7343381b4228807179e264f4a0c243.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/grand_company/grand_company/2587547e0e7c4486bcc01bb3bf5dfbd6299a0bfe.png",
+					"url": "/lodestone/playguide/db/achievement/0647ffc5fcf/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						95
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "黒渦団 討伐手帳 コンプリート",
+			"data": [
+				{
+					"title": "手帳好きの黒渦団員",
+					"description": "黒渦団の討伐手帳を、すべてコンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b5/b54d4290ea7343381b4228807179e264f4a0c243.png?n5.45",
+					"point": 20,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/805b59b6cc7/",
+					"itemAward": "マメット003L",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/73/73f134beccf3c154bdfc6083cd8dfade5aa76602.png?n5.45",
+					"iconPath": "~/static/achievementData/img/grand_company/grand_company/b54d4290ea7343381b4228807179e264f4a0c243.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/grand_company/grand_company/73f134beccf3c154bdfc6083cd8dfade5aa76602.png",
+					"url": "/lodestone/playguide/db/achievement/6538b2e20aa/",
+					"isLatestPatch": false,
+					"sourceIndex": 20,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						95
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

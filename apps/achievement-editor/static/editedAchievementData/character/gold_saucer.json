@@ -1,0 +1,1558 @@
+{
+	"title": "gold_saucer",
+	"categorized": [
+		{
+			"title": "ゴールドソーサー アチーブメント 達成数",
+			"data": [
+				{
+					"title": "ハイローラー",
+					"description": "アチーブメント「勝負師の極意」「トリプルトライアドマスター」「大会の実力者」「運命の扉：ランク3」「フンガー！：ランク3」「夢追い人」「塵も積もれば宝山」をすべて達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b6/b683c727e0a2a39544078965551aaddfdaa36458.png?n5.45",
+					"point": 20,
+					"titleAward": "High Roller",
+					"awardCondition": [
+						"勝負師の極意",
+						"トリプルトライアドマスター",
+						"大会の実力者",
+						"運命の扉：ランク3",
+						"フンガー！：ランク3",
+						"夢追い人",
+						"塵も積もれば宝山"
+					],
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/b683c727e0a2a39544078965551aaddfdaa36458.png",
+					"url": "/lodestone/playguide/db/achievement/56f91641fa0/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						170,
+						171,
+						172,
+						173,
+						174
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "MGP獲得数",
+			"data": [
+				{
+					"title": "黄金の夢：ランク1",
+					"description": "MGP交換窓口、カードトレーダーでのカード回収、MGPポイントカードの使用、攻略手帳の報酬以外で、累計1,000MGPを獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ba/baa2341dd17414fae7fd62ae7bc62c64589b67be.png?n5.45",
+					"point": 5,
+					"titleAward": "Gambler",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/baa2341dd17414fae7fd62ae7bc62c64589b67be.png",
+					"url": "/lodestone/playguide/db/achievement/a3e1a3b7c5c/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						7
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黄金の夢：ランク2",
+					"description": "MGP交換窓口、カードトレーダーでのカード回収、MGPポイントカードの使用、攻略手帳の報酬以外で、累計10,000MGPを獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ba/baa2341dd17414fae7fd62ae7bc62c64589b67be.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/baa2341dd17414fae7fd62ae7bc62c64589b67be.png",
+					"url": "/lodestone/playguide/db/achievement/b1dcb0c206c/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						7
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黄金の夢：ランク3",
+					"description": "MGP交換窓口、カードトレーダーでのカード回収、MGPポイントカードの使用、攻略手帳の報酬以外で、累計100,000MGPを獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ba/baa2341dd17414fae7fd62ae7bc62c64589b67be.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/baa2341dd17414fae7fd62ae7bc62c64589b67be.png",
+					"url": "/lodestone/playguide/db/achievement/47d994de7c0/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						7
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黄金の夢：ランク4",
+					"description": "MGP交換窓口、カードトレーダーでのカード回収、MGPポイントカードの使用、攻略手帳の報酬以外で、累計1,000,000MGPを獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ba/baa2341dd17414fae7fd62ae7bc62c64589b67be.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/baa2341dd17414fae7fd62ae7bc62c64589b67be.png",
+					"url": "/lodestone/playguide/db/achievement/a47fa8b3109/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						7
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "黄金の夢：ランク5",
+					"description": "MGP交換窓口、カードトレーダーでのカード回収、MGPポイントカードの使用、攻略手帳の報酬以外で、累計10,000,000MGPを獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ba/baa2341dd17414fae7fd62ae7bc62c64589b67be.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/baa2341dd17414fae7fd62ae7bc62c64589b67be.png",
+					"url": "/lodestone/playguide/db/achievement/1bf700f84e0/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						7
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "チョコボレース チョコボ育成",
+			"data": [
+				{
+					"title": "産めよ、増えよ、地に満ちよ！",
+					"description": "カップリングにより、新羽チョコボを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d4/d4c33ad13fe433742978894dafb4594ee13502e7.png?n5.45",
+					"point": 5,
+					"titleAward": "Chocobo Breeder",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/d4c33ad13fe433742978894dafb4594ee13502e7.png",
+					"url": "/lodestone/playguide/db/achievement/c5b5838eb86/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						170
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "奇跡の血量",
+					"description": "血統レベル9以上の新羽チョコボを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d4/d4c33ad13fe433742978894dafb4594ee13502e7.png?n5.45",
+					"point": 5,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/c25781e6855/",
+					"itemAward": "レーシングチョコボマスク",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e3/e383cc194111d94ba97eb3f36a1ee1ddad703784.png?n5.45",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/d4c33ad13fe433742978894dafb4594ee13502e7.png",
+					"itemAwardImagePath": "~/static/achievementData/img/character/gold_saucer/item/e383cc194111d94ba97eb3f36a1ee1ddad703784.png",
+					"url": "/lodestone/playguide/db/achievement/bb6ae99963f/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						170
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "チョコボ調教師",
+					"description": "総合力285以上の競走羽チョコボを育成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/85/85e6ab2562c59663b37faf81de30262b4b5d737d.png?n5.45",
+					"point": 5,
+					"titleAward": "Chocobo Trainer",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/85e6ab2562c59663b37faf81de30262b4b5d737d.png",
+					"url": "/lodestone/playguide/db/achievement/34b787f5553/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						170
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "チョコボレース 出走数",
+			"data": [
+				{
+					"title": "チョコボ騎手：ランク1",
+					"description": "チョコボレースに出走する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/57/57949f2d14c31db0cb39c92b5701cec730bc3394.png?n5.45",
+					"point": 5,
+					"titleAward": "Apprentice Jockey",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/57949f2d14c31db0cb39c92b5701cec730bc3394.png",
+					"url": "/lodestone/playguide/db/achievement/931c8ca40cc/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						170
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "チョコボ騎手：ランク2",
+					"description": "チョコボレースに累計100回出走する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/57/57949f2d14c31db0cb39c92b5701cec730bc3394.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/57949f2d14c31db0cb39c92b5701cec730bc3394.png",
+					"url": "/lodestone/playguide/db/achievement/b7617f6775f/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						170
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "チョコボ騎手：ランク3",
+					"description": "チョコボレースに累計300回出走する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/57/57949f2d14c31db0cb39c92b5701cec730bc3394.png?n5.45",
+					"point": 5,
+					"titleAward": "Senior Jockey",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/57949f2d14c31db0cb39c92b5701cec730bc3394.png",
+					"url": "/lodestone/playguide/db/achievement/e34adcb76e3/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						170
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "チョコボ騎手：ランク4",
+					"description": "チョコボレースに累計3,000回出走する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/57/57949f2d14c31db0cb39c92b5701cec730bc3394.png?n5.45",
+					"point": 10,
+					"titleAward": "Veteran Jockey",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/57949f2d14c31db0cb39c92b5701cec730bc3394.png",
+					"url": "/lodestone/playguide/db/achievement/54a37ceb3be/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						170
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "チョコボレース 勝利数",
+			"data": [
+				{
+					"title": "優駿：ランク1",
+					"description": "チョコボレースで勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e3/e32a5456553bfec1eab591f88e2dc649dea81522.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/e32a5456553bfec1eab591f88e2dc649dea81522.png",
+					"url": "/lodestone/playguide/db/achievement/bb84551c07f/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						170
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "優駿：ランク2",
+					"description": "チョコボレースで累計10回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e3/e32a5456553bfec1eab591f88e2dc649dea81522.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/e32a5456553bfec1eab591f88e2dc649dea81522.png",
+					"url": "/lodestone/playguide/db/achievement/f83bf0b60ba/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						170
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "優駿：ランク3",
+					"description": "チョコボレースで累計50回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e3/e32a5456553bfec1eab591f88e2dc649dea81522.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/e32a5456553bfec1eab591f88e2dc649dea81522.png",
+					"url": "/lodestone/playguide/db/achievement/4f7c5d32d67/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						170
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勝負師の極意",
+					"description": "チョコボレースで累計500回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e3/e32a5456553bfec1eab591f88e2dc649dea81522.png?n5.45",
+					"point": 10,
+					"titleAward": "Leading Jockey",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/e32a5456553bfec1eab591f88e2dc649dea81522.png",
+					"url": "/lodestone/playguide/db/achievement/7188d21a78d/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						170
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "チョコボレース チャレンジ達成数",
+			"data": [
+				{
+					"title": "チョコボチャレンジャー：ランク1",
+					"description": "チョコボレースのチャレンジを、15までコンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e3/e32a5456553bfec1eab591f88e2dc649dea81522.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/bdb272f3cad/",
+					"itemAward": "レーシング・バード",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f8/f82d3ffb0338830c9834fc08bbaca3bb3463abd2.png?n5.45",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/e32a5456553bfec1eab591f88e2dc649dea81522.png",
+					"itemAwardImagePath": "~/static/achievementData/img/character/gold_saucer/item/f82d3ffb0338830c9834fc08bbaca3bb3463abd2.png",
+					"url": "/lodestone/playguide/db/achievement/5700c4595f5/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						170
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "トリプルトライアド カード 取得数",
+			"data": [
+				{
+					"title": "カードコレクター：ランク1",
+					"description": "トリプルトライアドのカードを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae428b374febcad4a70ba90e9c0122e2cd49d769.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"url": "/lodestone/playguide/db/achievement/08afae14cd8/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "カードコレクター：ランク2",
+					"description": "トリプルトライアドのカードを30種類入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae428b374febcad4a70ba90e9c0122e2cd49d769.png?n5.45",
+					"point": 5,
+					"titleAward": "Deck Holder",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"url": "/lodestone/playguide/db/achievement/0ee237c29da/",
+					"isLatestPatch": false,
+					"sourceIndex": 19,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "カードコレクター：ランク3",
+					"description": "トリプルトライアドのカードを60種類入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae428b374febcad4a70ba90e9c0122e2cd49d769.png?n5.45",
+					"point": 10,
+					"titleAward": "Deck Hoarder",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"url": "/lodestone/playguide/db/achievement/5c7acbc80c7/",
+					"isLatestPatch": false,
+					"sourceIndex": 20,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "カードコレクター：ランク4",
+					"description": "トリプルトライアドのカードを90種類入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae428b374febcad4a70ba90e9c0122e2cd49d769.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/b24dee60c4f/",
+					"itemAward": "カード:ミドガルズオルム",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/32/3284f309c8f4b5024639fd506a203218477e8ce9.png?n5.45",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"itemAwardImagePath": "~/static/achievementData/img/character/gold_saucer/item/3284f309c8f4b5024639fd506a203218477e8ce9.png",
+					"url": "/lodestone/playguide/db/achievement/7e96686ea51/",
+					"isLatestPatch": false,
+					"sourceIndex": 21,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "カードコレクター：ランク5",
+					"description": "トリプルトライアドのカードを120種類入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae428b374febcad4a70ba90e9c0122e2cd49d769.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/b56a5f6a462/",
+					"itemAward": "カード:ヴィゾーヴニル",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2f/2fadbfa1ce8485306aaf20269ca29e42ad7d50cc.png?n5.45",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"itemAwardImagePath": "~/static/achievementData/img/character/gold_saucer/item/2fadbfa1ce8485306aaf20269ca29e42ad7d50cc.png",
+					"url": "/lodestone/playguide/db/achievement/82e21499f4e/",
+					"isLatestPatch": false,
+					"sourceIndex": 22,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "カードコレクター：ランク6",
+					"description": "トリプルトライアドのカードを150種類入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae428b374febcad4a70ba90e9c0122e2cd49d769.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/d6af1a82121/",
+					"itemAward": "カード:サンクレッド（蒼天）",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2f/2fadbfa1ce8485306aaf20269ca29e42ad7d50cc.png?n5.45",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"itemAwardImagePath": "~/static/achievementData/img/character/gold_saucer/item/2fadbfa1ce8485306aaf20269ca29e42ad7d50cc.png",
+					"url": "/lodestone/playguide/db/achievement/e979f7430fc/",
+					"isLatestPatch": false,
+					"sourceIndex": 23,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "カードコレクター：ランク7",
+					"description": "トリプルトライアドのカードを190種類入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae428b374febcad4a70ba90e9c0122e2cd49d769.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/2def0ce36de/",
+					"itemAward": "カード:クルル・バルデシオン",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2f/2fadbfa1ce8485306aaf20269ca29e42ad7d50cc.png?n5.45",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"itemAwardImagePath": "~/static/achievementData/img/character/gold_saucer/item/2fadbfa1ce8485306aaf20269ca29e42ad7d50cc.png",
+					"url": "/lodestone/playguide/db/achievement/42e2be2585f/",
+					"isLatestPatch": false,
+					"sourceIndex": 24,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "カードコレクター：ランク8",
+					"description": "トリプルトライアドのカードを220種類入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae428b374febcad4a70ba90e9c0122e2cd49d769.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/03e0f877019/",
+					"itemAward": "カード:ゴウセツ",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/32/3284f309c8f4b5024639fd506a203218477e8ce9.png?n5.45",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"itemAwardImagePath": "~/static/achievementData/img/character/gold_saucer/item/3284f309c8f4b5024639fd506a203218477e8ce9.png",
+					"url": "/lodestone/playguide/db/achievement/3b0d5f1299b/",
+					"isLatestPatch": false,
+					"sourceIndex": 25,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 68
+				},
+				{
+					"title": "カードコレクター：ランク9",
+					"description": "トリプルトライアドのカードを270種類入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae428b374febcad4a70ba90e9c0122e2cd49d769.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/6c5793afdd7/",
+					"itemAward": "カード:ウリエンジェ（漆黒）",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2f/2fadbfa1ce8485306aaf20269ca29e42ad7d50cc.png?n5.45",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"itemAwardImagePath": "~/static/achievementData/img/character/gold_saucer/item/2fadbfa1ce8485306aaf20269ca29e42ad7d50cc.png",
+					"url": "/lodestone/playguide/db/achievement/c7aab7af4f0/",
+					"isLatestPatch": false,
+					"sourceIndex": 26,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "カードコレクター：ランク10",
+					"description": "トリプルトライアドのカードを300種類入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae428b374febcad4a70ba90e9c0122e2cd49d769.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/0468fd2a095/",
+					"itemAward": "カード:サンクレッド（漆黒）",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2f/2fadbfa1ce8485306aaf20269ca29e42ad7d50cc.png?n5.45",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"itemAwardImagePath": "~/static/achievementData/img/character/gold_saucer/item/2fadbfa1ce8485306aaf20269ca29e42ad7d50cc.png",
+					"url": "/lodestone/playguide/db/achievement/a154117c08e/",
+					"isLatestPatch": false,
+					"sourceIndex": 27,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "トリプルトライアド NPC 勝利数",
+			"data": [
+				{
+					"title": "街角のデュエリスト：ランク1",
+					"description": "トリプルトライアドで、NPCに勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/22/220dd29ad0caae3b039b06ba7377ecf811bc3c20.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/220dd29ad0caae3b039b06ba7377ecf811bc3c20.png",
+					"url": "/lodestone/playguide/db/achievement/3c5f43a07af/",
+					"isLatestPatch": false,
+					"sourceIndex": 28,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "街角のデュエリスト：ランク2",
+					"description": "トリプルトライアドで、30人のNPCに勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/22/220dd29ad0caae3b039b06ba7377ecf811bc3c20.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/6f1a7978f29/",
+					"itemAward": "カード:スコール・レオンハート",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/39/397aa290b70d1d1504e6b70943e224d65a47c582.png?n5.45",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/220dd29ad0caae3b039b06ba7377ecf811bc3c20.png",
+					"itemAwardImagePath": "~/static/achievementData/img/character/gold_saucer/item/397aa290b70d1d1504e6b70943e224d65a47c582.png",
+					"url": "/lodestone/playguide/db/achievement/58a97ffd7c6/",
+					"isLatestPatch": false,
+					"sourceIndex": 29,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "街角のデュエリスト：ランク3",
+					"description": "トリプルトライアドで、41人のNPCに勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/22/220dd29ad0caae3b039b06ba7377ecf811bc3c20.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/1687d5e1ef9/",
+					"itemAward": "カード:オルシュファン",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/07/070527e0b1446cc04612e540f5deb249110bf892.png?n5.45",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/220dd29ad0caae3b039b06ba7377ecf811bc3c20.png",
+					"itemAwardImagePath": "~/static/achievementData/img/character/gold_saucer/item/070527e0b1446cc04612e540f5deb249110bf892.png",
+					"url": "/lodestone/playguide/db/achievement/a485400bfeb/",
+					"isLatestPatch": false,
+					"sourceIndex": 30,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "街角のデュエリスト：ランク4",
+					"description": "トリプルトライアドで、50人のNPCに勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/22/220dd29ad0caae3b039b06ba7377ecf811bc3c20.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/220dd29ad0caae3b039b06ba7377ecf811bc3c20.png",
+					"url": "/lodestone/playguide/db/achievement/15b300eddb1/",
+					"isLatestPatch": false,
+					"sourceIndex": 31,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "街角のデュエリスト：ランク5",
+					"description": "トリプルトライアドで、60人のNPCに勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/22/220dd29ad0caae3b039b06ba7377ecf811bc3c20.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/840d14ee4b3/",
+					"itemAward": "カード:ヤ・シュトラ（蒼天）",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2f/2fadbfa1ce8485306aaf20269ca29e42ad7d50cc.png?n5.45",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/220dd29ad0caae3b039b06ba7377ecf811bc3c20.png",
+					"itemAwardImagePath": "~/static/achievementData/img/character/gold_saucer/item/2fadbfa1ce8485306aaf20269ca29e42ad7d50cc.png",
+					"url": "/lodestone/playguide/db/achievement/b422e5d63ab/",
+					"isLatestPatch": false,
+					"sourceIndex": 32,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "街角のデュエリスト：ランク6",
+					"description": "トリプルトライアドで、70人のNPCに勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/22/220dd29ad0caae3b039b06ba7377ecf811bc3c20.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/488d3170142/",
+					"itemAward": "カード:リセ",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2f/2fadbfa1ce8485306aaf20269ca29e42ad7d50cc.png?n5.45",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/220dd29ad0caae3b039b06ba7377ecf811bc3c20.png",
+					"itemAwardImagePath": "~/static/achievementData/img/character/gold_saucer/item/2fadbfa1ce8485306aaf20269ca29e42ad7d50cc.png",
+					"url": "/lodestone/playguide/db/achievement/ed95d64412f/",
+					"isLatestPatch": false,
+					"sourceIndex": 33,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "街角のデュエリスト：ランク7",
+					"description": "トリプルトライアドで、92人のNPCに勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/22/220dd29ad0caae3b039b06ba7377ecf811bc3c20.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/365670ef303/",
+					"itemAward": "カード:アルバート",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/32/3284f309c8f4b5024639fd506a203218477e8ce9.png?n5.45",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/220dd29ad0caae3b039b06ba7377ecf811bc3c20.png",
+					"itemAwardImagePath": "~/static/achievementData/img/character/gold_saucer/item/3284f309c8f4b5024639fd506a203218477e8ce9.png",
+					"url": "/lodestone/playguide/db/achievement/9cd89a6dc47/",
+					"isLatestPatch": false,
+					"sourceIndex": 34,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "トリプルトライアド ルール「ルーレット」 勝利数",
+			"data": [
+				{
+					"title": "勝負は時の運：ランク1",
+					"description": "トリプルトライアドの対戦ルール「ルーレット」で勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae428b374febcad4a70ba90e9c0122e2cd49d769.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"url": "/lodestone/playguide/db/achievement/c3c4d3800ae/",
+					"isLatestPatch": false,
+					"sourceIndex": 35,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勝負は時の運：ランク2",
+					"description": "トリプルトライアドの対戦ルール「ルーレット」で、累計10回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae428b374febcad4a70ba90e9c0122e2cd49d769.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"url": "/lodestone/playguide/db/achievement/5b9c43836fe/",
+					"isLatestPatch": false,
+					"sourceIndex": 36,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勝負は時の運：ランク3",
+					"description": "トリプルトライアドの対戦ルール「ルーレット」で、累計30回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae428b374febcad4a70ba90e9c0122e2cd49d769.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"url": "/lodestone/playguide/db/achievement/d4226c12ead/",
+					"isLatestPatch": false,
+					"sourceIndex": 37,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勝負は時の運：ランク4",
+					"description": "トリプルトライアドの対戦ルール「ルーレット」で、累計100回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae428b374febcad4a70ba90e9c0122e2cd49d769.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"url": "/lodestone/playguide/db/achievement/7cbb700cbcd/",
+					"isLatestPatch": false,
+					"sourceIndex": 38,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "勝負は時の運：ランク5",
+					"description": "トリプルトライアドの対戦ルール「ルーレット」で、累計300回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae428b374febcad4a70ba90e9c0122e2cd49d769.png?n5.45",
+					"point": 5,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/b631d4e5970/",
+					"itemAward": "カード:ヴァン",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/39/397aa290b70d1d1504e6b70943e224d65a47c582.png?n5.45",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"itemAwardImagePath": "~/static/achievementData/img/character/gold_saucer/item/397aa290b70d1d1504e6b70943e224d65a47c582.png",
+					"url": "/lodestone/playguide/db/achievement/ebcd264d0b8/",
+					"isLatestPatch": false,
+					"sourceIndex": 39,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "トリプルトライアドマスター",
+					"description": "トリプルトライアドの対戦ルール「ルーレット」で、累計1,000回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae428b374febcad4a70ba90e9c0122e2cd49d769.png?n5.45",
+					"point": 10,
+					"titleAward": "the Trinity",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"url": "/lodestone/playguide/db/achievement/cf350ee1c99/",
+					"isLatestPatch": false,
+					"sourceIndex": 40,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "トリプルトライアド 大会 勝利数",
+			"data": [
+				{
+					"title": "大会の勝者：ランク1",
+					"description": "トリプルトライアドの大会で勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae428b374febcad4a70ba90e9c0122e2cd49d769.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"url": "/lodestone/playguide/db/achievement/ffa928412c7/",
+					"isLatestPatch": false,
+					"sourceIndex": 41,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "大会の勝者：ランク2",
+					"description": "トリプルトライアドの大会で、累計10回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae428b374febcad4a70ba90e9c0122e2cd49d769.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"url": "/lodestone/playguide/db/achievement/3b47af97080/",
+					"isLatestPatch": false,
+					"sourceIndex": 42,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "大会の勝者：ランク3",
+					"description": "トリプルトライアドの大会で、累計30回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae428b374febcad4a70ba90e9c0122e2cd49d769.png?n5.45",
+					"point": 5,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/d81772e3e76/",
+					"itemAward": "カード:シャントット",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/39/397aa290b70d1d1504e6b70943e224d65a47c582.png?n5.45",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"itemAwardImagePath": "~/static/achievementData/img/character/gold_saucer/item/397aa290b70d1d1504e6b70943e224d65a47c582.png",
+					"url": "/lodestone/playguide/db/achievement/a4a4e30d8c9/",
+					"isLatestPatch": false,
+					"sourceIndex": 43,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "大会の実力者",
+					"description": "トリプルトライアドの大会で、累計100回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae428b374febcad4a70ba90e9c0122e2cd49d769.png?n5.45",
+					"point": 10,
+					"titleAward": "Duelist",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"url": "/lodestone/playguide/db/achievement/06649c05c83/",
+					"isLatestPatch": false,
+					"sourceIndex": 44,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "トリプルトライアド オフィシャルトーナメント 優勝数",
+			"data": [
+				{
+					"title": "トーナメントの勝者：ランク１",
+					"description": "オフィシャルトーナメントで1回優勝する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a2/a28e4b8696a409934d2f2123ce9403c045e664bd.png?n5.45",
+					"point": 5,
+					"isLatestPatch": true,
+					"itemAward": "カード:フェニックス",
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/8886da3698a/",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/32/3284f309c8f4b5024639fd506a203218477e8ce9.png?n5.45",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/a28e4b8696a409934d2f2123ce9403c045e664bd.png",
+					"itemAwardImagePath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"url": "/lodestone/playguide/db/achievement/ef08bc4d3e0/",
+					"sourceIndex": 45,
+					"isCreated": false,
+					"isEdited": true,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "トーナメントの勝者：ランク2",
+					"description": "オフィシャルトーナメントで50回優勝する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/a2/a28e4b8696a409934d2f2123ce9403c045e664bd.png?n5.45",
+					"point": 10,
+					"isLatestPatch": true,
+					"titleAward": "Tournament Leader",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/a28e4b8696a409934d2f2123ce9403c045e664bd.png",
+					"url": "/lodestone/playguide/db/achievement/91ed1e049ea/",
+					"sourceIndex": 46,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "オフィシャルレコード：ランク1",
+					"description": "オフィシャルトーナメントで10回勝利",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae428b374febcad4a70ba90e9c0122e2cd49d769.png?n5.45",
+					"point": 5,
+					"isLatestPatch": true,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/988323e008e/",
+					"itemAward": "オーケストリオン譜:Shuffle or Boogie",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7e/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png?n5.45",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"itemAwardImagePath": "~/static/achievementData/img/character/gold_saucer/item/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png",
+					"url": "/lodestone/playguide/db/achievement/28dc15a4118/",
+					"sourceIndex": 47,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "オフィシャルレコード：ランク2",
+					"description": "オフィシャルトーナメントで50回勝利",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae428b374febcad4a70ba90e9c0122e2cd49d769.png?n5.45",
+					"point": 10,
+					"isLatestPatch": true,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"url": "/lodestone/playguide/db/achievement/330dbceb976/",
+					"sourceIndex": 48,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "オフィシャルレコード：ランク3",
+					"description": "オフィシャルトーナメントで150回勝利",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae428b374febcad4a70ba90e9c0122e2cd49d769.png?n5.45",
+					"point": 20,
+					"isLatestPatch": true,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/5a959767418/",
+					"itemAward": "ゴールドソーサーパラソル",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/54/543dd1223fe6cd659d80bc7234b8da71fcaa6bc2.png?n5.45",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae428b374febcad4a70ba90e9c0122e2cd49d769.png",
+					"itemAwardImagePath": "~/static/achievementData/img/character/gold_saucer/item/543dd1223fe6cd659d80bc7234b8da71fcaa6bc2.png",
+					"url": "/lodestone/playguide/db/achievement/90c04eb04aa/",
+					"sourceIndex": 49,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						171
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "G.A.T.E. コンプリート数",
+			"data": [
+				{
+					"title": "運命の扉：ランク1",
+					"description": "G.A.T.E.をコンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/47/475e3378ba61ca150194cefbd4a4a6f537f2b74b.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/475e3378ba61ca150194cefbd4a4a6f537f2b74b.png",
+					"url": "/lodestone/playguide/db/achievement/90f33b94aa2/",
+					"isLatestPatch": false,
+					"sourceIndex": 50,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						172
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "運命の扉：ランク2",
+					"description": "G.A.T.E.を計30回コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/47/475e3378ba61ca150194cefbd4a4a6f537f2b74b.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/475e3378ba61ca150194cefbd4a4a6f537f2b74b.png",
+					"url": "/lodestone/playguide/db/achievement/302986a3522/",
+					"isLatestPatch": false,
+					"sourceIndex": 51,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						172
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "運命の扉：ランク3",
+					"description": "G.A.T.E.を計100回コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/47/475e3378ba61ca150194cefbd4a4a6f537f2b74b.png?n5.45",
+					"point": 10,
+					"titleAward": "Gatekeeper",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/475e3378ba61ca150194cefbd4a4a6f537f2b74b.png",
+					"url": "/lodestone/playguide/db/achievement/99e8d4c37e0/",
+					"isLatestPatch": false,
+					"sourceIndex": 52,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						172
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "G.A.T.E. 「暴風！ はないきフンガー」 コンプリート数",
+			"data": [
+				{
+					"title": "フンガー！：ランク1",
+					"description": "G.A.T.E.「暴風！ はないきフンガー」をコンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ce/ceb755a5e53558eaa1ead4de834851d19301ad96.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ceb755a5e53558eaa1ead4de834851d19301ad96.png",
+					"url": "/lodestone/playguide/db/achievement/6ce9891ffd3/",
+					"isLatestPatch": false,
+					"sourceIndex": 53,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						172
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "フンガー！：ランク2",
+					"description": "G.A.T.E.「暴風！ はないきフンガー」を、累計5回コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ce/ceb755a5e53558eaa1ead4de834851d19301ad96.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ceb755a5e53558eaa1ead4de834851d19301ad96.png",
+					"url": "/lodestone/playguide/db/achievement/1d501b9dea4/",
+					"isLatestPatch": false,
+					"sourceIndex": 54,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						172
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "フンガー！：ランク3",
+					"description": "G.A.T.E.「暴風！ はないきフンガー」を、累計10回コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ce/ceb755a5e53558eaa1ead4de834851d19301ad96.png?n5.45",
+					"point": 10,
+					"titleAward": "the Fungah",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ceb755a5e53558eaa1ead4de834851d19301ad96.png",
+					"url": "/lodestone/playguide/db/achievement/7119f682a50/",
+					"isLatestPatch": false,
+					"sourceIndex": 55,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						172
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "ジャンボ・くじテンダー",
+			"data": [
+				{
+					"title": "ジャンボな夢を：ランク1",
+					"description": "ジャンボ・くじテンダーで、MGPを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e9/e9032929d79e40461b1c6b81751ab4605d110f1f.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/e9032929d79e40461b1c6b81751ab4605d110f1f.png",
+					"url": "/lodestone/playguide/db/achievement/9caaadf592b/",
+					"isLatestPatch": false,
+					"sourceIndex": 56,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						173
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ジャンボな夢を：ランク2",
+					"description": "ジャンボ・くじテンダーで、累計10,000MGPを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e9/e9032929d79e40461b1c6b81751ab4605d110f1f.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/e9032929d79e40461b1c6b81751ab4605d110f1f.png",
+					"url": "/lodestone/playguide/db/achievement/7f9fcac6367/",
+					"isLatestPatch": false,
+					"sourceIndex": 57,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						173
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ジャンボな夢を：ランク3",
+					"description": "ジャンボ・くじテンダーで、累計500,000MGPを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e9/e9032929d79e40461b1c6b81751ab4605d110f1f.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/e9032929d79e40461b1c6b81751ab4605d110f1f.png",
+					"url": "/lodestone/playguide/db/achievement/a70663cf4e0/",
+					"isLatestPatch": false,
+					"sourceIndex": 58,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						173
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "夢追い人",
+					"description": "ジャンボ・くじテンダーで、累計1,000,000MGPを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e9/e9032929d79e40461b1c6b81751ab4605d110f1f.png?n5.45",
+					"point": 10,
+					"titleAward": "Coin Collector",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/e9032929d79e40461b1c6b81751ab4605d110f1f.png",
+					"url": "/lodestone/playguide/db/achievement/605b006b89f/",
+					"isLatestPatch": false,
+					"sourceIndex": 59,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						173
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "ミニ・くじテンダー",
+			"data": [
+				{
+					"title": "ミニな夢を：ランク1",
+					"description": "ミニ・くじテンダーで、MGPを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/db/dbd18b8f11e9ff5693b6014788c0deef6af42c1a.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/dbd18b8f11e9ff5693b6014788c0deef6af42c1a.png",
+					"url": "/lodestone/playguide/db/achievement/9be6273daf9/",
+					"isLatestPatch": false,
+					"sourceIndex": 60,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						174
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ミニな夢を：ランク2",
+					"description": "ミニ・くじテンダーで、累計10,000MGPを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/db/dbd18b8f11e9ff5693b6014788c0deef6af42c1a.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/dbd18b8f11e9ff5693b6014788c0deef6af42c1a.png",
+					"url": "/lodestone/playguide/db/achievement/f5a9358e6b0/",
+					"isLatestPatch": false,
+					"sourceIndex": 61,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						174
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ミニな夢を：ランク3",
+					"description": "ミニ・くじテンダーで、累計500,000MGPを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/db/dbd18b8f11e9ff5693b6014788c0deef6af42c1a.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/dbd18b8f11e9ff5693b6014788c0deef6af42c1a.png",
+					"url": "/lodestone/playguide/db/achievement/a31bea7de26/",
+					"isLatestPatch": false,
+					"sourceIndex": 62,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						174
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "塵も積もれば宝山",
+					"description": "ミニ・くじテンダーで、累計1,000,000MGPを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/db/dbd18b8f11e9ff5693b6014788c0deef6af42c1a.png?n5.45",
+					"point": 10,
+					"titleAwardMan": "Millionaire",
+					"titleAwardWoman": "Millionairess",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/dbd18b8f11e9ff5693b6014788c0deef6af42c1a.png",
+					"url": "/lodestone/playguide/db/achievement/c147ba5829f/",
+					"isLatestPatch": false,
+					"sourceIndex": 63,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						174
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "ロード・オブ・ヴァーミニオン チャレンジ",
+			"data": [
+				{
+					"title": "LoVMチャレンジャー：ランク1",
+					"description": "ロード・オブ・ヴァーミニオンのチャレンジを、すべてコンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/db/dbbb10b288733b554da250dfb664bd1d7f2486ac.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/1b33c5d346b/",
+					"itemAward": "マメット・ツインタニア",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d3/d3f26a09735ef2d89940d796180c8635c2d5c0c8.png?n5.45",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/dbbb10b288733b554da250dfb664bd1d7f2486ac.png",
+					"itemAwardImagePath": "~/static/achievementData/img/character/gold_saucer/item/d3f26a09735ef2d89940d796180c8635c2d5c0c8.png",
+					"url": "/lodestone/playguide/db/achievement/0fd28532918/",
+					"isLatestPatch": false,
+					"sourceIndex": 64,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						175
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "ロード・オブ・ヴァーミニオン プレイター対戦 勝利数",
+			"data": [
+				{
+					"title": "ロード・オブ・ヴァーミニオン：ランク1",
+					"description": "ロード・オブ・ヴァーミニオンのプレイヤー対戦（RP変動あり）で初めて勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/46/46963b27f67566374338cef728d086041512eab2.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/46963b27f67566374338cef728d086041512eab2.png",
+					"url": "/lodestone/playguide/db/achievement/eadb74ce948/",
+					"isLatestPatch": false,
+					"sourceIndex": 65,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						175
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ロード・オブ・ヴァーミニオン：ランク2",
+					"description": "ロード・オブ・ヴァーミニオンのプレイヤー対戦（RP変動あり）で計50回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/46/46963b27f67566374338cef728d086041512eab2.png?n5.45",
+					"point": 5,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/bf55e1bfa76/",
+					"itemAward": "シャローアイ",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/99/998aa5d78f7d80dd31cc8f40677d32969b51028b.png?n5.45",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/46963b27f67566374338cef728d086041512eab2.png",
+					"itemAwardImagePath": "~/static/achievementData/img/character/gold_saucer/item/998aa5d78f7d80dd31cc8f40677d32969b51028b.png",
+					"url": "/lodestone/playguide/db/achievement/4379923a27c/",
+					"isLatestPatch": false,
+					"sourceIndex": 66,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						175
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ロード・オブ・ヴァーミニオン：ランク3",
+					"description": "ロード・オブ・ヴァーミニオンのプレイヤー対戦（RP変動あり）で計100回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/46/46963b27f67566374338cef728d086041512eab2.png?n5.45",
+					"point": 5,
+					"titleAwardMan": "Prince of Verminion",
+					"titleAwardWoman": "Princess of Verminion",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/46963b27f67566374338cef728d086041512eab2.png",
+					"url": "/lodestone/playguide/db/achievement/16b2ac134c0/",
+					"isLatestPatch": false,
+					"sourceIndex": 67,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						175
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ロード・オブ・ヴァーミニオン：ランク4",
+					"description": "ロード・オブ・ヴァーミニオンのプレイヤー対戦（RP変動あり）で計300回勝利する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/46/46963b27f67566374338cef728d086041512eab2.png?n5.45",
+					"point": 10,
+					"titleAwardMan": "Lord of Verminion",
+					"titleAwardWoman": "Lady of Verminion",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/46963b27f67566374338cef728d086041512eab2.png",
+					"url": "/lodestone/playguide/db/achievement/06b7cbb2787/",
+					"isLatestPatch": false,
+					"sourceIndex": 68,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						175
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "ロード・オブ・ヴァーミニオン 大会 勝利",
+			"data": [
+				{
+					"title": "盤上の軍略家：ランク1",
+					"description": "ロード・オブ・ヴァーミニオンの大会で、計4大会で10勝以上の成績を残し、大会報酬を受け取る",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ae/ae3c77b859d2243388856fa66a5d65eb8c4038ee.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/38b748d46b2/",
+					"itemAward": "プリンスペンギン",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/21/21f382ee561605a3dd1eebd18a4d0227c61e6e71.png?n5.45",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/ae3c77b859d2243388856fa66a5d65eb8c4038ee.png",
+					"itemAwardImagePath": "~/static/achievementData/img/character/gold_saucer/item/21f382ee561605a3dd1eebd18a4d0227c61e6e71.png",
+					"url": "/lodestone/playguide/db/achievement/29f1737723c/",
+					"isLatestPatch": false,
+					"sourceIndex": 69,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						175
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "G.A.T.E.「挑戦！ ジャンピングアスレチック」",
+			"data": [
+				{
+					"title": "ゴールデンサボテンダー：ランク1",
+					"description": "G.A.T.E.「挑戦！ ジャンピングアスレチック」にて、金のサボテンダーを獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f4/f42e6c1ebd8587e2e41b1ebb7ef5a3c0116abd25.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/f42e6c1ebd8587e2e41b1ebb7ef5a3c0116abd25.png",
+					"url": "/lodestone/playguide/db/achievement/b55b1e131c6/",
+					"isLatestPatch": false,
+					"sourceIndex": 70,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						172
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ゴールデンサボテンダー：ランク2",
+					"description": "G.A.T.E.「挑戦！ ジャンピングアスレチック」にて、金のサボテンダーを累計10回獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f4/f42e6c1ebd8587e2e41b1ebb7ef5a3c0116abd25.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/f42e6c1ebd8587e2e41b1ebb7ef5a3c0116abd25.png",
+					"url": "/lodestone/playguide/db/achievement/ae4c0345726/",
+					"isLatestPatch": false,
+					"sourceIndex": 71,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						172
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ゴールデンサボテンダー：ランク3",
+					"description": "G.A.T.E.「挑戦！ ジャンピングアスレチック」にて、金のサボテンダーを累計20回獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f4/f42e6c1ebd8587e2e41b1ebb7ef5a3c0116abd25.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/f42e6c1ebd8587e2e41b1ebb7ef5a3c0116abd25.png",
+					"url": "/lodestone/playguide/db/achievement/30dc4122b78/",
+					"isLatestPatch": false,
+					"sourceIndex": 72,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						172
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "G.A.T.E.「出撃！ エアフォースパイロット」",
+			"data": [
+				{
+					"title": "エースパイロット：ランク1",
+					"description": "G.A.T.E.「出撃！ エアフォースパイロット」にて、パーフェクトを1回達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/22/22f2883e5868c87a87f5cb2ede0f09ef6a159b61.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/22f2883e5868c87a87f5cb2ede0f09ef6a159b61.png",
+					"url": "/lodestone/playguide/db/achievement/c591f315e39/",
+					"isLatestPatch": false,
+					"sourceIndex": 73,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						172
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "エースパイロット：ランク2",
+					"description": "G.A.T.E.「出撃！ エアフォースパイロット」にて、パーフェクトを累計10回達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/22/22f2883e5868c87a87f5cb2ede0f09ef6a159b61.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/22f2883e5868c87a87f5cb2ede0f09ef6a159b61.png",
+					"url": "/lodestone/playguide/db/achievement/d8d68db58d3/",
+					"isLatestPatch": false,
+					"sourceIndex": 74,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						172
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "エースパイロット：ランク3",
+					"description": "G.A.T.E.「出撃！ エアフォースパイロット」にて、パーフェクトを累計20回達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/22/22f2883e5868c87a87f5cb2ede0f09ef6a159b61.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/22f2883e5868c87a87f5cb2ede0f09ef6a159b61.png",
+					"url": "/lodestone/playguide/db/achievement/7baccf65116/",
+					"isLatestPatch": false,
+					"sourceIndex": 75,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						172
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "G.A.T.E.「一閃！ 斬魔・デ・三昧」",
+			"data": [
+				{
+					"title": "ヨウジンボウのお友達：ランク1",
+					"description": "G.A.T.E.「一閃！ 斬魔・デ・三昧」をコンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8eea8b66cfef950f0cf185a456ef76cf0cdbddc2.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/8eea8b66cfef950f0cf185a456ef76cf0cdbddc2.png",
+					"url": "/lodestone/playguide/db/achievement/de544e7e8ad/",
+					"isLatestPatch": false,
+					"sourceIndex": 76,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						172
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ヨウジンボウのお友達：ランク2",
+					"description": "G.A.T.E.「一閃！ 斬魔・デ・三昧」を、累計5回コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8eea8b66cfef950f0cf185a456ef76cf0cdbddc2.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/8eea8b66cfef950f0cf185a456ef76cf0cdbddc2.png",
+					"url": "/lodestone/playguide/db/achievement/f90bd17d1b8/",
+					"isLatestPatch": false,
+					"sourceIndex": 77,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						172
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "ヨウジンボウのお友達：ランク3",
+					"description": "G.A.T.E.「一閃！ 斬魔・デ・三昧」を、累計10回コンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8eea8b66cfef950f0cf185a456ef76cf0cdbddc2.png?n5.45",
+					"point": 10,
+					"titleAward": "Kindred Sword",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/8eea8b66cfef950f0cf185a456ef76cf0cdbddc2.png",
+					"url": "/lodestone/playguide/db/achievement/134272a1034/",
+					"isLatestPatch": false,
+					"sourceIndex": 78,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						172
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "ドマ式麻雀 対戦レート",
+			"data": [
+				{
+					"title": "月下の雀士：ランク1",
+					"description": "「ドマ式麻雀」にて、対戦レート1600を超える",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e9/e9571f3fa9299aba8b5049ddcbf36ae7de2fef0b.png?n5.45",
+					"point": 5,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/112640e4ae4/",
+					"itemAward": "オーケストリオン譜:東方遊戯",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/7e/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png?n5.45",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/e9571f3fa9299aba8b5049ddcbf36ae7de2fef0b.png",
+					"itemAwardImagePath": "~/static/achievementData/img/character/gold_saucer/item/7eaa53e1fe9e2bd80f81d9ce69c98c24f6223b0b.png",
+					"url": "/lodestone/playguide/db/achievement/698e5b0c339/",
+					"isLatestPatch": false,
+					"sourceIndex": 79,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						177
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "月下の雀士：ランク2",
+					"description": "「ドマ式麻雀」にて、対戦レート1800を超える",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e9/e9571f3fa9299aba8b5049ddcbf36ae7de2fef0b.png?n5.45",
+					"point": 5,
+					"titleAward": "Mahjong Enthusiast",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/e9571f3fa9299aba8b5049ddcbf36ae7de2fef0b.png",
+					"url": "/lodestone/playguide/db/achievement/c0c19d8a87f/",
+					"isLatestPatch": false,
+					"sourceIndex": 80,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						177
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "月下の雀士：ランク3",
+					"description": "「ドマ式麻雀」にて、対戦レート2000を超える",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/e9/e9571f3fa9299aba8b5049ddcbf36ae7de2fef0b.png?n5.45",
+					"point": 10,
+					"titleAward": "Mahjong Master",
+					"iconPath": "~/static/achievementData/img/character/gold_saucer/e9571f3fa9299aba8b5049ddcbf36ae7de2fef0b.png",
+					"url": "/lodestone/playguide/db/achievement/ae5ec4997f4/",
+					"isLatestPatch": false,
+					"sourceIndex": 81,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						177
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

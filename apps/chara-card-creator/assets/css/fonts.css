@@ -1,0 +1,77 @@
+/* EN Fonts */
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('~assets/fonts/en/RobotoCondensed-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('~assets/fonts/en/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('~assets/fonts/en/Pacifico-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Shadows Into Light';
+  src: url('~assets/fonts/en/ShadowsIntoLight-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Abril Fatface';
+  src: url('~assets/fonts/en/AbrilFatface-Regular.ttf') format('truetype');
+}
+
+
+/* JP Fonts */
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url('~assets/fonts/jp/NotoSansJP-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'DotGothic16';
+  src: url('~assets/fonts/jp/DotGothic16-Regular.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Dela Gothic One';
+  src: url('~assets/fonts/jp/DelaGothicOne-Regular.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Noto Serif JP';
+  src: url('~assets/fonts/jp/NotoSerifJP-Regular.otf') format('opentype')
+}
+
+@font-face {
+  font-family: 'Kosugi Maru';
+  src: url('~assets/fonts/jp/KosugiMaru-Regular.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'stick';
+  src: url('~assets/fonts/jp/Stick-Regular.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Hachi Maru Pop';
+  src: url('~assets/fonts/jp/HachiMaruPop-Regular.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Reggae One';
+  src: url('~assets/fonts/jp/ReggaeOne-Regular.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Yusei Magic';
+  src: url('~assets/fonts/jp/YuseiMagic-Regular.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Potta One';
+  src: url('~assets/fonts/jp/PottaOne-Regular.ttf') format('truetype')
+}

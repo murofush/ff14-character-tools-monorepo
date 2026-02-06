@@ -1,0 +1,164 @@
+{
+	"title": "sightseeing_log",
+	"categorized": [
+		{
+			"title": "探検手帳",
+			"data": [
+				{
+					"title": "駆け出しの探検家",
+					"description": "探検手帳の項目001～020をコンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1d/1d2be754de517a7f299a4b3f80b1b378c5d54738.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/exploration/sightseeing_log/1d2be754de517a7f299a4b3f80b1b378c5d54738.png",
+					"url": "/lodestone/playguide/db/achievement/3697a8e0665/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						107,
+						108,
+						109,
+						111,
+						114,
+						115,
+						116,
+						119,
+						120,
+						121,
+						122,
+						126
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "熟練の探検家",
+					"description": "探検手帳の項目001～080をコンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1d/1d2be754de517a7f299a4b3f80b1b378c5d54738.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/48bcda3953e/",
+					"itemAward": "タイニーアプカル",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/c8/c829955733965454023582634b497f36f6f5f0e0.png?n5.45",
+					"iconPath": "~/static/achievementData/img/exploration/sightseeing_log/1d2be754de517a7f299a4b3f80b1b378c5d54738.png",
+					"itemAwardImagePath": "~/static/achievementData/img/exploration/sightseeing_log/item/c829955733965454023582634b497f36f6f5f0e0.png",
+					"url": "/lodestone/playguide/db/achievement/9a2cc19313e/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						50,
+						51,
+						52,
+						107,
+						114,
+						119,
+						125,
+						126
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天の探検家",
+					"description": "探検手帳：蒼天編「001～042」をコンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1d/1d2be754de517a7f299a4b3f80b1b378c5d54738.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/exploration/sightseeing_log/1d2be754de517a7f299a4b3f80b1b378c5d54738.png",
+					"url": "/lodestone/playguide/db/achievement/99193d6b90b/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						128,
+						129,
+						130,
+						132,
+						133,
+						134
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天の熟練探検家",
+					"description": "探検手帳：蒼天編「043～062」をコンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1d/1d2be754de517a7f299a4b3f80b1b378c5d54738.png?n5.45",
+					"point": 10,
+					"titleAward": "Veteran Explorer",
+					"iconPath": "~/static/achievementData/img/exploration/sightseeing_log/1d2be754de517a7f299a4b3f80b1b378c5d54738.png",
+					"url": "/lodestone/playguide/db/achievement/62bda7d7bfe/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						128,
+						129,
+						130,
+						132,
+						133,
+						134
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "紅蓮の探検家",
+					"description": "探検手帳：紅蓮編「001～045」をコンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1d/1d2be754de517a7f299a4b3f80b1b378c5d54738.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/exploration/sightseeing_log/1d2be754de517a7f299a4b3f80b1b378c5d54738.png",
+					"url": "/lodestone/playguide/db/achievement/d505b300250/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						54,
+						55,
+						139
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "紅蓮の熟練探検家",
+					"description": "探検手帳：紅蓮編「046～062」をコンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1d/1d2be754de517a7f299a4b3f80b1b378c5d54738.png?n5.45",
+					"point": 10,
+					"titleAward": "Crimson Explorer",
+					"iconPath": "~/static/achievementData/img/exploration/sightseeing_log/1d2be754de517a7f299a4b3f80b1b378c5d54738.png",
+					"url": "/lodestone/playguide/db/achievement/424e327b536/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						54,
+						55,
+						135,
+						139
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "漆黒の探検家",
+					"description": "探検手帳：漆黒編「001～045」をコンプリートする",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1d/1d2be754de517a7f299a4b3f80b1b378c5d54738.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/exploration/sightseeing_log/1d2be754de517a7f299a4b3f80b1b378c5d54738.png",
+					"url": "/lodestone/playguide/db/achievement/376250c5b91/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						56,
+						144,
+						145
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": []
+}

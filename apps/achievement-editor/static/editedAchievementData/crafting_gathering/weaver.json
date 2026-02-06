@@ -1,0 +1,504 @@
+{
+	"title": "weaver",
+	"categorized": [
+		{
+			"title": "裁縫師 レベル別 製作回数",
+			"data": [
+				{
+					"title": "裁縫職人：素人",
+					"description": "裁縫スキルのレベル1-10のレシピを50回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f038b41c34342411bd0fe70691e0fe839feb5507.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/f038b41c34342411bd0fe70691e0fe839feb5507.png",
+					"url": "/lodestone/playguide/db/achievement/66fc87535e2/",
+					"isLatestPatch": false,
+					"sourceIndex": 0,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "裁縫職人：見習",
+					"description": "裁縫スキルのレベル11-20のレシピを300回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f038b41c34342411bd0fe70691e0fe839feb5507.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/f038b41c34342411bd0fe70691e0fe839feb5507.png",
+					"url": "/lodestone/playguide/db/achievement/2ed6037050e/",
+					"isLatestPatch": false,
+					"sourceIndex": 1,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "裁縫職人：徒弟",
+					"description": "裁縫スキルのレベル21-30のレシピを750回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f038b41c34342411bd0fe70691e0fe839feb5507.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/f038b41c34342411bd0fe70691e0fe839feb5507.png",
+					"url": "/lodestone/playguide/db/achievement/bbb12bbdbb9/",
+					"isLatestPatch": false,
+					"sourceIndex": 2,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "裁縫職人：下級",
+					"description": "裁縫スキルのレベル31-40のレシピを1,500回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f038b41c34342411bd0fe70691e0fe839feb5507.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/f038b41c34342411bd0fe70691e0fe839feb5507.png",
+					"url": "/lodestone/playguide/db/achievement/6fbecfcd15e/",
+					"isLatestPatch": false,
+					"sourceIndex": 3,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "裁縫職人：上級",
+					"description": "裁縫スキルのレベル41-50のレシピを3,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f038b41c34342411bd0fe70691e0fe839feb5507.png?n5.45",
+					"point": 10,
+					"titleAward": "of the Golden Needle",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/f038b41c34342411bd0fe70691e0fe839feb5507.png",
+					"url": "/lodestone/playguide/db/achievement/7172013c24b/",
+					"isLatestPatch": false,
+					"sourceIndex": 4,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "裁縫の匠",
+					"description": "アチーブメント「裁縫職人：素人」「裁縫職人：見習」「裁縫職人：徒弟」「裁縫職人：下級」「裁縫職人：上級」をすべて達成する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/72/724d78137cad52766bf939c1d39a0ffe8a5835b1.png?n5.45",
+					"point": 30,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/6b01cfef50e/",
+					"itemAward": "ルミナリーニードル",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/72/724d78137cad52766bf939c1d39a0ffe8a5835b1.png?n5.45",
+					"awardCondition": [
+						"裁縫職人：素人",
+						"裁縫職人：見習",
+						"裁縫職人：徒弟",
+						"裁縫職人：下級",
+						"裁縫職人：上級"
+					],
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/724d78137cad52766bf939c1d39a0ffe8a5835b1.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/weaver/724d78137cad52766bf939c1d39a0ffe8a5835b1.png",
+					"url": "/lodestone/playguide/db/achievement/7ed5eedb04d/",
+					"isLatestPatch": false,
+					"sourceIndex": 5,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "裁縫職人：名取",
+					"description": "裁縫スキルのレベル51-60のレシピを1,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f038b41c34342411bd0fe70691e0fe839feb5507.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/f038b41c34342411bd0fe70691e0fe839feb5507.png",
+					"url": "/lodestone/playguide/db/achievement/5bc59426ddb/",
+					"isLatestPatch": false,
+					"sourceIndex": 6,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "裁縫職人：目録",
+					"description": "裁縫スキルのレベル61-70のレシピを1,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f038b41c34342411bd0fe70691e0fe839feb5507.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/f038b41c34342411bd0fe70691e0fe839feb5507.png",
+					"url": "/lodestone/playguide/db/achievement/102e84b188e/",
+					"isLatestPatch": false,
+					"sourceIndex": 7,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "裁縫職人：印可",
+					"description": "裁縫スキルのレベル71-80のレシピを1,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f0/f038b41c34342411bd0fe70691e0fe839feb5507.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/f038b41c34342411bd0fe70691e0fe839feb5507.png",
+					"url": "/lodestone/playguide/db/achievement/8a3024f9518/",
+					"isLatestPatch": false,
+					"sourceIndex": 8,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "裁縫師 製作手帳 種類数",
+			"data": [
+				{
+					"title": "手帳好きの裁縫師：ランク1",
+					"description": "裁縫師のレシピのうち、60種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b1/b1f6420621e883dcfa02adfed4e9e732e761d1b3.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/b1f6420621e883dcfa02adfed4e9e732e761d1b3.png",
+					"url": "/lodestone/playguide/db/achievement/363fa497913/",
+					"isLatestPatch": false,
+					"sourceIndex": 9,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの裁縫師：ランク2",
+					"description": "裁縫師のレシピのうち、120種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b1/b1f6420621e883dcfa02adfed4e9e732e761d1b3.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/b1f6420621e883dcfa02adfed4e9e732e761d1b3.png",
+					"url": "/lodestone/playguide/db/achievement/4aba7256daa/",
+					"isLatestPatch": false,
+					"sourceIndex": 10,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの裁縫師：ランク3",
+					"description": "裁縫師のレシピのうち、250種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b1/b1f6420621e883dcfa02adfed4e9e732e761d1b3.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/56bc295600e/",
+					"itemAward": "マスターウィーバーリング",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/37/378f8ffffa77c2e58c2d9195833e26bb1b0dffb0.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/b1f6420621e883dcfa02adfed4e9e732e761d1b3.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/weaver/378f8ffffa77c2e58c2d9195833e26bb1b0dffb0.png",
+					"url": "/lodestone/playguide/db/achievement/37947c23acb/",
+					"isLatestPatch": false,
+					"sourceIndex": 11,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "手帳好きの裁縫師：ランク4",
+					"description": "裁縫師のレシピのうち、350種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b1/b1f6420621e883dcfa02adfed4e9e732e761d1b3.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/b1f6420621e883dcfa02adfed4e9e732e761d1b3.png",
+					"url": "/lodestone/playguide/db/achievement/737b38a0bd7/",
+					"isLatestPatch": false,
+					"sourceIndex": 12,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 20
+				},
+				{
+					"title": "手帳好きの裁縫師：ランク5",
+					"description": "裁縫師のレシピのうち、470種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b1/b1f6420621e883dcfa02adfed4e9e732e761d1b3.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/0031b169861/",
+					"itemAward": "ブレスド・ボルトキープニードル",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3d/3d7fc0050372eb148a77bc1ad7decd17d1ff4c02.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/b1f6420621e883dcfa02adfed4e9e732e761d1b3.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/weaver/3d7fc0050372eb148a77bc1ad7decd17d1ff4c02.png",
+					"url": "/lodestone/playguide/db/achievement/d4c14faff3a/",
+					"isLatestPatch": false,
+					"sourceIndex": 13,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 43
+				},
+				{
+					"title": "手帳好きの裁縫師：ランク6",
+					"description": "裁縫師のレシピのうち、590種類を製作し、製作手帳に印を付ける",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b1/b1f6420621e883dcfa02adfed4e9e732e761d1b3.png?n5.45",
+					"point": 10,
+					"itemAwardUrl": "https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/9a56d15d11f/",
+					"itemAward": "ブレスド・ボルトキングニードル",
+					"itemAwardImageUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/9b/9b456e863637d31c6ba8efa9fac70982c2dfb581.png?n5.45",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/b1f6420621e883dcfa02adfed4e9e732e761d1b3.png",
+					"itemAwardImagePath": "~/static/achievementData/img/item/crafting_gathering/weaver/9b456e863637d31c6ba8efa9fac70982c2dfb581.png",
+					"url": "/lodestone/playguide/db/achievement/8ed8ad6a282/",
+					"isLatestPatch": false,
+					"sourceIndex": 14,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 68
+				}
+			]
+		},
+		{
+			"title": "裁縫師 HQ 製作回数",
+			"data": [
+				{
+					"title": "腕利きの裁縫師：ランク1",
+					"description": "裁縫師でHQアイテムを計100回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/79/79e65c1c73f01691230b432cf7259ae01fe7b12f.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/79e65c1c73f01691230b432cf7259ae01fe7b12f.png",
+					"url": "/lodestone/playguide/db/achievement/4bf09ae4a49/",
+					"isLatestPatch": false,
+					"sourceIndex": 15,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの裁縫師：ランク2",
+					"description": "裁縫師でHQアイテムを計500回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/79/79e65c1c73f01691230b432cf7259ae01fe7b12f.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/79e65c1c73f01691230b432cf7259ae01fe7b12f.png",
+					"url": "/lodestone/playguide/db/achievement/eaf97daa03c/",
+					"isLatestPatch": false,
+					"sourceIndex": 16,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの裁縫師：ランク3",
+					"description": "裁縫師でHQアイテムを計3,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/79/79e65c1c73f01691230b432cf7259ae01fe7b12f.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/79e65c1c73f01691230b432cf7259ae01fe7b12f.png",
+					"url": "/lodestone/playguide/db/achievement/ddca5ab9843/",
+					"isLatestPatch": false,
+					"sourceIndex": 17,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの裁縫師：ランク4",
+					"description": "裁縫師でHQアイテムを計5,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/79/79e65c1c73f01691230b432cf7259ae01fe7b12f.png?n5.45",
+					"point": 10,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/79e65c1c73f01691230b432cf7259ae01fe7b12f.png",
+					"url": "/lodestone/playguide/db/achievement/7aa70325391/",
+					"isLatestPatch": false,
+					"sourceIndex": 18,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "腕利きの裁縫師：ランク5",
+					"description": "裁縫師でHQアイテムを計10,000回製作する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/79/79e65c1c73f01691230b432cf7259ae01fe7b12f.png?n5.45",
+					"point": 10,
+					"titleAward": "Master Weaver",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/79e65c1c73f01691230b432cf7259ae01fe7b12f.png",
+					"url": "/lodestone/playguide/db/achievement/90982bfb05f/",
+					"isLatestPatch": false,
+					"sourceIndex": 19,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "裁縫師 イシュガルド復興 技巧点",
+			"data": [
+				{
+					"title": "蒼天街の裁縫師：ランク1",
+					"description": "イシュガルド復興において、裁縫師で技巧点を50,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5b/5b9f13279513633962f5ca5f46eb79019edb3226.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/5b9f13279513633962f5ca5f46eb79019edb3226.png",
+					"url": "/lodestone/playguide/db/achievement/523c863d6f9/",
+					"isLatestPatch": false,
+					"sourceIndex": 20,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天街の裁縫師：ランク2",
+					"description": "イシュガルド復興において、裁縫師で技巧点を150,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5b/5b9f13279513633962f5ca5f46eb79019edb3226.png?n5.45",
+					"point": 5,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/5b9f13279513633962f5ca5f46eb79019edb3226.png",
+					"url": "/lodestone/playguide/db/achievement/bffb568dd46/",
+					"isLatestPatch": false,
+					"sourceIndex": 21,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43,
+						78
+					],
+					"adjustmentPatchId": 0
+				},
+				{
+					"title": "蒼天街の裁縫マスター",
+					"description": "イシュガルド復興において、裁縫師で技巧点を500,000点獲得する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5b/5b9f13279513633962f5ca5f46eb79019edb3226.png?n5.45",
+					"point": 10,
+					"titleAward": "Weave of the Firmament",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/5b9f13279513633962f5ca5f46eb79019edb3226.png",
+					"url": "/lodestone/playguide/db/achievement/1586198c139/",
+					"isLatestPatch": false,
+					"sourceIndex": 22,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43,
+						78
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		},
+		{
+			"title": "裁縫師 イシュガルド復興 高難易度レシピ 製作数",
+			"data": [
+				{
+					"title": "ニューネスト居住区の裁縫師",
+					"description": "第二次復興事業計画向け納品において、裁縫師の高難易度レシピのアイテムを100個納品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ab/ab0ae1944fd3cba61cd525db8cd86c30d9129412.png?n5.45",
+					"point": 10,
+					"titleAward": "the Nest's Own Weaver",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/ab0ae1944fd3cba61cd525db8cd86c30d9129412.png",
+					"url": "/lodestone/playguide/db/achievement/3b8f801a7f0/",
+					"isLatestPatch": false,
+					"sourceIndex": 23,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43,
+						78
+					],
+					"adjustmentPatchId": 80
+				},
+				{
+					"title": "フェザーフォール商業区の裁縫師",
+					"description": "第三次復興事業計画向け納品において、裁縫師の高難易度レシピのアイテムを100個納品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/89/89504ecd46800fc8d133b7dfbd2b4a655107300d.png?n5.45",
+					"point": 10,
+					"titleAward": "Featherfall's Finest Weaver",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/89504ecd46800fc8d133b7dfbd2b4a655107300d.png",
+					"url": "/lodestone/playguide/db/achievement/3f7a346dd2e/",
+					"isLatestPatch": false,
+					"sourceIndex": 24,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43,
+						78
+					],
+					"adjustmentPatchId": 83
+				},
+				{
+					"title": "リズンソング文化区の裁縫師",
+					"description": "第四次復興事業計画向け納品において、裁縫師の高難易度レシピのアイテムを100個納品する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3a/3a21606733023fe2cf04b5674e10f83f48e56b1c.png?n5.45",
+					"point": 10,
+					"isLatestPatch": true,
+					"titleAward": "the Risensung Weaver",
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/3a21606733023fe2cf04b5674e10f83f48e56b1c.png",
+					"url": "/lodestone/playguide/db/achievement/25c3d36f574/",
+					"sourceIndex": 25,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						43,
+						78
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}, {
+			"title": "リスプレンデントツール",
+			"data": [
+				{
+					"title": "リスプレンデントツール：リスプレンデント・ボルトフィーンドニードル",
+					"description": "リスプレンデント・ボルトフィーンドニードルを入手する",
+					"iconUrl": "https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ac/ac5ba1abf38684e6ef028b5e942626a31e672e92.png?n5.5",
+					"point": 10,
+					"isLatestPatch": true,
+					"iconPath": "~/static/achievementData/img/crafting_gathering/weaver/ac5ba1abf38684e6ef028b5e942626a31e672e92.png",
+					"url": "/lodestone/playguide/db/achievement/85e1b7ed435/",
+					"sourceIndex": 26,
+					"isCreated": false,
+					"isEdited": false,
+					"tagIds": [
+						18,
+						195
+					],
+					"adjustmentPatchId": 0
+				}
+			]
+		}
+	],
+	"uncategorized": [
+	]
+}
