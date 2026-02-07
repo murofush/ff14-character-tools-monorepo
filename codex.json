@@ -1,0 +1,78 @@
+{
+  "hooks": {
+    "PostToolUse": {
+      "Edit": {
+        "command": "pnpm format -- --write ${filePath}",
+        "description": "Auto-format edited files",
+        "runInBackground": true
+      },
+      "MultiEdit": {
+        "command": "pnpm format -- --write ${filePath}",
+        "description": "Auto-format multi-edited files",
+        "runInBackground": true
+      },
+      "Write": {
+        "command": "pnpm format -- --write ${filePath}",
+        "description": "Auto-format newly written files",
+        "runInBackground": true
+      }
+    },
+    "PreToolUse": {
+      "Bash": {
+        "command": "echo '🔧 Executing: ${command}'",
+        "description": "Log bash commands for transparency"
+      }
+    },
+    "Stop": {
+      "command": "bash scripts/ai/codex-stop-hook.sh",
+      "description": "Session completion + optional Claude auto-review"
+    },
+    "pre-build": {
+      "description": "ビルド前の環境チェック",
+      "commands": [
+        {
+          "name": "環境変数チェック",
+          "command": "test -f .env.local || echo '⚠️  Warning: .env.local not found'",
+          "continueOnError": true
+        },
+        {
+          "name": "型チェック",
+          "command": "pnpm tsc --noEmit",
+          "continueOnError": false
+        }
+      ]
+    },
+    "post-test": {
+      "description": "テスト後のレポート",
+      "commands": [
+        {
+          "name": "カバレッジレポート表示",
+          "command": "echo '📊 テストカバレッジを確認するには: pnpm test:coverage'",
+          "continueOnError": true
+        }
+      ]
+    }
+  },
+  "project": {
+    "name": "FF14 Image Cropper v2",
+    "description": "Next.js App Router版のFF14スクリーンショット編集ツール",
+    "techStack": [
+      "Next.js 15",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "react-konva",
+      "Zustand"
+    ]
+  },
+  "customCommands": {
+    "check": {
+      "description": "すべての品質チェックを実行",
+      "command": "pnpm tsc --noEmit && pnpm lint && pnpm format:check && pnpm test:run"
+    },
+    "fix": {
+      "description": "自動修正可能な問題をすべて修正",
+      "command": "pnpm lint:fix && pnpm format"
+    }
+  }
+}

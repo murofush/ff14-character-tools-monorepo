@@ -12,4 +12,4 @@
 
 ## 仕様一覧
 
-- `docs/spec/example-feature.md`（Draft）
+- `docs/spec/chara-card-creator-react-staged-migration.md`（Draft）

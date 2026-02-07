@@ -17,3 +17,9 @@
 - [DOCS] [ ] 仕様書索引 (`docs/spec/README.md`) を初期化する
 - [DOCS] [ ] 現行の仕様を `docs/spec/*.md` に移し、Draft/Confirmed を明記する
 - [DOCS] [ ] 開発規約と検証コマンドを `AGENTS.md` に反映する
+
+### [P1] Chara Card React段階移行
+
+- [DOCS] [x] `apps/chara-card-creator` の段階移行仕様（Draft）を `docs/spec` に追加する
+- [DOCS] [x] 仕様索引 `docs/spec/README.md` に新規仕様を登録する
+- [DOCS] [ ] 機能同等チェックリスト仕様（画面/データ/API単位）を追加する
