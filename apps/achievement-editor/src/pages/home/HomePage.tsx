@@ -1,3 +1,4 @@
+import { JSX } from 'react'
 import { Link } from 'react-router-dom'
 
 const features = [
@@ -15,7 +16,8 @@ const features = [
   },
 ]
 
-export function HomePage() {
+/** 目的: Topページで主要機能とProfile Builderへの導線を提示する。副作用: なし。前提: ルート`/`で表示される。 */
+export function HomePage(): JSX.Element {
   return (
     <section>
       <div className="hero card">

@@ -1,10 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
-import { App } from './App'
-import './styles.css'
+import { App } from './app/App'
+import './app/styles.css'
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+const rootElement: HTMLElement | null = document.getElementById('root')
+
+if (!rootElement) {
+  throw new Error('root要素が見つからないため、アプリを起動できません。')
+}
+
+ReactDOM.createRoot(rootElement).render(
   <React.StrictMode>
     <BrowserRouter>
       <App />

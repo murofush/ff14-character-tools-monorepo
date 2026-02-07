@@ -23,3 +23,12 @@
 - [DOCS] [x] `apps/chara-card-creator` の段階移行仕様（Draft）を `docs/spec` に追加する
 - [DOCS] [x] 仕様索引 `docs/spec/README.md` に新規仕様を登録する
 - [DOCS] [ ] 機能同等チェックリスト仕様（画面/データ/API単位）を追加する
+- [FE] [x] Home画面のLodestone URL/ID入力導線をReact実装へ移植する
+- [TEST] [x] Lodestone URL/ID正規化ロジックの失敗先行テストを追加する
+- [FE] [x] `src` を React Feature First 構成（`app/pages/features/shared`）へ再編する
+- [TEST] [x] 再編後の import 解決とビルド成功を確認する
+
+### [P1] Achievement Editor React構成統一
+
+- [FE] [x] `apps/achievement-editor/src` を Feature First 構成（`app/pages/features/shared`）へ再編する
+- [TEST] [x] 再編後の import 解決とビルド成功を確認する

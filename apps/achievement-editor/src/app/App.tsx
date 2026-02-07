@@ -1,8 +1,10 @@
+import { JSX } from 'react'
 import { NavLink, Route, Routes } from 'react-router-dom'
-import { HomePage } from './pages/HomePage'
-import { ProfileBuilderPage } from './pages/ProfileBuilderPage'
+import { HomePage } from '../pages/home/HomePage'
+import { ProfileBuilderPage } from '../pages/profile-builder/ProfileBuilderPage'
 
-export function App() {
+/** 目的: achievement-editor全体の共通レイアウトとルーティングを定義する。副作用: なし。前提: BrowserRouter配下で描画される。 */
+export function App(): JSX.Element {
   return (
     <div className="app-shell">
       <header className="app-header">

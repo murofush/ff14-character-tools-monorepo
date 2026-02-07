@@ -1,10 +1,12 @@
+import { JSX } from 'react'
 import { Link, Navigate, Route, Routes } from 'react-router-dom'
-import { AboutPage } from './pages/AboutPage'
-import { EditCharaCardPage } from './pages/EditCharaCardPage'
-import { HomePage } from './pages/HomePage'
-import { SelectAchievementPage } from './pages/SelectAchievementPage'
+import { AboutPage } from '../pages/about/AboutPage'
+import { EditCharaCardPage } from '../pages/edit-chara-card/EditCharaCardPage'
+import { HomePage } from '../pages/home/HomePage'
+import { SelectAchievementPage } from '../pages/select-achievement/SelectAchievementPage'
 
-export function App() {
+/** 目的: 画面共通レイアウトとルーティング定義を集約する。副作用: なし。前提: BrowserRouter配下で描画される。 */
+export function App(): JSX.Element {
   return (
     <div className="layout">
       <header className="header">

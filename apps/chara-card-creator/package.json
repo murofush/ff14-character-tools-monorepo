@@ -9,6 +9,7 @@
   },
   "scripts": {
     "dev": "vite",
+    "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "build": "pnpm run typecheck && vite build",
     "preview": "vite preview"
@@ -24,6 +25,7 @@
     "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react-swc": "^4.0.0",
     "typescript": "^5.7.0",
-    "vite": "^6.0.0"
+    "vite": "^6.0.0",
+    "vitest": "^4.0.18"
   }
 }

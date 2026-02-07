@@ -1,38 +1,49 @@
-import { FormEvent, useMemo, useState } from 'react'
+import { ChangeEvent, JSX, useMemo, useState } from 'react'
 import {
+  type ProfileForm,
+  type TemplateKey,
   buildProfileText,
   createInitialForm,
   playStyles,
   templateOptions,
   templateValues,
-  TemplateKey,
-} from '../lib/profileTemplates'
+} from '../../features/profile-builder/lib/profileTemplates'
 
-export function ProfileBuilderPage() {
+/** 目的: selectの生文字列をTemplateKeyへ安全に変換する。副作用: なし。前提: 候補は`templateOptions`で管理される。 */
+function toTemplateKey(rawValue: string): TemplateKey {
+  const foundOption = templateOptions.find((option) => option.key === rawValue)
+  return foundOption?.key ?? 'fixed'
+}
+
+/** 目的: 自己紹介テンプレート編集・プレビュー・コピー機能を提供する。副作用: クリップボード書き込みを行う。前提: ルート`/profile-builder`で表示される。 */
+export function ProfileBuilderPage(): JSX.Element {
   const [template, setTemplate] = useState<TemplateKey>('fixed')
-  const [form, setForm] = useState(createInitialForm)
-  const [message, setMessage] = useState('')
+  const [form, setForm] = useState<ProfileForm>(createInitialForm)
+  const [message, setMessage] = useState<string>('')
 
-  const selectedTemplateLabel =
+  const selectedTemplateLabel: string =
     templateOptions.find((option) => option.key === template)?.label ?? ''
 
-  const profileText = useMemo(
+  const profileText: string = useMemo(
     () => buildProfileText(selectedTemplateLabel, form),
     [form, selectedTemplateLabel]
   )
 
-  const applyTemplate = (nextTemplate: TemplateKey) => {
+  /** 目的: テンプレート切り替え時に推奨初期値をフォームへ適用する。副作用: React stateを更新する。前提: `nextTemplate` は有効なTemplateKey。 */
+  const applyTemplate = (nextTemplate: TemplateKey): void => {
     setTemplate(nextTemplate)
     setForm((current) => ({ ...current, ...templateValues[nextTemplate] }))
   }
 
-  const resetForm = () => {
+  /** 目的: 現在選択中テンプレートに基づきフォームを初期化する。副作用: React stateを更新する。前提: `template` が定義済みである。 */
+  const resetForm = (): void => {
     const base = createInitialForm()
     setForm({ ...base, ...templateValues[template] })
     setMessage('フォームをリセットしました。')
   }
 
-  const copyProfile = async () => {
+  /** 目的: 生成済み自己紹介文をクリップボードへコピーする。副作用: クリップボード書き込みとメッセージ更新を行う。前提: `navigator.clipboard` が利用可能である。 */
+  const copyProfile = async (): Promise<void> => {
     if (!navigator.clipboard) {
       setMessage('この環境ではコピー機能を利用できません。')
       return
@@ -42,11 +53,13 @@ export function ProfileBuilderPage() {
     setMessage('自己紹介文をコピーしました。')
   }
 
-  const onTemplateChange = (event: FormEvent<HTMLSelectElement>) => {
-    applyTemplate(event.currentTarget.value as TemplateKey)
+  /** 目的: テンプレート選択UIの変更を状態に反映する。副作用: React stateを更新する。前提: select要素のchangeイベントである。 */
+  const onTemplateChange = (event: ChangeEvent<HTMLSelectElement>): void => {
+    applyTemplate(toTemplateKey(event.currentTarget.value))
   }
 
-  const onFieldChange = (key: keyof typeof form, value: string) => {
+  /** 目的: 任意フィールドの入力値をフォーム状態へ反映する。副作用: React stateを更新する。前提: `key` はProfileFormのキーである。 */
+  const onFieldChange = (key: keyof ProfileForm, value: string): void => {
     setForm((current) => ({ ...current, [key]: value }))
   }
 
@@ -115,7 +128,8 @@ type ControlProps = {
   onChange: (value: string) => void
 }
 
-function Input({ label, value, onChange }: ControlProps) {
+/** 目的: 1行テキスト入力を共通表示する。副作用: なし。前提: 親から制御コンポーネントとして値と更新関数を受け取る。 */
+function Input({ label, value, onChange }: ControlProps): JSX.Element {
   return (
     <label>
       {label}
@@ -124,7 +138,8 @@ function Input({ label, value, onChange }: ControlProps) {
   )
 }
 
-function Textarea({ label, value, onChange }: ControlProps) {
+/** 目的: 複数行テキスト入力を共通表示する。副作用: なし。前提: 親から制御コンポーネントとして値と更新関数を受け取る。 */
+function Textarea({ label, value, onChange }: ControlProps): JSX.Element {
   return (
     <label>
       {label}
