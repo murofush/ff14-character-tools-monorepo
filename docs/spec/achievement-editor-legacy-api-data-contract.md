@@ -172,6 +172,8 @@
 - `docs/spec/achievement-editor-product-charter.md`
 - `docs/spec/achievement-editor-legacy-screen-responsibilities.md`
 - `docs/spec/achievement-editor-functional-equivalence-checklist.md`
+- `docs/spec/achievement-editor-backend-api-spec.md`
+- `docs/spec/achievement-editor-backend-runtime-config.md`
 - `apps/achievement-editor/components/achievementCreator.vue`
 - `apps/achievement-editor/components/itemsEditor.vue`
 - `apps/achievement-editor/pages/tag.vue`

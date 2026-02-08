@@ -6,6 +6,7 @@ FF14向けツール群を `pnpm` ワークスペースで一元管理するモ�
 
 - `apps/chara-card-creator` (`@ff14/chara-card-creator`)
 - `apps/achievement-editor` (`@ff14/achievement-editor`)
+- `apps/backend` (`@ff14/achievement-backend`)
 - `packages/tsconfig` (共通 TypeScript 設定)
 
 ## 前提
@@ -27,12 +28,14 @@ pnpm install
 pnpm dev
 pnpm dev:chara
 pnpm dev:achievement
+pnpm dev:backend
 ```
 
 ## ビルド
 
 ```bash
 pnpm build
+pnpm build:backend
 ```
 
 ## 型チェック / Lint
@@ -47,6 +50,7 @@ pnpm lint
 ```bash
 pnpm build:chara
 pnpm build:achievement
+pnpm test:backend
 pnpm preview:chara
 pnpm preview:achievement
 ```

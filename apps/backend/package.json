@@ -1,0 +1,10 @@
+{
+  "name": "@ff14/achievement-backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "bash ./scripts/run-go.sh run ./cmd/server",
+    "build": "bash ./scripts/run-go.sh build ./...",
+    "test": "bash ./scripts/run-go.sh test ./..."
+  }
+}

@@ -19,3 +19,5 @@
 - `docs/spec/achievement-editor-legacy-screen-responsibilities.md`（Confirmed）
 - `docs/spec/achievement-editor-legacy-api-data-contract.md`（Confirmed）
 - `docs/spec/achievement-editor-functional-equivalence-checklist.md`（Confirmed）
+- `docs/spec/achievement-editor-backend-api-spec.md`（Confirmed）
+- `docs/spec/achievement-editor-backend-runtime-config.md`（Confirmed）

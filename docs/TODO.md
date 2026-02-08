@@ -53,3 +53,17 @@
 - [DOCS] [x] `front / admin-front / backend` の責務分離を仕様化する
 - [DOCS] [x] `achievementData` の取得経路（Cloud Storage）と保存経路（backend API）を仕様へ反映する
 - [DOCS] [x] `AchievementFetcher` をバッチ責務として明記し、実行時API責務と分離する
+
+### [P1] Backend API 仕様具体化
+
+- [DOCS] [x] `/api/save_text` `/api/get_hidden_achievement` `/api/get_icon_img` `/api/get_item_infomation` の実装仕様を作成する
+- [DOCS] [x] backend の実行環境・権限・CORS・監視設定の仕様を作成する
+- [DOCS] [x] 仕様索引と関連仕様リンクを同期する
+- [DOCS] [x] 推奨案（認証/エラー方針/JSON検証/履歴管理/デプロイ）で仕様を確定する
+
+### [P1] Backend API Go 実装（Phase 1）
+
+- [BE] [x] `apps/backend` に `/api/save_text` `/api/get_hidden_achievement` `/api/get_icon_img` `/api/get_item_infomation` を実装する
+- [TEST] [x] backend API の認証/バリデーション/互換レスポンスの失敗先行テストを追加し、`go test` を通す
+- [BE] [x] ローカル保存用 `TextStorage` 実装と固定トークン `TokenValidator` 実装を追加する
+- [CROSS] [x] `pnpm` から backend を起動/ビルド/テストできるコマンドを追加する

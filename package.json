@@ -15,8 +15,11 @@
     "lint": "pnpm -r --filter \"./apps/*\" --if-present lint",
     "dev:chara": "pnpm --filter @ff14/chara-card-creator dev",
     "dev:achievement": "pnpm --filter @ff14/achievement-editor dev",
+    "dev:backend": "pnpm --filter @ff14/achievement-backend dev",
     "build:chara": "pnpm --filter @ff14/chara-card-creator build",
     "build:achievement": "pnpm --filter @ff14/achievement-editor build",
+    "build:backend": "pnpm --filter @ff14/achievement-backend build",
+    "test:backend": "pnpm --filter @ff14/achievement-backend test",
     "lint:achievement": "pnpm --filter @ff14/achievement-editor lint",
     "preview:chara": "pnpm --filter @ff14/chara-card-creator preview",
     "preview:achievement": "pnpm --filter @ff14/achievement-editor preview"
