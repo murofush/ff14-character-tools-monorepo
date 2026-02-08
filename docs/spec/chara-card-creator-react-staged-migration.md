@@ -71,5 +71,5 @@
 
 - `docs/spec/README.md`
 - `docs/TODO.md`
-- `apps/chara-card-creator/src/App.tsx`
+- `apps/chara-card-creator/src/app/App.tsx`
 - `apps/chara-card-creator/AGENTS.md`

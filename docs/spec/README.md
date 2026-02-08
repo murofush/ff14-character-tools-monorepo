@@ -13,3 +13,9 @@
 ## 仕様一覧
 
 - `docs/spec/chara-card-creator-react-staged-migration.md`（Draft）
+- `docs/spec/chara-card-creator-product-charter.md`（Draft）
+- `docs/spec/monorepo-product-architecture.md`（Confirmed）
+- `docs/spec/achievement-editor-product-charter.md`（Confirmed）
+- `docs/spec/achievement-editor-legacy-screen-responsibilities.md`（Confirmed）
+- `docs/spec/achievement-editor-legacy-api-data-contract.md`（Confirmed）
+- `docs/spec/achievement-editor-functional-equivalence-checklist.md`（Confirmed）

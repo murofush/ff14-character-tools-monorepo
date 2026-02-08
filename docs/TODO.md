@@ -32,3 +32,24 @@
 
 - [FE] [x] `apps/achievement-editor/src` を Feature First 構成（`app/pages/features/shared`）へ再編する
 - [TEST] [x] 再編後の import 解決とビルド成功を確認する
+
+### [P1] プロダクト定義整理
+
+- [DOCS] [x] `chara-card-creator` のプロダクト定義（目的/画面責務/スコープ/受け入れ条件/移行境界）を仕様化する
+- [DOCS] [x] `achievement-editor` のプロダクト定義（目的/画面責務/スコープ/受け入れ条件/移行境界）を仕様化する
+- [DOCS] [x] 仕様索引 `docs/spec/README.md` に新規仕様を登録する
+
+### [P1] Achievement Editor 旧実装SSOT確定
+
+- [DOCS] [x] `achievement-editor` のプロダクト定義を「旧Vue実装をSSOT」とする内容へ改訂する
+- [DOCS] [x] 旧実装ベースの画面責務・機能スコープ・互換方針を明文化する
+- [DOCS] [x] 仕様索引のステータスを同期する（Draft/Confirmed）
+- [DOCS] [x] 旧実装の画面責務仕様（ルート/コンポーネント責務）を追加する
+- [DOCS] [x] 旧実装のAPI・データ契約仕様（保存/取得/ID再採番）を追加する
+- [DOCS] [x] 機能同等チェックリスト（機能完全移植判定用）を追加する
+
+### [P1] モノレポ責務定義の再固定
+
+- [DOCS] [x] `front / admin-front / backend` の責務分離を仕様化する
+- [DOCS] [x] `achievementData` の取得経路（Cloud Storage）と保存経路（backend API）を仕様へ反映する
+- [DOCS] [x] `AchievementFetcher` をバッチ責務として明記し、実行時API責務と分離する
