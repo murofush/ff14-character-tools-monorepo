@@ -16,6 +16,7 @@ import (
 	"time"
 
 	"github.com/PuerkitoBio/goquery"
+	"github.com/ff14/achievement-backend/internal/apperrors"
 )
 
 var (
@@ -35,9 +36,11 @@ const (
 )
 
 type Config struct {
-	StrictJSONValidation bool
-	ErrorMode            ErrorMode
-	RequestTimeout       time.Duration
+	StrictJSONValidation  bool
+	ErrorMode             ErrorMode
+	RequestTimeout        time.Duration
+	SaveTextRatePerMinute int
+	GetRatePerMinute      int
 }
 
 type TokenValidator interface {
@@ -46,6 +49,7 @@ type TokenValidator interface {
 
 type TextStorage interface {
 	SaveText(ctx context.Context, path string, body []byte) error
+	SaveBinary(ctx context.Context, path string, body []byte, contentType string) error
 }
 
 type LocalError struct {
@@ -101,6 +105,7 @@ type Server struct {
 	config         Config
 	tokenValidator TokenValidator
 	textStorage    TextStorage
+	rateLimiter    RateLimiter
 	mux            *http.ServeMux
 	httpClient     *http.Client
 }
@@ -111,10 +116,21 @@ func NewServer(config Config, tokenValidator TokenValidator, textStorage TextSto
 	if timeout <= 0 {
 		timeout = 15 * time.Second
 	}
+	saveTextRatePerMinute := config.SaveTextRatePerMinute
+	if saveTextRatePerMinute <= 0 {
+		saveTextRatePerMinute = 20
+	}
+	getRatePerMinute := config.GetRatePerMinute
+	if getRatePerMinute <= 0 {
+		getRatePerMinute = 60
+	}
+	config.SaveTextRatePerMinute = saveTextRatePerMinute
+	config.GetRatePerMinute = getRatePerMinute
 	server := &Server{
 		config:         config,
 		tokenValidator: tokenValidator,
 		textStorage:    textStorage,
+		rateLimiter:    NewInMemoryRateLimiter(saveTextRatePerMinute, getRatePerMinute),
 		mux:            http.NewServeMux(),
 		httpClient: &http.Client{
 			Timeout: timeout,
@@ -126,7 +142,7 @@ func NewServer(config Config, tokenValidator TokenValidator, textStorage TextSto
 
 // 目的: サーバのHTTPハンドラを外部公開する。副作用: なし。前提: NewServerで初期化済みである。
 func (s *Server) Handler() http.Handler {
-	return s.mux
+	return s.withRequestLogging(s.mux)
 }
 
 // 目的: APIエンドポイントを登録する。副作用: ServeMuxへハンドラを設定する。前提: サーバ初期化処理中に1回だけ呼ばれる。
@@ -150,11 +166,21 @@ func (s *Server) withAuth(next http.HandlerFunc) http.HandlerFunc {
 			http.Error(w, "unauthorized", http.StatusUnauthorized)
 			return
 		}
-		if _, err := s.tokenValidator.ValidateToken(r.Context(), token); err != nil {
+		uid, err := s.tokenValidator.ValidateToken(r.Context(), token)
+		if err != nil {
 			http.Error(w, "unauthorized", http.StatusUnauthorized)
 			return
 		}
-		next(w, r)
+		if !s.rateLimiter.Allow(uid, r.URL.Path) {
+			if strings.HasPrefix(r.URL.Path, "/api/get_") && s.config.ErrorMode == ErrorModeCompat {
+				writeJSON(w, http.StatusOK, LocalError{Key: "rate_limit_exceeded", Value: "request rate limit exceeded"})
+				return
+			}
+			http.Error(w, "too many requests", http.StatusTooManyRequests)
+			return
+		}
+		ctx := context.WithValue(r.Context(), contextKeyActorUID, uid)
+		next(w, r.WithContext(ctx))
 	}
 }
 
@@ -182,6 +208,10 @@ func (s *Server) handleSaveText(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	if err := s.textStorage.SaveText(r.Context(), req.Path, []byte(req.Text)); err != nil {
+		if errors.Is(err, apperrors.ErrPermissionDenied) {
+			http.Error(w, "permission denied", http.StatusForbidden)
+			return
+		}
 		http.Error(w, "failed to save text", http.StatusInternalServerError)
 		return
 	}
@@ -239,6 +269,15 @@ func (s *Server) handleGetIconImg(w http.ResponseWriter, r *http.Request) {
 	}
 	iconName := extractLoadstoneImageName(iconURL)
 	iconPath := fmt.Sprintf("achievementData/img/%s/%s/%s", category, group, iconName)
+	imageBody, contentType, err := s.fetchBinary(r.Context(), iconURL)
+	if err != nil {
+		s.respondLocalError(w, http.StatusBadGateway, "fetch_icon_image_error", err.Error())
+		return
+	}
+	if err := s.textStorage.SaveBinary(r.Context(), iconPath, imageBody, contentType); err != nil {
+		s.respondLocalError(w, http.StatusInternalServerError, "save_icon_image_error", err.Error())
+		return
+	}
 	writeJSON(w, http.StatusOK, iconPath)
 }
 
@@ -348,6 +387,13 @@ func (s *Server) fetchItemInfo(ctx context.Context, itemURL string, category str
 		return FetchedItemData{}, errors.New("required item fields are missing")
 	}
 	itemPath := fmt.Sprintf("achievementData/img/%s/%s/item/%s", category, group, extractLoadstoneImageName(imageURL))
+	imageBody, contentType, err := s.fetchBinary(ctx, imageURL)
+	if err != nil {
+		return FetchedItemData{}, err
+	}
+	if err := s.textStorage.SaveBinary(ctx, itemPath, imageBody, contentType); err != nil {
+		return FetchedItemData{}, err
+	}
 	return FetchedItemData{
 		ItemAward:          name,
 		ItemAwardURL:       itemURL,
@@ -379,6 +425,31 @@ func (s *Server) fetchHTML(ctx context.Context, targetURL string) (string, error
 		return "", err
 	}
 	return string(body), nil
+}
+
+// 目的: 外部URLからバイナリを取得する共通処理を提供する。副作用: HTTPリクエストを送信する。前提: targetURLはhttp/https形式である。
+func (s *Server) fetchBinary(ctx context.Context, targetURL string) ([]byte, string, error) {
+	parsedURL, err := url.ParseRequestURI(targetURL)
+	if err != nil {
+		return nil, "", err
+	}
+	req, err := http.NewRequestWithContext(ctx, http.MethodGet, parsedURL.String(), nil)
+	if err != nil {
+		return nil, "", err
+	}
+	resp, err := s.httpClient.Do(req)
+	if err != nil {
+		return nil, "", err
+	}
+	defer resp.Body.Close()
+	if resp.StatusCode < 200 || resp.StatusCode >= 300 {
+		return nil, "", fmt.Errorf("failed to fetch binary: status=%d", resp.StatusCode)
+	}
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, "", err
+	}
+	return body, resp.Header.Get("Content-Type"), nil
 }
 
 // 目的: Lodestone画像URLからファイル名部分を取り出す。副作用: なし。前提: URLはパス末尾にファイル名を含む。

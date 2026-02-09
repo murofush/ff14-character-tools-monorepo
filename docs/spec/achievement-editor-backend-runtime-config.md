@@ -4,6 +4,7 @@
 
 - 状態: Confirmed
 - 決定日: 2026-02-08
+- 最終更新日: 2026-02-09
 
 ## 目的/背景
 
@@ -22,20 +23,38 @@
 2. 必須環境変数
 - `PORT`
   - API待受ポート（Cloud Run では通常 `8080`）
+- `AUTH_BACKEND`
+  - 認証方式（`firebase` / `static`）
+  - 本番推奨: `firebase`
+  - ローカル推奨: `static`
+- `FIREBASE_PROJECT_ID`
+  - `AUTH_BACKEND=firebase` 時の Firebase ID Token 検証対象プロジェクトID
+- `FIREBASE_AUTH_EMULATOR_HOST`（任意）
+  - ローカル検証時のエミュレータ接続先
+- `STATIC_BEARER_TOKEN`
+  - `AUTH_BACKEND=static` 時の Bearer トークン
+- `STATIC_OPERATOR_UID`
+  - `AUTH_BACKEND=static` 時の認証成功UID（ログ記録用）
+- `STORAGE_BACKEND`
+  - 保存先方式（`gcs` / `local`）
+  - 本番推奨: `gcs`
+  - ローカル推奨: `local`
 - `FORFAN_RESOURCES_BUCKET`
-  - 保存対象バケット名（既定: `forfan-resource`）
-- `FORFAN_RESOURCES_PUBLIC_BASE_URL`
-  - 公開参照URL（既定: `https://forfan-resource.storage.googleapis.com`）
+  - `STORAGE_BACKEND=gcs` 時の保存対象バケット名（既定: `forfan-resource`）
+- `FORFAN_RESOURCES_PREFIX`（任意）
+  - `STORAGE_BACKEND=gcs` 時のオブジェクトprefix
+- `BACKEND_SAVE_ROOT`
+  - `STORAGE_BACKEND=local` 時の保存先ルート
 - `ADMIN_FRONT_ORIGIN`
   - CORS 許可する admin-front の origin
 - `LODSTONE_REQUEST_TIMEOUT_MS`
   - Lodestone取得タイムアウト（推奨: `15000`）
 - `ENABLE_STRICT_JSON_VALIDATION`
   - `save_text` で JSON 厳格検証するか（`true`/`false`）
-- `FIREBASE_PROJECT_ID`
-  - Firebase ID Token 検証対象プロジェクトID
-- `FIREBASE_AUTH_EMULATOR_HOST`（任意）
-  - ローカル検証時のエミュレータ接続先
+- `SAVE_TEXT_RATE_LIMIT_PER_MINUTE`
+  - `save_text` の利用者単位レート上限（既定: `20`）
+- `GET_RATE_LIMIT_PER_MINUTE`
+  - `get_*` の利用者単位レート上限（既定: `60`）
 
 3. 認可要件
 - API実行サービスアカウントに以下権限を付与する。
@@ -55,6 +74,7 @@
   - durationMs
   - status
   - errorCode（失敗時）
+  - actorUid（認証済み時）
 - 監視アラート基準（初期値）:
   - 5xx 比率 > 5%（5分）
   - `save_text` 失敗連続 10 回
@@ -72,7 +92,7 @@
   - `get_*` は `4xx/5xx + LocalError` へ移行
 
 8. ローカル開発
-- `apps/backend` は `.env.local` で上記環境変数を読み込む。
+- `apps/backend` は `AUTH_BACKEND=static` と `STORAGE_BACKEND=local` で単体起動できる。
 - 疎通確認:
   - `POST /api/save_text` にテストJSONを送って保存確認
   - `GET /api/get_hidden_achievement` に検証URLを送って抽出確認

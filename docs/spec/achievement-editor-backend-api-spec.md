@@ -4,6 +4,7 @@
 
 - 状態: Confirmed
 - 決定日: 2026-02-08
+- 最終更新日: 2026-02-09
 
 ## 目的/背景
 
@@ -45,6 +46,7 @@
 - エラー:
   - `401/403` 認証・認可失敗
   - `400` バリデーション失敗
+  - `429` レート制限超過
   - `500` 保存失敗
 
 4. `GET /api/get_hidden_achievement`
@@ -80,6 +82,7 @@
   - `200` + `string`（`iconPath`）
 - レスポンス（失敗）:
   - `LocalError` 互換で返す。
+  - サーバ側で画像保存に失敗した場合も `LocalError` を返す。
 
 6. `GET /api/get_item_infomation`
 - 用途:
@@ -98,6 +101,7 @@
   - `itemAwardImagePath`
 - レスポンス（失敗）:
   - `LocalError` 互換で返す。
+  - 画像保存に失敗した場合も `LocalError` を返す。
 
 7. 認証・認可
 - 採用方式:
@@ -112,6 +116,7 @@
 - 各APIで `requestId` を発行し、成功/失敗ログを構造化出力する。
 - レート制限:
   - `get_*` 系は利用者単位で制限（例: 60 req/min）。
+  - `save_text` は利用者単位で制限（例: 20 req/min）。
 - タイムアウト:
   - Lodestone取得系は 15 秒を上限に設定する。
 
@@ -131,6 +136,7 @@
 - 旧 front からエンドポイント名変更なしで接続できる。
 - `save_text` が許可パスのみ保存し、それ以外を拒否できる。
 - `get_hidden_achievement` / `get_icon_img` / `get_item_infomation` が `LocalError` 互換で失敗を返せる。
+- `get_icon_img` / `get_item_infomation` で返却パスに対応する画像保存が実行される。
 - 手動確認で `docs/spec/achievement-editor-functional-equivalence-checklist.md` の F/I/J/K を満たせる。
 - Firebase ID Token が無効な場合に `401` を返せる。
 - 監査ログが保存更新単位で記録される。

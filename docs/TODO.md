@@ -67,3 +67,14 @@
 - [TEST] [x] backend API の認証/バリデーション/互換レスポンスの失敗先行テストを追加し、`go test` を通す
 - [BE] [x] ローカル保存用 `TextStorage` 実装と固定トークン `TokenValidator` 実装を追加する
 - [CROSS] [x] `pnpm` から backend を起動/ビルド/テストできるコマンドを追加する
+
+### [P1] Backend API Go 実装（Phase 2: 本番互換）
+
+- [BE] [x] 固定トークン認証を Firebase ID Token 検証へ切替可能にする（`AUTH_BACKEND=firebase`）
+- [BE] [x] `save_text` の保存先を Cloud Storage (`STORAGE_BACKEND=gcs`) へ切替可能にする
+- [BE] [x] `get_icon_img` / `get_item_infomation` で画像保存を実装し、返却パスと実体を一致させる
+- [BE] [x] `requestId` 付き構造化ログ（成功/失敗）を実装する
+- [BE] [x] `get_*` 系 / `save_text` のレート制限を実装する
+- [TEST] [x] Firebase 認証失敗時 / 権限不足時のエラー系テストを追加する
+- [TEST] [x] Cloud Storage 保存成功/失敗のユニットテストを追加する
+- [TEST] [ ] Cloud Run + 実GCSバケットでのE2E疎通テストを追加する

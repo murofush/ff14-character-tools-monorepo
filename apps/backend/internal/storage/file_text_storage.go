@@ -57,3 +57,8 @@ func (s *FileTextStorage) SaveText(ctx context.Context, relativePath string, bod
 	}
 	return os.WriteFile(absTargetPath, body, 0o644)
 }
+
+// 目的: 相対パス配下へバイナリを保存する。副作用: ディレクトリ作成とファイル上書きを行う。前提: relativePathはbaseDir配下を指す相対パスである。
+func (s *FileTextStorage) SaveBinary(ctx context.Context, relativePath string, body []byte, _ string) error {
+	return s.SaveText(ctx, relativePath, body)
+}
