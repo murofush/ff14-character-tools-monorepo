@@ -33,6 +33,22 @@
 - [FE] [x] `apps/achievement-editor/src` を Feature First 構成（`app/pages/features/shared`）へ再編する
 - [TEST] [x] 再編後の import 解決とビルド成功を確認する
 
+### [P1] React UI基盤統一（Tailwind + Headless UI）
+
+- [FE] [x] `apps/chara-card-creator` に Tailwind / PostCSS 設定を導入し、既存ページをTailwindクラスへ置換する
+- [FE] [x] `apps/chara-card-creator` に shadcn/ui 互換プリミティブ（Button/Card/Input/Textarea/Badge）を追加する
+- [FE] [x] `apps/chara-card-creator` の共通ナビを Headless UI（Disclosure）でモバイル対応する
+- [FE] [x] `apps/achievement-editor` に Tailwind / PostCSS 設定を導入し、既存ページをTailwindクラスへ置換する
+- [FE] [x] `apps/achievement-editor` に shadcn/ui 互換プリミティブ（Button/Card/Input/Textarea/Badge）を追加する
+- [FE] [x] `apps/achievement-editor` の共通ナビと主要UIで Headless UI（Disclosure/Listbox/Tab）を採用する
+- [TEST] [x] 旧ルート群のReact側定義をテストで追加し、`pnpm --filter @ff14/chara-card-creator test` を通す
+- [TEST] [x] 旧ルート群のReact側定義をテストで追加し、`pnpm --filter @ff14/achievement-editor test` を通す
+- [TEST] [x] `pnpm --filter @ff14/chara-card-creator build` と `pnpm --filter @ff14/achievement-editor build` の成功を確認する
+- [FE] [x] `achievement-editor` の `itemsEditor` コア処理（並び替え/グループ作成削除/タグ・パッチ共通値/未分類↔分類移動）を純関数として移植する
+- [FE] [x] `achievement-editor` のカテゴリ編集ページに上記コア処理を接続し、カテゴリ差分とローカル保存導線を実装する
+- [TEST] [x] コア処理の失敗先行テストを追加し、`pnpm --filter @ff14/achievement-editor test` / `build` の成功を確認する
+- [FE] [ ] 旧Vue実装の編集ロジック（カテゴリ編集/タグ管理/パッチ管理）の機能完全移植を継続する
+
 ### [P1] プロダクト定義整理
 
 - [DOCS] [x] `chara-card-creator` のプロダクト定義（目的/画面責務/スコープ/受け入れ条件/移行境界）を仕様化する

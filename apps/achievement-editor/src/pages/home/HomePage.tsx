@@ -1,5 +1,8 @@
 import { JSX } from 'react'
 import { Link } from 'react-router-dom'
+import { Badge } from '../../shared/ui/badge'
+import { Button } from '../../shared/ui/button'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../../shared/ui/card'
 
 const features = [
   {
@@ -19,22 +22,30 @@ const features = [
 /** 目的: Topページで主要機能とProfile Builderへの導線を提示する。副作用: なし。前提: ルート`/`で表示される。 */
 export function HomePage(): JSX.Element {
   return (
-    <section>
-      <div className="hero card">
-        <span className="badge">React + Vite SPA</span>
-        <h1>FF14自己紹介メーカー</h1>
-        <p>固定募集・フレンド募集・FC募集に使える自己紹介文を、簡単に作成できます。</p>
-        <Link className="button" to="/profile-builder">
-          今すぐ作成する
-        </Link>
-      </div>
+    <section className="space-y-4">
+      <Card className="bg-[linear-gradient(135deg,#fff4e8_0%,#ffffff_70%)]">
+        <CardHeader>
+          <Badge className="w-fit">Admin Front</Badge>
+          <CardTitle>Achievement Editor (React)</CardTitle>
+          <CardDescription>
+            旧Vue実装SSOTに基づき、カテゴリ編集・タグ管理・パッチ管理ルートを React 側へ集約しています。
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <Button asChild>
+            <Link to="/battle">カテゴリ編集を開く</Link>
+          </Button>
+        </CardContent>
+      </Card>
 
-      <div className="feature-grid">
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {features.map((feature) => (
-          <article key={feature.title} className="card feature-card">
-            <h3>{feature.title}</h3>
-            <p>{feature.description}</p>
-          </article>
+          <Card key={feature.title}>
+            <CardHeader>
+              <CardTitle className="text-lg">{feature.title}</CardTitle>
+              <CardDescription>{feature.description}</CardDescription>
+            </CardHeader>
+          </Card>
         ))}
       </div>
     </section>

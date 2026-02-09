@@ -6,6 +6,9 @@ import {
   readRecentCharacterSummary,
   writeRecentCharacterSummary,
 } from '../../features/home/recentCharacterStorage'
+import { Badge } from '../../shared/ui/badge'
+import { Button } from '../../shared/ui/button'
+import { Input } from '../../shared/ui/input'
 import { PageCard } from '../../shared/ui/PageCard'
 
 const lodestoneInputHint =
@@ -74,58 +77,52 @@ export function HomePage(): JSX.Element {
   }
 
   return (
-    <PageCard title="Home" description="Lodestone URL/IDの入力導線をReact側へ段階移行しました。">
-      <section className="home-section">
-        <h3>新規のキャラクターから名刺を作成</h3>
-        <form onSubmit={handleSubmit} className="home-form">
-          <label htmlFor="lodestone-url" className="home-label">
+    <PageCard title="Home" description="旧Vue導線の入力フローをReact画面へ移行しました。">
+      <section className="space-y-4 rounded-2xl border border-[var(--line)] bg-white/85 p-5">
+        <div className="flex items-center gap-2">
+          <h3 className="font-display text-xl font-bold">新規のキャラクターから名刺を作成</h3>
+          <Badge variant="subtle">Step 1</Badge>
+        </div>
+        <form onSubmit={handleSubmit} className="grid gap-3">
+          <label htmlFor="lodestone-url" className="text-sm font-semibold text-[var(--ink-subtle)]">
             Lodestone URL / Character ID
           </label>
-          <input
-            id="lodestone-url"
-            className="home-input"
-            value={inputValue}
-            onChange={handleInputChange}
-            placeholder={lodestoneInputHint}
-            autoComplete="off"
-          />
-          <p className="home-hint">{lodestoneInputHint}</p>
-          {errorMessage !== '' ? <p className="home-error">{errorMessage}</p> : null}
-          <div className="home-actions">
-            <button type="button" className="home-button home-button-secondary" onClick={handleClickHowTo}>
+          <Input id="lodestone-url" value={inputValue} onChange={handleInputChange} placeholder={lodestoneInputHint} autoComplete="off" />
+          <p className="text-sm text-[var(--ink-subtle)]">{lodestoneInputHint}</p>
+          {errorMessage !== '' ? <p className="text-sm font-semibold text-[var(--danger)]">{errorMessage}</p> : null}
+          <div className="flex flex-wrap justify-end gap-2">
+            <Button type="button" variant="secondary" onClick={handleClickHowTo}>
               つかいかた
-            </button>
-            <button type="submit" className="home-button">
-              取得
-            </button>
+            </Button>
+            <Button type="submit">取得</Button>
           </div>
         </form>
       </section>
 
       {recentCharacter ? (
-        <section className="home-section">
-          <h3>最新の入力済みキャラクターから名刺を作成</h3>
+        <section className="space-y-3 rounded-2xl border border-[var(--line)] bg-white/85 p-5">
+          <h3 className="font-display text-xl font-bold">最新の入力済みキャラクターから名刺を作成</h3>
           <button
             type="button"
-            className="recent-card"
+            className="w-full rounded-2xl border border-[var(--line)] bg-[var(--surface-alt)] p-4 text-left transition hover:border-[var(--brand)]"
             onClick={handleSelectRecentCharacter}
             aria-label="最新入力キャラクターを選択"
           >
-            <p className="recent-card-name">Character ID: {recentCharacter.characterId}</p>
-            <p className="recent-card-sub">最終入力日: {formatDateText(recentCharacter.fetchedAt)}</p>
+            <p className="text-base font-semibold">Character ID: {recentCharacter.characterId}</p>
+            <p className="text-sm text-[var(--ink-subtle)]">最終入力日: {formatDateText(recentCharacter.fetchedAt)}</p>
           </button>
         </section>
       ) : null}
 
-      <section id="how-to" className="home-section">
-        <h3>つかいかた</h3>
-        <ol className="home-howto-list">
+      <section id="how-to" className="space-y-3 rounded-2xl border border-[var(--line)] bg-white/85 p-5">
+        <h3 className="font-display text-xl font-bold">つかいかた</h3>
+        <ol className="list-decimal space-y-1 pl-5 text-sm leading-6 text-[var(--ink-subtle)]">
           <li>Lodestone のキャラクターページURL、または Character ID を入力します。</li>
           <li>「取得」を押して入力内容を正規化し、次画面へ進みます。</li>
         </ol>
       </section>
 
-      <img src="/img/home.png" alt="home" className="hero" />
+      <img src="/img/home.png" alt="home" className="w-full rounded-2xl border border-[var(--line)] object-cover shadow-[0_16px_40px_rgba(31,47,74,0.12)]" />
     </PageCard>
   )
 }
