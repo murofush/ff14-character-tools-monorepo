@@ -13,11 +13,19 @@
 ## 仕様一覧
 
 - `docs/spec/chara-card-creator-react-staged-migration.md`（Draft）
-- `docs/spec/chara-card-creator-product-charter.md`（Draft）
+- `docs/spec/chara-card-creator-product-charter.md`（Confirmed）
+- `docs/spec/chara-card-creator-legacy-screen-responsibilities.md`（Confirmed）
+- `docs/spec/chara-card-creator-legacy-api-data-contract.md`（Confirmed）
+- `docs/spec/chara-card-backend-api-spec.md`（Confirmed）
+- `docs/spec/chara-card-creator-functional-equivalence-checklist.md`（Confirmed）
 - `docs/spec/monorepo-product-architecture.md`（Confirmed）
+- `docs/spec/monorepo-api-ownership-and-routing.md`（Confirmed）
 - `docs/spec/achievement-editor-product-charter.md`（Confirmed）
 - `docs/spec/achievement-editor-legacy-screen-responsibilities.md`（Confirmed）
 - `docs/spec/achievement-editor-legacy-api-data-contract.md`（Confirmed）
 - `docs/spec/achievement-editor-functional-equivalence-checklist.md`（Confirmed）
+- `docs/spec/achievement-editor-auth-session-contract.md`（Confirmed）
 - `docs/spec/achievement-editor-backend-api-spec.md`（Confirmed）
 - `docs/spec/achievement-editor-backend-runtime-config.md`（Confirmed）
+- `docs/spec/migration-completion-runbook.md`（Confirmed）
+- `docs/spec/storage-path-and-permission-validation-runbook.md`（Confirmed）

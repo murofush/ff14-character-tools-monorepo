@@ -21,7 +21,7 @@ export function App(): JSX.Element {
         <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
           <Link to="/" className="flex items-center gap-2">
             <span className="font-display text-lg font-bold tracking-tight">Chara Card Creator</span>
-            <Badge>React</Badge>
+            <Badge>Web</Badge>
           </Link>
           <nav className="hidden gap-2 md:flex">
             {navigationRouteItems.map((routeItem) => (

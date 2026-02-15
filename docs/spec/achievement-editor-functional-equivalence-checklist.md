@@ -26,6 +26,23 @@
 - 保存 API（`POST /api/save_text`）を呼び出せること。
 - Lodestone補助取得 API（`/api/get_hidden_achievement`, `/api/get_icon_img`, `/api/get_item_infomation`）を呼び出せること。
 
+3. 現行実装スナップショット（2026-02-12）
+- 目的:
+  - 「旧Vue比で何が未完か」を仕様上で固定し、移行実装の優先順位を明確にする。
+- 現行で実装済み（コード確認ベース）:
+  - `/tag` と `/patch` 導線表示。
+  - Tag/Patch/Achievement の Cloud Storage 読み込み。
+  - `/tag` と `/patch` の CRUD・強制ID追従更新・保存導線。
+  - カテゴリ編集の作成/分類移動/グループ共通タグ・パッチ適用/カテゴリ保存。
+  - カテゴリ編集のテーブル全体保存導線（ルート内全カテゴリ一括保存）。
+  - カテゴリ編集のアチーブメント個別タグ/パッチ編集ダイアログ。
+  - カテゴリ編集のグループ名編集ダイアログ。
+  - カテゴリ編集のドラッグ&ドロップ操作（未分類↔分類済移動、グループ順並び替え）。
+  - ヘッダのログイン表示領域（未ログイン/ログイン済み）と API トークン自動付与。
+  - 全画面共通スナックバー（`OUTPUT_SNACKBAR` 相当）の通知レイヤー。
+- 旧Vue比で未完（次フェーズ必須）:
+  - なし（手動確認フェーズのみ残件）。
+
 ## 受け入れ条件
 
 - Must 項目がすべて `手動確認済` である。
@@ -116,7 +133,7 @@
 
 - [ ] パッチ追加時にID/番号/日付/対象バージョン検証が機能する。
 - [ ] 保存で `/api/save_text` が呼ばれ、差分状態が解消する。
-- [ ] `isForcePatchUpdate` ON時に patchId 再採番とアチーブメント追従が機能する。
+- [ ] `isForcePatchUpdate` ON時に patchId 再採番と `adjustmentPatchId` 追従が機能する。
 - [ ] パッチ更新後のアチーブメント保存導線が機能する。
 
 ### K. 保存失敗時挙動
@@ -130,5 +147,7 @@
 - `docs/spec/achievement-editor-product-charter.md`
 - `docs/spec/achievement-editor-legacy-screen-responsibilities.md`
 - `docs/spec/achievement-editor-legacy-api-data-contract.md`
+- `docs/spec/achievement-editor-auth-session-contract.md`
+- `docs/spec/migration-completion-runbook.md`
 - `apps/achievement-editor/pages/`
 - `apps/achievement-editor/components/`

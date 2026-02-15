@@ -345,3 +345,78 @@ func TestGetAPI_RateLimitExceeded_ReturnsLocalErrorOnCompat(t *testing.T) {
 		t.Fatalf("want rate_limit_exceeded, got %s", localErr.Key)
 	}
 }
+
+// 目的: get_character_infoが認証なしで呼び出せ、旧互換レスポンス形を返すことを検証する。副作用: テスト用HTTPサーバと正規表現設定を一時変更する。前提: profile URL正規表現はテスト終了時に復元される。
+func TestGetCharacterInfo_PublicEndpointWithoutAuth(t *testing.T) {
+	mockHTML := `
+<html>
+	<body>
+		<div class="frame__chara__name">Test Taro</div>
+		<div class="frame__chara__world">Aegis (Elemental)</div>
+		<div class="character-block">
+			<div class="character-block__name">ヒューラン<br>ミッドランダー / ♂</div>
+		</div>
+		<div class="character-block__birth">星6月(6月) 17日</div>
+		<div class="character__selfintroduction">hello world</div>
+	</body>
+</html>`
+	mockServer := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, _ *http.Request) {
+		w.Header().Set("Content-Type", "text/html; charset=utf-8")
+		_, _ = w.Write([]byte(mockHTML))
+	}))
+	defer mockServer.Close()
+	targetProfileURL := mockServer.URL + "/lodestone/character/12345"
+
+	originalProfileRegexp := characterProfileRegexp
+	characterProfileRegexp = regexp.MustCompile(`^` + regexp.QuoteMeta(mockServer.URL) + `/lodestone/character/([0-9]+)$`)
+	defer func() {
+		characterProfileRegexp = originalProfileRegexp
+	}()
+
+	server := NewServer(Config{
+		StrictJSONValidation: true,
+		ErrorMode:            ErrorModeCompat,
+	}, stubAuth{uid: "test-user"}, &stubStorage{})
+
+	requestURL := "/api/get_character_info?url=" + url.QueryEscape(targetProfileURL)
+	req := httptest.NewRequest(http.MethodGet, requestURL, nil)
+	rec := httptest.NewRecorder()
+	server.Handler().ServeHTTP(rec, req)
+
+	if rec.Code != http.StatusOK {
+		t.Fatalf("want status 200, got %d", rec.Code)
+	}
+	var payload map[string]any
+	if err := json.Unmarshal(rec.Body.Bytes(), &payload); err != nil {
+		t.Fatalf("failed to unmarshal payload: %v", err)
+	}
+	if payload["characterID"] == nil {
+		t.Fatalf("want characterID, got nil")
+	}
+	characterData, ok := payload["characterData"].(map[string]any)
+	if !ok {
+		t.Fatalf("want characterData object")
+	}
+	if characterData["firstName"] != "Test" {
+		t.Fatalf("want firstName=Test, got %v", characterData["firstName"])
+	}
+	if characterData["lastName"] != "Taro" {
+		t.Fatalf("want lastName=Taro, got %v", characterData["lastName"])
+	}
+}
+
+// 目的: get_character_infoのURL必須バリデーションを検証する。副作用: なし。前提: query未指定で呼び出す。
+func TestGetCharacterInfo_MissingURL(t *testing.T) {
+	server := NewServer(Config{
+		StrictJSONValidation: true,
+		ErrorMode:            ErrorModeCompat,
+	}, stubAuth{uid: "test-user"}, &stubStorage{})
+
+	req := httptest.NewRequest(http.MethodGet, "/api/get_character_info", nil)
+	rec := httptest.NewRecorder()
+	server.Handler().ServeHTTP(rec, req)
+
+	if rec.Code != http.StatusBadRequest {
+		t.Fatalf("want status 400, got %d", rec.Code)
+	}
+}

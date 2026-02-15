@@ -115,10 +115,10 @@
 - `isForcePatchUpdate` が ON の場合のみ実行。
 - 挿入時:
   - 追加位置以上の patchId を +1。
-  - アチーブメント側 `patchId` / `adjustmentPatchId` も +1 追従。
+  - アチーブメント側は `adjustmentPatchId` のみ +1 追従（旧 `patch.vue` 実装準拠）。
 - 削除時:
-  - 削除IDを参照する値は 0 にクリア。
-  - それより大きい値は -1 する。
+  - アチーブメント側 `adjustmentPatchId` が削除IDと一致する場合は 0 にクリア。
+  - アチーブメント側 `adjustmentPatchId` が削除IDより大きい場合は -1 する。
 
 9. 差分検知契約
 - `itemsEditor`:

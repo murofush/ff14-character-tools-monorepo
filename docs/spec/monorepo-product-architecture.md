@@ -94,6 +94,7 @@
 
 ## 関連リンク
 
+- `docs/spec/monorepo-api-ownership-and-routing.md`
 - `docs/spec/achievement-editor-product-charter.md`
 - `docs/spec/achievement-editor-legacy-api-data-contract.md`
 - `docs/spec/chara-card-creator-product-charter.md`

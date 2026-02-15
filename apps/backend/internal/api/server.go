@@ -8,6 +8,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
+	"net"
 	"net/http"
 	"net/url"
 	"regexp"
@@ -23,6 +24,7 @@ var (
 	editedAchievementPathRegexp = regexp.MustCompile(`^editedAchievementData/[a-z0-9_]+/[a-z0-9_]+\.json$`)
 	tagPathRegexp               = regexp.MustCompile(`^tag/tag\.json$`)
 	patchPathRegexp             = regexp.MustCompile(`^patch/patch\.json$`)
+	characterProfileRegexp      = regexp.MustCompile(`^https://(jp|na|eu|fr|de).finalfantasyxiv.com/lodestone/character/([0-9]+)/?$`)
 	characterRegexp             = regexp.MustCompile(`^https://(jp|na|eu|fr|de).finalfantasyxiv.com/lodestone/character/[0-9]+/achievement/detail/[0-9a-zA-Z]+/?$`)
 	itemRegexp                  = regexp.MustCompile(`^https://(jp|na|eu|fr|de).finalfantasyxiv.com/lodestone/playguide/db/item/[0-9a-zA-Z]+/?$`)
 	iconRegexp                  = regexp.MustCompile(`^https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/[0-9a-zA-Z]+/[0-9a-zA-Z]+\.(jpg|png|gif)(\?.*)?$`)
@@ -67,6 +69,24 @@ type SaveTextResponse struct {
 	Path      string `json:"path"`
 	Bytes     int    `json:"bytes"`
 	UpdatedAt string `json:"updatedAt"`
+}
+
+type ResponseData struct {
+	CharacterID               int                         `json:"characterID"`
+	FetchedDate               time.Time                   `json:"fetchedDate"`
+	CharacterData             map[string]any              `json:"characterData"`
+	CompletedAchievementsKind []CompletedAchievementsKind `json:"completedAchievementsKinds"`
+	IsAchievementPrivate      bool                        `json:"isAchievementPrivate"`
+}
+
+type CompletedAchievementsKind struct {
+	Key          string                 `json:"key"`
+	Achievements []CompletedAchievement `json:"achievements"`
+}
+
+type CompletedAchievement struct {
+	Title         string    `json:"title"`
+	CompletedDate time.Time `json:"completedDate"`
 }
 
 type EditAchievement struct {
@@ -147,10 +167,45 @@ func (s *Server) Handler() http.Handler {
 
 // 目的: APIエンドポイントを登録する。副作用: ServeMuxへハンドラを設定する。前提: サーバ初期化処理中に1回だけ呼ばれる。
 func (s *Server) routes() {
+	s.mux.HandleFunc("/api/get_character_info", s.handleGetCharacterInfo)
 	s.mux.HandleFunc("/api/save_text", s.withAuth(s.handleSaveText))
 	s.mux.HandleFunc("/api/get_hidden_achievement", s.withAuth(s.handleGetHiddenAchievement))
 	s.mux.HandleFunc("/api/get_icon_img", s.withAuth(s.handleGetIconImg))
 	s.mux.HandleFunc("/api/get_item_infomation", s.withAuth(s.handleGetItemInfomation))
+}
+
+// 目的: 公開のキャラクター取得API契約に従いLodestoneページから基本情報を返す。副作用: 外部サイトへHTTPアクセスしレート制限カウンタを更新する。前提: urlクエリはLodestoneのキャラクターページURLである。
+func (s *Server) handleGetCharacterInfo(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+	if !s.rateLimiter.Allow(publicRequesterKey(r), r.URL.Path) {
+		http.Error(w, "too many requests", http.StatusTooManyRequests)
+		return
+	}
+	rawURL := strings.TrimSpace(r.URL.Query().Get("url"))
+	if rawURL == "" {
+		writeJSON(w, http.StatusBadRequest, LocalError{Key: "url_invalid", Value: "URLを設定してください。"})
+		return
+	}
+	normalizedURL := normalizeProfileURL(rawURL)
+	matchedProfileURL := characterProfileRegexp.FindStringSubmatch(normalizedURL)
+	if len(matchedProfileURL) < 2 {
+		writeJSON(w, http.StatusBadRequest, LocalError{Key: "url_invalid", Value: "URLはloadstoneのキャラクターページを貼ってください。"})
+		return
+	}
+	characterID, err := strconv.Atoi(matchedProfileURL[len(matchedProfileURL)-1])
+	if err != nil {
+		writeJSON(w, http.StatusBadRequest, LocalError{Key: "url_invalid", Value: "URLはloadstoneのキャラクターページを貼ってください。"})
+		return
+	}
+	responseData, err := s.fetchCharacterInfo(r.Context(), normalizedURL, characterID)
+	if err != nil {
+		writeJSON(w, http.StatusBadGateway, LocalError{Key: "fetch_character_error", Value: err.Error()})
+		return
+	}
+	writeJSON(w, http.StatusOK, responseData)
 }
 
 // 目的: Bearerトークン必須の認証ミドルウェアを適用する。副作用: 不正認証時にレスポンスを書き込み処理を中断する。前提: AuthorizationヘッダにBearer形式でトークンが渡される。
@@ -450,6 +505,161 @@ func (s *Server) fetchBinary(ctx context.Context, targetURL string) ([]byte, str
 		return nil, "", err
 	}
 	return body, resp.Header.Get("Content-Type"), nil
+}
+
+// 目的: Lodestoneキャラクターページから旧互換のResponseDataを構築する。副作用: 外部サイトへHTTPアクセスする。前提: targetURLは正規化済みキャラクターページURLである。
+func (s *Server) fetchCharacterInfo(ctx context.Context, targetURL string, characterID int) (ResponseData, error) {
+	htmlBody, err := s.fetchHTML(ctx, targetURL)
+	if err != nil {
+		return ResponseData{}, err
+	}
+	doc, err := goquery.NewDocumentFromReader(strings.NewReader(htmlBody))
+	if err != nil {
+		return ResponseData{}, err
+	}
+	nameText := strings.TrimSpace(doc.Find(".frame__chara__name").First().Text())
+	if nameText == "" {
+		return ResponseData{}, errors.New("character name is missing")
+	}
+	firstName, lastName := splitCharacterName(nameText)
+	worldText := strings.TrimSpace(doc.Find(".frame__chara__world").First().Text())
+	server, datacenter := splitServerAndDatacenter(worldText)
+	characterProfile := map[string]any{
+		"firstName":        firstName,
+		"lastName":         lastName,
+		"selfintroduction": emptyTextToNil(strings.TrimSpace(doc.Find(".character__selfintroduction").First().Text())),
+		"server":           server,
+		"datacenter":       datacenter,
+		"race":             "",
+		"clan":             "",
+		"gender":           "",
+		"birthMonth":       "",
+		"birthDay":         "",
+		"battleRoles":      buildDefaultBattleRoles(),
+		"crafter":          buildDefaultCrafter(),
+		"gatherer":         buildDefaultGatherer(),
+	}
+	return ResponseData{
+		CharacterID:               characterID,
+		FetchedDate:               time.Now().UTC(),
+		CharacterData:             characterProfile,
+		CompletedAchievementsKind: []CompletedAchievementsKind{},
+		IsAchievementPrivate:      false,
+	}, nil
+}
+
+// 目的: 公開APIのレート制限キーをリクエストから生成する。副作用: なし。前提: RemoteAddrが`host:port`形式または空文字である。
+func publicRequesterKey(r *http.Request) string {
+	host, _, err := net.SplitHostPort(strings.TrimSpace(r.RemoteAddr))
+	if err == nil && host != "" {
+		return "public:" + host
+	}
+	if strings.TrimSpace(r.RemoteAddr) != "" {
+		return "public:" + strings.TrimSpace(r.RemoteAddr)
+	}
+	return "public:unknown"
+}
+
+// 目的: URL入力からクエリ/フラグメント/末尾スラッシュを除去し検証用に正規化する。副作用: なし。前提: rawURLはユーザー入力文字列である。
+func normalizeProfileURL(rawURL string) string {
+	trimmed := strings.TrimSpace(rawURL)
+	withoutFragment := strings.SplitN(trimmed, "#", 2)[0]
+	withoutQuery := strings.SplitN(withoutFragment, "?", 2)[0]
+	return strings.TrimSuffix(withoutQuery, "/")
+}
+
+// 目的: キャラクター名文字列から姓・名を抽出する。副作用: なし。前提: textはLodestone表示名を含む。
+func splitCharacterName(text string) (string, string) {
+	parts := strings.Fields(strings.TrimSpace(text))
+	if len(parts) == 0 {
+		return "", ""
+	}
+	if len(parts) == 1 {
+		return parts[0], ""
+	}
+	return parts[0], strings.Join(parts[1:], " ")
+}
+
+// 目的: ワールド/DC表示文字列からserverとdatacenterを抽出する。副作用: なし。前提: textは`Server (DC)`形式を想定する。
+func splitServerAndDatacenter(text string) (string, string) {
+	trimmed := strings.TrimSpace(text)
+	if trimmed == "" {
+		return "", ""
+	}
+	matched := regexp.MustCompile(`^(.*?)\s*\((.*?)\)$`).FindStringSubmatch(trimmed)
+	if len(matched) == 3 {
+		return strings.TrimSpace(matched[1]), strings.TrimSpace(matched[2])
+	}
+	return trimmed, ""
+}
+
+// 目的: 空文字をnilへ変換して旧契約のnullable文字列に合わせる。副作用: なし。前提: textはtrim済み文字列である。
+func emptyTextToNil(text string) any {
+	if strings.TrimSpace(text) == "" {
+		return nil
+	}
+	return text
+}
+
+// 目的: 旧契約互換の戦闘ジョブレベル初期値を返す。副作用: なし。前提: レベル情報未取得時は0で初期化する。
+func buildDefaultBattleRoles() map[string]any {
+	return map[string]any{
+		"tankRole": map[string]any{
+			"paladin":    map[string]any{"level": 0},
+			"warrior":    map[string]any{"level": 0},
+			"darkKnight": map[string]any{"level": 0},
+			"gunbreaker": map[string]any{"level": 0},
+		},
+		"healerRole": map[string]any{
+			"whiteMage":   map[string]any{"level": 0},
+			"scholar":     map[string]any{"level": 0},
+			"astrologian": map[string]any{"level": 0},
+		},
+		"dpsRole": map[string]any{
+			"meleeDps": map[string]any{
+				"monk":    map[string]any{"level": 0},
+				"dragoon": map[string]any{"level": 0},
+				"ninja":   map[string]any{"level": 0},
+				"samurai": map[string]any{"level": 0},
+			},
+			"physicalRangedDps": map[string]any{
+				"bard":      map[string]any{"level": 0},
+				"machinist": map[string]any{"level": 0},
+				"dancer":    map[string]any{"level": 0},
+			},
+			"magicalRangedDps": map[string]any{
+				"blackMage": map[string]any{"level": 0},
+				"summoner":  map[string]any{"level": 0},
+				"redMage":   map[string]any{"level": 0},
+			},
+			"limitedDps": map[string]any{
+				"blueMage": map[string]any{"level": 0},
+			},
+		},
+	}
+}
+
+// 目的: 旧契約互換のクラフタージョブレベル初期値を返す。副作用: なし。前提: レベル情報未取得時は0で初期化する。
+func buildDefaultCrafter() map[string]any {
+	return map[string]any{
+		"carpenter":     map[string]any{"level": 0},
+		"blacksmith":    map[string]any{"level": 0},
+		"armorer":       map[string]any{"level": 0},
+		"goldsmith":     map[string]any{"level": 0},
+		"leatherworker": map[string]any{"level": 0},
+		"weaver":        map[string]any{"level": 0},
+		"alchemist":     map[string]any{"level": 0},
+		"culinarian":    map[string]any{"level": 0},
+	}
+}
+
+// 目的: 旧契約互換のギャザラージョブレベル初期値を返す。副作用: なし。前提: レベル情報未取得時は0で初期化する。
+func buildDefaultGatherer() map[string]any {
+	return map[string]any{
+		"miner":    map[string]any{"level": 0},
+		"botanist": map[string]any{"level": 0},
+		"fisher":   map[string]any{"level": 0},
+	}
 }
 
 // 目的: Lodestone画像URLからファイル名部分を取り出す。副作用: なし。前提: URLはパス末尾にファイル名を含む。

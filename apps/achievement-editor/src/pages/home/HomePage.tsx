@@ -26,9 +26,9 @@ export function HomePage(): JSX.Element {
       <Card className="bg-[linear-gradient(135deg,#fff4e8_0%,#ffffff_70%)]">
         <CardHeader>
           <Badge className="w-fit">Admin Front</Badge>
-          <CardTitle>Achievement Editor (React)</CardTitle>
+          <CardTitle>Achievement Editor</CardTitle>
           <CardDescription>
-            旧Vue実装SSOTに基づき、カテゴリ編集・タグ管理・パッチ管理ルートを React 側へ集約しています。
+            旧Vue実装SSOTに基づき、カテゴリ編集・タグ管理・パッチ管理ルートを現行画面へ集約しています。
           </CardDescription>
         </CardHeader>
         <CardContent>

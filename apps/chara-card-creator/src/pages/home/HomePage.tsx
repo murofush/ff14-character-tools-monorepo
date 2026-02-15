@@ -1,11 +1,17 @@
 import { ChangeEvent, FormEvent, JSX, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { fetchCharacterInfoFromBackend } from '../../features/home/fetchCharacterInfo'
 import { normalizeLodestoneInput } from '../../features/home/lodestoneInput'
 import {
   type RecentCharacterSummary,
   readRecentCharacterSummary,
   writeRecentCharacterSummary,
 } from '../../features/home/recentCharacterStorage'
+import {
+  clearSelectedAchievementPaths,
+  readCharacterSessionResponse,
+  writeCharacterSessionResponse,
+} from '../../features/select-achievement/lib/characterSessionStorage'
 import { Badge } from '../../shared/ui/badge'
 import { Button } from '../../shared/ui/button'
 import { Input } from '../../shared/ui/input'
@@ -28,9 +34,12 @@ export function HomePage(): JSX.Element {
   const navigate = useNavigate()
   const [inputValue, setInputValue] = useState<string>('')
   const [errorMessage, setErrorMessage] = useState<string>('')
+  const [isFetching, setIsFetching] = useState<boolean>(false)
   const [recentCharacter, setRecentCharacter] = useState<RecentCharacterSummary | null>(
     () => readRecentCharacterSummary()
   )
+  const backendBaseUrl =
+    (import.meta.env.VITE_CHARA_BACKEND_BASE_URL as string | undefined) ?? ''
 
   /** 目的: 入力値を状態へ反映し、バリデーションエラーを再入力時に解除する。副作用: state更新を行う。前提: Lodestone入力欄のchangeイベント。 */
   const handleInputChange = (event: ChangeEvent<HTMLInputElement>): void => {
@@ -40,8 +49,8 @@ export function HomePage(): JSX.Element {
     }
   }
 
-  /** 目的: 入力検証と正規化を行い、最新入力キャラクターを保存して次画面へ進める。副作用: localStorage更新・state更新・ルーティング遷移。前提: form submitイベント。 */
-  const handleSubmit = (event: FormEvent<HTMLFormElement>): void => {
+  /** 目的: 入力検証後にbackendからキャラクター情報を取得し、最新入力キャラクターを保存して次画面へ進める。副作用: HTTP通信・localStorage更新・state更新・ルーティング遷移。前提: form submitイベント。 */
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>): Promise<void> => {
     event.preventDefault()
     const normalized = normalizeLodestoneInput(inputValue)
     if (!normalized.ok) {
@@ -53,13 +62,35 @@ export function HomePage(): JSX.Element {
       return
     }
 
+    setIsFetching(true)
+    const fetchedCharacter = await fetchCharacterInfoFromBackend(normalized.value.profileUrl, {
+      backendBaseUrl,
+    })
+    if (!fetchedCharacter.ok) {
+      setErrorMessage(fetchedCharacter.message)
+      setIsFetching(false)
+      return
+    }
+
+    const previousCharacterSession = readCharacterSessionResponse()
+    writeCharacterSessionResponse(fetchedCharacter.value)
+    if (
+      previousCharacterSession &&
+      previousCharacterSession.characterID !== fetchedCharacter.value.characterID
+    ) {
+      clearSelectedAchievementPaths()
+    }
+
+    const characterId = String(fetchedCharacter.value.characterID)
     const summary: RecentCharacterSummary = {
-      ...normalized.value,
+      characterId,
+      profileUrl: `https://jp.finalfantasyxiv.com/lodestone/character/${characterId}`,
       fetchedAt: new Date().toISOString(),
     }
     writeRecentCharacterSummary(summary)
     setRecentCharacter(summary)
     setErrorMessage('')
+    setIsFetching(false)
     navigate('/select-achievement')
   }
 
@@ -77,7 +108,7 @@ export function HomePage(): JSX.Element {
   }
 
   return (
-    <PageCard title="Home" description="旧Vue導線の入力フローをReact画面へ移行しました。">
+    <PageCard title="Home" description="旧Vue導線の入力フローを現行画面へ移行しました。">
       <section className="space-y-4 rounded-2xl border border-[var(--line)] bg-white/85 p-5">
         <div className="flex items-center gap-2">
           <h3 className="font-display text-xl font-bold">新規のキャラクターから名刺を作成</h3>
@@ -94,7 +125,9 @@ export function HomePage(): JSX.Element {
             <Button type="button" variant="secondary" onClick={handleClickHowTo}>
               つかいかた
             </Button>
-            <Button type="submit">取得</Button>
+            <Button type="submit" disabled={isFetching}>
+              {isFetching ? '取得中...' : '取得'}
+            </Button>
           </div>
         </form>
       </section>

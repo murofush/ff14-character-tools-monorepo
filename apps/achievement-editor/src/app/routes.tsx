@@ -2,6 +2,8 @@ import { JSX } from 'react'
 import { HomePage } from '../pages/home/HomePage'
 import { ProfileBuilderPage } from '../pages/profile-builder/ProfileBuilderPage'
 import { EditorRoutePage } from '../pages/editor/EditorRoutePage'
+import { PatchEditorPage } from '../pages/editor/PatchEditorPage'
+import { TagEditorPage } from '../pages/editor/TagEditorPage'
 
 export type AppRouteItem = {
   path: string
@@ -72,13 +74,13 @@ const adminRouteItems: AppRouteItem[] = [
     path: '/tag',
     label: 'Tag',
     showInNavigation: true,
-    element: <EditorRoutePage title="Tag" description="タグ定義とネスト構造を編集する画面です。" routeKey="tag" />,
+    element: <TagEditorPage />,
   },
   {
     path: '/patch',
     label: 'Patch',
     showInNavigation: true,
-    element: <EditorRoutePage title="Patch" description="パッチ定義と追従更新を編集する画面です。" routeKey="patch" />,
+    element: <PatchEditorPage />,
   },
 ]
 

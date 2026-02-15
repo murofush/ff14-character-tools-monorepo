@@ -2,6 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import { App } from './app/App'
+import { AuthSessionProvider } from './features/auth/context/AuthSessionContext'
+import { AppSnackbarProvider } from './features/snackbar/context/AppSnackbarContext'
 import './app/styles.css'
 
 const rootElement: HTMLElement | null = document.getElementById('root')
@@ -12,8 +14,12 @@ if (!rootElement) {
 
 ReactDOM.createRoot(rootElement).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <AppSnackbarProvider>
+      <AuthSessionProvider>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </AuthSessionProvider>
+    </AppSnackbarProvider>
   </React.StrictMode>
 )

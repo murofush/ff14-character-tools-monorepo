@@ -45,6 +45,7 @@ pnpm --filter @ff14/achievement-backend dev
 
 ## 実装済みエンドポイント
 
+- `GET /api/get_character_info`
 - `POST /api/save_text`
 - `GET /api/get_hidden_achievement`
 - `GET /api/get_icon_img`

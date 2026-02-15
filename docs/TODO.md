@@ -22,7 +22,10 @@
 
 - [DOCS] [x] `apps/chara-card-creator` の段階移行仕様（Draft）を `docs/spec` に追加する
 - [DOCS] [x] 仕様索引 `docs/spec/README.md` に新規仕様を登録する
-- [DOCS] [ ] 機能同等チェックリスト仕様（画面/データ/API単位）を追加する
+- [DOCS] [x] 機能同等チェックリスト仕様（画面/データ/API単位）を追加する
+- [DOCS] [x] 旧実装の画面責務仕様（ルート/主要コンポーネント責務）を追加する
+- [DOCS] [x] 旧実装のAPI・データ契約仕様（取得/同期/選択/保存）を追加する
+- [DOCS] [x] `/api/get_character_info` の backend 実装契約仕様を追加する
 - [FE] [x] Home画面のLodestone URL/ID入力導線をReact実装へ移植する
 - [TEST] [x] Lodestone URL/ID正規化ロジックの失敗先行テストを追加する
 - [FE] [x] `src` を React Feature First 構成（`app/pages/features/shared`）へ再編する
@@ -47,7 +50,45 @@
 - [FE] [x] `achievement-editor` の `itemsEditor` コア処理（並び替え/グループ作成削除/タグ・パッチ共通値/未分類↔分類移動）を純関数として移植する
 - [FE] [x] `achievement-editor` のカテゴリ編集ページに上記コア処理を接続し、カテゴリ差分とローカル保存導線を実装する
 - [TEST] [x] コア処理の失敗先行テストを追加し、`pnpm --filter @ff14/achievement-editor test` / `build` の成功を確認する
+- [FE] [x] `achievement-editor` のカテゴリ編集データを Cloud Storage（`forfan-resource`）から取得する実装へ切替する
+- [FE] [x] カテゴリ単位の保存処理を `/api/save_text` へ接続し、`editedAchievementData/{routeKey}/{category}.json` へ保存する
+- [TEST] [x] 旧JSON形式⇔React編集モデル変換と save_text リクエスト生成のテストを追加する
+- [FE] [x] `achievementCreator` の URL取得（`/api/get_hidden_achievement`）と手入力作成を React 側へ移植する
+- [FE] [x] `achievementCreator` の補助取得（`/api/get_icon_img` / `/api/get_item_infomation`）を React 側へ移植する
+- [TEST] [x] `achievementCreator` のフォームバリデーションと作成payload契約のテストを追加する
+- [FE] [x] `tag / patch` 強制ID更新ロジック（挿入時繰上げ/削除時繰下げと参照追従）を純関数として移植する
+- [TEST] [x] 強制ID更新ロジックの失敗先行テストを追加し、`pnpm --filter @ff14/achievement-editor test` / `build` の成功を確認する
+- [FE] [x] `/tag` React画面へタグ定義CRUDと `isForceTagUpdate` 連動の全アチーブメント追従更新を接続する
+- [FE] [x] `/patch` React画面へパッチ定義CRUDと `isForcePatchUpdate` 連動の `adjustmentPatchId` 追従更新を接続する
+- [FE] [x] `tag/tag.json` `patch/patch.json` の読込保存と、追従更新後の全カテゴリ一括保存導線を追加する
+- [FE] [x] `/tag` のネスト編集UI（階層操作/並び替え）を旧Vue同等で移植する
+- [TEST] [x] `/tag` ネスト編集（追加/削除/子タグ昇格/並び替え）の同等性テストを追加する
+- [OPS] [ ] `tag/tag.json` `patch/patch.json` `editedAchievementData/*` のCloud Storage実在パス・公開設定・権限を実環境で確認する
 - [FE] [ ] 旧Vue実装の編集ロジック（カテゴリ編集/タグ管理/パッチ管理）の機能完全移植を継続する
+
+### [P1] 旧Vue比 未完機能の実装（仕様確定済）
+
+- [FE] [x] `chara-card-creator` `/select-achievement` に旧 `selectAchievement.vue` の機能責務（カテゴリ/グループ閲覧、選択済みパネル、モバイル導線）を完全移植する
+- [FE] [ ] `chara-card-creator` `/edit-chara-card` に旧 `editCharaCard.vue` + `characterCard/*` の機能責務（画像トリミング、カード設定、PNG保存）を完全移植する
+- [FE] [x] `achievement-editor` に旧 `loginButton` と認証状態表示導線を移植する
+- [FE] [x] `achievement-editor` に旧 `OUTPUT_SNACKBAR` 相当の全画面共通通知レイヤーを移植する
+- [FE] [x] `achievement-editor` カテゴリ編集に「テーブル全体保存」導線を移植する
+- [FE] [x] `achievement-editor` カテゴリ編集にグループ名編集ダイアログを移植する
+- [FE] [x] `achievement-editor` カテゴリ編集にアチーブメント個別タグ/パッチ編集ダイアログを移植する
+- [FE] [x] `achievement-editor` カテゴリ編集にドラッグ&ドロップ並び替え（未分類/分類済/グループ順）を移植する
+
+### [P1] API集約・認証・完了判定の最終化
+
+- [DOCS] [x] `/api/*` の所有権とルーティング方針（backend集約）を仕様化する
+- [DOCS] [x] `achievement-editor` の認証・セッション契約（ログインUI/トークン更新/401時再認証）を仕様化する
+- [DOCS] [x] 移行完了判定ランブック（自動/手動/運用ゲート）を仕様化する
+- [DOCS] [x] Cloud Storage パス・権限検証ランブックを仕様化する
+- [BE] [x] `apps/backend` に `GET /api/get_character_info` を追加実装する（旧 `apps/chara-card-creator/api/index.ts` 契約互換）
+- [FE] [x] `apps/chara-card-creator` のキャラクター取得呼び先を backend 統一URLへ切替する
+- [FE] [x] `apps/achievement-editor` に認証状態表示UI（旧 `loginButton` 責務）を移植する
+- [FE] [x] `apps/achievement-editor` で Firebase ID Token を API 呼び出しへ自動付与する
+- [OPS] [ ] `docs/spec/storage-path-and-permission-validation-runbook.md` を実施し、結果を記録する
+- [TEST] [ ] `docs/spec/migration-completion-runbook.md` に従って完了判定を実施する
 
 ### [P1] プロダクト定義整理
 

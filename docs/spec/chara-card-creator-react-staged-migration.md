@@ -1,75 +1,85 @@
-# Chara Card Creator React段階移行仕様
+# Chara Card Creator 段階移行仕様（旧Vue→現行Web）
 
 ## ステータス
 
 - 状態: Draft
-- 決定日: 2026-02-06
+- 決定日: 2026-02-12
 
 ## 目的/背景
 
-- `apps/chara-card-creator` には React 実装（`src/`）と Vue/Nuxt 旧実装が同居している。
-- 旧実装の一括削除を先行すると、機能移植前に挙動が欠落するリスクが高い。
-- 本仕様は「機能同等を確認した単位だけ旧実装を削除する」段階移行の基準を定義する。
+- `apps/chara-card-creator` は現状、現行実装（`src/`）と旧 Vue/Nuxt 実装が同居している。
+- 旧実装の機能責務は維持しつつ、段階移行で安全に置換するための実行手順を固定する。
 
 ## 仕様
 
-1. 移行方針
-- 方針は段階移行（Strangler Pattern）とする。
-- Vue/Nuxt 資産は、対応する React 実装の受け入れ条件を満たすまで削除しない。
+1. 移行原則
+- 旧実装は SSOT とし、機能乖離を許容しない。
+- AI-TDD（Understand → Red → Verify Failure → Green → Verify Success → Refactor）を機能単位で適用する。
+- 同等性未確認の機能に紐づく旧資産は削除しない。
 
 2. 対象範囲
-- 対象アプリは `apps/chara-card-creator` のみ。
-- 現行 React 実装は `apps/chara-card-creator/src` を主系とする。
-- 旧資産（例: `components/`, `pages/`, `store/`, `plugins/`, `api/`）は移行完了まで参照可能状態を維持する。
+- 対象アプリ: `apps/chara-card-creator`
+- 現行主系: `apps/chara-card-creator/src`
+- 旧資産（`pages/`, `components/`, `store/`, `api/`, `layouts/`, `mixins/`, `middleware/`）は移行完了まで参照可能状態を維持する。
 
-3. 機能単位の移行手順
-- 各機能は AI-TDD で進める（Understand → Red → Verify Failure → Green → Verify Success → Refactor）。
-- 機能ごとに「旧実装と同等であること」をテストまたは再現手順で証明する。
-- 同等確認後に、その機能に紐づく Vue/Nuxt ファイルを削除する。
+3. 移行フェーズ
+- Phase 1（完了済）:
+  - React基盤ルーティング整備
+  - Home入力導線の移植
+  - 互換ルート（旧URL→新URL）導線維持
+- Phase 2（進行中）:
+  - `/select-achievement` 旧責務の完全移植
+  - `/edit-chara-card` 旧責務の完全移植
+  - 旧レイアウト責務（共通通知/ヘッダ操作）の同等移植
+- Phase 3（未着手）:
+  - 同等性チェック完了後の旧Vue資産削除
+  - 不要依存（Nuxt/Vuex/Vuetify）段階削除
 
-4. ルーティング移行基準
-- 旧ルート互換を維持する（例: `/editCharaCard` から `/edit-chara-card` への遷移保証）。
-- React Router 側でリダイレクトまたは同等ルートを提供する。
+4. 移行完了定義
+- `docs/spec/chara-card-creator-functional-equivalence-checklist.md` の Must 項目がすべて `手動確認済`。
+- `pnpm --filter @ff14/chara-card-creator build` が成功する。
+- 旧資産由来の未移植責務が残っていないことを仕様/実装の両方で説明できる。
 
-5. セキュリティ移行基準
-- Secret（APIキー/秘密鍵/トークン）の直書きを禁止する。
-- 移行途中で検出した Secret は即時に環境変数化し、必要に応じて失効・ローテーションする。
+5. セキュリティ/運用原則
+- Secret（APIキー/トークン/秘密鍵）の直書きを禁止し、環境変数化する。
+- 旧資産で検出した Secret は失効・ローテーション計画と合わせて対応する。
 
 ## 受け入れ条件
 
-- 機能同等チェックリストで、対象機能が「移行済み」かつ「手動確認済み」になっている。
-- `pnpm --filter @ff14/chara-card-creator build` が成功する。
-- 機能移行が完了した最終段階で、`apps/chara-card-creator` 配下に Vue/Nuxt 実装ファイル（`.vue`, `@nuxt/*` 依存）が残っていない。
-- 機密情報がリポジトリに平文で残っていない。
+- フェーズごとの完了判定が仕様書上で追える。
+- 機能単位の移行時に「どの責務をどのテストで担保したか」を説明できる。
+- 同等性未確認機能の旧資産削除が行われない。
 
 ## 非ゴール
 
-- UI/UX の全面刷新。
-- 既存要件にない新規機能追加。
-- `apps/achievement-editor` の同時移行。
+- UIの全面刷新。
+- 仕様未合意の新規機能追加。
+- `achievement-editor` の同時移行。
 
 ## 影響範囲
 
-- Front: `apps/chara-card-creator/src` の React 実装拡張、旧 Vue コンポーネントからの段階移行。
-- Back: 必要時のみ `apps/chara-card-creator` 内旧 API ロジックの移植または代替。
-- Domain: キャラクター情報/アチーブメント情報の取得・加工ロジック。
-- Infra: ビルド/CI の検証観点追加（移行チェック）。
-- Docs: 本仕様、仕様索引、TODO の継続更新。
+- Front: `apps/chara-card-creator/src` への責務移管。
+- Back: 旧 `/api/get_character_info` 契約互換。
+- Domain: キャラ取得/実績選択/カード編集のデータ境界。
+- Infra: ビルド/検証コマンドの維持。
+- Docs: 本仕様、チェックリスト、TODO。
 
 ## 既存挙動との差分
 
-- 既存: React 側は基盤ルーティング中心で、旧 Vue 実装に機能が残っている。
-- 移行後: React 側で同等機能を提供し、対応する Vue 資産を段階的に削除する。
+- 旧版では「React段階移行」の方針のみで、未移植責務の分類が粗かった。
+- 本版ではフェーズ定義と完了判定を具体化した。
 
 ## 移行/互換方針
 
-- 互換期間中は旧 URL を React 側で吸収する。
-- 破壊的変更は機能単位で実施し、各ステップでロールバック可能な粒度を維持する。
-- 旧資産の削除は「同等性検証完了」を前提条件とする。
+- 互換期間中は旧URL互換を維持する。
+- 機能同等を確認した単位で旧資産を削除する。
+- 破壊的変更は1機能単位で分割し、ロールバック可能性を維持する。
 
 ## 関連リンク
 
 - `docs/spec/README.md`
+- `docs/spec/chara-card-creator-product-charter.md`
+- `docs/spec/chara-card-creator-legacy-screen-responsibilities.md`
+- `docs/spec/chara-card-creator-legacy-api-data-contract.md`
+- `docs/spec/chara-card-creator-functional-equivalence-checklist.md`
 - `docs/TODO.md`
-- `apps/chara-card-creator/src/app/App.tsx`
-- `apps/chara-card-creator/AGENTS.md`
