@@ -99,4 +99,59 @@ describe('fetchCharacterInfoFromBackend', () => {
       message: 'URLを設定してください。',
     })
   })
+
+  it('freecompanyInfo が存在する場合はレスポンスへ保持する', async () => {
+    const fetcher = vi.fn(async () =>
+      new Response(
+        JSON.stringify({
+          characterID: 31299051,
+          fetchedDate: '2026-02-12T10:00:00Z',
+          characterData: {
+            firstName: 'Test',
+            lastName: 'Taro',
+          },
+          completedAchievementsKinds: [],
+          isAchievementPrivate: false,
+          freecompanyInfo: {
+            fcName: 'Sample FC',
+            positionName: 'Officer',
+            fcCrestBaseImageUrls: ['/a.png', '/b.png'],
+          },
+        }),
+        {
+          status: 200,
+          headers: {
+            'Content-Type': 'application/json',
+          },
+        }
+      )
+    )
+
+    const result = await fetchCharacterInfoFromBackend(
+      'https://jp.finalfantasyxiv.com/lodestone/character/31299051',
+      {
+        backendBaseUrl: 'http://localhost:8080',
+        fetcher,
+      }
+    )
+
+    expect(result).toEqual({
+      ok: true,
+      value: {
+        characterID: 31299051,
+        fetchedDate: '2026-02-12T10:00:00Z',
+        characterData: {
+          firstName: 'Test',
+          lastName: 'Taro',
+        },
+        completedAchievementsKinds: [],
+        isAchievementPrivate: false,
+        freecompanyInfo: {
+          fcName: 'Sample FC',
+          positionName: 'Officer',
+          fcCrestBaseImageUrls: ['/a.png', '/b.png'],
+        },
+      },
+    })
+  })
 })

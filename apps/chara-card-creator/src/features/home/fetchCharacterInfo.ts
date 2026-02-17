@@ -141,11 +141,16 @@ function parseGetCharacterInfoResponse(payload: unknown): CharacterSessionRespon
     return null
   }
 
-  return {
+  const parsedResponse: CharacterSessionResponse = {
     characterID: candidate.characterID,
     fetchedDate: candidate.fetchedDate,
     characterData: candidate.characterData,
     completedAchievementsKinds: candidate.completedAchievementsKinds,
     isAchievementPrivate: candidate.isAchievementPrivate,
   }
+  if (isRecord(candidate.freecompanyInfo)) {
+    parsedResponse.freecompanyInfo = candidate.freecompanyInfo
+  }
+
+  return parsedResponse
 }

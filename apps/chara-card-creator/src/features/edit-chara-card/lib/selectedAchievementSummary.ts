@@ -17,8 +17,17 @@ export type SelectedAchievementSummary = {
   categoryName: string
   groupTitle: string
   achievementTitle: string
+  description: string
   isCompleted: boolean
   completedDate?: string
+  patchId: number
+  adjustmentPatchId: number
+  titleAward?: string
+  titleAwardMan?: string
+  titleAwardWoman?: string
+  itemAward?: string
+  itemAwardImageUrl?: string
+  itemAwardImagePath?: string
 }
 
 /** 目的: path構造を一意文字列へ変換する。副作用: なし。前提: indexは0以上の数値を受け取る。 */
@@ -34,7 +43,10 @@ function buildFallbackSummary(path: AchievementIndexPath): SelectedAchievementSu
     categoryName: 'Unknown Category',
     groupTitle: 'Unknown Group',
     achievementTitle: 'Unknown Achievement',
+    description: '',
     isCompleted: false,
+    patchId: 0,
+    adjustmentPatchId: 0,
   }
 }
 
@@ -60,8 +72,17 @@ function buildCategorySummaries(
       categoryName,
       groupTitle: group.title,
       achievementTitle: achievement.title,
+      description: achievement.description,
       isCompleted: achievement.isCompleted,
       completedDate: achievement.completedDate,
+      patchId: achievement.patchId,
+      adjustmentPatchId: achievement.adjustmentPatchId,
+      titleAward: achievement.titleAward,
+      titleAwardMan: achievement.titleAwardMan,
+      titleAwardWoman: achievement.titleAwardWoman,
+      itemAward: achievement.itemAward,
+      itemAwardImageUrl: achievement.itemAwardImageUrl,
+      itemAwardImagePath: achievement.itemAwardImagePath,
     })
   }
 

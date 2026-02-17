@@ -31,6 +31,17 @@ import {
   readFileAsDataUrl,
   renderCardToPngDataUrl,
 } from '../../features/edit-chara-card/lib/cardImageProcessing'
+import { loadPatchDefinitions } from '../../features/edit-chara-card/lib/cardPatchDataSource'
+import {
+  buildAchievementRenderItems,
+  buildFreeCompanyCrestImageUrls,
+  buildPatchDateMap,
+  buildProfileDetailLines,
+  extractFreeCompanyPosition,
+  resolveAchievementTextColor,
+  type AchievementRenderItem,
+  type PatchDefinition,
+} from '../../features/edit-chara-card/lib/cardRenderDomain'
 import {
   loadSelectedAchievementSummaries,
   type SelectedAchievementSummary,
@@ -72,6 +83,7 @@ export function EditCharaCardPage(): JSX.Element {
   )
   const [imageState, setImageState] = useState<CardEditorImageState>(() => readCardEditorImageState())
   const [selectedSummaries, setSelectedSummaries] = useState<SelectedAchievementSummary[]>([])
+  const [patchDefinitions, setPatchDefinitions] = useState<PatchDefinition[]>([])
   const [cropSourceDataUrl, setCropSourceDataUrl] = useState<string | null>(null)
   const [cropFocus, setCropFocus] = useState<CropFocus>({ x: 0, y: 0 })
   const [message, setMessage] = useState<string>('')
@@ -82,9 +94,45 @@ export function EditCharaCardPage(): JSX.Element {
     [settings, imageState]
   )
   const characterData: Record<string, unknown> = characterSession?.characterData ?? {}
+  const freecompanyInfo: Record<string, unknown> | undefined = characterSession?.freecompanyInfo
   const characterName: string = extractCharacterDisplayName(characterData)
   const characterMetaLine: string = extractCharacterMetaLine(characterData)
   const infoFontFamily: string = buildInfoFontFamily(settings)
+  const patchDateMap = useMemo(() => buildPatchDateMap(patchDefinitions), [patchDefinitions])
+  const characterGender: string | undefined =
+    typeof characterData.gender === 'string' ? characterData.gender : undefined
+  const freeCompanyCrestImageUrls = useMemo(
+    () => buildFreeCompanyCrestImageUrls(freecompanyInfo),
+    [freecompanyInfo]
+  )
+  const freeCompanyPosition = useMemo(
+    () => extractFreeCompanyPosition(freecompanyInfo),
+    [freecompanyInfo]
+  )
+  const profileDetailLines = useMemo(
+    () => (characterSession ? buildProfileDetailLines(characterSession, 2) : []),
+    [characterSession]
+  )
+  const achievementRenderItems: AchievementRenderItem[] = useMemo(
+    () =>
+      buildAchievementRenderItems(
+        selectedSummaries.map((summary) => ({
+          achievementTitle: summary.achievementTitle,
+          completedDate: summary.completedDate,
+          adjustmentPatchId: summary.adjustmentPatchId,
+          titleAward: summary.titleAward,
+          titleAwardMan: summary.titleAwardMan,
+          titleAwardWoman: summary.titleAwardWoman,
+          itemAward: summary.itemAward,
+          itemAwardImageUrl: summary.itemAwardImageUrl,
+          itemAwardImagePath: summary.itemAwardImagePath,
+        })),
+        patchDateMap,
+        settings.disabledBeforeUnlockAccent,
+        characterGender
+      ),
+    [selectedSummaries, patchDateMap, settings.disabledBeforeUnlockAccent, characterGender]
+  )
 
   const previewCanvasSize = getPreviewCanvasSize(settings.isFullSizeImage)
   const previewLayout = useMemo(
@@ -144,6 +192,27 @@ export function EditCharaCardPage(): JSX.Element {
       cancelled = true
     }
   }, [characterSession, selectedPaths])
+
+  /** 目的: 緩和前取得判定に必要なpatch定義を読み込む。副作用: Cloud Storage読込を実行する。前提: `patch/patch.json` が公開読取可能である。 */
+  useEffect((): (() => void) => {
+    let cancelled = false
+    const run = async (): Promise<void> => {
+      try {
+        const patches = await loadPatchDefinitions()
+        if (!cancelled) {
+          setPatchDefinitions(patches)
+        }
+      } catch (_error) {
+        if (!cancelled) {
+          setPatchDefinitions([])
+        }
+      }
+    }
+    void run()
+    return (): void => {
+      cancelled = true
+    }
+  }, [])
 
   /** 目的: 入力変更を共通化して設定更新を簡潔化する。副作用: state更新を行う。前提: updaterは純粋関数として現在値から次値を返す。 */
   const updateSettings = (
@@ -227,7 +296,11 @@ export function EditCharaCardPage(): JSX.Element {
         settings,
         characterName,
         characterMetaLine,
-        selectedAchievementTitles: selectedSummaries.map((summary) => summary.achievementTitle),
+        profileDetailLines,
+        freeCompanyCrestImageUrls,
+        freeCompanyPositionImageUrl: freeCompanyPosition.positionImageUrl,
+        freeCompanyPositionName: freeCompanyPosition.positionName,
+        selectedAchievements: achievementRenderItems,
         mainImageDataUrl: currentMainImageDataUrl,
       })
       downloadCharaCardPng(pngDataUrl)
@@ -311,6 +384,18 @@ export function EditCharaCardPage(): JSX.Element {
                 }}
               />
               <div className="relative z-10 flex h-full flex-col gap-4 p-4 sm:p-6">
+                {freeCompanyCrestImageUrls.length > 0 ? (
+                  <div className="ml-auto flex items-center gap-1">
+                    {freeCompanyCrestImageUrls.map((imageUrl, crestIndex) => (
+                      <img
+                        key={`${crestIndex}-${imageUrl}`}
+                        src={imageUrl}
+                        alt="fc crest"
+                        className="h-5 w-5 rounded-sm border border-white/40 object-cover"
+                      />
+                    ))}
+                  </div>
+                ) : null}
                 <h2
                   className="text-2xl"
                   style={{
@@ -331,6 +416,40 @@ export function EditCharaCardPage(): JSX.Element {
                 >
                   {characterMetaLine}
                 </p>
+                {freeCompanyPosition.positionName ? (
+                  <div className="flex items-center gap-1.5">
+                    {freeCompanyPosition.positionImageUrl ? (
+                      <img
+                        src={freeCompanyPosition.positionImageUrl}
+                        alt="fc position"
+                        className="h-4 w-4 object-contain"
+                      />
+                    ) : null}
+                    <p
+                      className="text-xs"
+                      style={{
+                        color: activeCardColor.textColor,
+                        fontFamily: infoFontFamily,
+                        fontWeight: settings.infoTextBold ? 700 : 500,
+                      }}
+                    >
+                      FC Position: {freeCompanyPosition.positionName}
+                    </p>
+                  </div>
+                ) : null}
+                {profileDetailLines.map((line, lineIndex) => (
+                  <p
+                    key={`${lineIndex}-${line}`}
+                    className="text-xs"
+                    style={{
+                      color: activeCardColor.textColor,
+                      fontFamily: infoFontFamily,
+                      fontWeight: settings.infoTextBold ? 700 : 500,
+                    }}
+                  >
+                    {line}
+                  </p>
+                ))}
                 <div className="h-[2px] w-full" style={{ backgroundColor: activeCardColor.accentColor }} />
                 <p
                   className="whitespace-pre-wrap text-sm"
@@ -357,12 +476,38 @@ export function EditCharaCardPage(): JSX.Element {
                       fontWeight: settings.infoTextBold ? 700 : 500,
                     }}
                   >
-                    {selectedSummaries.length <= 0 ? (
+                    {achievementRenderItems.length <= 0 ? (
                       <li>選択済み実績を読み込み中です。</li>
                     ) : (
-                      selectedSummaries.map((summary) => (
-                        <li key={`${summary.path.kindIndex}-${summary.path.categoryIndex}-${summary.path.groupIndex}-${summary.path.achievementIndex}`}>
-                          {summary.achievementTitle}
+                      achievementRenderItems.map((item, itemIndex) => (
+                        <li
+                          key={`${itemIndex}-${item.title}`}
+                          style={{
+                            color: resolveAchievementTextColor(
+                              settings,
+                              item.isUnlockedBeforeAdjustment,
+                              activeCardColor.textColor,
+                              activeCardColor.accentColor
+                            ),
+                          }}
+                        >
+                          {item.isUnlockedBeforeAdjustment ? '★' : '・'} {item.title} ({item.completedDateLabel})
+                          {item.titleAwardLabel ? (
+                            <div className="ml-4 text-[10px]" style={{ color: activeCardColor.textColor }}>
+                              {item.titleAwardLabel}
+                            </div>
+                          ) : null}
+                          {item.itemAwardLabel ? (
+                            <div
+                              className="ml-4 flex items-center gap-1 text-[10px]"
+                              style={{ color: activeCardColor.textColor }}
+                            >
+                              {item.itemAwardImageUrl ? (
+                                <img src={item.itemAwardImageUrl} alt="item" className="h-3 w-3 object-contain" />
+                              ) : null}
+                              <span>{item.itemAwardLabel}</span>
+                            </div>
+                          ) : null}
                         </li>
                       ))
                     )}

@@ -31,14 +31,18 @@ function isCompletedAchievementsKind(
 
 /** 目的: CharacterSessionResponse最小構造を検証する。副作用: なし。前提: characterDataは任意オブジェクトを許容する。 */
 export function isCharacterSessionResponse(value: unknown): value is CharacterSessionResponse {
+  if (!isRecord(value)) {
+    return false
+  }
+  const candidate = value as Record<string, unknown>
   return (
-    isRecord(value) &&
-    typeof value.characterID === 'number' &&
-    typeof value.fetchedDate === 'string' &&
-    isRecord(value.characterData) &&
-    Array.isArray(value.completedAchievementsKinds) &&
-    value.completedAchievementsKinds.every((kind) => isCompletedAchievementsKind(kind)) &&
-    typeof value.isAchievementPrivate === 'boolean'
+    typeof candidate.characterID === 'number' &&
+    typeof candidate.fetchedDate === 'string' &&
+    isRecord(candidate.characterData) &&
+    Array.isArray(candidate.completedAchievementsKinds) &&
+    candidate.completedAchievementsKinds.every((kind) => isCompletedAchievementsKind(kind)) &&
+    typeof candidate.isAchievementPrivate === 'boolean' &&
+    (candidate.freecompanyInfo === undefined || isRecord(candidate.freecompanyInfo))
   )
 }
 

@@ -32,6 +32,7 @@ export type CharacterSessionResponse = {
   characterData: Record<string, unknown>
   completedAchievementsKinds: CompletedAchievementsKind[]
   isAchievementPrivate: boolean
+  freecompanyInfo?: Record<string, unknown>
 }
 
 export type SelectableAchievement = {

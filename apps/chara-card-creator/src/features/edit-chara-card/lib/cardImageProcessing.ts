@@ -6,6 +6,10 @@ import {
   resolveActiveCardColor,
 } from './cardEditorDomain'
 import {
+  resolveAchievementTextColor,
+  type AchievementRenderItem,
+} from './cardRenderDomain'
+import {
   type CardEditorSettings,
   type CropFocus,
 } from '../model/types'
@@ -16,7 +20,11 @@ type RenderCardToPngArg = {
   settings: CardEditorSettings
   characterName: string
   characterMetaLine: string
-  selectedAchievementTitles: string[]
+  profileDetailLines: string[]
+  freeCompanyCrestImageUrls: string[]
+  freeCompanyPositionImageUrl: string | null
+  freeCompanyPositionName: string | null
+  selectedAchievements: AchievementRenderItem[]
   mainImageDataUrl: string | null
 }
 
@@ -31,6 +39,21 @@ export function loadImageFromDataUrl(sourceDataUrl: string): Promise<HTMLImageEl
       reject(new Error('画像の読み込みに失敗しました。'))
     }
     image.src = sourceDataUrl
+  })
+}
+
+/** 目的: URL文字列からHTMLImageElementを読み込む。副作用: ブラウザの画像取得を実行する。前提: CORS許可されたURLを受け取る。 */
+export function loadImageFromUrl(sourceUrl: string): Promise<HTMLImageElement> {
+  return new Promise<HTMLImageElement>((resolve, reject) => {
+    const image: HTMLImageElement = new Image()
+    image.crossOrigin = 'anonymous'
+    image.onload = (): void => {
+      resolve(image)
+    }
+    image.onerror = (): void => {
+      reject(new Error(`画像URLの読み込みに失敗しました: ${sourceUrl}`))
+    }
+    image.src = sourceUrl
   })
 }
 
@@ -242,6 +265,39 @@ export async function renderCardToPngDataUrl(arg: RenderCardToPngArg): Promise<s
   const contentWidth: number = layout.infoPanelRect.width - contentMargin * 2
   let currentY: number = 90
 
+  if (arg.freeCompanyCrestImageUrls.length > 0) {
+    const crestSize = 38
+    const crestTop = 28
+    const totalWidth = crestSize * arg.freeCompanyCrestImageUrls.length
+    const crestStartX = contentX + contentWidth - totalWidth
+    for (const [index, crestUrl] of arg.freeCompanyCrestImageUrls.entries()) {
+      try {
+        const crestImage = await loadImageFromUrl(crestUrl)
+        context.drawImage(crestImage, crestStartX + crestSize * index, crestTop, crestSize, crestSize)
+      } catch (_error) {
+        // 画像取得失敗時は描画をスキップして継続する
+      }
+    }
+    currentY += 50
+  }
+
+  if (arg.freeCompanyPositionName) {
+    context.fillStyle = activeCardColor.textColor
+    context.font = `${arg.settings.infoTextBold ? '700' : '500'} 22px "${buildInfoFontFamily(arg.settings)}", sans-serif`
+    let positionLabelX = contentX
+    if (arg.freeCompanyPositionImageUrl) {
+      try {
+        const positionImage = await loadImageFromUrl(arg.freeCompanyPositionImageUrl)
+        context.drawImage(positionImage, contentX, currentY - 20, 24, 24)
+        positionLabelX += 30
+      } catch (_error) {
+        // 画像取得失敗時はテキストのみ描画する
+      }
+    }
+    context.fillText(`FC Position: ${arg.freeCompanyPositionName}`, positionLabelX, currentY)
+    currentY += 36
+  }
+
   context.fillStyle = activeCardColor.accentColor
   context.fillRect(contentX, currentY - 28, contentWidth, 8)
 
@@ -252,6 +308,14 @@ export async function renderCardToPngDataUrl(arg: RenderCardToPngArg): Promise<s
   context.font = `${arg.settings.infoTextBold ? '700' : '500'} 30px "${buildInfoFontFamily(arg.settings)}", sans-serif`
   currentY += 16
   currentY = drawWrappedText(context, arg.characterMetaLine, contentX, currentY, contentWidth, 38, 2)
+
+  if (arg.profileDetailLines.length > 0) {
+    context.font = `${arg.settings.infoTextBold ? '700' : '500'} 25px "${buildInfoFontFamily(arg.settings)}", sans-serif`
+    currentY += 12
+    for (const line of arg.profileDetailLines) {
+      currentY = drawWrappedText(context, line, contentX, currentY, contentWidth, 30, 1)
+    }
+  }
 
   currentY += 18
   context.strokeStyle = activeCardColor.accentColor
@@ -270,13 +334,45 @@ export async function renderCardToPngDataUrl(arg: RenderCardToPngArg): Promise<s
   context.font = `${arg.settings.infoTextBold ? '700' : '600'} 28px "${buildInfoFontFamily(arg.settings)}", sans-serif`
   context.fillText('Selected Achievements', contentX, currentY)
 
-  context.fillStyle = activeCardColor.textColor
   context.font = `${arg.settings.infoTextBold ? '700' : '500'} 24px "${buildInfoFontFamily(arg.settings)}", sans-serif`
   let achievementY: number = currentY + 40
-  for (const [index, title] of arg.selectedAchievementTitles.slice(0, 4).entries()) {
-    const label: string = `${index + 1}. ${title}`
+  for (const [index, achievement] of arg.selectedAchievements.slice(0, 4).entries()) {
+    context.fillStyle = resolveAchievementTextColor(
+      arg.settings,
+      achievement.isUnlockedBeforeAdjustment,
+      activeCardColor.textColor,
+      activeCardColor.accentColor
+    )
+    const marker = achievement.isUnlockedBeforeAdjustment ? '★' : '・'
+    const label: string = `${marker} ${index + 1}. ${achievement.title} (${achievement.completedDateLabel})`
     context.fillText(label, contentX, achievementY)
-    achievementY += 34
+    achievementY += 32
+
+    if (achievement.titleAwardLabel) {
+      context.fillStyle = activeCardColor.textColor
+      context.font = `${arg.settings.infoTextBold ? '700' : '500'} 20px "${buildInfoFontFamily(arg.settings)}", sans-serif`
+      context.fillText(achievement.titleAwardLabel, contentX + 14, achievementY)
+      achievementY += 26
+    }
+
+    if (achievement.itemAwardLabel) {
+      context.fillStyle = activeCardColor.textColor
+      context.font = `${arg.settings.infoTextBold ? '700' : '500'} 20px "${buildInfoFontFamily(arg.settings)}", sans-serif`
+      let itemLabelX = contentX + 14
+      if (achievement.itemAwardImageUrl) {
+        try {
+          const itemImage = await loadImageFromUrl(achievement.itemAwardImageUrl)
+          context.drawImage(itemImage, contentX + 14, achievementY - 19, 20, 20)
+          itemLabelX += 24
+        } catch (_error) {
+          // 画像取得失敗時はテキストのみ描画する
+        }
+      }
+      context.fillText(achievement.itemAwardLabel, itemLabelX, achievementY)
+      achievementY += 28
+    }
+
+    achievementY += 8
   }
 
   return canvas.toDataURL('image/png')
