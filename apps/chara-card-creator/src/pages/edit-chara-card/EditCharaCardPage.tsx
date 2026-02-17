@@ -37,9 +37,11 @@ import {
   buildFreeCompanyCrestImageUrls,
   buildPatchDateMap,
   buildProfileDetailLines,
+  extractJobEntries,
   extractFreeCompanyPosition,
   resolveAchievementTextColor,
   type AchievementRenderItem,
+  type JobEntry,
   type PatchDefinition,
 } from '../../features/edit-chara-card/lib/cardRenderDomain'
 import {
@@ -69,6 +71,44 @@ function getCurrentMainImageDataUrl(
 /** 目的: 編集画面のプレビュー解像度を返す。副作用: なし。前提: 全画面レイアウトは16:9、通常レイアウトは9:16とする。 */
 function getPreviewCanvasSize(isFullSizeImage: boolean): { width: number; height: number } {
   return isFullSizeImage ? { width: 1600, height: 900 } : { width: 900, height: 1600 }
+}
+
+type JobIconImageProps = {
+  candidateUrls: string[]
+  alt: string
+  className?: string
+}
+
+/** 目的: ジョブアイコン候補URLを順番に試し、利用可能な画像を表示する。副作用: onError時に表示URLを次候補へ切り替える。前提: candidateUrlsは優先順に並んでいる。 */
+function JobIconImage({ candidateUrls, alt, className }: JobIconImageProps): JSX.Element {
+  const [candidateIndex, setCandidateIndex] = useState<number>(0)
+  const activeSource = candidateUrls[candidateIndex] ?? null
+
+  useEffect(() => {
+    setCandidateIndex(0)
+  }, [candidateUrls])
+
+  if (!activeSource) {
+    return (
+      <span
+        className={className}
+        style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', opacity: 0.35 }}
+      >
+        ?
+      </span>
+    )
+  }
+
+  return (
+    <img
+      src={activeSource}
+      alt={alt}
+      className={className}
+      onError={() => {
+        setCandidateIndex((currentIndex) => currentIndex + 1)
+      }}
+    />
+  )
 }
 
 /** 目的: カード編集画面（旧`/editCharaCard`）の責務をReactで提供する。副作用: localStorage更新・Cloud Storage読込・PNGダウンロードを行う。前提: Homeとselect-achievementのフロー完了後に遷移する。 */
@@ -109,6 +149,10 @@ export function EditCharaCardPage(): JSX.Element {
     () => extractFreeCompanyPosition(freecompanyInfo),
     [freecompanyInfo]
   )
+  const topJobEntries: JobEntry[] = useMemo(
+    () => extractJobEntries(characterData).slice(0, 12),
+    [characterData]
+  )
   const profileDetailLines = useMemo(
     () => (characterSession ? buildProfileDetailLines(characterSession, 2) : []),
     [characterSession]
@@ -118,6 +162,7 @@ export function EditCharaCardPage(): JSX.Element {
       buildAchievementRenderItems(
         selectedSummaries.map((summary) => ({
           achievementTitle: summary.achievementTitle,
+          description: summary.description,
           completedDate: summary.completedDate,
           adjustmentPatchId: summary.adjustmentPatchId,
           titleAward: summary.titleAward,
@@ -297,6 +342,7 @@ export function EditCharaCardPage(): JSX.Element {
         characterName,
         characterMetaLine,
         profileDetailLines,
+        jobEntries: topJobEntries,
         freeCompanyCrestImageUrls,
         freeCompanyPositionImageUrl: freeCompanyPosition.positionImageUrl,
         freeCompanyPositionName: freeCompanyPosition.positionName,
@@ -450,6 +496,32 @@ export function EditCharaCardPage(): JSX.Element {
                     {line}
                   </p>
                 ))}
+                {topJobEntries.length > 0 ? (
+                  <div className="flex flex-wrap gap-1">
+                    {topJobEntries.map((jobEntry) => (
+                      <div
+                        key={`${jobEntry.category}-${jobEntry.group}-${jobEntry.jobKey}`}
+                        className="inline-flex items-center gap-1 rounded border border-white/25 px-1 py-0.5"
+                      >
+                        <JobIconImage
+                          candidateUrls={jobEntry.iconCandidateUrls}
+                          alt={jobEntry.jobName}
+                          className="h-3.5 w-3.5 rounded-sm object-cover"
+                        />
+                        <span
+                          className="text-[10px]"
+                          style={{
+                            color: activeCardColor.textColor,
+                            fontFamily: infoFontFamily,
+                            fontWeight: settings.infoTextBold ? 700 : 500,
+                          }}
+                        >
+                          {jobEntry.level}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                ) : null}
                 <div className="h-[2px] w-full" style={{ backgroundColor: activeCardColor.accentColor }} />
                 <p
                   className="whitespace-pre-wrap text-sm"
@@ -492,6 +564,11 @@ export function EditCharaCardPage(): JSX.Element {
                           }}
                         >
                           {item.isUnlockedBeforeAdjustment ? '★' : '・'} {item.title} ({item.completedDateLabel})
+                          {item.description !== '' ? (
+                            <div className="ml-4 text-[10px] opacity-80" style={{ color: activeCardColor.textColor }}>
+                              {item.description}
+                            </div>
+                          ) : null}
                           {item.titleAwardLabel ? (
                             <div className="ml-4 text-[10px]" style={{ color: activeCardColor.textColor }}>
                               {item.titleAwardLabel}

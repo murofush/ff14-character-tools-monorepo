@@ -2,6 +2,53 @@ import { type CardEditorSettings } from '../model/types'
 
 const DEFAULT_RESOURCE_BASE_URL = 'https://forfan-resource.storage.googleapis.com'
 const FC_CREST_BACKGROUND_IMAGE_URL = `${DEFAULT_RESOURCE_BASE_URL}/img/fc_bg.png`
+const JOB_ICON_DIRECTORIES = ['img/job/sub', 'img/job', 'img/class_job/sub', 'img/class_job', 'img/jobs']
+const JOB_ICON_EXTENSIONS = ['png', 'webp']
+
+const JOB_KEY_ALIAS_MAP: Record<string, string[]> = {
+  paladin: ['pld'],
+  warrior: ['war'],
+  dark_knight: ['drk'],
+  gunbreaker: ['gnb'],
+  white_mage: ['whm'],
+  scholar: ['sch'],
+  astrologian: ['ast'],
+  sage: ['sge'],
+  monk: ['mnk'],
+  dragoon: ['drg'],
+  ninja: ['nin'],
+  samurai: ['sam'],
+  reaper: ['rpr'],
+  viper: ['vpr'],
+  bard: ['brd'],
+  machinist: ['mch'],
+  dancer: ['dnc'],
+  black_mage: ['blm'],
+  summoner: ['smn'],
+  red_mage: ['rdm'],
+  pictomancer: ['pct'],
+  blue_mage: ['blu'],
+  carpenter: ['crp'],
+  blacksmith: ['bsm'],
+  armorer: ['arm'],
+  goldsmith: ['gsm'],
+  leatherworker: ['ltw'],
+  weaver: ['wvr'],
+  alchemist: ['alc'],
+  culinarian: ['cul'],
+  miner: ['min'],
+  botanist: ['btn'],
+  fisher: ['fsh'],
+  gladiator: ['gla'],
+  marauder: ['mrd'],
+  conjurer: ['cnj'],
+  pugilist: ['pug'],
+  lancer: ['lnc'],
+  rogue: ['rog'],
+  archer: ['arc'],
+  thaumaturge: ['thm'],
+  arcanist: ['acn'],
+}
 
 export type PatchDefinition = {
   id: number
@@ -11,6 +58,7 @@ export type PatchDefinition = {
 
 export type SelectedAchievementRenderSource = {
   achievementTitle: string
+  description?: string
   completedDate?: string
   adjustmentPatchId: number
   titleAward?: string
@@ -23,6 +71,7 @@ export type SelectedAchievementRenderSource = {
 
 export type AchievementRenderItem = {
   title: string
+  description: string
   completedDateLabel: string
   isUnlockedBeforeAdjustment: boolean
   titleAwardLabel: string | null
@@ -33,8 +82,10 @@ export type AchievementRenderItem = {
 export type JobEntry = {
   category: 'battleRoles' | 'crafter' | 'gatherer'
   group: string
+  jobKey: string
   jobName: string
   level: number
+  iconCandidateUrls: string[]
 }
 
 export type FreeCompanyPositionRenderItem = {
@@ -68,6 +119,44 @@ export function resolveResourceImageUrl(urlOrPath: string | undefined): string |
   }
   const pathWithoutLeadingSlash = normalized.replace(/^\/+/, '')
   return `${DEFAULT_RESOURCE_BASE_URL}/${pathWithoutLeadingSlash}`
+}
+
+/** 目的: camelCaseやkebab-caseをsnake_caseへ正規化する。副作用: なし。前提: 英数字記号を含む識別子を受け取る。 */
+function normalizeJobKey(value: string): string {
+  return value
+    .replace(/([a-z0-9])([A-Z])/g, '$1_$2')
+    .replace(/-/g, '_')
+    .replace(/\s+/g, '_')
+    .toLowerCase()
+}
+
+/** 目的: 重複を除いた文字列配列を返す。副作用: なし。前提: valuesは順序付き候補配列である。 */
+function uniqueStrings(values: string[]): string[] {
+  return [...new Set(values.filter((value) => value.trim() !== ''))]
+}
+
+/** 目的: ジョブ識別子から画像候補ID一覧を生成する。副作用: なし。前提: jobKeyRawはジョブ識別子（例: darkKnight）を受け取る。 */
+function buildJobImageCandidateIds(jobKeyRaw: string): string[] {
+  const normalizedKey = normalizeJobKey(jobKeyRaw)
+  const aliases = JOB_KEY_ALIAS_MAP[normalizedKey] ?? []
+  return uniqueStrings([jobKeyRaw.toLowerCase(), normalizedKey, ...aliases])
+}
+
+/** 目的: ジョブ画像URL候補を優先順で生成する。副作用: なし。前提: explicitPathは既知パスがある場合のみ指定する。 */
+export function buildJobIconCandidateUrls(jobKeyRaw: string, explicitPath?: string): string[] {
+  const directUrl = resolveResourceImageUrl(explicitPath)
+  const candidateIds = buildJobImageCandidateIds(jobKeyRaw)
+  const pathCandidates: string[] = []
+
+  for (const directory of JOB_ICON_DIRECTORIES) {
+    for (const candidateId of candidateIds) {
+      for (const extension of JOB_ICON_EXTENSIONS) {
+        pathCandidates.push(`${DEFAULT_RESOURCE_BASE_URL}/${directory}/${candidateId}.${extension}`)
+      }
+    }
+  }
+
+  return uniqueStrings([directUrl ?? '', ...pathCandidates])
 }
 
 /** 目的: patch定義配列からid->dateマップを生成する。副作用: なし。前提: dateは未設定の可能性がある。 */
@@ -178,6 +267,7 @@ export function buildAchievementRenderItems(
     const titleAward = resolveTitleAwardByGender(source, characterGender)
     return {
       title: source.achievementTitle,
+      description: typeof source.description === 'string' ? source.description : '',
       completedDateLabel,
       isUnlockedBeforeAdjustment: isUnlockedBeforeAdjustment(
         source.completedDate,
@@ -213,22 +303,26 @@ function walkJobTree(
   const results: JobEntry[] = []
   if (isJobCandidate(value)) {
     const group = category === 'battleRoles' ? path[1] ?? category : category
-    const fallbackName = path[path.length - 1] ?? 'Unknown Job'
+    const rawJobKey = path[path.length - 1] ?? 'unknown_job'
+    const fallbackName = rawJobKey
     const rawName = typeof value.name === 'string' && value.name !== '' ? value.name : fallbackName
     const normalizedName = rawName
       .split('_')
       .map((part) => (part.length > 0 ? part[0]!.toUpperCase() + part.slice(1) : part))
       .join(' ')
+    const explicitPath = typeof value.path === 'string' ? value.path : undefined
     results.push({
       category,
       group,
+      jobKey: rawJobKey,
       jobName: normalizedName,
       level: Math.trunc(value.level),
+      iconCandidateUrls: buildJobIconCandidateUrls(rawJobKey, explicitPath),
     })
   }
 
   for (const [key, child] of Object.entries(value)) {
-    if (key === 'level' || key === 'name') {
+    if (key === 'level' || key === 'name' || key === 'path') {
       continue
     }
     const childPath = [...path, key]

@@ -8,7 +8,12 @@ import {
 import {
   resolveAchievementTextColor,
   type AchievementRenderItem,
+  type JobEntry,
 } from './cardRenderDomain'
+import {
+  fitAchievementTitleFontSize,
+  truncateTextWithEllipsis,
+} from './cardTypographyDomain'
 import {
   type CardEditorSettings,
   type CropFocus,
@@ -21,6 +26,7 @@ type RenderCardToPngArg = {
   characterName: string
   characterMetaLine: string
   profileDetailLines: string[]
+  jobEntries: JobEntry[]
   freeCompanyCrestImageUrls: string[]
   freeCompanyPositionImageUrl: string | null
   freeCompanyPositionName: string | null
@@ -55,6 +61,18 @@ export function loadImageFromUrl(sourceUrl: string): Promise<HTMLImageElement> {
     }
     image.src = sourceUrl
   })
+}
+
+/** 目的: 複数候補URLから最初に読み込めた画像を返す。副作用: 候補順に画像取得を試行する。前提: candidatesは優先順に並んでいる。 */
+async function loadImageFromCandidateUrls(candidates: string[]): Promise<HTMLImageElement | null> {
+  for (const candidate of candidates) {
+    try {
+      return await loadImageFromUrl(candidate)
+    } catch (_error) {
+      continue
+    }
+  }
+  return null
 }
 
 /** 目的: FileオブジェクトをDataURLへ変換する。副作用: FileReaderを実行する。前提: input type=file で選択された画像ファイルを受け取る。 */
@@ -317,6 +335,36 @@ export async function renderCardToPngDataUrl(arg: RenderCardToPngArg): Promise<s
     }
   }
 
+  if (arg.jobEntries.length > 0) {
+    const iconSize = 26
+    const iconTextGap = 4
+    const itemWidth = 68
+    const maxColumns = Math.max(1, Math.floor(contentWidth / itemWidth))
+    let jobIndex = 0
+    currentY += 10
+    while (jobIndex < arg.jobEntries.length && jobIndex < 12) {
+      const rowStartY = currentY
+      for (let column = 0; column < maxColumns && jobIndex < arg.jobEntries.length && jobIndex < 12; column += 1) {
+        const jobEntry = arg.jobEntries[jobIndex]!
+        const itemX = contentX + column * itemWidth
+        const iconImage = await loadImageFromCandidateUrls(jobEntry.iconCandidateUrls)
+        if (iconImage) {
+          context.drawImage(iconImage, itemX, rowStartY, iconSize, iconSize)
+        } else {
+          context.fillStyle = activeCardColor.textColor
+          context.globalAlpha = 0.2
+          context.fillRect(itemX, rowStartY, iconSize, iconSize)
+          context.globalAlpha = 1
+        }
+        context.fillStyle = activeCardColor.textColor
+        context.font = `${arg.settings.infoTextBold ? '700' : '500'} 18px "${buildInfoFontFamily(arg.settings)}", sans-serif`
+        context.fillText(`Lv${jobEntry.level}`, itemX + iconSize + iconTextGap, rowStartY + iconSize - 6)
+        jobIndex += 1
+      }
+      currentY += iconSize + 8
+    }
+  }
+
   currentY += 18
   context.strokeStyle = activeCardColor.accentColor
   context.lineWidth = 3
@@ -337,16 +385,72 @@ export async function renderCardToPngDataUrl(arg: RenderCardToPngArg): Promise<s
   context.font = `${arg.settings.infoTextBold ? '700' : '500'} 24px "${buildInfoFontFamily(arg.settings)}", sans-serif`
   let achievementY: number = currentY + 40
   for (const [index, achievement] of arg.selectedAchievements.slice(0, 4).entries()) {
+    const titleBaseFontSize = 24
+    const titleMinFontSize = 16
+    const titleDateGap = 12
+    const measure = (text: string, fontSize: number): number => {
+      context.font = `${arg.settings.infoTextBold ? '700' : '500'} ${fontSize}px "${buildInfoFontFamily(arg.settings)}", sans-serif`
+      return context.measureText(text).width
+    }
+    const titleFontSize = fitAchievementTitleFontSize({
+      title: achievement.title,
+      completedDateLabel: achievement.completedDateLabel,
+      baseFontSize: titleBaseFontSize,
+      minFontSize: titleMinFontSize,
+      availableWidth: contentWidth,
+      gapWidth: titleDateGap,
+      measure,
+    })
+
     context.fillStyle = resolveAchievementTextColor(
       arg.settings,
       achievement.isUnlockedBeforeAdjustment,
       activeCardColor.textColor,
       activeCardColor.accentColor
     )
+    context.font = `${arg.settings.infoTextBold ? '700' : '500'} ${titleFontSize}px "${buildInfoFontFamily(arg.settings)}", sans-serif`
     const marker = achievement.isUnlockedBeforeAdjustment ? '★' : '・'
-    const label: string = `${marker} ${index + 1}. ${achievement.title} (${achievement.completedDateLabel})`
-    context.fillText(label, contentX, achievementY)
-    achievementY += 32
+    const titleText = `${marker} ${index + 1}. ${achievement.title}`
+    context.fillText(titleText, contentX, achievementY)
+
+    const dateWidth = context.measureText(achievement.completedDateLabel).width
+    const dateX = contentX + contentWidth - dateWidth
+    context.fillText(achievement.completedDateLabel, dateX, achievementY)
+    achievementY += titleFontSize + 6
+
+    if (achievement.description !== '') {
+      const descFontSize = 19
+      const descriptionMeasure = (text: string, fontSize: number): number => {
+        context.font = `${arg.settings.infoTextBold ? '700' : '500'} ${fontSize}px "${buildInfoFontFamily(arg.settings)}", sans-serif`
+        return context.measureText(text).width
+      }
+      context.fillStyle = activeCardColor.textColor
+      context.globalAlpha = 0.8
+      context.font = `${arg.settings.infoTextBold ? '700' : '500'} ${descFontSize}px "${buildInfoFontFamily(arg.settings)}", sans-serif`
+      const firstLine = truncateTextWithEllipsis({
+        text: achievement.description,
+        maxWidth: contentWidth - 8,
+        fontSize: descFontSize,
+        measure: descriptionMeasure,
+      })
+      context.fillText(firstLine, contentX + 4, achievementY)
+      achievementY += 22
+      const remainingText =
+        firstLine.endsWith('...') || firstLine === achievement.description
+          ? ''
+          : achievement.description.slice(firstLine.length)
+      if (remainingText !== '') {
+        const secondLine = truncateTextWithEllipsis({
+          text: remainingText,
+          maxWidth: contentWidth - 8,
+          fontSize: descFontSize,
+          measure: descriptionMeasure,
+        })
+        context.fillText(secondLine, contentX + 4, achievementY)
+        achievementY += 22
+      }
+      context.globalAlpha = 1
+    }
 
     if (achievement.titleAwardLabel) {
       context.fillStyle = activeCardColor.textColor

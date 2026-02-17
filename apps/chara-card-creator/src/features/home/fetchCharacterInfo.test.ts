@@ -154,4 +154,73 @@ describe('fetchCharacterInfoFromBackend', () => {
       },
     })
   })
+
+  it('backend がHTMLを返した場合は接続設定の案内メッセージを返す', async () => {
+    const fetcher = vi.fn(async () =>
+      new Response('<!doctype html><html><body>not json</body></html>', {
+        status: 200,
+        headers: {
+          'Content-Type': 'text/html',
+        },
+      })
+    )
+
+    const result = await fetchCharacterInfoFromBackend(
+      'https://jp.finalfantasyxiv.com/lodestone/character/31299051',
+      {
+        backendBaseUrl: '',
+        fetcher,
+      }
+    )
+
+    expect(result).toEqual({
+      ok: false,
+      message:
+        'キャラクター情報の取得に失敗しました: APIレスポンスがJSONではありません。バックエンド接続またはViteの/apiプロキシ設定を確認してください。',
+    })
+  })
+
+  it('進捗コールバックへ取得プロセスを順に通知する', async () => {
+    const fetcher = vi.fn(async () =>
+      new Response(
+        JSON.stringify({
+          characterID: 31299051,
+          fetchedDate: '2026-02-12T10:00:00Z',
+          characterData: {
+            firstName: 'Test',
+            lastName: 'Taro',
+          },
+          completedAchievementsKinds: [],
+          isAchievementPrivate: false,
+        }),
+        {
+          status: 200,
+          headers: {
+            'Content-Type': 'application/json',
+          },
+        }
+      )
+    )
+    const progressMessages: string[] = []
+
+    await fetchCharacterInfoFromBackend(
+      'https://jp.finalfantasyxiv.com/lodestone/character/31299051',
+      {
+        backendBaseUrl: 'http://localhost:8080',
+        fetcher,
+        onProgress: (message: string): void => {
+          progressMessages.push(message)
+        },
+      }
+    )
+
+    expect(progressMessages).toEqual([
+      'APIエンドポイントを組み立てています。',
+      'バックエンドへリクエストを送信しています。',
+      'レスポンスを受信しました。',
+      'レスポンスJSONを解析しています。',
+      'キャラクター情報を検証しています。',
+      'キャラクター情報の取得が完了しました。',
+    ])
+  })
 })

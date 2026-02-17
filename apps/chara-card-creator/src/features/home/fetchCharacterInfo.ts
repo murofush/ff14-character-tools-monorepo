@@ -6,6 +6,7 @@ type LocalErrorResponse = {
 }
 
 type Fetcher = (input: string) => Promise<Response>
+type ProgressReporter = (message: string) => void
 
 export type FetchCharacterInfoResult =
   | {
@@ -20,7 +21,11 @@ export type FetchCharacterInfoResult =
 type FetchCharacterInfoOptions = {
   backendBaseUrl?: string
   fetcher?: Fetcher
+  onProgress?: ProgressReporter
 }
+
+const nonJsonResponseErrorMessage =
+  'キャラクター情報の取得に失敗しました: APIレスポンスがJSONではありません。バックエンド接続またはViteの/apiプロキシ設定を確認してください。'
 
 /** 目的: backendの`/api/get_character_info`を呼び出し、最低限必要なキャラクター識別子を返す。副作用: HTTP通信を実行する。前提: `profileUrl` はLodestoneキャラクターページURLである。 */
 export async function fetchCharacterInfoFromBackend(
@@ -28,14 +33,27 @@ export async function fetchCharacterInfoFromBackend(
   options: FetchCharacterInfoOptions = {}
 ): Promise<FetchCharacterInfoResult> {
   const fetcher: Fetcher = options.fetcher ?? ((input: string) => fetch(input))
+  const onProgress: ProgressReporter = options.onProgress ?? (() => {})
+  onProgress('APIエンドポイントを組み立てています。')
   const endpoint = buildGetCharacterInfoEndpoint(profileUrl, options.backendBaseUrl)
 
   try {
+    onProgress('バックエンドへリクエストを送信しています。')
     const response = await fetcher(endpoint)
-    const payload = (await response.json()) as unknown
+    onProgress('レスポンスを受信しました。')
+    const responseText = await response.text()
+    onProgress('レスポンスJSONを解析しています。')
+    const payload = parseJsonResponsePayload(responseText)
+
+    if (!payload.ok) {
+      return {
+        ok: false,
+        message: nonJsonResponseErrorMessage,
+      }
+    }
 
     if (!response.ok) {
-      const localError = parseLocalError(payload)
+      const localError = parseLocalError(payload.value)
       if (localError) {
         return {
           ok: false,
@@ -48,7 +66,8 @@ export async function fetchCharacterInfoFromBackend(
       }
     }
 
-    const parsedResponse = parseGetCharacterInfoResponse(payload)
+    onProgress('キャラクター情報を検証しています。')
+    const parsedResponse = parseGetCharacterInfoResponse(payload.value)
     if (!parsedResponse) {
       return {
         ok: false,
@@ -56,6 +75,7 @@ export async function fetchCharacterInfoFromBackend(
       }
     }
 
+    onProgress('キャラクター情報の取得が完了しました。')
     return {
       ok: true,
       value: parsedResponse,
@@ -77,6 +97,21 @@ function buildGetCharacterInfoEndpoint(
   const normalizedBaseUrl = (backendBaseUrl ?? '').trim().replace(/\/$/, '')
   const basePath = normalizedBaseUrl === '' ? '' : normalizedBaseUrl
   return `${basePath}/api/get_character_info?url=${encodeURIComponent(profileUrl)}`
+}
+
+/** 目的: レスポンステキストをJSONへ安全に変換し、呼び出し側でエラー分岐できる形にする。副作用: なし。前提: `responseText` はHTTPレスポンス本文。 */
+function parseJsonResponsePayload(responseText: string): { ok: true; value: unknown } | { ok: false } {
+  try {
+    const parsedValue: unknown = JSON.parse(responseText)
+    return {
+      ok: true,
+      value: parsedValue,
+    }
+  } catch {
+    return {
+      ok: false,
+    }
+  }
 }
 
 /** 目的: backendのLocalError互換レスポンスを判定して返す。副作用: なし。前提: `payload` はJSONパース済みのunknownである。 */

@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import {
+  buildJobIconCandidateUrls,
   buildAchievementRenderItems,
   buildFreeCompanyCrestImageUrls,
   buildPatchDateMap,
@@ -97,18 +98,25 @@ describe('cardRenderDomain', () => {
       },
     })
 
-    expect(jobs).toContainEqual({
-      category: 'battleRoles',
-      group: 'tank',
-      jobName: 'Paladin',
-      level: 90,
-    })
-    expect(jobs).toContainEqual({
-      category: 'crafter',
-      group: 'crafter',
-      jobName: 'Carpenter',
-      level: 100,
-    })
+    expect(jobs).toContainEqual(
+      expect.objectContaining({
+        category: 'battleRoles',
+        group: 'tank',
+        jobKey: 'paladin',
+        jobName: 'Paladin',
+        level: 90,
+      })
+    )
+    expect(jobs).toContainEqual(
+      expect.objectContaining({
+        category: 'crafter',
+        group: 'crafter',
+        jobKey: 'carpenter',
+        jobName: 'Carpenter',
+        level: 100,
+      })
+    )
+    expect(jobs[0]?.iconCandidateUrls.length).toBeGreaterThan(0)
   })
 
   it('表示用プロフィール行を生成できる', () => {
@@ -153,5 +161,12 @@ describe('cardRenderDomain', () => {
   it('URLまたは相対パスを正規化できる', () => {
     expect(resolveResourceImageUrl('https://example.com/a.png')).toBe('https://example.com/a.png')
     expect(resolveResourceImageUrl('/a/b.png')).toBe('https://forfan-resource.storage.googleapis.com/a/b.png')
+  })
+
+  it('ジョブアイコン候補URLをフォールバック順で構築できる', () => {
+    const urls = buildJobIconCandidateUrls('darkKnight')
+    expect(urls[0]).toContain('/img/job/sub/darkknight.')
+    expect(urls.some((url) => url.includes('/img/job/sub/drk.'))).toBe(true)
+    expect(urls.some((url) => url.includes('/img/class_job/dark_knight.'))).toBe(true)
   })
 })

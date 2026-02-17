@@ -75,7 +75,9 @@
 - [FE] [x] `chara-card-creator` `/edit-chara-card` に実績報酬表示（称号/アイテム名/アイテム画像）をプレビュー・PNG出力へ移植する
 - [FE] [x] `chara-card-creator` `/edit-chara-card` にFCクレスト/所属階級表示（画像+名称）をプレビュー・PNG出力へ移植する
 - [FE] [ ] `chara-card-creator` `/edit-chara-card` に旧 `editCharaCard.vue` + `characterCard/*` の機能責務（画像トリミング、カード設定、PNG保存）を完全移植する
-- [FE] [ ] `chara-card-creator` `/edit-chara-card` の旧Canvas同等責務（ジョブアイコン描画、旧Konva文字組みレイアウト微差の解消）を追加移植する（※ `getJobSubImagePath` 相当の旧実装ソース未確認）
+- [FE] [x] `chara-card-creator` `/edit-chara-card` にジョブアイコン表示をフォールバック候補URL方式で移植する（`getJobSubImagePath` 相当ソース未確認のため推定実装）
+- [FE] [x] `chara-card-creator` `/edit-chara-card` に旧Konva準拠の文字組み調整（タイトル/日付の衝突回避、説明文省略、報酬行レイアウト）を移植する
+- [FE] [ ] `chara-card-creator` `/edit-chara-card` の旧Canvas同等責務（Konva実描画とのピクセル差異調整）を追加移植する
 - [FE] [x] `achievement-editor` に旧 `loginButton` と認証状態表示導線を移植する
 - [FE] [x] `achievement-editor` に旧 `OUTPUT_SNACKBAR` 相当の全画面共通通知レイヤーを移植する
 - [FE] [x] `achievement-editor` カテゴリ編集に「テーブル全体保存」導線を移植する
