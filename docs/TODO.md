@@ -74,6 +74,8 @@
 - [FE] [x] `chara-card-creator` `/edit-chara-card` にキャラクター詳細表示（FC/PvP/ジョブ要約）をプレビュー・PNG出力へ移植する
 - [FE] [x] `chara-card-creator` `/edit-chara-card` に実績報酬表示（称号/アイテム名/アイテム画像）をプレビュー・PNG出力へ移植する
 - [FE] [x] `chara-card-creator` `/edit-chara-card` にFCクレスト/所属階級表示（画像+名称）をプレビュー・PNG出力へ移植する
+- [FE] [x] `chara-card-creator` 共通レイアウトへ旧責務のヘッダ導線（キャラクター選択/アチーブメント選択/名刺デザイン編集）と取得後キャラクター情報メニューを移植する
+- [FE] [x] `chara-card-creator` フッタへ旧責務の問い合わせ導線（外部フォーム）と `/about` 導線を移植する
 - [FE] [ ] `chara-card-creator` `/edit-chara-card` に旧 `editCharaCard.vue` + `characterCard/*` の機能責務（画像トリミング、カード設定、PNG保存）を完全移植する
 - [FE] [x] `chara-card-creator` `/edit-chara-card` にジョブアイコン表示をフォールバック候補URL方式で移植する（`getJobSubImagePath` 相当ソース未確認のため推定実装）
 - [FE] [x] `chara-card-creator` `/edit-chara-card` に旧Konva準拠の文字組み調整（タイトル/日付の衝突回避、説明文省略、報酬行レイアウト）を移植する

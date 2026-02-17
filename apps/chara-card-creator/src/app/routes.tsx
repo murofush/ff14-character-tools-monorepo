@@ -9,16 +9,53 @@ export type AppRouteItem = {
   path: string
   label: string
   showInNavigation: boolean
+  requiresCharacterSession: boolean
   element: JSX.Element
 }
 
 export const appRouteItems: AppRouteItem[] = [
-  { path: '/', label: 'Home', showInNavigation: true, element: <HomePage /> },
-  { path: '/edit-chara-card', label: 'Edit Card', showInNavigation: true, element: <EditCharaCardPage /> },
-  { path: '/editCharaCard', label: 'Edit Card(legacy)', showInNavigation: false, element: <Navigate to="/edit-chara-card" replace /> },
-  { path: '/select-achievement', label: 'Achievement', showInNavigation: true, element: <SelectAchievementPage /> },
-  { path: '/selectAchievement', label: 'Achievement(legacy)', showInNavigation: false, element: <Navigate to="/select-achievement" replace /> },
-  { path: '/about', label: 'About', showInNavigation: true, element: <AboutPage /> },
+  {
+    path: '/',
+    label: 'キャラクター選択',
+    showInNavigation: true,
+    requiresCharacterSession: false,
+    element: <HomePage />,
+  },
+  {
+    path: '/select-achievement',
+    label: 'アチーブメント選択',
+    showInNavigation: true,
+    requiresCharacterSession: true,
+    element: <SelectAchievementPage />,
+  },
+  {
+    path: '/edit-chara-card',
+    label: '名刺デザイン編集',
+    showInNavigation: true,
+    requiresCharacterSession: true,
+    element: <EditCharaCardPage />,
+  },
+  {
+    path: '/about',
+    label: 'このサイトについて',
+    showInNavigation: false,
+    requiresCharacterSession: false,
+    element: <AboutPage />,
+  },
+  {
+    path: '/editCharaCard',
+    label: '名刺デザイン編集(legacy)',
+    showInNavigation: false,
+    requiresCharacterSession: false,
+    element: <Navigate to="/edit-chara-card" replace />,
+  },
+  {
+    path: '/selectAchievement',
+    label: 'アチーブメント選択(legacy)',
+    showInNavigation: false,
+    requiresCharacterSession: false,
+    element: <Navigate to="/select-achievement" replace />,
+  },
 ]
 
 /** 目的: ヘッダナビ表示対象のルートだけを返す。副作用: なし。前提: `appRouteItems` に画面ルートが定義済みである。 */
