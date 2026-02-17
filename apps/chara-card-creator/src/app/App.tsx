@@ -3,6 +3,7 @@ import { Disclosure, Menu as HeadlessMenu } from '@headlessui/react'
 import { ChevronDown, Menu as MenuIcon } from 'lucide-react'
 import { Link, NavLink, Navigate, Route, Routes } from 'react-router-dom'
 import { buildCharacterHeaderSummary } from '../features/layout/lib/characterHeaderSummary'
+import { AppSnackbarLayer } from '../features/snackbar/ui/AppSnackbarLayer'
 import { readCharacterSessionResponse } from '../features/select-achievement/lib/characterSessionStorage'
 import { Badge } from '../shared/ui/badge'
 import { appRouteItems, getNavigationRouteItems, type AppRouteItem } from './routes'
@@ -122,6 +123,8 @@ export function App(): JSX.Element {
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>
+
+      <AppSnackbarLayer />
 
       <footer className="border-t border-[var(--line)] bg-white/80">
         <div className="mx-auto flex w-full max-w-6xl flex-col gap-2 px-4 py-4 text-xs text-[var(--ink-subtle)] sm:flex-row sm:items-center sm:justify-between sm:px-6">

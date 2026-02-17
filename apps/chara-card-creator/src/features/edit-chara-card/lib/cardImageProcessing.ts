@@ -1,4 +1,6 @@
 import {
+  CARD_CANVAS_HEIGHT,
+  CARD_CANVAS_WIDTH,
   buildCardLayout,
   buildInfoFontFamily,
   calculateCropRect,
@@ -25,6 +27,7 @@ type RenderCardToPngArg = {
   settings: CardEditorSettings
   characterName: string
   characterMetaLine: string
+  characterSinceLabel: string | null
   profileDetailLines: string[]
   jobEntries: JobEntry[]
   freeCompanyCrestImageUrls: string[]
@@ -32,6 +35,7 @@ type RenderCardToPngArg = {
   freeCompanyPositionName: string | null
   selectedAchievements: AchievementRenderItem[]
   mainImageDataUrl: string | null
+  lodestoneProfileUrl: string
 }
 
 /** 目的: DataURL文字列からHTMLImageElementを読み込む。副作用: ブラウザの画像デコードを実行する。前提: sourceDataUrlは有効な画像DataURLである。 */
@@ -231,8 +235,8 @@ function drawWrappedText(
 
 /** 目的: 現在の編集状態からカード画像をレンダリングしてPNG DataURLを返す。副作用: オフスクリーンcanvas描画を実行する。前提: documentが利用可能なブラウザ環境で実行する。 */
 export async function renderCardToPngDataUrl(arg: RenderCardToPngArg): Promise<string> {
-  const canvasWidth: number = arg.settings.isFullSizeImage ? 1600 : 900
-  const canvasHeight: number = arg.settings.isFullSizeImage ? 900 : 1600
+  const canvasWidth: number = CARD_CANVAS_WIDTH
+  const canvasHeight: number = CARD_CANVAS_HEIGHT
   const layout = buildCardLayout(
     canvasWidth,
     canvasHeight,
@@ -326,6 +330,15 @@ export async function renderCardToPngDataUrl(arg: RenderCardToPngArg): Promise<s
   context.font = `${arg.settings.infoTextBold ? '700' : '500'} 30px "${buildInfoFontFamily(arg.settings)}", sans-serif`
   currentY += 16
   currentY = drawWrappedText(context, arg.characterMetaLine, contentX, currentY, contentWidth, 38, 2)
+
+  if (arg.characterSinceLabel) {
+    currentY += 8
+    context.fillStyle = activeCardColor.textColor
+    context.globalAlpha = 0.8
+    context.font = (arg.settings.infoTextBold ? '700' : '500') + ' 23px "' + buildInfoFontFamily(arg.settings) + '", sans-serif'
+    currentY = drawWrappedText(context, arg.characterSinceLabel, contentX, currentY, contentWidth, 30, 1)
+    context.globalAlpha = 1
+  }
 
   if (arg.profileDetailLines.length > 0) {
     context.font = `${arg.settings.infoTextBold ? '700' : '500'} 25px "${buildInfoFontFamily(arg.settings)}", sans-serif`
@@ -479,8 +492,43 @@ export async function renderCardToPngDataUrl(arg: RenderCardToPngArg): Promise<s
     achievementY += 8
   }
 
+  const footerStartY: number = layout.infoPanelRect.y + layout.infoPanelRect.height - 52
+  const lodestoneFont = (arg.settings.infoTextBold ? '700' : '500') + ' 17px "' + buildInfoFontFamily(arg.settings) + '", sans-serif'
+  const copyrightFont = (arg.settings.infoTextBold ? '700' : '500') + ' 13px "' + buildInfoFontFamily(arg.settings) + '", sans-serif'
+
+  context.fillStyle = activeCardColor.textColor
+  context.font = lodestoneFont
+  const measureFooterText = (text: string): number => context.measureText(text).width
+  const lodestoneText = truncateTextWithEllipsis({
+    text: arg.lodestoneProfileUrl,
+    maxWidth: contentWidth,
+    fontSize: 17,
+    measure: measureFooterText,
+  })
+  context.fillText(lodestoneText, contentX, footerStartY)
+  const lodestoneTextWidth = context.measureText(lodestoneText).width
+  context.strokeStyle = activeCardColor.textColor
+  context.lineWidth = 1
+  context.globalAlpha = 0.6
+  context.beginPath()
+  context.moveTo(contentX, footerStartY + 4)
+  context.lineTo(contentX + lodestoneTextWidth, footerStartY + 4)
+  context.stroke()
+  context.globalAlpha = 0.8
+
+  context.font = copyrightFont
+  const copyrightText = truncateTextWithEllipsis({
+    text: '(C) SQUARE ENIX CO., LTD. All Rights Reserved.',
+    maxWidth: contentWidth,
+    fontSize: 13,
+    measure: (text: string): number => context.measureText(text).width,
+  })
+  context.fillText(copyrightText, contentX, footerStartY + 22)
+  context.globalAlpha = 1
+
   return canvas.toDataURL('image/png')
 }
+
 
 /** 目的: DataURLをPNGファイルとしてダウンロードする。副作用: 一時a要素を生成してクリックイベントを発火する。前提: ブラウザ環境で実行する。 */
 export function downloadPngDataUrl(dataUrl: string, fileName: string): void {

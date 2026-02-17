@@ -18,6 +18,13 @@ const DEFAULT_CARD_COLOR_DARK: CardColor = {
   accentColor: '#ed7e28',
 }
 
+const LEGACY_CARD_HEIGHT_RATIO = 9 / 16
+const LEGACY_SIDE_IMAGE_RATIO = 9 / 16
+const LEGACY_WIDTH_SPACE_MULTIPLIER = 4
+
+export const CARD_CANVAS_WIDTH = 1600
+export const CARD_CANVAS_HEIGHT = 900
+
 export const FONT_JP_LIST: string[] = [
   'Noto Sans JP',
   'Noto Serif JP',
@@ -44,12 +51,37 @@ export function clamp(value: number, min: number, max: number): number {
   return Math.min(max, Math.max(min, value))
 }
 
+/** 目的: テーマに対応する既定配色を返す。副作用: なし。前提: themeは `light` または `dark`。 */
+export function resolveThemeCardColor(theme: 'light' | 'dark'): CardColor {
+  return theme === 'dark' ? { ...DEFAULT_CARD_COLOR_DARK } : { ...DEFAULT_CARD_COLOR_LIGHT }
+}
+
+/** 目的: 編集設定の配色を現在テーマの既定値へ戻す。副作用: なし。前提: settingsは既存の編集状態を保持している。 */
+export function resetCardColorForTheme(settings: CardEditorSettings): CardEditorSettings {
+  return {
+    ...settings,
+    cardColor: resolveThemeCardColor(settings.theme),
+  }
+}
+
+/** 目的: 編集設定からプレビュー適用色を算出する。副作用: なし。前提: cardColor は16進色文字列で保持される。 */
+export function resolveActiveCardColor(settings: CardEditorSettings): CardColor {
+  if (settings.isCardColorChangeable) {
+    return {
+      textColor: settings.cardColor.textColor,
+      backgroundColor: settings.cardColor.backgroundColor,
+      accentColor: settings.cardColor.accentColor,
+    }
+  }
+  return resolveThemeCardColor(settings.theme)
+}
+
 /** 目的: カード編集設定の初期値を返す。副作用: なし。前提: description は復元済み自己紹介文を受け取る。 */
 export function getDefaultCardEditorSettings(description: string): CardEditorSettings {
   return {
     description,
     theme: 'light',
-    cardColor: { ...DEFAULT_CARD_COLOR_LIGHT },
+    cardColor: resolveThemeCardColor('light'),
     isCardColorChangeable: false,
     nameTextBold: false,
     infoTextBold: false,
@@ -63,18 +95,6 @@ export function getDefaultCardEditorSettings(description: string): CardEditorSet
     infoBackgroundOpacity: 1,
     disabledBeforeUnlockAccent: false,
   }
-}
-
-/** 目的: 編集設定からプレビュー適用色を算出する。副作用: なし。前提: cardColor は16進色文字列で保持される。 */
-export function resolveActiveCardColor(settings: CardEditorSettings): CardColor {
-  if (settings.isCardColorChangeable) {
-    return {
-      textColor: settings.cardColor.textColor,
-      backgroundColor: settings.cardColor.backgroundColor,
-      accentColor: settings.cardColor.accentColor,
-    }
-  }
-  return settings.theme === 'dark' ? { ...DEFAULT_CARD_COLOR_DARK } : { ...DEFAULT_CARD_COLOR_LIGHT }
 }
 
 /** 目的: 画像レイアウト設定からトリミング比率を返す。副作用: なし。前提: 全画面は16:9、通常は9:16で扱う。 */
@@ -117,7 +137,15 @@ export function calculateCropRect(
   }
 }
 
-/** 目的: プレビュー/保存で共通利用する画像領域と情報領域の配置を計算する。副作用: なし。前提: widthSpace は 0..100 の範囲を想定する。 */
+/** 目的: 旧VueのwidthSpace互換値（0..100）をCanvasピクセル量へ変換する。副作用: なし。前提: 全画面モード時のみ有効化する。 */
+function resolveLegacyWidthSpacePixels(isFullSizeImage: boolean, widthSpace: number): number {
+  if (!isFullSizeImage) {
+    return 0
+  }
+  return Math.round(clamp(widthSpace, 0, 100) * LEGACY_WIDTH_SPACE_MULTIPLIER)
+}
+
+/** 目的: プレビュー/保存で共通利用する画像領域と情報領域の配置を旧Canvas互換で計算する。副作用: なし。前提: 旧実装では出力比率16:9を固定で扱う。 */
 export function buildCardLayout(
   canvasWidth: number,
   canvasHeight: number,
@@ -125,46 +153,25 @@ export function buildCardLayout(
   isImageRight: boolean,
   widthSpace: number
 ): CardLayout {
-  if (!isFullSizeImage) {
-    const imageWidth: number = Math.round(canvasWidth * 0.42)
-    const imageX: number = isImageRight ? canvasWidth - imageWidth : 0
-    const infoPanelX: number = isImageRight ? 0 : imageWidth
-    return {
-      canvasWidth,
-      canvasHeight,
-      mainImageRect: {
-        x: imageX,
-        y: 0,
-        width: imageWidth,
-        height: canvasHeight,
-      },
-      infoPanelRect: {
-        x: infoPanelX,
-        y: 0,
-        width: canvasWidth - imageWidth,
-        height: canvasHeight,
-      },
-    }
-  }
+  const sideImageWidth: number = Math.round(canvasWidth * LEGACY_CARD_HEIGHT_RATIO * LEGACY_SIDE_IMAGE_RATIO)
+  const widthSpacePixels: number = resolveLegacyWidthSpacePixels(isFullSizeImage, widthSpace)
 
-  const clampedWidthSpace: number = clamp(widthSpace, 0, 100)
-  const panelRate: number = clamp(0.42 + ((100 - clampedWidthSpace) / 100) * 0.28, 0.42, 0.7)
-  const panelWidth: number = Math.round(canvasWidth * panelRate)
-  const infoPanelX: number = isImageRight ? 0 : canvasWidth - panelWidth
+  const infoPanelXRaw: number = isImageRight ? 0 : sideImageWidth + widthSpacePixels
+  const infoPanelWidthRaw: number = canvasWidth - (sideImageWidth + widthSpacePixels)
 
   return {
     canvasWidth,
     canvasHeight,
     mainImageRect: {
-      x: 0,
+      x: isImageRight && !isFullSizeImage ? canvasWidth - sideImageWidth : 0,
       y: 0,
-      width: canvasWidth,
+      width: isFullSizeImage ? canvasWidth : sideImageWidth,
       height: canvasHeight,
     },
     infoPanelRect: {
-      x: infoPanelX,
+      x: clamp(infoPanelXRaw, 0, canvasWidth),
       y: 0,
-      width: panelWidth,
+      width: clamp(infoPanelWidthRaw, 0, canvasWidth),
       height: canvasHeight,
     },
   }

@@ -7,6 +7,8 @@ import {
 } from '../../features/select-achievement/lib/characterSessionStorage'
 import { type AchievementIndexPath, type CharacterSessionResponse } from '../../features/select-achievement/model/types'
 import {
+  CARD_CANVAS_HEIGHT,
+  CARD_CANVAS_WIDTH,
   FONT_EN_LIST,
   FONT_JP_LIST,
   buildCardLayout,
@@ -14,6 +16,7 @@ import {
   extractCharacterDisplayName,
   extractCharacterMetaLine,
   getDefaultCardEditorSettings,
+  resetCardColorForTheme,
   resolveActiveCardColor,
   resolveCropRatio,
 } from '../../features/edit-chara-card/lib/cardEditorDomain'
@@ -37,6 +40,7 @@ import {
   buildFreeCompanyCrestImageUrls,
   buildPatchDateMap,
   buildProfileDetailLines,
+  buildCharacterSinceLabel,
   extractJobEntries,
   extractFreeCompanyPosition,
   resolveAchievementTextColor,
@@ -49,6 +53,7 @@ import {
   type SelectedAchievementSummary,
 } from '../../features/edit-chara-card/lib/selectedAchievementSummary'
 import { type CardEditorImageState, type CardEditorSettings, type CropFocus } from '../../features/edit-chara-card/model/types'
+import { useAppSnackbar } from '../../features/snackbar/context/AppSnackbarContext'
 import { Badge } from '../../shared/ui/badge'
 import { Button } from '../../shared/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../../shared/ui/card'
@@ -68,9 +73,9 @@ function getCurrentMainImageDataUrl(
   return settings.isFullSizeImage ? imageState.fullMainImageDataUrl : imageState.sideMainImageDataUrl
 }
 
-/** 目的: 編集画面のプレビュー解像度を返す。副作用: なし。前提: 全画面レイアウトは16:9、通常レイアウトは9:16とする。 */
-function getPreviewCanvasSize(isFullSizeImage: boolean): { width: number; height: number } {
-  return isFullSizeImage ? { width: 1600, height: 900 } : { width: 900, height: 1600 }
+/** 目的: 編集画面のプレビュー解像度を返す。副作用: なし。前提: 旧Canvas互換で常に16:9固定で扱う。 */
+function getPreviewCanvasSize(): { width: number; height: number } {
+  return { width: CARD_CANVAS_WIDTH, height: CARD_CANVAS_HEIGHT }
 }
 
 type JobIconImageProps = {
@@ -114,6 +119,7 @@ function JobIconImage({ candidateUrls, alt, className }: JobIconImageProps): JSX
 /** 目的: カード編集画面（旧`/editCharaCard`）の責務をReactで提供する。副作用: localStorage更新・Cloud Storage読込・PNGダウンロードを行う。前提: Homeとselect-achievementのフロー完了後に遷移する。 */
 export function EditCharaCardPage(): JSX.Element {
   const navigate = useNavigate()
+  const { showSnackbar } = useAppSnackbar()
   const initialSession: CharacterSessionResponse | null = readCharacterSessionResponse()
   const [characterSession] = useState<CharacterSessionResponse | null>(initialSession)
   const [selectedPaths] = useState<AchievementIndexPath[]>(() => readSelectedAchievementPaths())
@@ -137,6 +143,8 @@ export function EditCharaCardPage(): JSX.Element {
   const freecompanyInfo: Record<string, unknown> | undefined = characterSession?.freecompanyInfo
   const characterName: string = extractCharacterDisplayName(characterData)
   const characterMetaLine: string = extractCharacterMetaLine(characterData)
+  const characterSinceLabel = useMemo(() => buildCharacterSinceLabel(characterSession, patchDefinitions), [characterSession, patchDefinitions])
+  const lodestoneProfileUrl: string = 'https://jp.finalfantasyxiv.com/lodestone/character/' + String(characterSession?.characterID ?? '')
   const infoFontFamily: string = buildInfoFontFamily(settings)
   const patchDateMap = useMemo(() => buildPatchDateMap(patchDefinitions), [patchDefinitions])
   const characterGender: string | undefined =
@@ -178,8 +186,14 @@ export function EditCharaCardPage(): JSX.Element {
       ),
     [selectedSummaries, patchDateMap, settings.disabledBeforeUnlockAccent, characterGender]
   )
+  const hasUnlockBeforeAdjustAchievements = useMemo(
+    () => achievementRenderItems.some((item) => item.isUnlockedBeforeAdjustment),
+    [achievementRenderItems]
+  )
+  const nameFontOptions = useMemo(() => [...FONT_EN_LIST, ...FONT_JP_LIST], [])
+  const infoFontOptionsJP = useMemo(() => [...FONT_JP_LIST], [])
 
-  const previewCanvasSize = getPreviewCanvasSize(settings.isFullSizeImage)
+  const previewCanvasSize = getPreviewCanvasSize()
   const previewLayout = useMemo(
     () =>
       buildCardLayout(
@@ -277,6 +291,7 @@ export function EditCharaCardPage(): JSX.Element {
     }
     if (!file.type.startsWith('image/')) {
       setMessage('画像ファイルを選択してください。')
+      showSnackbar({ text: '画像ファイルを選択してください。', color: 'error' })
       return
     }
 
@@ -287,7 +302,9 @@ export function EditCharaCardPage(): JSX.Element {
       setMessage('')
     } catch (error) {
       const reason: string = error instanceof Error ? error.message : String(error)
-      setMessage(`画像の読み込みに失敗しました: ${reason}`)
+      const message = `画像の読み込みに失敗しました: ${reason}`
+      setMessage(message)
+      showSnackbar({ text: message, color: 'error' })
     }
   }
 
@@ -313,9 +330,12 @@ export function EditCharaCardPage(): JSX.Element {
       })
       setCropSourceDataUrl(null)
       setMessage('画像を適用しました。')
+      showSnackbar({ text: '画像を適用しました。', color: 'success' })
     } catch (error) {
       const reason: string = error instanceof Error ? error.message : String(error)
-      setMessage(`トリミングに失敗しました: ${reason}`)
+      const message = `トリミングに失敗しました: ${reason}`
+      setMessage(message)
+      showSnackbar({ text: message, color: 'error' })
     }
   }
 
@@ -328,11 +348,15 @@ export function EditCharaCardPage(): JSX.Element {
   /** 目的: 現在設定からカード画像をレンダリングしPNGを保存する。副作用: canvas描画とブラウザダウンロードを行う。前提: メイン画像が設定済みである。 */
   const handleSavePng = async (): Promise<void> => {
     if (!characterSession) {
-      setMessage('キャラクター情報が見つかりません。')
+      const message = 'キャラクター情報が見つかりません。'
+      setMessage(message)
+      showSnackbar({ text: message, color: 'error' })
       return
     }
     if (!currentMainImageDataUrl) {
-      setMessage('メイン画像を設定してから保存してください。')
+      const message = 'メイン画像を設定してから保存してください。'
+      setMessage(message)
+      showSnackbar({ text: message, color: 'error' })
       return
     }
 
@@ -341,6 +365,7 @@ export function EditCharaCardPage(): JSX.Element {
         settings,
         characterName,
         characterMetaLine,
+        characterSinceLabel,
         profileDetailLines,
         jobEntries: topJobEntries,
         freeCompanyCrestImageUrls,
@@ -348,12 +373,16 @@ export function EditCharaCardPage(): JSX.Element {
         freeCompanyPositionName: freeCompanyPosition.positionName,
         selectedAchievements: achievementRenderItems,
         mainImageDataUrl: currentMainImageDataUrl,
+        lodestoneProfileUrl,
       })
       downloadCharaCardPng(pngDataUrl)
       setMessage('カード画像を保存しました。')
+      showSnackbar({ text: 'カード画像を保存しました。', color: 'success' })
     } catch (error) {
       const reason: string = error instanceof Error ? error.message : String(error)
-      setMessage(`画像保存に失敗しました: ${reason}`)
+      const message = `画像保存に失敗しました: ${reason}`
+      setMessage(message)
+      showSnackbar({ text: message, color: 'error' })
     }
   }
 
@@ -363,6 +392,7 @@ export function EditCharaCardPage(): JSX.Element {
     setSettings(getDefaultCardEditorSettings(extractSelfIntroduction(characterData)))
     setImageState(createDefaultCardEditorImageState())
     setMessage('編集状態をリセットしました。')
+    showSnackbar({ text: '編集状態をリセットしました。', color: 'info' })
   }
 
   if (!characterSession) {
@@ -393,9 +423,7 @@ export function EditCharaCardPage(): JSX.Element {
         </CardHeader>
         <CardContent className="space-y-4">
           <div
-            className={`relative overflow-hidden rounded-xl border border-[var(--line)] ${
-              settings.isFullSizeImage ? 'aspect-video' : 'aspect-[9/16]'
-            }`}
+            className="relative overflow-hidden rounded-xl border border-[var(--line)] aspect-video"
             style={{
               backgroundColor: activeCardColor.backgroundColor,
             }}
@@ -462,6 +490,18 @@ export function EditCharaCardPage(): JSX.Element {
                 >
                   {characterMetaLine}
                 </p>
+                {characterSinceLabel ? (
+                  <p
+                    className="text-xs opacity-80"
+                    style={{
+                      color: activeCardColor.textColor,
+                      fontFamily: infoFontFamily,
+                      fontWeight: settings.infoTextBold ? 700 : 500,
+                    }}
+                  >
+                    {characterSinceLabel}
+                  </p>
+                ) : null}
                 {freeCompanyPosition.positionName ? (
                   <div className="flex items-center gap-1.5">
                     {freeCompanyPosition.positionImageUrl ? (
@@ -589,6 +629,29 @@ export function EditCharaCardPage(): JSX.Element {
                       ))
                     )}
                   </ol>
+
+                  <div className="mt-3 border-t border-white/20 pt-2">
+                    <p
+                      className="text-[10px] underline decoration-white/40 underline-offset-2"
+                      style={{
+                        color: activeCardColor.textColor,
+                        fontFamily: infoFontFamily,
+                        fontWeight: settings.infoTextBold ? 700 : 500,
+                      }}
+                    >
+                      {lodestoneProfileUrl}
+                    </p>
+                    <p
+                      className="mt-1 text-[9px] opacity-80"
+                      style={{
+                        color: activeCardColor.textColor,
+                        fontFamily: infoFontFamily,
+                        fontWeight: settings.infoTextBold ? 700 : 500,
+                      }}
+                    >
+                      (C) SQUARE ENIX CO., LTD. All Rights Reserved.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -784,6 +847,18 @@ export function EditCharaCardPage(): JSX.Element {
                 />
               </label>
             </div>
+            {settings.isCardColorChangeable ? (
+              <Button
+                type="button"
+                variant="secondary"
+                size="sm"
+                onClick={() =>
+                  updateSettings((currentSettings) => resetCardColorForTheme(currentSettings))
+                }
+              >
+                配色のリセット
+              </Button>
+            ) : null}
           </div>
 
           <div className="space-y-2">
@@ -800,7 +875,7 @@ export function EditCharaCardPage(): JSX.Element {
                   }))
                 }
               >
-                {FONT_JP_LIST.map((fontName) => (
+                {nameFontOptions.map((fontName) => (
                   <option key={fontName} value={fontName}>
                     {fontName}
                   </option>
@@ -819,7 +894,7 @@ export function EditCharaCardPage(): JSX.Element {
                   }))
                 }
               >
-                {FONT_JP_LIST.map((fontName) => (
+                {infoFontOptionsJP.map((fontName) => (
                   <option key={fontName} value={fontName}>
                     {fontName}
                   </option>
@@ -886,20 +961,22 @@ export function EditCharaCardPage(): JSX.Element {
               />
               全体テキストを太字
             </label>
-            <label className="flex items-center gap-2 text-sm">
-              <input
-                type="checkbox"
-                checked={settings.disabledBeforeUnlockAccent}
-                onChange={(event: ChangeEvent<HTMLInputElement>) =>
-                  updateSettings((currentSettings) => ({
-                    ...currentSettings,
-                    disabledBeforeUnlockAccent: event.target.checked,
-                  }))
-                }
-              />
-              緩和前取得時の強調表示を無効化
-            </label>
           </div>
+            {hasUnlockBeforeAdjustAchievements ? (
+              <label className="flex items-center gap-2 text-sm">
+                <input
+                  type="checkbox"
+                  checked={settings.disabledBeforeUnlockAccent}
+                  onChange={(event: ChangeEvent<HTMLInputElement>) =>
+                    updateSettings((currentSettings) => ({
+                      ...currentSettings,
+                      disabledBeforeUnlockAccent: event.target.checked,
+                    }))
+                  }
+                />
+                緩和前取得時の強調表示無効化
+              </label>
+            ) : null}
 
           <div className="flex flex-wrap gap-2">
             <Button type="button" variant="secondary" onClick={handleResetEditorState}>

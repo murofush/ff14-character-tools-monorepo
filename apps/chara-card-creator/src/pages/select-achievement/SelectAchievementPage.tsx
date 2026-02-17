@@ -20,6 +20,7 @@ import {
   toggleAchievementSelection,
 } from '../../features/select-achievement/lib/selectAchievementDomain'
 import { type AchievementIndexPath, type SelectableAchievement, type SelectableAchievementCategory } from '../../features/select-achievement/model/types'
+import { useAppSnackbar } from '../../features/snackbar/context/AppSnackbarContext'
 import { Badge } from '../../shared/ui/badge'
 import { Button } from '../../shared/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../../shared/ui/card'
@@ -81,6 +82,7 @@ function buildFallbackSelectedAchievement(): SelectableAchievement {
 /** 目的: アチーブメント選択画面（旧`/selectAchievement`）の責務をReactで提供する。副作用: Cloud Storage読込・localStorage更新・ルーティング遷移を行う。前提: Homeでキャラクター取得済みである。 */
 export function SelectAchievementPage(): JSX.Element {
   const navigate = useNavigate()
+  const { showSnackbar } = useAppSnackbar()
   const kindDefinitions = useMemo(() => getAchievementKindDefinitions(), [])
   const [characterSession, setCharacterSession] = useState(() => readCharacterSessionResponse())
   const [selectedKindIndex, setSelectedKindIndex] = useState<number>(0)
@@ -279,7 +281,9 @@ export function SelectAchievementPage(): JSX.Element {
     achievement: SelectableAchievement
   ): void => {
     if (!achievement.isCompleted) {
-      setMessage('未達成のアチーブメントは選択できません。')
+      const message = '未達成のアチーブメントは選択できません。'
+      setMessage(message)
+      showSnackbar({ text: message, color: 'error' })
       return
     }
     const nextPath: AchievementIndexPath = {
@@ -294,7 +298,9 @@ export function SelectAchievementPage(): JSX.Element {
       MAX_ACHIEVEMENT_COUNT
     )
     if (!toggledResult.ok) {
-      setMessage(selectionErrorToMessage(toggledResult.errorCode))
+      const message = selectionErrorToMessage(toggledResult.errorCode)
+      setMessage(message)
+      showSnackbar({ text: message, color: 'error' })
       return
     }
     commitSelectedAchievementPaths(toggledResult.value)

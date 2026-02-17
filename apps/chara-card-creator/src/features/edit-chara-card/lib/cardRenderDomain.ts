@@ -1,4 +1,5 @@
 import { type CardEditorSettings } from '../model/types'
+import { type CharacterSessionResponse } from '../../select-achievement/model/types'
 
 const DEFAULT_RESOURCE_BASE_URL = 'https://forfan-resource.storage.googleapis.com'
 const FC_CREST_BACKGROUND_IMAGE_URL = `${DEFAULT_RESOURCE_BASE_URL}/img/fc_bg.png`
@@ -50,9 +51,21 @@ const JOB_KEY_ALIAS_MAP: Record<string, string[]> = {
   arcanist: ['acn'],
 }
 
+const TARGET_VERSION_NAME_MAP: Record<number, string> = {
+  1: 'Legacy',
+  2: '新生',
+  3: '蒼天',
+  4: '紅蓮',
+  5: '漆黒',
+  6: '暁月',
+  7: '黄金',
+}
+
 export type PatchDefinition = {
   id: number
   date?: string
+  number?: string
+  targetVersion?: number
   [key: string]: unknown
 }
 
@@ -410,4 +423,107 @@ export function resolveAchievementTextColor(
     return accentColor
   }
   return defaultTextColor
+}
+
+/** 目的: 取得済み実績の中から最古の完了日時文字列を返す。副作用: なし。前提: `characterSession` は `get_character_info` 互換レスポンスである。 */
+export function extractOldestCompletedDate(
+  characterSession: CharacterSessionResponse | null
+): string | null {
+  if (!characterSession) {
+    return null
+  }
+
+  let oldestDateText: string | null = null
+  for (const completedKind of characterSession.completedAchievementsKinds) {
+    for (const achievement of completedKind.achievements) {
+      if (!isValidDateText(achievement.completedDate)) {
+        continue
+      }
+      if (!oldestDateText) {
+        oldestDateText = achievement.completedDate
+        continue
+      }
+      if (new Date(achievement.completedDate).getTime() < new Date(oldestDateText).getTime()) {
+        oldestDateText = achievement.completedDate
+      }
+    }
+  }
+
+  return oldestDateText
+}
+
+
+type SincePatchReference = {
+  targetVersion: number
+  patchNumber: string
+}
+
+/** 目的: Since補足表記に必要なpatch参照情報へ正規化する。副作用: なし。前提: number/targetVersionが不足するpatchは補足不可として扱う。 */
+function toSincePatchReference(patch: PatchDefinition): SincePatchReference | null {
+  if (typeof patch.number !== 'string' || patch.number.trim() === '') {
+    return null
+  }
+  if (typeof patch.targetVersion !== 'number' || !Number.isInteger(patch.targetVersion) || patch.targetVersion <= 0) {
+    return null
+  }
+  return {
+    targetVersion: patch.targetVersion,
+    patchNumber: patch.number,
+  }
+}
+
+/** 目的: 最古実績日に対応する「到達パッチ」を旧Vue互換ルールで解決する。副作用: なし。前提: patchesは `patch/patch.json` をそのまま受け取る。 */
+function resolveSincePatchReference(oldestCompletedDate: string, patches: PatchDefinition[]): SincePatchReference | null {
+  const sortedPatches: PatchDefinition[] = patches
+    .filter((patch) => typeof patch.date === 'string' && isValidDateText(patch.date))
+    .slice()
+    .sort((a, b) => new Date(String(a.date)).getTime() - new Date(String(b.date)).getTime())
+
+  if (sortedPatches.length <= 0) {
+    return null
+  }
+
+  const oldestCompletedTime = new Date(oldestCompletedDate).getTime()
+  let nextPatchIndex: number = -1
+  for (const [index, patch] of sortedPatches.entries()) {
+    if (new Date(String(patch.date)).getTime() > oldestCompletedTime) {
+      nextPatchIndex = index
+      break
+    }
+  }
+
+  if (nextPatchIndex === 0) {
+    return {
+      targetVersion: 1,
+      patchNumber: '1.X',
+    }
+  }
+
+  const candidatePatch = nextPatchIndex === -1 ? sortedPatches[sortedPatches.length - 1] : sortedPatches[nextPatchIndex - 1]
+  if (!candidatePatch) {
+    return null
+  }
+  return toSincePatchReference(candidatePatch)
+}
+
+/** 目的: Since補足表記の文字列を構築する。副作用: なし。前提: referenceは `resolveSincePatchReference` で解決済みである。 */
+function formatSincePatchSuffix(reference: SincePatchReference | null): string {
+  if (!reference) {
+    return ''
+  }
+  const targetVersionName = TARGET_VERSION_NAME_MAP[reference.targetVersion] ?? `v${reference.targetVersion}`
+  return ` (${targetVersionName}:${reference.patchNumber})`
+}
+
+/** 目的: 最古実績日から旧Canvas互換のSince表示文言を生成する。副作用: なし。前提: completedDateはISO形式で返却される。 */
+export function buildCharacterSinceLabel(
+  characterSession: CharacterSessionResponse | null,
+  patches: PatchDefinition[] = []
+): string | null {
+  const oldestCompletedDate: string | null = extractOldestCompletedDate(characterSession)
+  if (!oldestCompletedDate) {
+    return null
+  }
+  const patchReference = resolveSincePatchReference(oldestCompletedDate, patches)
+  return `Since: ${oldestCompletedDate.slice(0, 10)}~${formatSincePatchSuffix(patchReference)}`
 }

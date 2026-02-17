@@ -10,6 +10,13 @@
 - Front/Backを分割せず1ファイルで管理する
 - 各項目の先頭に `[FE]` / `[BE]` / `[CROSS]` / `[INFRA]` / `[DOCS]` / `[TEST]` / `[OPS]` を付けて分類する
 
+
+## 長期停止・再開メモ（2026-02-17）
+
+- [DOCS] [x] 長期停止後の再開手順を `docs/long-stop-resume-runbook.md` に固定した
+- [DOCS] [x] 再開時の優先順を「`/edit-chara-card` 未完移植 → 移行完了判定 → OPS実環境確認 → backend E2E」に固定した
+- [OPS] [ ] 再開時は必ず `docs/long-stop-resume-runbook.md` の「再開初日（最初の30分）」を実施してから着手する
+
 ## 現在のTODO
 
 ### [P1] 初期セットアップ
@@ -79,6 +86,10 @@
 - [FE] [ ] `chara-card-creator` `/edit-chara-card` に旧 `editCharaCard.vue` + `characterCard/*` の機能責務（画像トリミング、カード設定、PNG保存）を完全移植する
 - [FE] [x] `chara-card-creator` `/edit-chara-card` にジョブアイコン表示をフォールバック候補URL方式で移植する（`getJobSubImagePath` 相当ソース未確認のため推定実装）
 - [FE] [x] `chara-card-creator` `/edit-chara-card` に旧Konva準拠の文字組み調整（タイトル/日付の衝突回避、説明文省略、報酬行レイアウト）を移植する
+- [FE] [x] `chara-card-creator` `/edit-chara-card` に旧Canvas責務の `Since` 表示とLodestone URL/copyright フッタ表示をプレビュー・PNG出力へ移植する
+- [FE] [x] `chara-card-creator` `/edit-chara-card` の `Since` 表示に旧Vue互換の世代/パッチ補足表記（例: `漆黒:5.0`）を移植する
+- [FE] [x] `chara-card-creator` `/edit-chara-card` の設定UIで、旧表示条件（緩和前取得時のみ強調無効チェックを表示）と全体JPフォント候補制約を移植する
+- [FE] [x] `chara-card-creator` に旧 `OUTPUT_SNACKBAR` 相当の全画面共通通知レイヤーを移植する
 - [FE] [ ] `chara-card-creator` `/edit-chara-card` の旧Canvas同等責務（Konva実描画とのピクセル差異調整）を追加移植する
 - [FE] [x] `achievement-editor` に旧 `loginButton` と認証状態表示導線を移植する
 - [FE] [x] `achievement-editor` に旧 `OUTPUT_SNACKBAR` 相当の全画面共通通知レイヤーを移植する

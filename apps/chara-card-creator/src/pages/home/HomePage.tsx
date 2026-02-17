@@ -12,6 +12,7 @@ import {
   readCharacterSessionResponse,
   writeCharacterSessionResponse,
 } from '../../features/select-achievement/lib/characterSessionStorage'
+import { useAppSnackbar } from '../../features/snackbar/context/AppSnackbarContext'
 import { Badge } from '../../shared/ui/badge'
 import { Button } from '../../shared/ui/button'
 import { Input } from '../../shared/ui/input'
@@ -32,6 +33,7 @@ function formatDateText(isoDate: string): string {
 /** 目的: Home画面で旧Nuxtの入力導線をReactで提供する。副作用: localStorage更新と画面遷移を行う。前提: React Router配下で描画される。 */
 export function HomePage(): JSX.Element {
   const navigate = useNavigate()
+  const { showSnackbar } = useAppSnackbar()
   const [inputValue, setInputValue] = useState<string>('')
   const [errorMessage, setErrorMessage] = useState<string>('')
   const [isFetching, setIsFetching] = useState<boolean>(false)
@@ -66,8 +68,10 @@ export function HomePage(): JSX.Element {
     if (!normalized.ok) {
       if (normalized.error === 'required') {
         setErrorMessage('URLは必須です。')
+        showSnackbar({ text: 'URLは必須です。', color: 'error' })
       } else {
         setErrorMessage(lodestoneInputHint)
+        showSnackbar({ text: lodestoneInputHint, color: 'error' })
       }
       return
     }
@@ -79,6 +83,7 @@ export function HomePage(): JSX.Element {
       onProgress: appendFetchProcessMessage,
     })
     if (!fetchedCharacter.ok) {
+      showSnackbar({ text: fetchedCharacter.message, color: 'error' })
       appendFetchProcessMessage('キャラクター情報の取得に失敗しました。')
       setErrorMessage(fetchedCharacter.message)
       setIsFetching(false)
@@ -105,6 +110,7 @@ export function HomePage(): JSX.Element {
     appendFetchProcessMessage('最新入力キャラクター情報を保存しています。')
     writeRecentCharacterSummary(summary)
     setRecentCharacter(summary)
+    showSnackbar({ text: 'キャラクター情報を取得しました。', color: 'success' })
     setErrorMessage('')
     setIsFetching(false)
     appendFetchProcessMessage('実績選択画面へ遷移します。')

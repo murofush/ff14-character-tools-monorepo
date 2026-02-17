@@ -8,6 +8,8 @@ import {
   extractJobEntries,
   extractFreeCompanyPosition,
   resolveResourceImageUrl,
+  extractOldestCompletedDate,
+  buildCharacterSinceLabel,
 } from './cardRenderDomain'
 
 describe('cardRenderDomain', () => {
@@ -168,5 +170,94 @@ describe('cardRenderDomain', () => {
     expect(urls[0]).toContain('/img/job/sub/darkknight.')
     expect(urls.some((url) => url.includes('/img/job/sub/drk.'))).toBe(true)
     expect(urls.some((url) => url.includes('/img/class_job/dark_knight.'))).toBe(true)
+  })
+
+  it('completedAchievementsKindsから最古実績日を抽出しSince文言を作れる', () => {
+    const oldest = extractOldestCompletedDate({
+      characterID: 1,
+      fetchedDate: '2026-02-17T00:00:00Z',
+      characterData: {},
+      completedAchievementsKinds: [
+        {
+          key: 'battle',
+          achievements: [
+            { title: 'B', completedDate: '2022-05-06T00:00:00Z' },
+            { title: 'A', completedDate: '2021-01-02T00:00:00Z' },
+          ],
+        },
+      ],
+      isAchievementPrivate: false,
+    })
+
+    const sinceLabel = buildCharacterSinceLabel({
+      characterID: 1,
+      fetchedDate: '2026-02-17T00:00:00Z',
+      characterData: {},
+      completedAchievementsKinds: [
+        {
+          key: 'battle',
+          achievements: [{ title: 'A', completedDate: '2021-01-02T00:00:00Z' }],
+        },
+      ],
+      isAchievementPrivate: false,
+    })
+
+    expect(oldest).toBe('2021-01-02T00:00:00Z')
+    expect(sinceLabel).toBe('Since: 2021-01-02~')
+  })
+
+  it('patch定義がある場合はSince文言に到達パッチ世代表記を付与できる', () => {
+    const sinceLabel = buildCharacterSinceLabel(
+      {
+        characterID: 1,
+        fetchedDate: '2026-02-17T00:00:00Z',
+        characterData: {},
+        completedAchievementsKinds: [
+          {
+            key: 'battle',
+            achievements: [{ title: 'A', completedDate: '2021-01-02T00:00:00Z' }],
+          },
+        ],
+        isAchievementPrivate: false,
+      },
+      [
+        { id: 100, date: '2019-07-02T00:00:00Z', number: '5.0', targetVersion: 5 },
+        { id: 110, date: '2021-12-03T00:00:00Z', number: '6.0', targetVersion: 6 },
+      ]
+    )
+
+    expect(sinceLabel).toBe('Since: 2021-01-02~ (漆黒:5.0)')
+  })
+
+  it('最古実績日が最初の既知パッチより古い場合はLegacy表記を返せる', () => {
+    const sinceLabel = buildCharacterSinceLabel(
+      {
+        characterID: 1,
+        fetchedDate: '2026-02-17T00:00:00Z',
+        characterData: {},
+        completedAchievementsKinds: [
+          {
+            key: 'battle',
+            achievements: [{ title: 'A', completedDate: '2011-01-02T00:00:00Z' }],
+          },
+        ],
+        isAchievementPrivate: false,
+      },
+      [{ id: 100, date: '2019-07-02T00:00:00Z', number: '5.0', targetVersion: 5 }]
+    )
+
+    expect(sinceLabel).toBe('Since: 2011-01-02~ (Legacy:1.X)')
+  })
+
+  it('完了実績が無い場合はSince文言を返さない', () => {
+    const sinceLabel = buildCharacterSinceLabel({
+      characterID: 1,
+      fetchedDate: '2026-02-17T00:00:00Z',
+      characterData: {},
+      completedAchievementsKinds: [],
+      isAchievementPrivate: false,
+    })
+
+    expect(sinceLabel).toBeNull()
   })
 })
