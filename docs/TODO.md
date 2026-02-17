@@ -69,7 +69,9 @@
 ### [P1] 旧Vue比 未完機能の実装（仕様確定済）
 
 - [FE] [x] `chara-card-creator` `/select-achievement` に旧 `selectAchievement.vue` の機能責務（カテゴリ/グループ閲覧、選択済みパネル、モバイル導線）を完全移植する
+- [FE] [x] `chara-card-creator` `/edit-chara-card` の基礎責務（画像アップロード/トリミング導線、設定UI、プレビュー、`chara_card.png` 保存、編集状態復元）を現行実装へ移植する
 - [FE] [ ] `chara-card-creator` `/edit-chara-card` に旧 `editCharaCard.vue` + `characterCard/*` の機能責務（画像トリミング、カード設定、PNG保存）を完全移植する
+- [FE] [ ] `chara-card-creator` `/edit-chara-card` の旧Canvas同等責務（ジョブ/FC/PvP詳細描画、緩和前取得強調表示ロジック、文字組みレイアウト）を追加移植する
 - [FE] [x] `achievement-editor` に旧 `loginButton` と認証状態表示導線を移植する
 - [FE] [x] `achievement-editor` に旧 `OUTPUT_SNACKBAR` 相当の全画面共通通知レイヤーを移植する
 - [FE] [x] `achievement-editor` カテゴリ編集に「テーブル全体保存」導線を移植する
